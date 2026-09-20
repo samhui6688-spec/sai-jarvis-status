@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-20 19:00 HKT",
+  "generated_at_hkt": "2026-09-20 19:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -105,17 +105,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 295,
+    "今日筆記數": 297,
     "最新": [
-      "q64-tracking-add.md",
+      "q65-agents-lessons-proposal.md",
       "unresolved-tracking-v1.md",
-      "free-observability-hunt-12.md"
+      "sai-arch-hunt-15.md"
     ],
     "最近落地": [
-      "- 2026-09-20 ~18:25 HKT：成本監察 R17 落地：sam-sai 燒錢速度實算（cost-hunt-17.md）——e2-medium 香港區 US$0.0774/hr＋Windows 牌費 US$33.58/月＋100GB 碟，24/7 計約 US$95–102/月（US$3.2–3.4/日）；US$300 試用 credit 90 日硬到期 2026-12-18，按而家咁跑基本燒光喺呢部機；三個慳錢位（唔用就 Stop 慳一半／SUD 自動／到期前決定升級）。對 Founder 有用：「記得 Stop」終於有數字——唔 Stop 每日燒 US$3.2，Stop 到每日 8 粒鐘變 US$42/月；牌費雙口徑差一倍＋碟類型未定論交追蹤表跟。",
       "- 2026-09-20 ~18:35 HKT：量化交易 R12 落地 2 樣（quant-hunt-12.md：連續合約換月規則——backtest 同 Tradovate/IBKR 要用同一套換月日表；行業口徑：成交量切換≈第三個星期五前嗰個星期四，Tradovate 預設到期前 8 個交易日，IBKR 預設 7 個曆日；quarantine/continuous-contract-roll skill 草稿，未驗）。對 Founder 有用：策略線 R1–R22 啲回測數終於有得驗「條連續合約係咪咁砌」——換月日兩邊唔同，對賬閘永遠對唔上都唔知；未定論 U68（Tradovate 實際換月日）／U69（舊回測數據換月方法）交追蹤表跟。",
       "- 2026-09-20 ~18:50 HKT：瀏覽器自動化 R16 落地 3 樣（browser-hunt-16.md：失敗率治理——兩個訊號（同一次入面重試先過＝強訊號／近 20 次成功率唔上唔下），唔准靠加重试令任務變綠，恆失敗唔准隔離要修；＋視覺回歸實作 pattern（mask 動態嘢、freeze time、baseline 落 git，唔狼來了）；＋爬蟲禮貌 skill（robots.txt／ToS／限速表；COdo Step 0-E 繞 robots.txt 嗰段被 vetting FAIL 剔走）。quarantine/browser-flake-governance＋browser-polite-scrape 兩個 skill 草稿（未驗）。對 Founder 有用：眼手線 Phase 2 長任務「間中失敗」唔再變習慣性重跑——分得出係流程唔穩定網站爛；公開資料收集有規矩，唔會一開快就被 ban IP。",
-      "- 2026-09-20 ~19:00 HKT：免費白嫖 R12 落地 3 樣（free-observability-hunt-12.md：免費日誌聚合＋錯誤追蹤選型——日誌首選 Axiom（免費 500GB／月、30 天 retention，唔使信用卡；B級起手值，官方頁開用前親驗）＋錯誤追蹤首選 Sentry Developer（免費 5,000 errors／月、1 user、email 告警）＋自架後備 GlitchTip（MIT、Sentry SDK 直插換 DSN、~512MB RAM）；Better Stack 免費（1GB／月＋3 天 retention）判唔選；free-tier-map-data.md §5 候選三格已填表未開用；未定論 U72（Axiom 數字 2026-04 口徑）／U73（免費層商用條款未親驗）／U74（log redaction 規則開用前立）交追蹤表跟）。對 Founder 有用：daemon 而家出事要 SSH 入去撈 journald——入咗呢層之後，錯誤自動分組去重、日誌逐 cycle 可查，唔使等人手發現；全免費，開用嗰日先開戶。"
+      "- 2026-09-20 ~19:00 HKT：免費白嫖 R12 落地 3 樣（free-observability-hunt-12.md：免費日誌聚合＋錯誤追蹤選型——日誌首選 Axiom（免費 500GB／月、30 天 retention，唔使信用卡；B級起手值，官方頁開用前親驗）＋錯誤追蹤首選 Sentry Developer（免費 5,000 errors／月、1 user、email 告警）＋自架後備 GlitchTip（MIT、Sentry SDK 直插換 DSN、~512MB RAM）；Better Stack 免費（1GB／月＋3 天 retention）判唔選；free-tier-map-data.md §5 候選三格已填表未開用；未定論 U72（Axiom 數字 2026-04 口徑）／U73（免費層商用條款未親驗）／U74（log redaction 規則開用前立）交追蹤表跟）。對 Founder 有用：daemon 而家出事要 SSH 入去撈 journald——入咗呢層之後，錯誤自動分組去重、日誌逐 cycle 可查，唔使等人手發現；全免費，開用嗰日先開戶。",
+      "- 2026-09-20 19:05 HKT｜skill-hunt R15 落地「自主搵工循環五條紀律」（BabyAGI／AI Scientist／Generative Agents 實證配方，quarantine skill 未驗）：P1 work-generator 同 P4 Dream 以後設計自主循環嗰陣有得逐條對，唔使再靠估終止條件／查重深度／評分係咪裝飾。"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
