@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-21 02:45 HKT",
+  "generated_at_hkt": "2026-09-21 03:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -130,17 +130,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 27,
+    "今日筆記數": 32,
     "最新": [
-      "ops-hunt-24.md",
-      "q98-external-cron-eye-proposal.md",
-      "browser-hunt-24.md"
+      "q100-microscalping-double-condition-contradiction-proposal.md",
+      "quant-hunt-20.md",
+      "q88-warehouse-intake-replay.md"
     ],
     "最近落地": [
-      "- 2026-09-21 ~02:30 HKT：免費白嫖 R19 落地 3 樣（free-hunt-19.md：免費外部排程即服務選型——首選 cron-job.org 做死人開關外部備援，內部排程全死嗰陣唯一會報喪嘅眼睛；備選 QStash 要保證到達嗰陣；Pipedream 判唔選因為免費上限唔透明）＋新 skill 草稿 external-cron-ping（未驗）＋追蹤表 U120/U121",
-      "- sai-arch-hunt-22：context 當預算——派工 brief 加回報上限，收工四問擺嘅位置經論文驗證係啱嘅（長跑唔爛記性）",
       "- 2026-09-21 ~02:45 HKT：瀏覽器自動化 R24 落地 3 樣（browser-hunt-24.md：網絡替身四式——agent 自己扮假後端做離線驗證，斷網／500 想點試就點試，唔再畀真網站慢拖死驗證；新 skill browser-network-mock 未驗＋browser-resilience 補咗除錯六類「修因唔修 timeout」。對 Founder 有用：Cloud Hands 眼手線驗證從此唔使等真網站返，第三方掛都照驗；locator 決策樹已有唔重做，慳返一輪。）",
-      "- 2026-09-21 ~02:55 HKT：系統運維 R24 落地 3 樣（ops-hunt-24.md：journald 日誌衛生＋故障取證保留——學到限流係 per-service 兼會留「Suppressed N messages」尾巴，「有 gap」同「被限流」係兩個判死因；新 skill journal-hygiene 未驗＋daemon-triage-runbook 補咗 M2b「查 Suppressed 先」。對 Founder 有用：下次 daemon 半夜出事驗屍唔會將「限流食咗證據」誤判做「部機靜」，5 分鐘劇本多一格保命；配置改動一律要 parent 批，今輪隻讀唔郁生產。）"
+      "- 2026-09-21 ~02:55 HKT：系統運維 R24 落地 3 樣（ops-hunt-24.md：journald 日誌衛生＋故障取證保留——學到限流係 per-service 兼會留「Suppressed N messages」尾巴，「有 gap」同「被限流」係兩個判死因；新 skill journal-hygiene 未驗＋daemon-triage-runbook 補咗 M2b「查 Suppressed 先」。對 Founder 有用：下次 daemon 半夜出事驗屍唔會將「限流食咗證據」誤判做「部機靜」，5 分鐘劇本多一格保命；配置改動一律要 parent 批，今輪隻讀唔郁生產。）",
+      "- 免費重試成本梯落地（cost-hunt-25）：限流／錯輸出類失敗最多免費試 3 次，之後轉付費直走——retry 燒嘅時間比一次付費直走貴約 2000 倍；新 quarantine skill `retry-escalation/`（未驗）。",
+      "- 2026-09-21 ~03:20 HKT：量化交易 R20 落地（quant-hunt-20.md＋Q100 提案交 parent 批）：親手抄咗 Tradeify 官方合約原文——10 秒規則官方協議只寫「利潤 50- 2026-09-21 ~03:20 HKT：量化交易 R20 落地（quant-hunt-20.md＋Q100 提案交 parent 批）：親手抄咗 Tradeify 官方合約原文——10 秒規則官方協議只寫「利潤 50%」單條件，「單數都要 50%」嚟自官方 blog，兩個官方來源嚴格度唔同；考試免唔免嗰度，第三方話 2026-07-29 宣佈取消、官方 blog 仲寫可擋激活，矛盾兩存記咗 ticket 問題畀用户問官方。對 Founder 有用：半自動戶現行「由第一日計持倉時間」做法兩邊答案都過，唔使改；bot 准用四條官方條件（自己嘅／唔高頻／唔跨公司）得到合約原文背書。"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
