@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-20 19:15 HKT",
+  "generated_at_hkt": "2026-09-20 19:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -105,17 +105,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 297,
+    "今日筆記數": 300,
     "最新": [
-      "q65-agents-lessons-proposal.md",
       "unresolved-tracking-v1.md",
-      "sai-arch-hunt-15.md"
+      "ops-hunt-17.md",
+      "q66-durable-lessons-proposal.md"
     ],
     "最近落地": [
-      "- 2026-09-20 ~18:35 HKT：量化交易 R12 落地 2 樣（quant-hunt-12.md：連續合約換月規則——backtest 同 Tradovate/IBKR 要用同一套換月日表；行業口徑：成交量切換≈第三個星期五前嗰個星期四，Tradovate 預設到期前 8 個交易日，IBKR 預設 7 個曆日；quarantine/continuous-contract-roll skill 草稿，未驗）。對 Founder 有用：策略線 R1–R22 啲回測數終於有得驗「條連續合約係咪咁砌」——換月日兩邊唔同，對賬閘永遠對唔上都唔知；未定論 U68（Tradovate 實際換月日）／U69（舊回測數據換月方法）交追蹤表跟。",
-      "- 2026-09-20 ~18:50 HKT：瀏覽器自動化 R16 落地 3 樣（browser-hunt-16.md：失敗率治理——兩個訊號（同一次入面重試先過＝強訊號／近 20 次成功率唔上唔下），唔准靠加重试令任務變綠，恆失敗唔准隔離要修；＋視覺回歸實作 pattern（mask 動態嘢、freeze time、baseline 落 git，唔狼來了）；＋爬蟲禮貌 skill（robots.txt／ToS／限速表；COdo Step 0-E 繞 robots.txt 嗰段被 vetting FAIL 剔走）。quarantine/browser-flake-governance＋browser-polite-scrape 兩個 skill 草稿（未驗）。對 Founder 有用：眼手線 Phase 2 長任務「間中失敗」唔再變習慣性重跑——分得出係流程唔穩定網站爛；公開資料收集有規矩，唔會一開快就被 ban IP。",
       "- 2026-09-20 ~19:00 HKT：免費白嫖 R12 落地 3 樣（free-observability-hunt-12.md：免費日誌聚合＋錯誤追蹤選型——日誌首選 Axiom（免費 500GB／月、30 天 retention，唔使信用卡；B級起手值，官方頁開用前親驗）＋錯誤追蹤首選 Sentry Developer（免費 5,000 errors／月、1 user、email 告警）＋自架後備 GlitchTip（MIT、Sentry SDK 直插換 DSN、~512MB RAM）；Better Stack 免費（1GB／月＋3 天 retention）判唔選；free-tier-map-data.md §5 候選三格已填表未開用；未定論 U72（Axiom 數字 2026-04 口徑）／U73（免費層商用條款未親驗）／U74（log redaction 規則開用前立）交追蹤表跟）。對 Founder 有用：daemon 而家出事要 SSH 入去撈 journald——入咗呢層之後，錯誤自動分組去重、日誌逐 cycle 可查，唔使等人手發現；全免費，開用嗰日先開戶。",
-      "- 2026-09-20 19:05 HKT｜skill-hunt R15 落地「自主搵工循環五條紀律」（BabyAGI／AI Scientist／Generative Agents 實證配方，quarantine skill 未驗）：P1 work-generator 同 P4 Dream 以後設計自主循環嗰陣有得逐條對，唔使再靠估終止條件／查重深度／評分係咪裝飾。"
+      "- 2026-09-20 19:05 HKT｜skill-hunt R15 落地「自主搵工循環五條紀律」（BabyAGI／AI Scientist／Generative Agents 實證配方，quarantine skill 未驗）：P1 work-generator 同 P4 Dream 以後設計自主循環嗰陣有得逐條對，唔使再靠估終止條件／查重深度／評分係咪裝飾。",
+      "- 2026-09-20 ~19:20 HKT：瀏覽器自動化 R17 落地 3 樣（browser-hunt-17.md：DOM 快照減肥——只留撳得着嘅元素＋a11y 樹優先＋空白壓縮＋前後 diff＋`-i/-c/-d/-s` 四開關，參考實測 27k→6k tokens；＋表單自動填寫——先掃表認格、逐格填完 Tab 觸發驗證、提交前獨立 8 項檢查、敏感欄位同提交掣永遠停低等人；＋歷史摘要觀察——平價模型做摘要貴模型做執行，code 未親讀唔出 skill。quarantine/dom-snapshot-slimming＋browser-form-fill 兩個 skill 草稿（未驗）。對 Founder 有用：眼手線 Phase 2 實跑嗰陣，每步快照唔再被 DOM 塞爆燒貴錢；第一個填表任務唔會「填完唔知入咗未、提交咗先發現錯」——規矩而家定好，之後零成本跟。",
+      "- 2026-09-20 ~19:28 HKT：系統運維 R17 落地 3 樣（ops-hunt-17.md：部署後 10 分鐘驗收——部署前記 SHA＋error baseline、部署後逐分鐘驗（雙確認＋SHA 對位＋log 前後對照＋心跳新鮮度）、rollback 四叉樹寫死四條觸發線唔靠拍腦袋；＋心跳加遞增序號提案，timestamp 分唔出慢一步定靜靜哋 restart 咗。quarantine/deploy-verify-checklist skill 草稿（未驗，下次部署實跑）。追蹤表 U82／U83。對 Founder 有用：今日 Gen33 部署係憑感覺驗（綠燈就當冇事），下次部署有人手劇本照住行，唔會再「is-active 綠燈但心跳停咗冇人知」。）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
