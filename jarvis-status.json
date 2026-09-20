@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-21 04:15 HKT",
+  "generated_at_hkt": "2026-09-21 04:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -130,17 +130,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 44,
+    "今日筆記數": 47,
     "最新": [
-      "q103-browser-frontload-proposal.md",
-      "self-evolution-v16.md",
-      "sai-arch-hunt-24.md"
+      "q104-dream-idle-branch-proposal.md",
+      "ops-hunt-26.md",
+      "browser-hunt-26.md"
     ],
     "最近落地": [
-      "- 2026-09-21 ~03:50 HKT：成本監察 R26 落地 3 樣（cost-hunt-26.md：免費層 quota 耗盡預警——R23 管「錢封頂」、R25 管「retry 幾時停」，呢輪補第三條「免費 request quota 燒緊未」；新工具 hunts/free-quota-watch.py 讀 usage.log 計今日 UTC 日已用／剩／burn-rate／線性投影幾點燒乾，70/90/100 三級門限，本地實跑 PASS 今日 8 req／50＝16% 綠；新 quarantine skill free-tier-quota-watch 未驗；官方 zendesk＋四二手源五源一致 50／1,000／20 req 數字冇變，順手發現「成功 response 冇 x-ratelimit header、得 429 先有」同內部 §3 講法有出入，矛盾兩存）。對 Founder 有用：免費層地基終於有個錶睇——大量免費粗活開工前望一眼，黃就收油、紅就轉付費直走或等 reset（UTC 00:00＝HKT 08:00），唔再半夜撞 429 先知；quota 錶本地讀 log 零 request，唔燒 quota。",
-      "- 2026-09-21 ~03:55 HKT：量化交易 R21 落地 2 樣（quant-hunt-21.md：收市前最後一單閘＋平倉 ritual——開機有 eval-redline-check、收工有 eval-progress-tracker，今輪補中間收市前嗰格空白；核心發現係反直覺嘅「贏錯都會死」：收市前追單贏 $800 會變最大單日→consistency 版本 A 爆＋鎖高明日地板；四個機械閘：consistency 閘（贏咗最大日會唔會 >40%）／地板鎖高閘（R19 公式計明日 buffer）／10 秒閘（雙條件比例）／protect the green 閘（綠日回撤到 break-even 即收工）；4:59 PM ET 前手動平倉＋唔帶 floating 倉入收市；借調三條外部紀律＋Phidias 官方 EOD 規則獨立印證；eval-progress-tracker 增量 patch 一節，未驗維持未驗）。對 Founder 有用：半自動 50K 向過關行嗰陣，收市前最高危嗰 15 分鐘而家有機械動作跟——唔再靠「覺得仲有 buffer」追單，贏錯都會死嗰個陷阱封咗。）",
       "- 免費 CI/CD 層選型落地（R21）：GitHub Actions 每月 2,000 分鐘免費額度＋GHCR 容器倉現行免費＋Pollinations 免費圖 API——以後定時重活唔使綁死本地 VM，部署大 binary 有正路路，影片草圖零成本（quarantine skill github-actions-free-tier/，未驗；開通要你親手開）",
-      "- 2026-09-21 ~04:35 HKT：SAi 架構 R24 落地 2 樣（sai-arch-hunt-24.md：Dream idle 觸發機制——R20–R23 全部係「有工點做」，今輪補「冇工嗰陣點樣自動醒嚟諗嘢」；Letta 官方就係叫佢做 \"sleep-time (dream) compute\"：步數／compaction／連續 IDLE 三式觸發＋git worktree 寫入隔離；FreeRTOS idle hook 嗰套硬規矩：最低優先級、被真・工搶佔、唔准阻塞、有硬時限；Mem0 入庫三判 ADD／UPDATE／NOOP＋矛盾標失效唔刪除；新 quarantine skill dream-idle-trigger 未驗）。對 Founder 有用：夜晚冇人嗰幾個鐘嘅算力唔使齋等——連續 5 圈冇工就自動諗有咩可改善，諗完寫草稿等人批，真・工一到即讓路，諗唔出嘢兩輪就自己停唔燒錢；Dream 終於唔係空話，係有觸發條件＋退出條件嘅迴路。"
+      "- 2026-09-21 ~04:35 HKT：SAi 架構 R24 落地 2 樣（sai-arch-hunt-24.md：Dream idle 觸發機制——R20–R23 全部係「有工點做」，今輪補「冇工嗰陣點樣自動醒嚟諗嘢」；Letta 官方就係叫佢做 \"sleep-time (dream) compute\"：步數／compaction／連續 IDLE 三式觸發＋git worktree 寫入隔離；FreeRTOS idle hook 嗰套硬規矩：最低優先級、被真・工搶佔、唔准阻塞、有硬時限；Mem0 入庫三判 ADD／UPDATE／NOOP＋矛盾標失效唔刪除；新 quarantine skill dream-idle-trigger 未驗）。對 Founder 有用：夜晚冇人嗰幾個鐘嘅算力唔使齋等——連續 5 圈冇工就自動諗有咩可改善，諗完寫草稿等人批，真・工一到即讓路，諗唔出嘢兩輪就自己停唔燒錢；Dream 終於唔係空話，係有觸發條件＋退出條件嘅迴路。",
+      "- 2026-09-21 ~04:45 HKT：瀏覽器自動化 R26 落地 2 樣（browser-hunt-26.md：API 預置狀態、UI 只行黃金路——Cloud Hands 眼手線 Phase 2 驗收任務：有真後端嗰陣，開場資料用 API 掟入去、散場 delete 清走，瀏覽器只走被驗收嗰幾步，快過用 UI 逐格起 10–100 倍；認證資訊只經 env 唔 hardcode，同 secrets 鐵律對齊；新 quarantine skill browser-api-seed 未驗）。對 Founder 有用：之後驗收任務唔使再睇 agent 用滑鼠逐格撳半個鐘——驗收快就跑得密，跑得密就愈早捉到問題；冇後端就用 network-mock 替身嗰條路，兩條路並列唔會揀錯。",
+      "- 2026-09-21 ~04:55 HKT：系統運維 R26 落地 3 樣（ops-hunt-26.md：API 唔通唔一定係網絡斷——連接資源牆三兄弟：conntrack 表滿／fd 耗盡／TIME_WAIT 堆積；三者症狀極似但修法唔同，唔分診就亂醫；分診表＋三個隻讀睇位＋sizing 公式＋75% 告警線＋LimitNOFILE drop-in 一定要 daemon-reload；新 quarantine skill conn-exhaustion-watch 未驗）。對 Founder 有用：之後有排程話「API 間歇唔通」唔使再當網絡抖動放過——三分鐘行完分診表就知係邊種牆，對症先至郁手，唔再錯方向調大個 fd 上限；調參數嗰啲全部標明要正式任務＋你批先郁，安全線冇郁過。"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
