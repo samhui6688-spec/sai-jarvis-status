@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-21 05:45 HKT",
+  "generated_at_hkt": "2026-09-21 06:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -135,17 +135,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 57,
+    "今日筆記數": 60,
     "最新": [
-      "cost-hunt-28.md",
-      "ops-hunt-27.md",
-      "browser-hunt-27.md"
+      "q108-browser-api-seed-proposal.md",
+      "q107-conn-exhaustion-triage-proposal.md",
+      "free-hunt-30.md"
     ],
     "最近落地": [
-      "- 消化輪對齊驗證：5 個 browser 草稿逐項對批咗嘅 AGENTS.md 規則零 drift（browser-hunt-27；run-budget／obstruction-clear／task-router 加驗證註記，維持未驗）——browser-hunt-9 SOP 落文件嗰陣源頭一致，冇人之後亂改。",
-      "- ops-hunt-27 消化輪：disk-pressure-watch 加咗同 psi-pressure-watch 嘅分工註記（碟容量 vs RAM 壓力互補唔合併），sai-cinema 機械修復令 skill 庫存機械檢查全 PASS——系統健康度升咗（2026-09-21 ops-hunt-27）",
       "- 落地：cost 草稿對齊降級權規則——「超標自動降一級」修做月檢討人為決定， 🔴 90% 註明政策未批只預警唔自動郁手（撞牆降級政策未批之前，排程唔准自己發明降級邏輯——呢條線以後草稿先唔會寫錯）",
-      "- 落地：cost 草稿對齊降級權規則——model-tier-router「超標自動降一級」修做月檢討人為決定，quota-burnrate-watch 90% 註明政策未批只預警唔自動郁手（撞牆降級政策未批之前，排程唔准自己發明降級邏輯——呢條線以後草稿先唔會寫錯）"
+      "- 落地：cost 草稿對齊降級權規則——model-tier-router「超標自動降一級」修做月檢討人為決定，quota-burnrate-watch 90% 註明政策未批只預警唔自動郁手（撞牆降級政策未批之前，排程唔准自己發明降級邏輯——呢條線以後草稿先唔會寫錯）",
+      "- 量化草稿對齊驗證 R29：`tradovate-paper-exec`／`strategy-circuit-breaker` 零漂移，`eval-progress-tracker` 捉到 10 秒雙條件引用漂移（官方協議只寫利潤條件）——併入等批嘅 q100 注腳提案，唔改做法（安全位不變）",
+      "- 免費草稿對齊 R30：free-tier-map 升級做批咗嘅五格表（閒置會點＋商用得唔得），三份草稿修「漂移」字眼"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
