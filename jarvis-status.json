@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-20 17:45 HKT",
+  "generated_at_hkt": "2026-09-20 18:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -110,17 +110,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 279,
+    "今日筆記數": 284,
     "最新": [
-      "q55-race-lesson-proposal.md",
-      "q54-tracking-add.md",
-      "quant-hunt-11.md"
+      "q57-quant11-costmodel-lesson-proposal.md",
+      "browser-hunt-15.md",
+      "sai-arch-hunt-14.md"
     ],
     "最近落地": [
-      "- 2026-09-20 ~17:10 HKT：瀏覽器自動化 R14 落地 3 樣（browser-hunt-14.md：長會話韌性筆記＋quarantine/browser-resilience 韌性 SOP＋quarantine/browser-request-throttle 攔截加速配方——browser agent 長跑跌咗識自己起返身，唔使成個任務重嚟，眼手線 24/7 地基）",
-      "- systemd 沙盒加固配方落地（對 Founder 有用：SAi daemon 長期跑公網機，幾行 unit 設定就係零成本防彈衣——俾人攞咗都寫唔到系統檔／摸唔到 /home／爬唔出提權；陷阱兩則寫死，唔再靠記）",
-      "- ④成本監察 R16：帳單突變告警行動清單落地（GCP Budget Alerts 免費＋forecasted-spend 提前警告）——針對「My First Project」$300 credit 燒完轉付費呢個最大突變位，Founder 親手開告警就唔會俾月底賬單嚇親；LLM API 設月限額",
-      "- 2026-09-20 ~17:30 HKT：量化 R11 落地 2 樣（quant-hunt-11.md：策略紙單晉級閘——paper 跑完憑咩晉級＋quarantine/paper-preflight-checklist skill 草稿，未驗；R10 sim 引擎銜接：共用 cost model 嗰陣 slippage 綠燈證明唔到嘢）（對 Founder 有用：P1 第一批紙單策略晉級有硬標準，唔再憑感覺）"
+      "- 2026-09-20 ~17:30 HKT：量化 R11 落地 2 樣（quant-hunt-11.md：策略紙單晉級閘——paper 跑完憑咩晉級＋quarantine/paper-preflight-checklist skill 草稿，未驗；R10 sim 引擎銜接：共用 cost model 嗰陣 slippage 綠燈證明唔到嘢）（對 Founder 有用：P1 第一批紙單策略晉級有硬標準，唔再憑感覺）",
+      "- 2026-09-20 ~17:45 HKT：免費白嫖 R11 落地 3 樣（free-hunt-11.md：免費私人網絡選型——預設 Tailscale Personal（3 users／100 devices，SSO 即登零新帳號，iPhone App 裝完即連，WireGuard 端到端加密；ToS 官方 repo 親驗）＋ZeroTier 後備（2025-09 轉 BSL＋controller 商用限制＋免費層收緊到 10 devices，新發現）＋cloudflared quick tunnel 判唔做穩定方案（無 SLA＋URL 隨機＋已知 Passkey 唔 work）；free-tier-map-data.md §4 候選三格已填表未開用）（對 Founder 有用：而家 GCP 部機 IP 會變＋要親手 Termius 開隧道先入到 IBKR Gateway；入網之後係固定私人 hostname，iPhone 一㩒即連，唔使再抄 IP／唔使開公網 port——下一步等佢得閒親手喺 iPhone 裝個 App 就得）",
+      "- 2026-09-20 ~17:50 HKT：SAi架構 R14 落地 2 樣（sai-arch-hunt-14.md：斷點續跑／durable execution 設計對照——Temporal／DBOS／Restate／Inngest 四引擎全部 PASS 純研究；結論：唔係裝引擎，係四條紀律：先入庫後推進／step 幂等鍵／調度唔掂外部鐘／blocked 係休眠；quarantine/durable-execution skill 草稿，未驗）（對 Founder 有用：以後長任務斷咗由最後一步接住，唔使由頭燒錢重嚟——夜班 pipeline、browser 任務、subagent 全部啱用）",
+      "- 瀏覽器多隻手並行規矩落地（命名會話隔離＋資源天花板）：以後 Cloud Hands 幾隻手同時做嘢，唔會踩到人哋個登入態，部機亦唔會畀開爆 OOM——配額卡＋收工三連＋資源溫度計三個諗法跟住。"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
