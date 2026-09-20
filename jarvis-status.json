@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-20 21:45 HKT",
+  "generated_at_hkt": "2026-09-20 22:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -125,17 +125,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 325,
+    "今日筆記數": 329,
     "最新": [
       "q76-validator-smoke.md",
-      "unresolved-tracking-v1.md",
-      "q75-freedns-grids-proposal.md"
+      "q78-tavily-credit-proposal.md",
+      "unresolved-tracking-v1.md"
     ],
     "最近落地": [
-      "- 2026-09-20 ~21:00 HKT：SAi架構 R17 落地 2 樣（sai-arch-hunt-17.md：Agent Skills 開放標準——Anthropic 2025-12-18 發布、Agentic AI Foundation 治理、~40 工具支援；規格=SKILL.md（YAML 6 格）＋三層漸進載入；description 係唯一觸發器；三個獨立 repo 欄位約束一致。缺口：我哋 quarantine skill 格式混合（20/88 有合法 frontmatter，68 個要補；初稿誤寫「全部零」，已更正）；新草稿 `agentskills-conformance`（未驗）。對 Founder 有用：skill 寫一次，第日 Codex／Cursor／Copilot 都用得，唔使重寫。）",
-      "- 2026-09-20 ~21:15 HKT：瀏覽器 R19 落地 3 樣（browser-hunt-19.md：公開頁變更監察選型——dgtlmoon/changedetection.io（只認官方，Apache-2.0，~34k stars；三個 stale forks 唔用）；urlwatch 無 UI＋無 JS 渲染唔啱，Huginn 殺雞用牛刀；Vetting 紅線：AI 摘要功能唔開（內容會傳去第三方）、stealth 插件唔裝、只監公開頁；部署上 Hetzner（US$0 增量）等 parent 批；首批 watch：Tradeify 規則頁／TradersPost 相容名單／IBKR 狀態頁／HSI 諮詢頁／自身 release。對 Founder 有用：「平台條款半年大變」唔再靠人手重開頁，T70 嗰類未定論到期自動捉。）",
       "- 2026-09-20 ~21:25 HKT：運維 R19 落地 3 樣（ops-hunt-19.md：無人值守安全更新配方——security-only 自動裝、Automatic-Reboot 維持 false（quick tunnel 未退役前開佢＝自動斷通道）、reboot-required 轉告警、Ubuntu Pro Livepatch 免費 5 部機做 kernel 免重啟後備（要 Founder 親手 attach）；新 quarantine skill `unattended-updates`（未驗）；追蹤表 U103–U105。對 Founder 有用：部機以後唔會因為冇人記得打補丁而中已知漏洞，亦唔會因為亂開自動 reboot 半夜自己斷線。）",
-      "- 2026-09-20 ~21:45 HKT：成本監察 R20 落地 3 樣（cost-day-summary.py：cost-log 日報工具——逐日任務數／成本／級別分布，週五儀表板直接攞數；232 筆全 US$0 係誠實現狀；順手捉到舊檢查捉唔到嘅 T148／T177 撞號）"
+      "- 2026-09-20 ~21:45 HKT：成本監察 R20 落地 3 樣（cost-day-summary.py：cost-log 日報工具——逐日任務數／成本／級別分布，週五儀表板直接攞數；232 筆全 US$0 係誠實現狀；順手捉到舊檢查捉唔到嘅 T148／T177 撞號）",
+      "- 2026-09-20 ~21:55 HKT：量化 R15 落地 3 樣（quant-hunt-15.md：TradersPost 官方延遲分解——TP 可控段只 300–500ms，大頭係 TradingView 訊號段 800ms–1.5s，總數 1.1–2 秒；vendor 路線實戰四陷阱 checklist；追蹤表 U98 升級＋U107 新增；Q4 lesson 候選 q77 交 parent 批。對 Founder 有用：vendor 路線嘅延遲疑慮官方數據解咗一半——Tradeify 10 秒規則下延遲唔係瓶頸，資源集中去 sim 驗新聞滑價同 bracket 配置。）",
+      "- 2026-09-20 ~22:10 HKT：免費白嫖 R15 落地 3 樣（free-hunt-15.md：免費搜尋 API 層選型——Tavily 首選（1,000 credits／月免費、唔使綁卡、每月 1 號 reset）；Brave 後備（要綁卡，等 Founder 批）；Google CSE 因 2027-01 退役出局；新 quarantine skill `tavily-search`（未驗，未開戶）；追蹤表 U108／U109。對 Founder 有用：radar 同 research 工人以後深挖官方文件／定價頁有平價搜尋腿，唔使人手開 browser 逐頁撳；credit 紀律寫死——高頻巡邏唔准直掛，深挖先用，一個月額唔會一日燒晒。）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
