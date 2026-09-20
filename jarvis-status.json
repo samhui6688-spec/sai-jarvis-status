@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-20 20:00 HKT",
+  "generated_at_hkt": "2026-09-20 20:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -105,17 +105,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 306,
+    "今日筆記數": 309,
     "最新": [
+      "q69-arch16-copylessons-proposal.md",
       "unresolved-tracking-v1.md",
-      "sai-arch-hunt-16.md",
-      "q68-pending-add.md"
+      "ops-hunt-18.md"
     ],
     "最近落地": [
-      "- 2026-09-20 ~19:35 HKT：成本監察 R18 落地 3 樣（cost-hunt-18.md：「諗住免費、實際收費」fallback 漏錢監察——OpenRouter 官方 contract 寫死 response 個 `model` 欄＝實際落單嗰隻，收費跟呢隻唔跟 request；server-side `models` fallback array／`openrouter/auto` 嗰陣免費爆 429 會靜靜哋落去付費模型，同 Tradovate p-ticket 同一家族「表面正常唔等於冇被罰」。quarantine/fallback-leak-watch skill 草稿（未驗；每 call 三格 intended／served／cost＋三級閾值；同 cost-attribution／quota-burnrate-watch 三個唔同維度唔重複）。追蹤表 U84（analytics 對賬要 management key，未有）／U85（`bin/ask` 免費鏈全爆係 fail-closed 唔漏錢，但 `models`／auto 係另一條路——日後任何 skill 送之前要過三格）。對 Founder 有用：免費鏈係 24/7 地基，而家終於有機制捉「log 話免費、賬單收費」——第一個真・leak event 出現嗰陣會自動標出嚟，唔使等人手對賬先發現錢唔見咗。）",
-      "- NT8 免費 sim 數據地基落地（quant-hunt-13）：sam-sai 裝好 NT8 之後，V3→V6 sim 回測唔使盲買數據——90 日免費 tick+depth（Market Replay）＋自己錄路線；回測誠實設定（slippage 1–2 ticks＋Default fill）防止 P&L 假高",
       "- 免費郵件 API 層已選型：Brevo（300封/日永久免費）首選、Resend（3,000封/月）後備——SaiOS 告警通知有第二條路（WhatsApp 之外），開用 US$0（free-hunt-13，保鮮期 2026-10-20）",
-      "- 2026-09-20 ~20:05 HKT：SAi架構 R16 落地 2 樣（sai-arch-hunt-16.md：多實例／分店複製協調——開源個人助手 ai-assist 嘅多實例實跑配方＋statewave「隔離預設關」警告＋Azure 多租戶指引；分店三模式（分家複製／分店聯營／沙盒分身）＋十格隔離清單（身份／記憶／排程／憑證／通知出口全部獨立）；quarantine/branch-copy-protocol skill 草稿（未驗，等爹哋複製或第一間分店實跑）。對 Founder 有用：開分店＋爹哋分家複製係長期路線，呢份係「複製之前要剔咩」嘅清單——創建包「分家複製」預留欄終於有內容填；唔做嘅話，開分店嗰日總店記憶抄埋過去就係真事故。）"
+      "- 2026-09-20 ~20:05 HKT：SAi架構 R16 落地 2 樣（sai-arch-hunt-16.md：多實例／分店複製協調——開源個人助手 ai-assist 嘅多實例實跑配方＋statewave「隔離預設關」警告＋Azure 多租戶指引；分店三模式（分家複製／分店聯營／沙盒分身）＋十格隔離清單（身份／記憶／排程／憑證／通知出口全部獨立）；quarantine/branch-copy-protocol skill 草稿（未驗，等爹哋複製或第一間分店實跑）。對 Founder 有用：開分店＋爹哋分家複製係長期路線，呢份係「複製之前要剔咩」嘅清單——創建包「分家複製」預留欄終於有內容填；唔做嘅話，開分店嗰日總店記憶抄埋過去就係真事故。）",
+      "- browser-hunt-18：瀏覽器任務路由決策樹落地（search→open→spawn_task 三層，輕層掂唔開重型 session；codeswarm 實測 browser agent 慢 48 倍貴 30 倍，粗活用輕層）——以後派工唔再憑感覺揀層，慳時間慳 token",
+      "- 2026-09-20 ~20:30 HKT：運維 R18 落地 2 樣（ops-hunt-18.md：隧道健康三層監察配方——本地 /ready＋外部 Better Stack＋dashboard 通知；誠實收結 R3 遺留「Uptime Kuma 三件套」承諾：同機自架睇唔到成機死，唔機械執行舊計劃。quick tunnel 斷線／重開 URL 變嘅盲點終於有配方，未郁生產）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
