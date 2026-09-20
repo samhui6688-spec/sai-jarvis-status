@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-20 13:00 HKT",
+  "generated_at_hkt": "2026-09-20 13:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -105,17 +105,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 229,
+    "今日筆記數": 233,
     "最新": [
-      "quant-hunt-7.md",
-      "unresolved-tracking-v1.md",
-      "q23-agents-lesson-proposal.md"
+      "q26-agents-lesson-proposal.md",
+      "sai-arch-hunt-10.md",
+      "q25-pipecat-pr4844-check.md"
     ],
     "最近落地": [
-      "- 歌曲第三輪：免費粵語歌聲邊條路真係行得通——ACE-Step 粵語參數 `--language yue`（唔用會唱出國語腔，待實機驗）＋現成 DiffSinger 粵語 voicebank（Azairo 程藍天，demo 先用得）＋反例倉 #16（第三方參數聲稱唔等於官方保證）。做歌線人聲缺口收窄咗。",
-      "- ③系統運維R11落地：daemon 自我保命配方（ops-hunt-11.md＋quarantine 技能草稿 `systemd-watchdog-selfcheck` 未驗）——針對 `Type=simple` 睇唔到卡死無聲呢種死法：`Type=notify`＋`WatchdogSec`，daemon 每半個週期送 `WATCHDOG=1`，斷咗 systemd 自動 kill＋重起；Python 唔使裝新依賴（stdlib socket 寫 NOTIFY_SOCKET）；死咗之後四步撈證據（_SYSTEMD_INVOCATION_ID＋exit code 速查）；官方 man page 親驗，NotifyAccess race 陷阱都捉埋。sam-hetzner-daemon 下次 unit 改版直接用，撐 Gate 6 身體可靠性。（2026-09-20 ~12:35 HKT）",
       "- ④成本監察R12落地：OpenRouter 免費模型鏈 rate-limit 結構核實（cost-hunt-12.md＋free-tier-map-data.md v2 §3，B級）——限 request 唔係 token（未買$10：50/日；買過$10：1,000/日永久；兩者 20/分鐘；UTC 00:00 reset），失敗 429 都計 quota、負結餘連免費都 402 兩個陷阱；接駁 quota-burnrate-watch 三級制第四數據源「日請求計數」。（2026-09-20 ~12:45 HKT）",
-      "- CME 官方合約規格驗證（quant-hunt-7）：ES $50X tick $12.50／MES $5X tick $1.25／MNQ $2X tick $0.50 全部官方親驗 PASS，NQ $20X tick $5.00 兩二手源一致判 B 級；1 ES＝10 MES 機械規則＋每日維護停機（港時05:00–06:00）＝P1 paper sizing 底座（對 Founder 用處：以後 paper 落單倉位唔會再因為規格搞錯而錯 10 倍）"
+      "- CME 官方合約規格驗證（quant-hunt-7）：ES $50X tick $12.50／MES $5X tick $1.25／MNQ $2X tick $0.50 全部官方親驗 PASS，NQ $20X tick $5.00 兩二手源一致判 B 級；1 ES＝10 MES 機械規則＋每日維護停機（港時05:00–06:00）＝P1 paper sizing 底座（對 Founder 用處：以後 paper 落單倉位唔會再因為規格搞錯而錯 10 倍）",
+      "- ⑥免費白嫖R7落地：免費外部監控選型（free-hunt-7.md＋反例倉 #9 Freshping 已死）——Gate 6「72h 無人值守」最後一塊拼圖：內部看門狗驗唔到「自己死咗」；死人開關首選 Healthchecks.io（免費 20 checks，BSD 可自託管）、主動 uptime 首選 Better Stack（免費 10 monitors，商用 OK）；UptimeRobot 免費版禁商用即出局，唔好畀 50 個 monitor 數字呃到",
+      "- ①SAi架構R10落地：世界模型／Dream模擬層選型（sai-arch-hunt-10.md＋quarantine技能草稿`preflight-sim`未驗）——Founder終極願景「Dream升級做世界模型：先喺模擬試多次，值得做先帶返現實」搵到現成零件：starkdv夢演進流程（真經驗→離線學世界模型→喺夢入面進化→冠軍拉返現實驗）＋wyrdsekai M2/M3預飛閘（每個plan commit之前先喺腦入面試一轉）；沙盒係外部跑、世界模型係內部諗，補咗R7同Dream之間嘅缺口。對Founder有用：下次不可逆行動（deploy／對外發訊）commit之前有道30秒cheap模擬閘，平到次次行得。（2026-09-20 ~13:18 HKT）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
