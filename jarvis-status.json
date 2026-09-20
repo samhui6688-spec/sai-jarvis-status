@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-20 13:45 HKT",
+  "generated_at_hkt": "2026-09-20 14:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -105,17 +105,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 239,
+    "今日筆記數": 241,
     "最新": [
-      "cost-hunt-13.md",
-      "q29-agents-lesson-proposal.md",
-      "q28-agents-lesson-proposal.md"
+      "q32-agents-lesson-proposal.md",
+      "quant-hunt-8.md",
+      "cost-hunt-13.md"
     ],
     "最近落地": [
-      "- ①SAi架構R10落地：世界模型／Dream模擬層選型（sai-arch-hunt-10.md＋quarantine技能草稿`preflight-sim`未驗）——Founder終極願景「Dream升級做世界模型：先喺模擬試多次，值得做先帶返現實」搵到現成零件：starkdv夢演進流程（真經驗→離線學世界模型→喺夢入面進化→冠軍拉返現實驗）＋wyrdsekai M2/M3預飛閘（每個plan commit之前先喺腦入面試一轉）；沙盒係外部跑、世界模型係內部諗，補咗R7同Dream之間嘅缺口。對Founder有用：下次不可逆行動（deploy／對外發訊）commit之前有道30秒cheap模擬閘，平到次次行得。（2026-09-20 ~13:18 HKT）",
       "- browser-hunt-11 落地：影格子（iframe）三步入格 SOP＋除錯句——browser 任務「睇極都搵唔到個掣」嗰陣，先 check 快照有冇 iframe 殼，有就入第二層文檔（地基：Cloud Hands 眼手線）",
       "- ops-hunt-12 落地：OOM 防禦線兩層制——每 service MemoryHigh(軟限)/MemoryMax(硬限) 主閘＋box backstop 副網；選型睇 swap 配置（swap=0→earlyoom，systemd-oomd 嗰陣實測唔會郁；大 swap→systemd-oomd）。quarantine 技能草稿 `oom-defense`（未驗）＋反例倉 #18「裝咗 OOM killer ≠ 會郁」。對 Founder 有用：半夜「部機無啦啦慢／daemon 唔見咗」嘅分流配方（exit 137＝修限額唔係修 code），同 watchdog＋unit 安全變更齊成「unit 加固三件套」。未改生產 unit。（2026-09-20 ~13:40 HKT）",
-      "- cost-hunt-13 落地：成本歸因缺口實證——ledger 話 6h 燒 US$2.72 但三份賬本都答唔到「邊條線燒咗」；四個外部歸因方案（LiteLLM Proxy MIT 推薦，中期待批）；quarantine 技能草稿 `cost-attribution`（未驗）：以後 paid call 必跟三格（job_id／線名／模型層）。對 Founder 有用：慳 token 鐵律由「自覺制」變「有賬可查」——預警響嗰陣知去邊條線收油。（2026-09-20 ~13:52 HKT）"
+      "- cost-hunt-13 落地：成本歸因缺口實證——ledger 話 6h 燒 US$2.72 但三份賬本都答唔到「邊條線燒咗」；四個外部歸因方案（LiteLLM Proxy MIT 推薦，中期待批）；quarantine 技能草稿 `cost-attribution`（未驗）：以後 paid call 必跟三格（job_id／線名／模型層）。對 Founder 有用：慳 token 鐵律由「自覺制」變「有賬可查」——預警響嗰陣知去邊條線收油。（2026-09-20 ~13:52 HKT）",
+      "- quant-hunt-8 落地：Tradovate API demo 執行路徑研究——Tradeify evaluation 本身就係經 Tradovate 落單，官方免費 simulation engine（demo.tradovateapi.com）係 L7「signal→order→execution evidence」閉環嘅第二條路，唔使等 IBKR Gateway 那邊（卡住等 port-forward）。最危險設計位：demo/live 係兩個唔同 URL（host-level 分隔），寫錯就係真錢——quarantine 技能草稿 `tradovate-paper-exec`（未驗）第一行就 hard guard。對 Founder 有用：paper 落單路徑係「接真錢前一步」嘅最後缺口之一，呢份係嗰個缺口嘅研究底座；未定論：Tradeify evaluation 帳戶用唔用到 API，要 P1 開工前確認。（2026-09-20 ~14:05 HKT）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
