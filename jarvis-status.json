@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-21 06:45 HKT",
+  "generated_at_hkt": "2026-09-21 07:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -135,17 +135,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 68,
+    "今日筆記數": 70,
     "最新": [
-      "q112-digest-no-fake-values-proposal.md",
-      "cost-hunt-29.md",
-      "q111-degrade-wording-proposal.md"
+      "q113-selfclaim-approval-proposal.md",
+      "quant-hunt-30.md",
+      "q112-digest-no-fake-values-proposal.md"
     ],
     "最近落地": [
-      "- SAi 架構消化輪 R31：驗咗 context-budget／self-improve-loop-design／multi-agent-topology-pick 三份草稿，捉到修咗 4 個 drift（內部數字矛盾、未填欄位、兩個對齊缺口），全部維持未驗，唔扮驗過（消化輪機制保持憲法同草稿一致）",
       "- 瀏覽器消化輪 R32：驗咗 browser-frame-entry／browser-shadow-dom／browser-smart-wait 三份「搵唔到元素」草稿，兩份零漂移，smart-wait 修咗個斷引用（poll 逾時上限而家跟 run-budget 嘅 10s／30s 分層，唔再靠 agent 自己估）——眼手線將來卡喺「睇極都冇個掣」嗰陣有診斷次序跟",
       "- weekly-skill-hunt ③運維 R28（消化輪）：5 份運維草稿對批咗規則——修咗 external-cron-ping「唯一→之一」字眼 drift（parent Q98 已改）、cron-task-guard 補「可考慮≠照抄即用」對齊註記，其餘三份零 drift（點解對 Founder 有用：草稿講得大過批准句＝之後有人跟草稿做會以為已批准，開戶嗰步最危險，消化註記係便宜防 drift）",
-      "- 2026-09-21 ~06:50 HKT：成本監察消化輪 R29 落地 3 樣（cost-hunt-29.md：5 份 cost 家族草稿對批咗規則逐項驗——修咗 context-budget「500 係先前批咗嘅做法」呢句查無此批嘅 drift（全庫搵唔到源頭，改做實務起手值）；修咗 cost-attribution 相對路徑引用（cost-log→全路徑 ~/workspace/hunts/cost-log.md）；cost-reconcile／dispatch-budget／browser-run-budget 驗過乾淨加註記，全部維持「未驗」。對 Founder 有用：水位 RED 繼續消化唔開新債；「自稱已批要畀得出處」呢句 Q4 已交 parent 批，將來每份草稿審查多一格防線。）"
+      "- 2026-09-21 ~06:50 HKT：成本監察消化輪 R29 落地 3 樣（cost-hunt-29.md：5 份 cost 家族草稿對批咗規則逐項驗——修咗 context-budget「500 係先前批咗嘅做法」呢句查無此批嘅 drift（全庫搵唔到源頭，改做實務起手值）；修咗 cost-attribution 相對路徑引用（cost-log→全路徑 ~/workspace/hunts/cost-log.md）；cost-reconcile／dispatch-budget／browser-run-budget 驗過乾淨加註記，全部維持「未驗」。對 Founder 有用：水位 RED 繼續消化唔開新債；「自稱已批要畀得出處」呢句 Q4 已交 parent 批，將來每份草稿審查多一格防線。）",
+      "- 2026-09-21 ~07:00 HKT：量化消化輪 R30 落地 3 樣（quant-hunt-30.md：驗咗 ibkr-paper-exec／paper-exec-ledger／paper-preflight-checklist 三份量化草稿對批咗規則——三份全部零漂移，執行層（port 白名單）同 host 分隔句（URL 層）係互補唔重複；記賬欄 p-ticket 記法同罰單規則對齊；晉級閘「機器 verdict≠授權」同鐵律一致。每份加咗對齊驗證註記＋清咗 frontmatter 未填三格，維持「未驗」。對 Founder 有用：水位 109→108 仍 🔴 RED 繼續消化；Q4 候選交 parent 批——專家名單話有 10 個專家但手冊只得 3 份（量化研究專家手冊未存在），派工前要假設手冊未必存在補返五樣 brief 格。）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
