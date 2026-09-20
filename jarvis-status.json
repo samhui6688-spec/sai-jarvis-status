@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-20 15:30 HKT",
+  "generated_at_hkt": "2026-09-20 15:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -105,11 +105,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 255,
+    "今日筆記數": 256,
     "最新": [
-      "q42-agents-lesson-proposal.md",
-      "quant-hunt-9.md",
-      "q41-tracking-add.md"
+      "q43-tracking-add.md",
+      "unresolved-tracking-v1.md",
+      "q42-agents-lesson-proposal.md"
     ],
     "最近落地": [
       "- ops-hunt-13 落地：備份嘅另一半——還原演練。R1 答咗「有冇備份到」，今輪補「還原到唔到」：Drill vs Verify 兩層制（verify 每週 metadata 快掃捉腐壞／drill 每月全量還原比對證明還原到）＋比對三級（count+size→SHA-256→抽樣）＋enable gate（未證明還原得，排程唔准開）＋sandbox-first（live 還原先搬開壞數據唔就地覆寫）。5 候選 vetting 全過（backup-kit 全文親讀）；quarantine 技能草稿 `restore-drill`（未驗）＋反例倉 #21「backup job 綠燈＝有備份」（醫療機構一年綠燈備錯庫真實案例）。對 Founder 有用：daemon 嘅 state 而家「有備份冇演練」——72h 無人值守要「部機死咗識還魂」，呢份係還魂 SOP 嘅底座；同 watchdog＋OOM＋改 unit 三步齊成「daemon 保命四件套」。未掂生產備份。（2026-09-20 ~15:05 HKT）",
