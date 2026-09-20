@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-20 23:15 HKT",
+  "generated_at_hkt": "2026-09-20 23:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -125,17 +125,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 350,
+    "今日筆記數": 351,
     "最新": [
-      "quant-hunt-16.md",
-      "q80-frontmatter-backfill.md",
-      "stock-hunt-55.md"
+      "unresolved-tracking-v1.md",
+      "free-hunt-16.md",
+      "quant-hunt-16.md"
     ],
     "最近落地": [
-      "- 2026-09-20 ~22:28 HKT：瀏覽器自動化 R20 落地 3 樣（browser-hunt-20.md：智能等待——等狀態唔等秒數；每個動作前過四格檢查：見唔見到／定唔定／撳唔撳得／前面有冇嘢擋；新 quarantine skill `browser-smart-wait`（未驗）；Q4 lesson 候選一句交 parent 批。對 Founder 有用：補返 R7「判死固定 sleep」之後冇畀替代方案嗰個窿——browser agent 實跑最常見死法係「未準備好就郁手」，呢份規矩直餵 Cloud Hands 眼手線 Phase 2，減少 flake 重跑燒嘅時間同 token。）",
       "- 2026-09-20 ~22:55 HKT：時間紀律 hunt 落地 1 樣（ops-hunt-20.md：chrony 監察＋加固＋避坑五候選；新 quarantine skill `chrony-monitor`（未驗）。對 Founder 有用：心跳新鮮度誤判同時間漂係無人值守 server 嘅隱形炸彈——呢輪畀咗告警門限（offset＞0.5s）、chrony.conf 起手值、monotonic vs wall-clock 避坑，直餵日後 server 監察同心跳設計。）",
       "- 2026-09-20 ~23:05 HKT：成本監察 R21 落地 3 樣（cost-hunt-21.md：三級制「實際用咗咩級」終於有收口設計——雙軌核對：軌1 wrapper 從供應商回應記低 response.model（唔信 request 叫咩名，fallback 嗰陣真相喺回應）、軌2 每日用 OpenRouter 官方唯讀 endpoint（/credits＋/key）對賬，差值就係漏報；新 quarantine skill `tier-usage-verify`（未驗）；追蹤表 U110。對 Founder 有用：U25「實際用咗咩級唔知」由今日起有出路——唔使再靠模型自己報身分，錢同用量行兩條獨立軌，週五儀表板嗰格遲早可以放真數；未實裝之前繼續誠實標唔知，唔扮有數。）",
-      "- 2026-09-20 ~23:12 HKT：量化交易 R16 落地 2 樣（quant-hunt-16.md：執行層斷線重連＋狀態重建——五步配方：知斷凍結新單→等傳輸回連→拉 venue 真相（orders＋positions＋fills）→client order ID 做冪等鍵補齊 miss 事件→對唔上就 fail closed 停手；開機紀律「對賬先、策略後」；新 quarantine skill `reconnect-reconcile`（未驗）。對 Founder 有用：R11 第 6 閘「斷線恢復試一次」終於有設計答案，唔使到時先諗；quick tunnel 重開＝IBKR 通道即斷係實證過嘅場景，P1 paper 遲早撞到呢題。）"
+      "- 2026-09-20 ~23:12 HKT：量化交易 R16 落地 2 樣（quant-hunt-16.md：執行層斷線重連＋狀態重建——五步配方：知斷凍結新單→等傳輸回連→拉 venue 真相（orders＋positions＋fills）→client order ID 做冪等鍵補齊 miss 事件→對唔上就 fail closed 停手；開機紀律「對賬先、策略後」；新 quarantine skill `reconnect-reconcile`（未驗）。對 Founder 有用：R11 第 6 閘「斷線恢復試一次」終於有設計答案，唔使到時先諗；quick tunnel 重開＝IBKR 通道即斷係實證過嘅場景，P1 paper 遲早撞到呢題。）",
+      "- 免費配音腿落地（free-hunt-16）：Edge TTS 免費、唔使 key、有廣東話聲，EVA v3／新片唔使再撞配音牆"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
