@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-20 14:45 HKT",
+  "generated_at_hkt": "2026-09-20 15:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -105,17 +105,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 249,
+    "今日筆記數": 250,
     "最新": [
       "q38-agents-lesson-proposal.md",
-      "browser-hunt-12.md",
-      "q37-tracking-add.md"
+      "anti-pattern-registry-v1.md",
+      "ops-hunt-13.md"
     ],
     "最近落地": [
-      "- quant-hunt-8 落地：Tradovate API demo 執行路徑研究——Tradeify evaluation 本身就係經 Tradovate 落單，官方免費 simulation engine（demo.tradovateapi.com）係 L7「signal→order→execution evidence」閉環嘅第二條路，唔使等 IBKR Gateway 那邊（卡住等 port-forward）。最危險設計位：demo/live 係兩個唔同 URL（host-level 分隔），寫錯就係真錢——quarantine 技能草稿 `tradovate-paper-exec`（未驗）第一行就 hard guard。對 Founder 有用：paper 落單路徑係「接真錢前一步」嘅最後缺口之一，呢份係嗰個缺口嘅研究底座；未定論：Tradeify evaluation 帳戶用唔用到 API，要 P1 開工前確認。（2026-09-20 ~14:05 HKT）",
       "- free-hunt-8 落地：免費／開源 secrets 管理選型——8 候選 vetting 全過：GCP Secret Manager 零摩擦首選（免費層 6 versions＋10k ops，parent 親核 A級；已有 My First Project 零新帳戶）／OpenBao 自託管首選（Linux Foundation fork，MPL-2.0；static auto-unseal 對 Gate 4 重啟無人化解封）／SOPS+age 零 server 備選；反例倉 #19「Vault OSS＝開源已死（2023 BSL）」；Q35 badge-license 提案待批。對 Founder 有用：幾把 key（GitHub PAT／OpenRouter／Gemini）而家散喺各處，呢份係統一管理嘅紙上選型底座——GCP 開 secret 要 Founder 親手做，今輪只選型唔開戶；未定論跟保鮮期 2026-10-20。（2026-09-20 ~14:20 HKT）",
       "- sai-arch-hunt-11 落地：記憶生命周期三式——我哋乜都有得「記」冇嘢識「唔記」（daily log 4000+ 行、Founder Stream journal 只增不減）。6 候選 vetting：3 PASS 拆做設計模式（Kafka log-compaction 式 journal retention→Founder Stream B5 設計輸入；Graphiti 時間有效期→distilled memory 加保鮮期欄；Letta「agent 自己執記憶」→Kernel 記憶壓力自動歸檔；全部唔裝產品）＋3 棄用（Hindsight vendor 自吹／Zep CE 2025-04 官方棄用→反例倉 #20／Memary 2024 起 dormant）；quarantine 技能草稿 `memory-lifecycle`（未驗）：寫長期記憶之前先答三問（保鮮期／覆寫 key／過期點處理）。對 Founder 有用：過期結論扮有效係今日捉到嘅坑（Vault OSS、Zep CE）——呢套係系統性防重犯；journal／bus 無限增長有咗第一個正式化退場答案。（2026-09-20 ~14:25 HKT）",
-      "- browser-hunt-12 落地：Shadow DOM 診斷——browser agent「個掣喺畫面度但快照冇佢」嘅第四層死法（元素喺影子樹）。open 根：Playwright CSS selector 預設穿到，唔使特別語法；closed 根：冇 DOM 路，轉座標撳／可存取樹／事前攔截。診斷第一步係驗 `host.shadowRoot` 係咪 null，唔好齋 retry。quarantine 技能草稿 `browser-shadow-dom`（未驗）等第一個真實瀏覽任務校準。對 Founder 有用：賈維斯控制台／Cloud Hands 之後要操作真實網站（付款錶、widget 成日匿喺影子根入面），呢份係「睇唔到嘢」嗰陣嘅分流第一步——慳咗無限 retry 燒嘅 token 同時間。未定論：browser-use 本體點處理影子根（今輪冇命中，唔估）。（2026-09-20 ~14:50 HKT）"
+      "- browser-hunt-12 落地：Shadow DOM 診斷——browser agent「個掣喺畫面度但快照冇佢」嘅第四層死法（元素喺影子樹）。open 根：Playwright CSS selector 預設穿到，唔使特別語法；closed 根：冇 DOM 路，轉座標撳／可存取樹／事前攔截。診斷第一步係驗 `host.shadowRoot` 係咪 null，唔好齋 retry。quarantine 技能草稿 `browser-shadow-dom`（未驗）等第一個真實瀏覽任務校準。對 Founder 有用：賈維斯控制台／Cloud Hands 之後要操作真實網站（付款錶、widget 成日匿喺影子根入面），呢份係「睇唔到嘢」嗰陣嘅分流第一步——慳咗無限 retry 燒嘅 token 同時間。未定論：browser-use 本體點處理影子根（今輪冇命中，唔估）。（2026-09-20 ~14:50 HKT）",
+      "- ops-hunt-13 落地：備份嘅另一半——還原演練。R1 答咗「有冇備份到」，今輪補「還原到唔到」：Drill vs Verify 兩層制（verify 每週 metadata 快掃捉腐壞／drill 每月全量還原比對證明還原到）＋比對三級（count+size→SHA-256→抽樣）＋enable gate（未證明還原得，排程唔准開）＋sandbox-first（live 還原先搬開壞數據唔就地覆寫）。5 候選 vetting 全過（backup-kit 全文親讀）；quarantine 技能草稿 `restore-drill`（未驗）＋反例倉 #21「backup job 綠燈＝有備份」（醫療機構一年綠燈備錯庫真實案例）。對 Founder 有用：daemon 嘅 state 而家「有備份冇演練」——72h 無人值守要「部機死咗識還魂」，呢份係還魂 SOP 嘅底座；同 watchdog＋OOM＋改 unit 三步齊成「daemon 保命四件套」。未掂生產備份。（2026-09-20 ~15:05 HKT）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
