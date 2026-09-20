@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-20 21:30 HKT",
+  "generated_at_hkt": "2026-09-20 21:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -125,17 +125,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 322,
+    "今日筆記數": 325,
     "最新": [
-      "q74-agentskills17-proposal.md",
+      "q76-validator-smoke.md",
       "unresolved-tracking-v1.md",
-      "ops-hunt-19.md"
+      "q75-freedns-grids-proposal.md"
     ],
     "最近落地": [
-      "- 2026-09-20 ~20:50 HKT：免費白嫖 R14 落地 3 樣（free-hunt-14.md：免費 DNS 託管選型——Cloudflare 免費 plan 首選（DNS 免費＋DNSSEC＋完整 API）＋deSEC 後備（100% 免費＋自動 DNSSEC＋REST API；TTL 最低 1 小時＋每日 300 RRset 改動限額）；HE 判唔選（免費 20 年但無官方 API＋無 DNSSEC，自動化死角）；free-tier-map 加 §7。對 Founder 有用：第一個域名買落嚟嗰刻即刻有答案，status dashboard 自訂域名／公開 endpoint 唔使臨時查；選型定死＋保鮮期 2026-10-20，開用嗰日重驗一次條款。）",
       "- 2026-09-20 ~21:00 HKT：SAi架構 R17 落地 2 樣（sai-arch-hunt-17.md：Agent Skills 開放標準——Anthropic 2025-12-18 發布、Agentic AI Foundation 治理、~40 工具支援；規格=SKILL.md（YAML 6 格）＋三層漸進載入；description 係唯一觸發器；三個獨立 repo 欄位約束一致。缺口：我哋 quarantine skill 格式混合（20/88 有合法 frontmatter，68 個要補；初稿誤寫「全部零」，已更正）；新草稿 `agentskills-conformance`（未驗）。對 Founder 有用：skill 寫一次，第日 Codex／Cursor／Copilot 都用得，唔使重寫。）",
       "- 2026-09-20 ~21:15 HKT：瀏覽器 R19 落地 3 樣（browser-hunt-19.md：公開頁變更監察選型——dgtlmoon/changedetection.io（只認官方，Apache-2.0，~34k stars；三個 stale forks 唔用）；urlwatch 無 UI＋無 JS 渲染唔啱，Huginn 殺雞用牛刀；Vetting 紅線：AI 摘要功能唔開（內容會傳去第三方）、stealth 插件唔裝、只監公開頁；部署上 Hetzner（US$0 增量）等 parent 批；首批 watch：Tradeify 規則頁／TradersPost 相容名單／IBKR 狀態頁／HSI 諮詢頁／自身 release。對 Founder 有用：「平台條款半年大變」唔再靠人手重開頁，T70 嗰類未定論到期自動捉。）",
-      "- 2026-09-20 ~21:25 HKT：運維 R19 落地 3 樣（ops-hunt-19.md：無人值守安全更新配方——security-only 自動裝、Automatic-Reboot 維持 false（quick tunnel 未退役前開佢＝自動斷通道）、reboot-required 轉告警、Ubuntu Pro Livepatch 免費 5 部機做 kernel 免重啟後備（要 Founder 親手 attach）；新 quarantine skill `unattended-updates`（未驗）；追蹤表 U103–U105。對 Founder 有用：部機以後唔會因為冇人記得打補丁而中已知漏洞，亦唔會因為亂開自動 reboot 半夜自己斷線。）"
+      "- 2026-09-20 ~21:25 HKT：運維 R19 落地 3 樣（ops-hunt-19.md：無人值守安全更新配方——security-only 自動裝、Automatic-Reboot 維持 false（quick tunnel 未退役前開佢＝自動斷通道）、reboot-required 轉告警、Ubuntu Pro Livepatch 免費 5 部機做 kernel 免重啟後備（要 Founder 親手 attach）；新 quarantine skill `unattended-updates`（未驗）；追蹤表 U103–U105。對 Founder 有用：部機以後唔會因為冇人記得打補丁而中已知漏洞，亦唔會因為亂開自動 reboot 半夜自己斷線。）",
+      "- 2026-09-20 ~21:45 HKT：成本監察 R20 落地 3 樣（cost-day-summary.py：cost-log 日報工具——逐日任務數／成本／級別分布，週五儀表板直接攞數；232 筆全 US$0 係誠實現狀；順手捉到舊檢查捉唔到嘅 T148／T177 撞號）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
