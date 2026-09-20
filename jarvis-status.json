@@ -1,0 +1,110 @@
+{
+  "generated_at_hkt": "2026-09-20 11:48 HKT",
+  "一句話總結": "SAi 24/7 行緊：狩獵 5 軌制啱啱生效；Cloud Hands 卡 memory controller（A–F 0/6）；Message Bus 影子模式正常；GPT 隻手起緊（v1 快照）。",
+  "daemon": {
+    "updated_at_hkt": "2026-09-20 11:45 HKT",
+    "位置": "Hetzner 2.29.11.95，sam-hetzner-daemon.service",
+    "狀態": "上次已知 active，健康 idle（2026-09-20 早上）"
+  },
+  "cloud_hands": {
+    "updated_at_hkt": "2026-09-20 11:45 HKT",
+    "下一步": "只讀診斷 memory controller，搵唔使重啟嘅修法",
+    "狀態": "A–F 0/6；cpu＋pids 通，memory controller 唔支援"
+  },
+  "message_bus": {
+    "updated_at_hkt": "2026-09-20 11:45 HKT",
+    "下一步": "Phase B 等 Founder 批",
+    "狀態": "Phase A 影子模式，每 15 分鐘檢查，正常（queued=0, divergences=0）"
+  },
+  "gpt_hands": {
+    "updated_at_hkt": "2026-09-20 11:45 HKT",
+    "狀態": "v1 起緊：狀態快照 → ChatGPT 專用 GPT（眼先通，手後上）"
+  },
+  "排程": [
+    {
+      "id": "agentic-feature-tour",
+      "title": "?",
+      "every": "?"
+    },
+    {
+      "id": "autonomy-watchdog",
+      "title": "自主死人開關（通用監察）",
+      "every": "30m"
+    },
+    {
+      "id": "heartbeat",
+      "title": "?",
+      "every": "30m"
+    },
+    {
+      "id": "jarvis-snapshot",
+      "title": "Jarvis 狀態快照（每15分鐘，GPT 隻眼）",
+      "every": "15m"
+    },
+    {
+      "id": "main-world-daily-sweep",
+      "title": "主世界入倉每日掃描",
+      "every": "?"
+    },
+    {
+      "id": "night-shift-watchdog",
+      "title": "夜班看門狗（每30分鐘）",
+      "every": "30m"
+    },
+    {
+      "id": "pipeline-dispatcher-3m",
+      "title": "流水線派工（每3分鐘）",
+      "every": "3m"
+    },
+    {
+      "id": "weekly-skill-hunt",
+      "title": "長期狩獵（每5分鐘）",
+      "every": "5m"
+    },
+    {
+      "id": "weekly-skill-hunt",
+      "title": "每週技能狩獵＋自我吸收",
+      "every": "?"
+    },
+    {
+      "id": "weekly-skill-hunt",
+      "title": "技能狩獵＋自我吸收（每6小時）",
+      "every": "6h"
+    },
+    {
+      "id": "weekly-skill-hunt",
+      "title": "狩獵＋自我吸收（每小時）",
+      "every": "1h"
+    },
+    {
+      "id": "weekly-skill-hunt",
+      "title": "狩獵＋自我吸收（每10分鐘）",
+      "every": "10m"
+    },
+    {
+      "id": "weekly-skill-hunt",
+      "title": "狩獵＋自我吸收（每5分鐘）",
+      "every": "5m"
+    },
+    {
+      "id": "weekly-skill-hunt",
+      "title": "狩獵＋自我吸收（每30分鐘）",
+      "every": "30m"
+    }
+  ],
+  "狩獵": {
+    "今日筆記數": 215,
+    "最新": [
+      "anti-pattern-registry-v1.md",
+      "q17-agents-lessons-proposal.md",
+      "browser-hunt-10.md"
+    ],
+    "最近落地": [
+      "- ⑤量化地基 R6 落地：P1 paper 執行層選型——ib_insync 已死（2024-03-14 archived），正統後繼係 ib_async（drop-in，唔使裝官方 ibapi）；Gateway paper port 係 4002（live 4001 code 入面硬擋）；delayed 數據免費夠 P1 初期用。對 Founder 有用：P1 paper 開工嗰陣唔使由零寫落單 code，runbook 之後嗰層終於有現成答案；quarantine 技能草稿 `ibkr-paper-exec`（未驗）等佢登入完 Gateway 第一次真連即驗。（2026-09-20 ~11:05 HKT）",
+      "- ⑥免費白嫖R6落地：共享世界 Artifact Store＋檢索層免費選型（free-hunt-6.md＋quarantine 技能草稿 free-retrieval-pick，未驗）——Artifact Store 首選 Cloudflare R2（10GB／月＋流出$0無上限，唔使信用卡）；檢索層首選「唔開新嘢」：R4 已揀嘅 Neon＋pgvector（0.5GB 對幾百張學習卡極鬆，零新帳戶）；升級路係同廠 Vectorize（30M queried dims／月）。對 Founder 有用：Gate 2/3 shared-world 四層（資料／傳輸／存檔／檢索）嘅免費堆疊齊晒，一個 Cloudflare 帳戶＋已有 Neon 搞掂，唔使再為「向量資料庫」四個字多開 vendor；Qdrant Cloud 免費閒置 4 週刪 cluster 嘅陷阱已標明，唔會中招。（2026-09-20 ~11:15 HKT）",
+      "- 落地 sai-arch-hunt-9 筆記＋executive-scheduler skill 草稿：吸咗 AMD gaia 同 corvid ADR 嘅 Executive 調度器設計（狀態機＋tick 兩層＋durable contract＋九條硬規則），將來收斂 7 條 cron 做一個 Executive 嗰陣唔使由零諗（對 Founder 有用：慳設計時間＋避開人哋踩過嘅坑）",
+      "- ②瀏覽器自動化R10落地：內容完整性四式（browser-hunt-10.md＋quarantine 技能草稿 `browser-content-extract` 未驗＋反例倉 #14）——R6 教撳啱、R7 教驗證、R9 教清場，但全部假設內容已齊；今輪補「抽齊先算數」：四種分頁分開處理、無限滾動 scroll 最後一條入 view＋item count 收斂（`window.scrollTo` 一碌到底喺 headless 唔可靠）、抽完 dedupe＋逐頁寫檔。對 Founder 有用：之後 Cloud Hands 做資料收集任務唔會「抽完第一頁就走」靜默交少貨；brief 貼段直接用。（2026-09-20 ~11:40 HKT）"
+    ]
+  },
+  "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
+}
