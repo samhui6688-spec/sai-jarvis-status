@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-20 18:00 HKT",
+  "generated_at_hkt": "2026-09-20 18:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -110,17 +110,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 284,
+    "今日筆記數": 287,
     "最新": [
-      "q57-quant11-costmodel-lesson-proposal.md",
-      "browser-hunt-15.md",
-      "sai-arch-hunt-14.md"
+      "cost-hunt-17.md",
+      "unresolved-tracking-v1.md",
+      "ops-hunt-16.md"
     ],
     "最近落地": [
-      "- 2026-09-20 ~17:30 HKT：量化 R11 落地 2 樣（quant-hunt-11.md：策略紙單晉級閘——paper 跑完憑咩晉級＋quarantine/paper-preflight-checklist skill 草稿，未驗；R10 sim 引擎銜接：共用 cost model 嗰陣 slippage 綠燈證明唔到嘢）（對 Founder 有用：P1 第一批紙單策略晉級有硬標準，唔再憑感覺）",
-      "- 2026-09-20 ~17:45 HKT：免費白嫖 R11 落地 3 樣（free-hunt-11.md：免費私人網絡選型——預設 Tailscale Personal（3 users／100 devices，SSO 即登零新帳號，iPhone App 裝完即連，WireGuard 端到端加密；ToS 官方 repo 親驗）＋ZeroTier 後備（2025-09 轉 BSL＋controller 商用限制＋免費層收緊到 10 devices，新發現）＋cloudflared quick tunnel 判唔做穩定方案（無 SLA＋URL 隨機＋已知 Passkey 唔 work）；free-tier-map-data.md §4 候選三格已填表未開用）（對 Founder 有用：而家 GCP 部機 IP 會變＋要親手 Termius 開隧道先入到 IBKR Gateway；入網之後係固定私人 hostname，iPhone 一㩒即連，唔使再抄 IP／唔使開公網 port——下一步等佢得閒親手喺 iPhone 裝個 App 就得）",
       "- 2026-09-20 ~17:50 HKT：SAi架構 R14 落地 2 樣（sai-arch-hunt-14.md：斷點續跑／durable execution 設計對照——Temporal／DBOS／Restate／Inngest 四引擎全部 PASS 純研究；結論：唔係裝引擎，係四條紀律：先入庫後推進／step 幂等鍵／調度唔掂外部鐘／blocked 係休眠；quarantine/durable-execution skill 草稿，未驗）（對 Founder 有用：以後長任務斷咗由最後一步接住，唔使由頭燒錢重嚟——夜班 pipeline、browser 任務、subagent 全部啱用）",
-      "- 瀏覽器多隻手並行規矩落地（命名會話隔離＋資源天花板）：以後 Cloud Hands 幾隻手同時做嘢，唔會踩到人哋個登入態，部機亦唔會畀開爆 OOM——配額卡＋收工三連＋資源溫度計三個諗法跟住。"
+      "- 瀏覽器多隻手並行規矩落地（命名會話隔離＋資源天花板）：以後 Cloud Hands 幾隻手同時做嘢，唔會踩到人哋個登入態，部機亦唔會畀開爆 OOM——配額卡＋收工三連＋資源溫度計三個諗法跟住。",
+      "- 2026-09-20 ~18:12 HKT：系統運維 R16 落地 2 樣（ops-hunt-16.md：守夜人頭 5 分鐘驗屍劇本——全部隻讀、唔 reboot 唔 restart 先收證據束、exit code 配 message 先判死因（203/EXEC 雙成因實證）；quarantine/daemon-triage-runbook skill 草稿未驗）。對 Founder 有用：以後 daemon 半夜出事，唔使靠估「順手 restart」——跟劇本 5 分鐘知死因，證據留低，下次唔使交多次學費。",
+      "- 2026-09-20 ~18:25 HKT：成本監察 R17 落地：sam-sai 燒錢速度實算（cost-hunt-17.md）——e2-medium 香港區 US$0.0774/hr＋Windows 牌費 US$33.58/月＋100GB 碟，24/7 計約 US$95–102/月（US$3.2–3.4/日）；US$300 試用 credit 90 日硬到期 2026-12-18，按而家咁跑基本燒光喺呢部機；三個慳錢位（唔用就 Stop 慳一半／SUD 自動／到期前決定升級）。對 Founder 有用：「記得 Stop」終於有數字——唔 Stop 每日燒 US$3.2，Stop 到每日 8 粒鐘變 US$42/月；牌費雙口徑差一倍＋碟類型未定論交追蹤表跟。"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
