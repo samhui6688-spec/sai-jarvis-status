@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-20 21:00 HKT",
+  "generated_at_hkt": "2026-09-20 21:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -110,17 +110,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 317,
+    "今日筆記數": 320,
     "最新": [
-      "sai-arch-hunt-17.md",
-      "wechat-stt-hunt.md",
-      "q72-quant14-routes-proposal.md"
+      "q73-cost19-idle-proposal.md",
+      "unresolved-tracking-v1.md",
+      "q74-browser19-watch-proposal.md"
     ],
     "最近落地": [
-      "- 2026-09-20 ~20:30 HKT：運維 R18 落地 2 樣（ops-hunt-18.md：隧道健康三層監察配方——本地 /ready＋外部 Better Stack＋dashboard 通知；誠實收結 R3 遺留「Uptime Kuma 三件套」承諾：同機自架睇唔到成機死，唔機械執行舊計劃。quick tunnel 斷線／重開 URL 變嘅盲點終於有配方，未郁生產）",
-      "- 2026-09-20 ~20:20 HKT：成本監察 R19 落地 3 樣（cost-hunt-19.md：空轉排程審計——inbox-poll 連續 12 輪零摘要、jarvis-snapshot 連續 8 輪零摘要，兩個加一句摘要就修到；shadow-check 被上游拖累 failed 係連鎖成本；新 quarantine skill `schedule-idle-audit`）",
       "- 2026-09-20 ~20:40 HKT：量化 R14 落地 3 樣（quant-hunt-14.md：Tradeify 半自動路線前置核實——自動化官方允許（sole ownership／禁 HFT）；個人 API 直打被 R9 硬閘殺死，剩授權 vendor（TradersPost，官方相容名單，唔使 $25/月 API add-on）／NT8 兩條路；bot 硬約束：>50% 單持倉 >10 秒＋4:59 PM ET 前手動平倉；TradersPost 免費層夠做第一次 sim 驗證；isAutomated:true 第二獨立來源確認；vendor 延遲 100–500ms＋新聞滑價 1–4 ticks 要 sim 先驗。對 Founder 有用：Tradeify Select 50K semi-auto 路線終於有「行得通嘅路」清單，唔再估。）",
-      "- 2026-09-20 ~20:50 HKT：免費白嫖 R14 落地 3 樣（free-hunt-14.md：免費 DNS 託管選型——Cloudflare 免費 plan 首選（DNS 免費＋DNSSEC＋完整 API）＋deSEC 後備（100% 免費＋自動 DNSSEC＋REST API；TTL 最低 1 小時＋每日 300 RRset 改動限額）；HE 判唔選（免費 20 年但無官方 API＋無 DNSSEC，自動化死角）；free-tier-map 加 §7。對 Founder 有用：第一個域名買落嚟嗰刻即刻有答案，status dashboard 自訂域名／公開 endpoint 唔使臨時查；選型定死＋保鮮期 2026-10-20，開用嗰日重驗一次條款。）"
+      "- 2026-09-20 ~20:50 HKT：免費白嫖 R14 落地 3 樣（free-hunt-14.md：免費 DNS 託管選型——Cloudflare 免費 plan 首選（DNS 免費＋DNSSEC＋完整 API）＋deSEC 後備（100% 免費＋自動 DNSSEC＋REST API；TTL 最低 1 小時＋每日 300 RRset 改動限額）；HE 判唔選（免費 20 年但無官方 API＋無 DNSSEC，自動化死角）；free-tier-map 加 §7。對 Founder 有用：第一個域名買落嚟嗰刻即刻有答案，status dashboard 自訂域名／公開 endpoint 唔使臨時查；選型定死＋保鮮期 2026-10-20，開用嗰日重驗一次條款。）",
+      "- 2026-09-20 ~21:00 HKT：SAi架構 R17 落地 2 樣（sai-arch-hunt-17.md：Agent Skills 開放標準——Anthropic 2025-12-18 發布、Agentic AI Foundation 治理、~40 工具支援；規格=SKILL.md（YAML 6 格）＋三層漸進載入；description 係唯一觸發器；三個獨立 repo 欄位約束一致。缺口：我哋 quarantine skill 格式混合（20/88 有合法 frontmatter，68 個要補；初稿誤寫「全部零」，已更正）；新草稿 `agentskills-conformance`（未驗）。對 Founder 有用：skill 寫一次，第日 Codex／Cursor／Copilot 都用得，唔使重寫。）",
+      "- 2026-09-20 ~21:15 HKT：瀏覽器 R19 落地 3 樣（browser-hunt-19.md：公開頁變更監察選型——dgtlmoon/changedetection.io（只認官方，Apache-2.0，~34k stars；三個 stale forks 唔用）；urlwatch 無 UI＋無 JS 渲染唔啱，Huginn 殺雞用牛刀；Vetting 紅線：AI 摘要功能唔開（內容會傳去第三方）、stealth 插件唔裝、只監公開頁；部署上 Hetzner（US$0 增量）等 parent 批；首批 watch：Tradeify 規則頁／TradersPost 相容名單／IBKR 狀態頁／HSI 諮詢頁／自身 release。對 Founder 有用：「平台條款半年大變」唔再靠人手重開頁，T70 嗰類未定論到期自動捉。）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
