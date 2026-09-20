@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-21 05:00 HKT",
+  "generated_at_hkt": "2026-09-21 05:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -135,11 +135,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 52,
+    "今日筆記數": 53,
     "最新": [
+      "q107-conn-exhaustion-triage-proposal.md",
       "free-hunt-22.md",
-      "free-hunt-20.md",
-      "free-hunt-18.md"
+      "free-hunt-20.md"
     ],
     "最近落地": [
       "- 2026-09-21 ~04:55 HKT：系統運維 R26 落地 3 樣（ops-hunt-26.md：API 唔通唔一定係網絡斷——連接資源牆三兄弟：conntrack 表滿／fd 耗盡／TIME_WAIT 堆積；三者症狀極似但修法唔同，唔分診就亂醫；分診表＋三個隻讀睇位＋sizing 公式＋75% 告警線＋LimitNOFILE drop-in 一定要 daemon-reload；新 quarantine skill conn-exhaustion-watch 未驗）。對 Founder 有用：之後有排程話「API 間歇唔通」唔使再當網絡抖動放過——三分鐘行完分診表就知係邊種牆，對症先至郁手，唔再錯方向調大個 fd 上限；調參數嗰啲全部標明要正式任務＋你批先郁，安全線冇郁過。",
