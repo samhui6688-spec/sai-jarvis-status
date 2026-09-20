@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-21 00:00 HKT",
+  "generated_at_hkt": "2026-09-21 00:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -130,13 +130,15 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 0,
-    "最新": [],
+    "今日筆記數": 1,
+    "最新": [
+      "quant-hunt-17.md"
+    ],
     "最近落地": [
-      "- 2026-09-20 ~23:35 HKT：SAi 架構 R19 落地 3 樣（sai-arch-hunt-19.md：長任務記憶體管理——LangChain「大結果寫檔＋摘要雙軌＋驗 goal drift」＋Anthropic「subagent 產出寫檔、唔玩傳話遊戲」；新 quarantine skill `compaction-goal-drift-check` 同 `subagent-output-discipline`，兩個都未驗）。對 Founder 有用：compaction 接棒嗰陣「信佢記得」變成「驗佢記得」——三格驗收堵住最陰險嘅目標漂移；派 subagent 改做「寫檔＋只返路徑」，又慳 token 又唔怕轉述走樣，Kernel 連續性終於有驗收位。",
       "- 反偵測瀏覽器會話 skill 草稿（browser-stealth-session，未驗）：Cloud Hands 實跑撞 Cloudflare／Datadome 被擋嗰陣用 Patchright 開 stealth 會話——補之前 20 輪 browser skills「入唔到站」嘅缺口；WebMCP 路線情報已沉澱（網站將來直接開工具畀 agent，唔使再貴價 scrape DOM）",
       "- 2026-09-20 ~23:48 HKT：系統運維 R21 落地 3 樣（ops-hunt-21.md：daemon 重啟循環防禦——watchdog 捉卡死、OOM 防禦捉爆記憶體，今輪捉第三種靜默死法「間歇崩潰→永遠重啟」；原廠 10s/5 burst 預算只防急性崩潰，配方：StartLimitIntervalSec=3600＋Burst=60 認輸上限、OnFailure 掛告警、RestartSteps backoff；大陷阱：StartLimit* 寫錯位去 [Service] 會被靜默忽略，連 systemd-analyze verify 都唔警告，親手證實；新 quarantine skill `systemd-restart-loop-guard`（未驗）；Q4 lesson 候選一句交 parent 批。對 Founder 有用：24/7 daemon 終於有「認輸」機制——配置錯誤令 daemon 一起就死嗰陣唔再無限重試洗版，而係一小時認輸進入 failed＋出聲；同 R11／R12 係一套完整加固三部曲。）",
-      "- 2026-09-20 ~23:55 HKT：成本監察 R22 落地 3 樣（cost-hunt-22.md：「慳錢唔等於慳」——幾時值得主動俾錢決策表；核心：今日 206 條任務全 US$0，但免費鏈真・代價係每日 50 request 上限＋429 都計 quota，US$10 一次買斷（永久升 1,000 req/day，五源一致 B級）係全套 24/7 系統最平嘅錢；反向安全審查唔准降級；新 quarantine skill `paid-decision-table`（未驗）；Q4 lesson 候選一句交 parent 批；未定論：而家把 key 終身買過幾多要親手查／key，保鮮期 2026-10-20。對 Founder 有用：之後撞免費牆嗰陣唔使靠估，決策表機械行——唔會死 retry 燒 quota，亦唔會為繞牆開假帳號踩紅線。）"
+      "- 2026-09-20 ~23:55 HKT：成本監察 R22 落地 3 樣（cost-hunt-22.md：「慳錢唔等於慳」——幾時值得主動俾錢決策表；核心：今日 206 條任務全 US$0，但免費鏈真・代價係每日 50 request 上限＋429 都計 quota，US$10 一次買斷（永久升 1,000 req/day，五源一致 B級）係全套 24/7 系統最平嘅錢；反向安全審查唔准降級；新 quarantine skill `paid-decision-table`（未驗）；Q4 lesson 候選一句交 parent 批；未定論：而家把 key 終身買過幾多要親手查／key，保鮮期 2026-10-20。對 Founder 有用：之後撞免費牆嗰陣唔使靠估，決策表機械行——唔會死 retry 燒 quota，亦唔會為繞牆開假帳號踩紅線。）",
+      "- 2026-09-21 ~00:15 HKT：量化交易 R17 落地 3 樣（quant-hunt-17.md：三層風控閘配方——L1 開單前硬閘、L2 斷路器、L3 冷卻鎖定；關鍵一分「鎖新單≠自動平倉」，kill switch 觸發後平倉走獨立慢路徑唔搶平倉；內部斷路器設 $1,200 留喺 Tradeify $2,000 死亡線之前；新 quarantine skill `risk-kill-switch`（未驗）；追蹤表 U113：Tradeify MLL 精確計法未親驗。對 Founder 有用：paper 期開工前風控閘終於有設計輸入——之前 paper_preflight 六格「風控閘 0 次」係空，而家三層閘＋三條鐵律可以直接落 paper 期驗收，唔使再靠估點停手。）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
