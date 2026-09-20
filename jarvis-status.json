@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-20 17:30 HKT",
+  "generated_at_hkt": "2026-09-20 17:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -110,11 +110,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 278,
+    "今日筆記數": 279,
     "最新": [
+      "q55-race-lesson-proposal.md",
       "q54-tracking-add.md",
-      "quant-hunt-11.md",
-      "unresolved-tracking-v1.md"
+      "quant-hunt-11.md"
     ],
     "最近落地": [
       "- 2026-09-20 ~17:10 HKT：瀏覽器自動化 R14 落地 3 樣（browser-hunt-14.md：長會話韌性筆記＋quarantine/browser-resilience 韌性 SOP＋quarantine/browser-request-throttle 攔截加速配方——browser agent 長跑跌咗識自己起返身，唔使成個任務重嚟，眼手線 24/7 地基）",
