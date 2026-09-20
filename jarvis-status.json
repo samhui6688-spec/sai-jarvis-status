@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-20 16:30 HKT",
+  "generated_at_hkt": "2026-09-20 16:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -110,17 +110,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 264,
+    "今日筆記數": 267,
     "最新": [
-      "cost-hunt-15.md",
-      "q47-tracking-add.md",
-      "unresolved-tracking-v1.md"
+      "free-hunt-10.md",
+      "quant-hunt-10.md",
+      "q48-tracking-add.md"
     ],
     "最近落地": [
-      "- free-hunt-9 落地：免費 secret 洩漏掃描工具選型（R8 係管理／儲存，今輪係掃描／偵測）。5 候選一線來源親讀：預設推薦 Betterleaks（MIT、gitleaks 原作者另起接班人、drop-in 兼容 gitleaks config；CredData 自報 98.6% 未獨立驗證→標試點先行）＋GitHub push protection（public repo 免費）做第二層；secretlint 落地做輔助線（pre-commit＋CI，輸出預設遮罩對 AI agent 友好）；detect-secrets 不落地（2024-05 後停更＋baseline 維護成本）；TruffleHog 不作預設（AGPL-3.0 強 copyleft 包袱＋verification 會將候選值送出去做真登入）；Gitleaks 維持現狀唔即搬。quarantine 技能草稿 `pre-push-secret-gate`（三層門：本地 pre-commit→CI 全歷史→push protection；未驗）。對 Founder 有用：secret leakage 係永不延期紅線，pin 發布 pipeline 嘅「掃 secrets」步驟終於有指定工具＋三層門 pattern，唔再靠人手 grep 撞運氣。（2026-09-20 ~15:50 HKT）",
-      "- browser-hunt-13 落地：agent 實跑嘅「黑盒」——Playwright Trace 失敗先留（零成本回放）＋動作工件格式（每步截圖／DOM 留證據），跌嗰陣唔使靠重跑估邊步出事；眼手線上線前驗收地基。",
       "- 磁碟爆滿防禦配方落地（journald 上限 drop-in＋logrotate 小時制＋df 80/90% 預警＋三岔診斷樹）：daemon 靜默死亡四大原因（卡死／爆 RAM／爆磁碟／備份還原唔到）今輪補齊第三樣，爆碟唔再係「寫唔到都冇人知」。",
-      "- cost-hunt-15 落地：成本賬本機械守衛——T 號撞車唔再靠人手 grep 捉，`cost-log-check.py` 跑一次即知（今日已用佢修好 T146/T155 兩單真・重複）"
+      "- cost-hunt-15 落地：成本賬本機械守衛——T 號撞車唔再靠人手 grep 捉，`cost-log-check.py` 跑一次即知（今日已用佢修好 T146/T155 兩單真・重複）",
+      "- 2026-09-20 ~16:35 HKT：量化地基 R10 落地 2 樣（quant-hunt-10.md：Tradovate demo 成交模型真相，P1 paper 閉環前置；paper-exec-ledger quarantine skill 未驗：記賬格式 signal→order→fill→cost→slippage→歸因，fill 實體冇佣金欄要自己計）。US$0。",
+      "- free-hunt-10 落地：公開狀態儀表板免費靜態託管選型——賈維斯「眼」已接通但手機開只見 raw JSON，呢輪揀咗免費託管：預設 GitHub Pages（零新帳號、public repo 現成、超額 soft limit 禮貌 email 唔斷站；官方親驗）＋Cloudflare Pages 後備；Vercel Hobby 出局（非商用 only 踩公司紅線）、Netlify 不落地（hard cap 超即停站）。關鍵架構約束：每 15 分鐘推一次會爆任何免費層 build 額度→dashboard 殼一次 build＋client-side 每分鐘 fetch JSON。對 Founder 有用：下一步起個單頁儀表板，一開手機即見 SAi 綠燈／紅燈，眼先算真・接通。（2026-09-20 ~16:42 HKT）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
