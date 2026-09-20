@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-20 12:30 HKT",
+  "generated_at_hkt": "2026-09-20 12:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -105,17 +105,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 225,
+    "今日筆記數": 228,
     "最新": [
-      "jarvis-voice-pipeline.md",
-      "q21-agents-lessons-proposal.md",
-      "anti-pattern-registry-v1.md"
+      "unresolved-tracking-v1.md",
+      "cost-hunt-12.md",
+      "q23-agents-lesson-proposal.md"
     ],
     "最近落地": [
-      "- 跨線需求落地：Jarvis 廣東話連續對話 pipeline 方案（jarvis-voice-pipeline.md）——11:38 解決咗把聲，今輪補「點樣似真人」：Silero VAD 打斷即停在途 stream、輪次判斷唔靠靜音秒數、streaming TTS 首 chunk 即播；Pipecat／LiveKit 係參考架構，廣東話 STT 準確度標未定論待實測。Phase 2 開工有圖抄。（2026-09-20 ~11:50 HKT）",
-      "- 行業動態落地：AI coding agent 版圖 2026-09（coding-agent-landscape-2026-09.md）——Codex 退出後確認我哋條路冇行錯：OpenHands headless CI 就係「自主跑→開 PR→獨立審」結構；MSR 2026 數據（AI fix 46% 被 reject）係 Builder≠Reviewer 鐵律嘅外部證據；唔追 DeepSeek Harness（developer preview）。（2026-09-20 ~11:50 HKT）",
       "- 跨線需求落地：Jarvis 語音線授權核實（jarvis-voice-license-verify.md＋反例倉 #15）——閂 11:50 軌D defer 嗰格：Pipecat（BSD-2）＋LiveKit Agents（Apache-2.0）商用無礙；SenseVoice-Small 係紙上最強開源廣東話 STT（獨立評測第一 ~9.2% CER，Pipecat PR #4844 有現成 FunASR 接法），但權重唔係傳聞嘅 Apache 2.0 而係官方自訂 FunASR 協議 v1.1（商用得、有署名要求）——Jarvis v2（Founder 12:08 拍板語音優先）採用前唔會中授權陷阱；剩低兩個具名未定論（Founder 真聲實測／PR merge 狀態採用前 pip 驗）。（2026-09-20 ~12:12 HKT）",
-      "- 歌曲第三輪：免費粵語歌聲邊條路真係行得通——ACE-Step 粵語參數 `--language yue`（唔用會唱出國語腔，待實機驗）＋現成 DiffSinger 粵語 voicebank（Azairo 程藍天，demo 先用得）＋反例倉 #16（第三方參數聲稱唔等於官方保證）。做歌線人聲缺口收窄咗。"
+      "- 歌曲第三輪：免費粵語歌聲邊條路真係行得通——ACE-Step 粵語參數 `--language yue`（唔用會唱出國語腔，待實機驗）＋現成 DiffSinger 粵語 voicebank（Azairo 程藍天，demo 先用得）＋反例倉 #16（第三方參數聲稱唔等於官方保證）。做歌線人聲缺口收窄咗。",
+      "- ③系統運維R11落地：daemon 自我保命配方（ops-hunt-11.md＋quarantine 技能草稿 `systemd-watchdog-selfcheck` 未驗）——針對 `Type=simple` 睇唔到卡死無聲呢種死法：`Type=notify`＋`WatchdogSec`，daemon 每半個週期送 `WATCHDOG=1`，斷咗 systemd 自動 kill＋重起；Python 唔使裝新依賴（stdlib socket 寫 NOTIFY_SOCKET）；死咗之後四步撈證據（_SYSTEMD_INVOCATION_ID＋exit code 速查）；官方 man page 親驗，NotifyAccess race 陷阱都捉埋。sam-hetzner-daemon 下次 unit 改版直接用，撐 Gate 6 身體可靠性。（2026-09-20 ~12:35 HKT）",
+      "- ④成本監察R12落地：OpenRouter 免費模型鏈 rate-limit 結構核實（cost-hunt-12.md＋free-tier-map-data.md v2 §3，B級）——限 request 唔係 token（未買$10：50/日；買過$10：1,000/日永久；兩者 20/分鐘；UTC 00:00 reset），失敗 429 都計 quota、負結餘連免費都 402 兩個陷阱；接駁 quota-burnrate-watch 三級制第四數據源「日請求計數」。（2026-09-20 ~12:45 HKT）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
