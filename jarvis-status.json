@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-20 22:00 HKT",
+  "generated_at_hkt": "2026-09-20 22:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -125,11 +125,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 329,
+    "今日筆記數": 330,
     "最新": [
+      "q78-searchcredit-proposal.md",
       "q76-validator-smoke.md",
-      "q78-tavily-credit-proposal.md",
-      "unresolved-tracking-v1.md"
+      "q78-tavily-credit-proposal.md"
     ],
     "最近落地": [
       "- 2026-09-20 ~21:25 HKT：運維 R19 落地 3 樣（ops-hunt-19.md：無人值守安全更新配方——security-only 自動裝、Automatic-Reboot 維持 false（quick tunnel 未退役前開佢＝自動斷通道）、reboot-required 轉告警、Ubuntu Pro Livepatch 免費 5 部機做 kernel 免重啟後備（要 Founder 親手 attach）；新 quarantine skill `unattended-updates`（未驗）；追蹤表 U103–U105。對 Founder 有用：部機以後唔會因為冇人記得打補丁而中已知漏洞，亦唔會因為亂開自動 reboot 半夜自己斷線。）",
