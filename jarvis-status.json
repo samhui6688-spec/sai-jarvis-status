@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-20 22:30 HKT",
+  "generated_at_hkt": "2026-09-20 22:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -125,17 +125,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 333,
+    "今日筆記數": 335,
     "最新": [
-      "browser-hunt-20.md",
-      "q79-reboot-channel-proposal.md",
-      "q78-searchcredit-proposal.md"
+      "時間紀律-hunt-1.md",
+      "self-coding-gap-2026-09-20.md",
+      "browser-hunt-20.md"
     ],
     "最近落地": [
-      "- 2026-09-20 ~21:55 HKT：量化 R15 落地 3 樣（quant-hunt-15.md：TradersPost 官方延遲分解——TP 可控段只 300–500ms，大頭係 TradingView 訊號段 800ms–1.5s，總數 1.1–2 秒；vendor 路線實戰四陷阱 checklist；追蹤表 U98 升級＋U107 新增；Q4 lesson 候選 q77 交 parent 批。對 Founder 有用：vendor 路線嘅延遲疑慮官方數據解咗一半——Tradeify 10 秒規則下延遲唔係瓶頸，資源集中去 sim 驗新聞滑價同 bracket 配置。）",
       "- 2026-09-20 ~22:10 HKT：免費白嫖 R15 落地 3 樣（free-hunt-15.md：免費搜尋 API 層選型——Tavily 首選（1,000 credits／月免費、唔使綁卡、每月 1 號 reset）；Brave 後備（要綁卡，等 Founder 批）；Google CSE 因 2027-01 退役出局；新 quarantine skill `tavily-search`（未驗，未開戶）；追蹤表 U108／U109。對 Founder 有用：radar 同 research 工人以後深挖官方文件／定價頁有平價搜尋腿，唔使人手開 browser 逐頁撳；credit 紀律寫死——高頻巡邏唔准直掛，深挖先用，一個月額唔會一日燒晒。）",
       "- 2026-09-20 ~22:18 HKT：SAi 架構 R18 落地 2 樣（sai-arch-hunt-18.md：開源 OpenClaw「個人 24/7 AI」前門答案——Gateway＋Channels 架構同我哋方向一致；前門三件套：adapter 標準形狀／配對准入／陌生人訊息預設只讀唔執行；新 quarantine skill `channel-front-door`（未驗）。對 Founder 有用：Phase 2「你→SAi」神經線唔使由零諗前門安全——出面已經有實證答案同踩過嘅坑（陌生人 message／惡意 skill 真實案例），照抄慳返設計時間。）",
-      "- 2026-09-20 ~22:28 HKT：瀏覽器自動化 R20 落地 3 樣（browser-hunt-20.md：智能等待——等狀態唔等秒數；每個動作前過四格檢查：見唔見到／定唔定／撳唔撳得／前面有冇嘢擋；新 quarantine skill `browser-smart-wait`（未驗）；Q4 lesson 候選一句交 parent 批。對 Founder 有用：補返 R7「判死固定 sleep」之後冇畀替代方案嗰個窿——browser agent 實跑最常見死法係「未準備好就郁手」，呢份規矩直餵 Cloud Hands 眼手線 Phase 2，減少 flake 重跑燒嘅時間同 token。）"
+      "- 2026-09-20 ~22:28 HKT：瀏覽器自動化 R20 落地 3 樣（browser-hunt-20.md：智能等待——等狀態唔等秒數；每個動作前過四格檢查：見唔見到／定唔定／撳唔撳得／前面有冇嘢擋；新 quarantine skill `browser-smart-wait`（未驗）；Q4 lesson 候選一句交 parent 批。對 Founder 有用：補返 R7「判死固定 sleep」之後冇畀替代方案嗰個窿——browser agent 實跑最常見死法係「未準備好就郁手」，呢份規矩直餵 Cloud Hands 眼手線 Phase 2，減少 flake 重跑燒嘅時間同 token。）",
+      "- 2026-09-20 ~22:55 HKT：時間紀律 hunt 落地 1 樣（時間紀律-hunt-1.md：chrony 監察＋加固＋避坑五候選；新 quarantine skill `chrony-monitor`（未驗）。對 Founder 有用：心跳新鮮度誤判同時間漂係無人值守 server 嘅隱形炸彈——呢輪畀咗告警門限（offset＞0.5s）、chrony.conf 起手值、monotonic vs wall-clock 避坑，直餵日後 server 監察同心跳設計。）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
