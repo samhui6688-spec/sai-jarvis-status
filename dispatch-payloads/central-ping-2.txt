@@ -1,0 +1,4 @@
+SAi central dispatch ping #2
+2026-09-20
+ping-1 證明咗成條鏈識郁（重試3次+結果回傳都啱）；
+ping-2 係公開檔，要 TASK_DONE 先算真・通。
