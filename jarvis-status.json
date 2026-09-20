@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-21 01:45 HKT",
+  "generated_at_hkt": "2026-09-21 02:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -130,17 +130,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 14,
+    "今日筆記數": 17,
     "最新": [
-      "browser-hunt-23.md",
-      "free-hunt-18.md",
-      "sai-arch-hunt-21.md"
+      "q94-multiinstance-coord-proposal.md",
+      "ops-hunt-23.md",
+      "q95-slippage-capture-design.md"
     ],
     "最近落地": [
-      "- 2026-09-21 ~01:20 HKT：量化交易 R18 落地 2 樣（quant-hunt-18.md：Tradovate demo 限額下嘅重試退避設計——最大增量係「查詢可以重試、落單傳送最多一次」：官方範例只教等 p-time 帶 ticket 重試，冇講落單唔准重試；獨立第三方 Rust 客戶端（MIT-0，3 日前更新）補咗呢個窿：落單模稜兩可→裝對賬閂，先 GET order/position list 對返權威狀態，唔自動搶跑；p-captcha=true＝停手等人手；真 429＝全局停一小時；patch 入 tradovate-paper-exec skill（未驗維持未驗）＋三個 Tradeify 適配位（>10 秒規則對賬唔豁免／接近收市唔追單／同 R17 kill-switch 斷路器同一家族）。對 Founder 有用：paper 期第一個真・罰單嚟嗰陣，唔會因為「自動重試」整出幽靈重複倉撞 Tradeify 規則——之前 AGENTS.md 嗰句 lesson 冇分查詢同落單，照跟會出事。）",
       "- 2026-09-21 ~01:35 HKT：免費白嫖 R18 落地 3 樣（free-hunt-18.md：免費邊緣函數選型——message-bus 缺咗嘅「公共推入入口」格終於有答案：首選 Cloudflare Workers（100k req／日、超額直接停唔收錢＝fail closed、同 R2／DNS 同一個帳戶、教科書用途就係 webhook＋簽名上傳發放——啱啱接住 R17 嘅 R2 物件儲存）／備選 Deno Deploy（1M req／月、50ms CPU 係 Workers 5 倍、仲有 Deno.cron 排程——Workers 免費冇 cron；真實生產案例 2026-07 在場；順手糾正咗網上流傳嘅過時數字）／Vercel 判唔選（Hobby 禁商用，SAM 係公司唔係個人 side project——free-hunt-4 判例「禁商用即出局」）／Netlify 記錄（轉咗 credit 制，細節未驗）。追蹤表加 U118／U119（開戶前親驗商用口徑＋超額行為，開戶要 Sam Hui 親手做）。對 Founder 有用：之後第一個「由外面掟事件入 bus」嘅需求（手機掟任務、第三方 webhook、Phase 2 傳送層公共入口）嚟嗰陣，唔使開 VM 防火牆、唔使即場急救查——答案已經定死，開戶嗰日即用；而且 R2 大檔上傳嘅簽名發放點同一個答案搞掂。）",
       "- 2026-09-21 ~01:45 HKT：SAi 架構 R21 落地 2 樣（sai-arch-hunt-21.md：開源多 Agent 框架協作模式對照——LangGraph supervisor＋獨立 reviewer／CrewAI sequential vs hierarchical／AutoGen max_round 硬上限／競爭辯論 ＋11% 二手實證；結論：出面 2026 主流調度同我哋 dispatcher＋Builder≠Reviewer＋競爭三派係同一套，驗證冇行錯；三個框架唔搬，借模式唔借實現；新 quarantine skill `multi-agent-topology-pick`（未驗）。對 Founder 有用：之後派多隻手做嘢嗰陣唔再靠估點配合——brief 開頭寫明用邊種拓撲，討論式任務有硬回合上限唔會傾到天荒地老；重要難題用競爭三派由「經驗談」升級做「有 paper 背書」，唔係儀式。）",
-      "- 2026-09-21 ~01:50 HKT：瀏覽器自動化 R23 落地 2 樣（browser-hunt-23.md：實跑兩條護欄——時間邊界＋資源邊界：最大增量係 Playwright 預設 action 同 navigation timeout 都係「無限等」（官方文件親讀）——今朝 pipeline-dispatcher hang 14 分鐘就係冇呢層嘅 live 症狀；起手值：單動作 10 秒／導航 30 秒／開 task 即刻 context 設 default／任務總上限寫死，失敗要變返俾模型知嘅錯誤字串唔係掟死成個 run；記憶體預算公式：500MB＋N×200MB（每 tab 50–300MB，關 tab 後 10–30 秒先真正回收，唔好「關咗即刻有位」咁估）。新 quarantine skill `browser-run-budget`（未驗，等眼手線第一個真實 browser task 實跑）。對 Founder 有用：Cloud Hands 實瀏覽器任務開工之前，brief 開頭三行就寫死預算——唔會有 browser task hang 到天荒地老，或者幾個 parallel session 一齊開食晒部機記憶體。）"
+      "- 2026-09-21 ~01:50 HKT：瀏覽器自動化 R23 落地 2 樣（browser-hunt-23.md：實跑兩條護欄——時間邊界＋資源邊界：最大增量係 Playwright 預設 action 同 navigation timeout 都係「無限等」（官方文件親讀）——今朝 pipeline-dispatcher hang 14 分鐘就係冇呢層嘅 live 症狀；起手值：單動作 10 秒／導航 30 秒／開 task 即刻 context 設 default／任務總上限寫死，失敗要變返俾模型知嘅錯誤字串唔係掟死成個 run；記憶體預算公式：500MB＋N×200MB（每 tab 50–300MB，關 tab 後 10–30 秒先真正回收，唔好「關咗即刻有位」咁估）。新 quarantine skill `browser-run-budget`（未驗，等眼手線第一個真實 browser task 實跑）。對 Founder 有用：Cloud Hands 實瀏覽器任務開工之前，brief 開頭三行就寫死預算——唔會有 browser task hang 到天荒地老，或者幾個 parallel session 一齊開食晒部機記憶體。）",
+      "- 2026-09-21 ~01:55 HKT：系統運維 R23 落地 2 樣（ops-hunt-23.md：憑證／證書／token 過期監察——TLS 證書 openssl 一行即查（系統自帶，唔裝嘢）；門限起手值：全自動續期 14 日／人手續 30 日（跟實測 Kuma 數字）；域名 WHOIS 每月人手查，自動解析留待有多個域名先值得（格式因 TLD 而異）；API key 到期登記冊——只記用途／到期日／owner／告警門限四格，唔記值本身（值留喺 Secure Vault，登記冊洩漏都冇用；到期嗰日唔自動刪，等人手確認換咗新 key）。新 quarantine skill `expiry-watch`（未驗）。對 Founder 有用：IBKR 通道／quick tunnel／Gemini key 呢啲「有一日靜靜哋斷」嘅嘢，終於有套「到期前先出聲」嘅配方，唔再靠壞咗先知；續期本身一律人手（掂 credential＋掂錢，紅線唔自動）。）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
