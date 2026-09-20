@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-20 18:30 HKT",
+  "generated_at_hkt": "2026-09-20 18:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -110,11 +110,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 290,
+    "今日筆記數": 292,
     "最新": [
-      "q62-tracking-four-steps-proposal.md",
-      "unresolved-tracking-v1.md",
-      "quant-hunt-12.md"
+      "q60-checkpoint-lesson-proposal.md",
+      "browser-hunt-16.md",
+      "q62-tracking-four-steps-proposal.md"
     ],
     "最近落地": [
       "- 瀏覽器多隻手並行規矩落地（命名會話隔離＋資源天花板）：以後 Cloud Hands 幾隻手同時做嘢，唔會踩到人哋個登入態，部機亦唔會畀開爆 OOM——配額卡＋收工三連＋資源溫度計三個諗法跟住。",
