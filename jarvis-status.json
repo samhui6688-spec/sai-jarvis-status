@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-20 15:15 HKT",
+  "generated_at_hkt": "2026-09-20 15:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -105,17 +105,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 252,
+    "今日筆記數": 255,
     "最新": [
-      "sai-arch-hunt-12.md",
-      "cost-hunt-14.md",
-      "q38-agents-lesson-proposal.md"
+      "q42-agents-lesson-proposal.md",
+      "quant-hunt-9.md",
+      "q41-tracking-add.md"
     ],
     "最近落地": [
-      "- sai-arch-hunt-11 落地：記憶生命周期三式——我哋乜都有得「記」冇嘢識「唔記」（daily log 4000+ 行、Founder Stream journal 只增不減）。6 候選 vetting：3 PASS 拆做設計模式（Kafka log-compaction 式 journal retention→Founder Stream B5 設計輸入；Graphiti 時間有效期→distilled memory 加保鮮期欄；Letta「agent 自己執記憶」→Kernel 記憶壓力自動歸檔；全部唔裝產品）＋3 棄用（Hindsight vendor 自吹／Zep CE 2025-04 官方棄用→反例倉 #20／Memary 2024 起 dormant）；quarantine 技能草稿 `memory-lifecycle`（未驗）：寫長期記憶之前先答三問（保鮮期／覆寫 key／過期點處理）。對 Founder 有用：過期結論扮有效係今日捉到嘅坑（Vault OSS、Zep CE）——呢套係系統性防重犯；journal／bus 無限增長有咗第一個正式化退場答案。（2026-09-20 ~14:25 HKT）",
-      "- browser-hunt-12 落地：Shadow DOM 診斷——browser agent「個掣喺畫面度但快照冇佢」嘅第四層死法（元素喺影子樹）。open 根：Playwright CSS selector 預設穿到，唔使特別語法；closed 根：冇 DOM 路，轉座標撳／可存取樹／事前攔截。診斷第一步係驗 `host.shadowRoot` 係咪 null，唔好齋 retry。quarantine 技能草稿 `browser-shadow-dom`（未驗）等第一個真實瀏覽任務校準。對 Founder 有用：賈維斯控制台／Cloud Hands 之後要操作真實網站（付款錶、widget 成日匿喺影子根入面），呢份係「睇唔到嘢」嗰陣嘅分流第一步——慳咗無限 retry 燒嘅 token 同時間。未定論：browser-use 本體點處理影子根（今輪冇命中，唔估）。（2026-09-20 ~14:50 HKT）",
       "- ops-hunt-13 落地：備份嘅另一半——還原演練。R1 答咗「有冇備份到」，今輪補「還原到唔到」：Drill vs Verify 兩層制（verify 每週 metadata 快掃捉腐壞／drill 每月全量還原比對證明還原到）＋比對三級（count+size→SHA-256→抽樣）＋enable gate（未證明還原得，排程唔准開）＋sandbox-first（live 還原先搬開壞數據唔就地覆寫）。5 候選 vetting 全過（backup-kit 全文親讀）；quarantine 技能草稿 `restore-drill`（未驗）＋反例倉 #21「backup job 綠燈＝有備份」（醫療機構一年綠燈備錯庫真實案例）。對 Founder 有用：daemon 嘅 state 而家「有備份冇演練」——72h 無人值守要「部機死咗識還魂」，呢份係還魂 SOP 嘅底座；同 watchdog＋OOM＋改 unit 三步齊成「daemon 保命四件套」。未掂生產備份。（2026-09-20 ~15:05 HKT）",
-      "- cost-hunt-14 落地：歸因三選一決策——R13 推薦 LiteLLM（待批）被複核推翻：OpenRouter 原生已有逐 key spend API（`GET /api/v1/key` 讀 `usage_daily`），「一條線一把 key＋label」零新基建做到歸因；LiteLLM 官方硬性要 Postgres（常駐 proxy＋DB＋master key），以 US$2–3／6h 規模唔值得而家起，defer 觸發寫死（paid 流量 10×／跨供應商）。附帶捉到 cost-hunt-12 真・錯：`is_free_tier` 唔可以判 50／1,000 檔（已更正 free-tier-map §3）。對 Founder 有用：歸因由「待批」變「即刻行」，R11 預警響嗰陣終於知去邊條線收油；慳咗一個唔需要嘅 Postgres＋service 運維坑。（2026-09-20 ~15:10 HKT）"
+      "- cost-hunt-14 落地：歸因三選一決策——R13 推薦 LiteLLM（待批）被複核推翻：OpenRouter 原生已有逐 key spend API（`GET /api/v1/key` 讀 `usage_daily`），「一條線一把 key＋label」零新基建做到歸因；LiteLLM 官方硬性要 Postgres（常駐 proxy＋DB＋master key），以 US$2–3／6h 規模唔值得而家起，defer 觸發寫死（paid 流量 10×／跨供應商）。附帶捉到 cost-hunt-12 真・錯：`is_free_tier` 唔可以判 50／1,000 檔（已更正 free-tier-map §3）。對 Founder 有用：歸因由「待批」變「即刻行」，R11 預警響嗰陣終於知去邊條線收油；慳咗一個唔需要嘅 Postgres＋service 運維坑。（2026-09-20 ~15:10 HKT）",
+      "- sai-arch-hunt-12 落地：撞牆嗰陣點樣有層次地收油——撞牆降級政策嘅設計骨架。4 候選 vetting 全過（Erlang/OTP supervision 官方文檔 A級／Resilience4j circuit breaker 官方文檔／K8s 三探針 skill／systemd 兩層制；全部親手開過一線來源；純設計唔裝嘢）。四個生態口徑一致：做嘢嗰個唔准自己決定收油——降級權喺政策層唔喺排程（正正回應 cost-hunt-12「90% 自動停派」被駁回嘅根因）；未定論跟保鮮期 2026-10-20。quarantine 技能草稿 `degrade-ladder`（降級四層規約：計數→狀態機→三問→兩層停；未驗）＋`three-probes`（健康三問模板：startup／liveness 淨本地／readiness；未驗）。對 Founder 有用：免費鏈／daemon／cron 遲早撞牆，冇設計就寫一定會犯「排程自己收油」呢個憲法紅線——呢份係政策正式寫嗰陣嘅對照底座；附帶諗法 2 個（自主權雙向階梯／每月熔斷 drill 驗「GPT 可以拔走但 SAi 唔可以死」）。Q4 lesson 已批入 AGENTS.md。（2026-09-20 ~15:15 HKT）",
+      "- quant-hunt-9 落地：Tradovate「免費 demo 就有 API」呢個假設唔成立——parent 親驗三個 2026 獨立來源口徑一致：個人免費 demo 開唔到 API，API 係 $25–30/月 add-on，要先有 funded live 賬戶（＋$1000 equity）。附帶核實：API 費只係自己直打先收，經授權 webhook vendor 行零 API 費。`tradovate-paper-exec` skill 已加硬閘（.bak-quant9），P1 三條路攤喺枱面（live 入金＋月費／Tradeify eval 待確認／webhook vendor）。對 Founder 有用：P1 唔會再按「開個免費 demo 就掂」去設計，慳返撞牆嗰一輪；要畀錢嗰條路要佢親自決策。（2026-09-20 ~15:35 HKT）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
