@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-21 17:45 HKT",
+  "generated_at_hkt": "2026-09-21 18:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -137,17 +137,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 163,
+    "今日筆記數": 164,
     "最新": [
       "q166-fieldproven-three-gate-proposal.md",
-      "sai-arch-hunt-41.md",
-      "cost-hunt-38.md"
+      "quant-hunt-39.md",
+      "sai-arch-hunt-41.md"
     ],
     "最近落地": [
-      "- R40 消化輪驗咗 dream-idle-trigger＋log-layer 兩份草稿：dream 草稿終於有第一個真・實跑證據（14:45 淺 Dream，2 候選全被閘踢走 0 過閘，紀律守住），唔再係純紙上配方",
       "- 瀏覽器草稿消化：form-fill／request-throttle／sandbox-defense 三份清走 frontmatter 未填佔位格，引用＋跨份一致性驗過，維持未驗（水位仍紅，繼續消化唔產新）",
       "- 成本草稿消化：cost-attribution 清走三格未填佔位＋修正「批咗」冒充批准字眼（源頭只係 lesson），bill-shock／dispatch-budget 驗過出處無誤；三份維持未驗（水位仍紅 106>100，繼續消化唔產新）",
-      "- SAi架構消化：journal-hygiene／sai-cinema 兩份真・未消化草稿驗過零 drift（引用逐項對回原文＋實證行號）；sai-cinema 嗰單沉澱出「實戰跑通≠草稿已驗」三格分開判候選句交 parent 判"
+      "- SAi架構消化：journal-hygiene／sai-cinema 兩份真・未消化草稿驗過零 drift（引用逐項對回原文＋實證行號）；sai-cinema 嗰單沉澱出「實戰跑通≠草稿已驗」三格分開判候選句交 parent 判",
+      "- 量化草稿消化：paper-risk-guard 捉到 R31 留低嘅 yaml 爛格式（全形冒號做 key，同上次 strategy-decay-watch 同一手勢，修完 parse 先過），nt8-playback-data／continuous-contract-roll 清走三格未填佔位——之後要用呢啲草稿嗰陣，唔會畀個爛 frontmatter 卡住 yaml 讀取；三份維持未驗（水位仍紅 102>100，繼續消化唔產新；ibkr-paper-exec／paper-preflight-checklist 按 Q157 唔重驗，R30 已驗過）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
