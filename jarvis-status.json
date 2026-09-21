@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-21 08:45 HKT",
+  "generated_at_hkt": "2026-09-21 09:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -135,17 +135,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 88,
+    "今日筆記數": 91,
     "最新": [
-      "q121-risk-guardrail-proposal.md",
-      "ops-hunt-30.md",
-      "browser-hunt-30.md"
+      "q122-candidate-poses-approved-proposal.md",
+      "quant-hunt-32.md",
+      "cost-hunt-31.md"
     ],
     "最近落地": [
-      "- 2026-09-21 免費家族草稿三份（傳輸選型／端點探針／免費配音）對齊批咗規則（四格→五格、清走未填字眼），驗證債繼續消化緊",
-      "- 3 份 SAi 架構草稿對齊修正（message-provenance 補 Q101 三層驗出處；kernel-continuity 同 self-improve-loop-design 清走「未填」虛假佔位），skill 庫格式乾乾淨淨，之後入庫唔使返工",
       "- 2026-09-21 3 份瀏覽器草稿消化對齊（task-router 第 6 步同 stealth-session 紅線對齊，唔再「一邊話禁一邊話准」；stealth 雙用途安全重驗 PASS；三份版本數字跟日期），skill 庫逐輪乾淨啲，之後 Cloud Hands 眼手線實跑可以直接用（對 Founder：瀏覽器自動化地基繼續逐輪消化緊，零風險）",
-      "- 2026-09-21 運維草稿 4 份消化對齊（deadman「四格」／alert「唔准接去 Founder」兩個「候選扮已批」字眼修返做未批＋deploy／expiry 兩份零 drift 加註），skill 庫嘅「已批」聲稱逐輪清走，之後跟草稿做唔會誤以為已經批准（對 Founder：告警分級同部署驗收配方繼續沉澱，零風險）"
+      "- 2026-09-21 運維草稿 4 份消化對齊（deadman「四格」／alert「唔准接去 Founder」兩個「候選扮已批」字眼修返做未批＋deploy／expiry 兩份零 drift 加註），skill 庫嘅「已批」聲稱逐輪清走，之後跟草稿做唔會誤以為已經批准（對 Founder：告警分級同部署驗收配方繼續沉澱，零風險）",
+      "- 2026-09-21 成本草稿 3 份消化對齊（fallback-leak-watch「抄 cost-hunt-11 家規」修返做草稿起手值——舊筆記個 🔴 觸發降級早喺 cost-hunt-12 駁回咗，抄都抄錯版本；retry-escalation「硬上限 3 次」加註比已批 Q119「兩次」鬆一格；free-tier-map 清 frontmatter 未填佔位），skill 庫嘅「扮已批」聲稱繼續清走，之後跟草稿做唔會誤以為已經批准（對 Founder：慳錢紀律同免費額度地圖繼續沉澱，零風險）",
+      "- quant 風控家族消化驗證：risk-kill-switch／paper-risk-guard／paper-preflight-checklist 三份對批文零 drift，Q121 親批紅線圍欄合法入庫，三份圍欄＋數字跨份一致（維持未驗）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
