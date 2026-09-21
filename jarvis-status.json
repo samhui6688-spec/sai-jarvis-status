@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-21 13:45 HKT",
+  "generated_at_hkt": "2026-09-21 14:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -137,17 +137,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 143,
+    "今日筆記數": 145,
     "最新": [
-      "sai-arch-hunt-39.md",
-      "q144-no-repeat-dispatch-proposal.md",
-      "free-hunt-38.md"
+      "browser-hunt-39-q146-verify.md",
+      "browser-hunt-40.md",
+      "sai-arch-hunt-39.md"
     ],
     "最近落地": [
-      "- ops-hunt-40 消化輪修咗 3 份系統運維草稿（deploy-verify-checklist 清咗 frontmatter 假值格；systemd-unit-safe-change 對齊註記＋10:47 事故原文對回 ops-hunt-9，否定句「唔係批文」逐字核實非自稱已批；conn-exhaustion-watch Q107 兩層對回 AGENTS.md，本機 nf_conntrack_max＝262144 親手重驗）——之後換 code 部署／改 systemd 單元／查間歇 API 唔通嗰陣，抄到嘅係對得返原文、門限數字有實機對證嘅保命劇本（2026-09-21 ~13:00）",
       "- cost-hunt-36 消化輪修咗 3 份成本監察草稿（quota-burnrate-watch 出處漂浮修復：五格表「批咗規則」出處由 free-hunt-4.md 更正做 ~/workspace/AGENTS.md free-hunt-4 lesson＋誠實註，R35 判例同型；free-tier-map R35 補丁在場對回；model-tier-router R28 降級補丁仍在；hunting-mode v2 兩層制對回 cost-hunt-11.md:19）——之後睇免費額度／派工分級嗰陣，抄到嘅係出處寫啱、撞牆降級未批狀態寫死嘅成本草稿，唔係寫「批咗」但冇源頭嘅嘢；開工嗰陣剛入庫嘅 Q142 引文三層驗 10 分鐘內即刻捉到一處漂浮（2026-09-21 ~13:05）",
       "- eval-progress-tracker 刪 frontmatter 未填三格（Q112），修前先備份 .bak-r37——消化輪紀律逐輪沉澱（⑤量化 R37）",
-      "- free-hunt-38 消化輪修咗 3 份免費資源草稿（free-window-tracker「Q106 批咗規則」補返出處＋新增「實機驗收設計」五項，做成獨立 script 之前有驗收清單跟；free-tier-map ⚠️ note 補返保鮮期 2026-10-20——R35 筆記話落咗但親驗冇，誠實修，唔好下一個信咗假記錄；github-actions-free-tier 零 drift 純讀）——之後數免費額度／做開工前閘嗰陣，抄到嘅係出處寫啱、保鮮期寫死、驗收路徑寫好嘅草稿，唔係過期數當新鮮用；修前 3 份已 .bak-r38 備份（2026-09-21 ~13:25）"
+      "- free-hunt-38 消化輪修咗 3 份免費資源草稿（free-window-tracker「Q106 批咗規則」補返出處＋新增「實機驗收設計」五項，做成獨立 script 之前有驗收清單跟；free-tier-map ⚠️ note 補返保鮮期 2026-10-20——R35 筆記話落咗但親驗冇，誠實修，唔好下一個信咗假記錄；github-actions-free-tier 零 drift 純讀）——之後數免費額度／做開工前閘嗰陣，抄到嘅係出處寫啱、保鮮期寫死、驗收路徑寫好嘅草稿，唔係過期數當新鮮用；修前 3 份已 .bak-r38 備份（2026-09-21 ~13:25）",
+      "- browser-hunt-40 消化輪修咗 3 份瀏覽器草稿（browser-api-seed「10–100 倍」補 zebbern 2026-09-18 外部數字出處＋我哋未實跑註記，刪去全 hunt 目錄零記錄嘅 microsoft best-practices.mdx 漂浮引文；browser-auth-persistence agent-browser 文檔日期補 browser-hunt-5 原文錨點；browser-blackbox 零 drift）——之後起 Cloud Hands 瀏覽器自動化嗰陣，抄到嘅 API 預置＋登入持久化＋黑盒錄影草稿數字有出處、引文對得返原文，唔係數字扮驗過；今輪用咗 Q144 不重派紀律——①SAi架構 R39 已由另一線做完三樣在場，本輪跳過做②，唔重做（2026-09-21 ~13:55）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
