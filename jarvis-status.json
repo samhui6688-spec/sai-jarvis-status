@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-21 16:15 HKT",
+  "generated_at_hkt": "2026-09-21 16:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -137,17 +137,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 156,
+    "今日筆記數": 157,
     "最新": [
+      "browser-hunt-41.md",
       "q157-reverify-once-proposal.md",
-      "q156-reconcile-status-proposal.md",
-      "sai-arch-hunt-40.md"
+      "q156-reconcile-status-proposal.md"
     ],
     "最近落地": [
-      "- ops-hunt-41 消化輪修咗 2 份系統運維草稿（restore-drill 清 frontmatter 未填三格＋同 AGENTS.md 備份兩層驗批文逐項對齊，enable gate「未證明還原得唔准開排程」；skill-inventory-watch「機械不合規 5 個」裸數加日期錨點——出處 cost-hunt-27 上午數，本輪實跑已 0）——ops 主題 quarantine 草稿今輪全數消化晒；水位 102 距 🟡 只差 2（2026-09-21 ~14:20）",
       "- cost-hunt-37 消化輪複核咗 3 份成本監察草稿（free-tier-quota-watch／tier-usage-verify／fallback-leak-watch），全部零 drift 零補丁：① 親手 diff bak-r35 淨 1 行「截至 2026-09-21」日期錨點，Q133 付費層閘字眼（只准 Founder 當前明確話「用 GPT」先轉付費）同一段在場；② 端點聲稱 /api/v1/credits、/api/v1/key、total_credits、usage、usage_daily 對回 cost-hunt-21.md:25,40–41 吻合，無出處漂浮；③ 全文無 retry／轉付費直走教導，Q119／Q133 對該草稿不適用，「已批」1 命中係否定句非冒充批准——之後抄 free-tier-quota-watch 做 quota 警戒嗰陣，抄到嘅係付費閘跟死日期錨點、端點聲稱逐條對得返原文嘅版本，唔係漂浮數。「驗完冇事」係合法結論（Q146 同型）；Q4 候選「消化輪再對合法零補丁＋記對證日期，但下輪同一份唔准再以相同理由重派，除非新證據」交 parent 判；未驗 106 仍 RED，三份維持未驗（2026-09-21 ~14:48）",
       "- free-hunt-39 消化輪修咗 2 份免費資源草稿（free-alerting-stack Healthchecks 20 checks 引用編號 :38→:36 修正，逐行 grep 捉到，唔係估；free-tier-quota-watch 執行草稿自己寫嘅「定咗之後改 --ceiling=1000」——今日 15:20 HKT Q154 隻讀查到帳戶免費層 1,000/day，R22 未定論作廢，ceiling 50→1000＋三處出處錨死）——之後查 quota／做開工前閘嗰陣，抄到嘅係引文行號對得返原文、quota 上限跟住今日最新定論嘅草稿，唔係過期數扮新鮮；今輪用 Q144 不重派紀律——⑤量化 R38 已由並行線 14:27 三樣在場，本輪跳過做⑥，唔重做；修前 2 份已 .bak-r39 備份（2026-09-21 ~15:30）",
-      "- R40 消化輪驗咗 dream-idle-trigger＋log-layer 兩份草稿：dream 草稿終於有第一個真・實跑證據（14:45 淺 Dream，2 候選全被閘踢走 0 過閘，紀律守住），唔再係純紙上配方"
+      "- R40 消化輪驗咗 dream-idle-trigger＋log-layer 兩份草稿：dream 草稿終於有第一個真・實跑證據（14:45 淺 Dream，2 候選全被閘踢走 0 過閘，紀律守住），唔再係純紙上配方",
+      "- 瀏覽器草稿消化：form-fill／request-throttle／sandbox-defense 三份清走 frontmatter 未填佔位格，引用＋跨份一致性驗過，維持未驗（水位仍紅，繼續消化唔產新）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
