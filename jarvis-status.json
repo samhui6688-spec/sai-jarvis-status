@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-21 09:00 HKT",
+  "generated_at_hkt": "2026-09-21 09:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -135,17 +135,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 91,
+    "今日筆記數": 95,
     "最新": [
-      "q122-candidate-poses-approved-proposal.md",
-      "quant-hunt-32.md",
-      "cost-hunt-31.md"
+      "q124-digest-quote-original-proposal.md",
+      "sai-arch-hunt-34.md",
+      "q123-digest-crossfile-consistency-proposal.md"
     ],
     "最近落地": [
-      "- 2026-09-21 3 份瀏覽器草稿消化對齊（task-router 第 6 步同 stealth-session 紅線對齊，唔再「一邊話禁一邊話准」；stealth 雙用途安全重驗 PASS；三份版本數字跟日期），skill 庫逐輪乾淨啲，之後 Cloud Hands 眼手線實跑可以直接用（對 Founder：瀏覽器自動化地基繼續逐輪消化緊，零風險）",
-      "- 2026-09-21 運維草稿 4 份消化對齊（deadman「四格」／alert「唔准接去 Founder」兩個「候選扮已批」字眼修返做未批＋deploy／expiry 兩份零 drift 加註），skill 庫嘅「已批」聲稱逐輪清走，之後跟草稿做唔會誤以為已經批准（對 Founder：告警分級同部署驗收配方繼續沉澱，零風險）",
       "- 2026-09-21 成本草稿 3 份消化對齊（fallback-leak-watch「抄 cost-hunt-11 家規」修返做草稿起手值——舊筆記個 🔴 觸發降級早喺 cost-hunt-12 駁回咗，抄都抄錯版本；retry-escalation「硬上限 3 次」加註比已批 Q119「兩次」鬆一格；free-tier-map 清 frontmatter 未填佔位），skill 庫嘅「扮已批」聲稱繼續清走，之後跟草稿做唔會誤以為已經批准（對 Founder：慳錢紀律同免費額度地圖繼續沉澱，零風險）",
-      "- quant 風控家族消化驗證：risk-kill-switch／paper-risk-guard／paper-preflight-checklist 三份對批文零 drift，Q121 親批紅線圍欄合法入庫，三份圍欄＋數字跨份一致（維持未驗）"
+      "- quant 風控家族消化驗證：risk-kill-switch／paper-risk-guard／paper-preflight-checklist 三份對批文零 drift，Q121 親批紅線圍欄合法入庫，三份圍欄＋數字跨份一致（維持未驗）",
+      "- 2026-09-21 免費資源草稿 2 份消化對齊（free-transport-pick 三家免費額度親手對官方定價頁重驗：QStash 仍係 1,000 msg／日、Upstash Redis 舊數修返做新制 10,000 commands／日、Cloudflare Queues 免費 10K ops／日；free-window-tracker 計數邏輯機械重驗可運作；「free-hunt-4 批咗規則」通過新 Q122 硬句子查出處，冇扮已批），Gate 2 Message Bus 選型嗰日用錯數會選錯路，早修正早避（對 Founder：免費傳輸層選型地基繼續沉澱，零風險）",
+      "- 撞牆降級兩份配方對齊批文：fleet-throttle「判例」查到真出處、degrade-ladder 修咗記錯主語嘅駁回記錄，兩份跨層矛盾加註記（預算層延遲 vs 程序熔斷唔係同一個「停」）——以後引用批文唔靠記憶。"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
