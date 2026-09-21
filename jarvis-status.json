@@ -1,14 +1,14 @@
 {
-  "generated_at_hkt": "2026-09-21 15:00 HKT",
+  "generated_at_hkt": "2026-09-21 15:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
-    "SOURCE_STALE": false,
-    "updated_at_hkt": "2026-09-21 12:20 HKT",
+    "SOURCE_STALE": true,
+    "updated_at_hkt": "2026-09-21 15:08 HKT",
     "位置": "Hetzner 2.29.11.95，sam-hetzner-daemon.service",
     "最新觀察": "2026-09-20 03:58:18Z",
     "本輪結果": "2026-09-21 12:20 HKT 主線未能親驗：去 Hetzner 嘅 SSH 仍被 egress proxy 擋，daemon 今日未驗證；唔估健康狀態",
-    "狀態": "在線",
+    "狀態": "未能驗證（最後觀察 2026-09-20 03:58Z，逾 27 小時前；SSH 仍被擋，今日未親驗）",
     "驗證": "阿占 2026-09-20 12:02 HKT 經公開 raw fresh-read 實測通過"
   },
   "cloud_hands": {
@@ -137,11 +137,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 151,
+    "今日筆記數": 152,
     "最新": [
+      "q153-stale-queue-line-proposal.md",
       "cost-hunt-37.md",
-      "q148-daemon-table-proposal.md",
-      "jev-model-candidate.md"
+      "q148-daemon-table-proposal.md"
     ],
     "最近落地": [
       "- free-hunt-38 消化輪修咗 3 份免費資源草稿（free-window-tracker「Q106 批咗規則」補返出處＋新增「實機驗收設計」五項，做成獨立 script 之前有驗收清單跟；free-tier-map ⚠️ note 補返保鮮期 2026-10-20——R35 筆記話落咗但親驗冇，誠實修，唔好下一個信咗假記錄；github-actions-free-tier 零 drift 純讀）——之後數免費額度／做開工前閘嗰陣，抄到嘅係出處寫啱、保鮮期寫死、驗收路徑寫好嘅草稿，唔係過期數當新鮮用；修前 3 份已 .bak-r38 備份（2026-09-21 ~13:25）",
