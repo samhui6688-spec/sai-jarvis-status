@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-22 06:45 HKT",
+  "generated_at_hkt": "2026-09-22 07:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每 15 分鐘發佈）；Cloud Hands 誠實暫停（沿用上次觀察）；Message Bus 影子模式零分歧，inbox-poll GitHub 404 同一 episode 處理中；daemon 未能親驗（SSH 被擋）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -184,17 +184,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 12,
+    "今日筆記數": 13,
     "最新": [
+      "skill-digest-r55.md",
       "skill-digest-r54.md",
-      "skill-digest-r53.md",
-      "skill-digest-r52.md"
+      "skill-digest-r53.md"
     ],
     "最近落地": [
-      "- 跨主題消化：alert-discipline／branch-copy-protocol／browser-action-verify 三份草稿補加「對齊註記」——逐份親手對證（alert 真・出處 ops-hunt-4.md:3／:5／:59；branch U90／U91 真・出處 unresolved-tracking-v1.md L174–175；browser-action-verify 引文 browser-hunt-6.md:21＋browser-hunt-7.md:31 逐行對中）；三份修前已 .bak-r51 備份，diff 純加行；三份維持未驗；真・未消化盲區 72→69（2026-09-22 ~04:35）",
       "- 跨主題消化：channel-front-door／free-tier-quota-watch／pre-push-secret-gate 三份草稿補加「對齊註記」——逐份親手對證（channel-front-door 真・出處 sai-arch-hunt-18.md:33，OpenClaw 三結論 :3/:3/:25 逐項對中；free-tier-quota-watch 真・出處 cost-hunt-26.md:45／:54，R28「零 drift／維持未驗」結論補記銷單；pre-push-secret-gate 真・出處 free-hunt-9.md:42／:61，三處引用逐個開原文掃到無出處漂浮，Q166 三格全過維持未驗）；三份修前已 .bak-r52 備份，diff 純加行；三份維持未驗；真・未消化盲區 69→66（2026-09-22 ~05:05）",
       "- 跨主題消化：free-tts／journal-hygiene／fleet-coordination 三份草稿補加「對齊註記」——逐份親手對證（free-tts 實戰證據在場＝daily log 2026-09-21:4321 edge-tts 15,552 bytes MP3＋3 zh-HK 聲，Q166 三格全過維持未驗，時間戳誠實修正：草稿自稱 13:24–13:25 vs 證實窗 13:30–13:34；journal-hygiene 真・出處 ops-hunt-24.md:10／:13／:21／:24／:40／:63 逐行對中，「獨立驗證修正」字句唖係出處漂浮；fleet-coordination 真・出處 sai-arch-hunt-5.md:31／:32／:35／:45 逐行對中，同 agent-capability-card 係姊妹唖係重複）；三份修前已 .bak-r53 備份，diff 純加行；三份維持未驗；真・未消化盲區 66→63（2026-09-22 ~05:35）",
-      "- 跨主題消化：degrade-ladder／free-alerting-stack／plan-doc-writer 三份草稿補加「對齊註記」——逐份親手對證（degrade-ladder 真・出處 sai-arch-hunt-12.md:62，四來源逐項對中，引文行號漂移：~/AGENTS.md L473–481→實 L518–519／L526，內容逐字啱；free-alerting-stack 真・出處 free-hunt-3.md:51，表格三行逐項對中，Healthchecks 3 日 retention（C 級）補記；plan-doc-writer 真・出處 dad-skill 線 first-batch-manifest.md:18，三閘對中＋SHA 逐字對版，metadata「未獨立審查前唖入公司倉庫」已過期——2026-09-21 審查員 A ACCEPT＋已 push 入公司，I2 升格交 parent 判）；三份修前已 .bak-r54 備份，diff 純加行；三份維持未驗；真・未消化盲區 63→60（2026-09-22 ~06:05）"
+      "- 跨主題消化：degrade-ladder／free-alerting-stack／plan-doc-writer 三份草稿補加「對齊註記」——逐份親手對證（degrade-ladder 真・出處 sai-arch-hunt-12.md:62，四來源逐項對中，引文行號漂移：~/AGENTS.md L473–481→實 L518–519／L526，內容逐字啱；free-alerting-stack 真・出處 free-hunt-3.md:51，表格三行逐項對中，Healthchecks 3 日 retention（C 級）補記；plan-doc-writer 真・出處 dad-skill 線 first-batch-manifest.md:18，三閘對中＋SHA 逐字對版，metadata「未獨立審查前唖入公司倉庫」已過期——2026-09-21 審查員 A ACCEPT＋已 push 入公司，I2 升格交 parent 判）；三份修前已 .bak-r54 備份，diff 純加行；三份維持未驗；真・未消化盲區 63→60（2026-09-22 ~06:05）",
+      "- 跨主題消化：unattended-acceptance／browser-content-extract／prompt-cache-playbook 三份草稿補加「對齊註記」——逐份親手對證（unattended-acceptance 真・出處 ops-hunt-8.md:60，三來源逐項對中，Gen12 係 2026-09-20 版本錨點開閘前要對當前 Gen33；browser-content-extract 真・出處 browser-hunt-10.md，四式分類＋等待條件＋headless 陷阱全部對中，裸編號 R7 補記；prompt-cache-playbook 真・出處 cost-hunt-4.md:28-32，跨線現況對證 2026-09-22：Gemini 已通仍免費／OpenRouter 付費層只准 Founder 明確話用 GPT 嗰陣用，核心結論唖變）；三份修前已 .bak-r55 備份，diff 純加行；三份維持未驗；真・未消化盲區 60→57（2026-09-22 ~07:05）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
