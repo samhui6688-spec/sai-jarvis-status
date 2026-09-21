@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-22 04:30 HKT",
+  "generated_at_hkt": "2026-09-22 04:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每 15 分鐘發佈）；Cloud Hands 誠實暫停（沿用上次觀察）；Message Bus 影子模式零分歧，inbox-poll GitHub 404 同一 episode 處理中；daemon 未能親驗（SSH 被擋）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -184,17 +184,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 8,
+    "今日筆記數": 9,
     "最新": [
+      "skill-digest-r51.md",
       "quant-hunt-44.md",
-      "cost-hunt-43.md",
-      "ops-hunt-47.md"
+      "cost-hunt-43.md"
     ],
     "最近落地": [
-      "- SAi架構消化：fleet-coordination／mcp-tool-policy／run-receipt 三份真・未消化草稿驗過——清走 9 個 frontmatter「未填」假值；run-receipt 捉到「收據五格」實得四格，加第五格 machine（多機先分得出邊部機嘅收據）；mcp-tool-policy 引用嘅 mcp-desc-scan.py 親手驗在場非懸空；簡體掃零混入（「能」兩岸同形誤報逐字剔除）——之後抄呢啲草稿，抄到嘅係假值清走、格數啱、引用對得返嘅版本；修前 3 份已 .bak-r47 備份；三份維持未驗（2026-09-21 ~20:30）",
       "- 瀏覽器草稿消化：dom-snapshot-slimming／miniwob-exam-pattern 兩份全②主題最後未消化草稿驗過——捉到「browser-use issue #2715」係浮引文（hunt-17 全文零命中，剔號碼留概念）；miniwob 嗰份「見 worker-self-evolution.md」係裸檔名，補返全路徑；兩份加咗「對齊註記：R43 消化輪」防日後重驗（R40／R42 嗰種四輪盲區重驗唔再發生）；簡體掃零混入；兩份維持未驗——②瀏覽器主題 27 份草稿至此全部消化晒（2026-09-21 ~20:55）",
       "- SAi架構消化：compaction-goal-drift-check／durable-execution／reflexion-debrief 三份草稿補加「對齊註記」——上一輪（R42）已經驗過晒但冇留標記，下一輪會當新嘢重驗一次嘥時間；補返標記之後，以後選稿嗰陣認得出佢哋係「已消化、維持未驗」，唔再重複做；三份修前已 .bak-r49 備份（2026-09-22 ~02:50）",
-      "- SAi架構消化：eval-gate／executive-scheduler／agent-sandbox-policy 三份草稿補加「對齊註記」——上一輪（quant-hunt-37／sai-arch-hunt-43）已經驗過晒但冇留標記，下一輪會當新嘢重驗一次嘥時間；補返標記之後，以後選稿嗰陣認得出佢哋係「已消化、維持未驗」，唔再重複做；三份修前已 .bak-r50 備份；順手糾正咗隊列註記嘅出處漂浮（R49 寫 quant-hunt-35／36，真記錄係 quant-hunt-37／sai-arch-hunt-43）（2026-09-22 ~03:25）"
+      "- SAi架構消化：eval-gate／executive-scheduler／agent-sandbox-policy 三份草稿補加「對齊註記」——上一輪（quant-hunt-37／sai-arch-hunt-43）已經驗過晒但冇留標記，下一輪會當新嘢重驗一次嘥時間；補返標記之後，以後選稿嗰陣認得出佢哋係「已消化、維持未驗」，唔再重複做；三份修前已 .bak-r50 備份；順手糾正咗隊列註記嘅出處漂浮（R49 寫 quant-hunt-35／36，真記錄係 quant-hunt-37／sai-arch-hunt-43）（2026-09-22 ~03:25）",
+      "- 跨主題消化：alert-discipline／branch-copy-protocol／browser-action-verify 三份草稿補加「對齊註記」——逐份親手對證（alert 真・出處 ops-hunt-4.md:3／:5／:59；branch U90／U91 真・出處 unresolved-tracking-v1.md L174–175；browser-action-verify 引文 browser-hunt-6.md:21＋browser-hunt-7.md:31 逐行對中）；三份修前已 .bak-r51 備份，diff 純加行；三份維持未驗；真・未消化盲區 72→69（2026-09-22 ~04:35）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
