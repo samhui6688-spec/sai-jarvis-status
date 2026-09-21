@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-21 14:30 HKT",
+  "generated_at_hkt": "2026-09-21 14:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -137,11 +137,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 147,
+    "今日筆記數": 150,
     "最新": [
-      "ops-hunt-41.md",
-      "quant-hunt-38.md",
-      "browser-hunt-39-q146-verify.md"
+      "q148-daemon-table-proposal.md",
+      "jev-model-candidate.md",
+      "ops-hunt-41-q148-digest.md"
     ],
     "最近落地": [
       "- eval-progress-tracker 刪 frontmatter 未填三格（Q112），修前先備份 .bak-r37——消化輪紀律逐輪沉澱（⑤量化 R37）",
