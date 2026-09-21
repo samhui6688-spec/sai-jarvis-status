@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-21 14:45 HKT",
+  "generated_at_hkt": "2026-09-21 15:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -137,17 +137,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 150,
+    "今日筆記數": 151,
     "最新": [
+      "cost-hunt-37.md",
       "q148-daemon-table-proposal.md",
-      "jev-model-candidate.md",
-      "ops-hunt-41-q148-digest.md"
+      "jev-model-candidate.md"
     ],
     "最近落地": [
-      "- eval-progress-tracker 刪 frontmatter 未填三格（Q112），修前先備份 .bak-r37——消化輪紀律逐輪沉澱（⑤量化 R37）",
       "- free-hunt-38 消化輪修咗 3 份免費資源草稿（free-window-tracker「Q106 批咗規則」補返出處＋新增「實機驗收設計」五項，做成獨立 script 之前有驗收清單跟；free-tier-map ⚠️ note 補返保鮮期 2026-10-20——R35 筆記話落咗但親驗冇，誠實修，唔好下一個信咗假記錄；github-actions-free-tier 零 drift 純讀）——之後數免費額度／做開工前閘嗰陣，抄到嘅係出處寫啱、保鮮期寫死、驗收路徑寫好嘅草稿，唔係過期數當新鮮用；修前 3 份已 .bak-r38 備份（2026-09-21 ~13:25）",
       "- browser-hunt-40 消化輪修咗 3 份瀏覽器草稿（browser-api-seed「10–100 倍」補 zebbern 2026-09-18 外部數字出處＋我哋未實跑註記，刪去全 hunt 目錄零記錄嘅 microsoft best-practices.mdx 漂浮引文；browser-auth-persistence agent-browser 文檔日期補 browser-hunt-5 原文錨點；browser-blackbox 零 drift）——之後起 Cloud Hands 瀏覽器自動化嗰陣，抄到嘅 API 預置＋登入持久化＋黑盒錄影草稿數字有出處、引文對得返原文，唔係數字扮驗過；今輪用咗 Q144 不重派紀律——①SAi架構 R39 已由另一線做完三樣在場，本輪跳過做②，唔重做（2026-09-21 ~13:55）",
-      "- ops-hunt-41 消化輪修咗 2 份系統運維草稿（restore-drill 清 frontmatter 未填三格＋同 AGENTS.md 備份兩層驗批文逐項對齊，enable gate「未證明還原得唔准開排程」；skill-inventory-watch「機械不合規 5 個」裸數加日期錨點——出處 cost-hunt-27 上午數，本輪實跑已 0）——ops 主題 quarantine 草稿今輪全數消化晒；水位 102 距 🟡 只差 2（2026-09-21 ~14:20）"
+      "- ops-hunt-41 消化輪修咗 2 份系統運維草稿（restore-drill 清 frontmatter 未填三格＋同 AGENTS.md 備份兩層驗批文逐項對齊，enable gate「未證明還原得唔准開排程」；skill-inventory-watch「機械不合規 5 個」裸數加日期錨點——出處 cost-hunt-27 上午數，本輪實跑已 0）——ops 主題 quarantine 草稿今輪全數消化晒；水位 102 距 🟡 只差 2（2026-09-21 ~14:20）",
+      "- cost-hunt-37 消化輪複核咗 3 份成本監察草稿（free-tier-quota-watch／tier-usage-verify／fallback-leak-watch），全部零 drift 零補丁：① 親手 diff bak-r35 淨 1 行「截至 2026-09-21」日期錨點，Q133 付費層閘字眼（只准 Founder 當前明確話「用 GPT」先轉付費）同一段在場；② 端點聲稱 /api/v1/credits、/api/v1/key、total_credits、usage、usage_daily 對回 cost-hunt-21.md:25,40–41 吻合，無出處漂浮；③ 全文無 retry／轉付費直走教導，Q119／Q133 對該草稿不適用，「已批」1 命中係否定句非冒充批准——之後抄 free-tier-quota-watch 做 quota 警戒嗰陣，抄到嘅係付費閘跟死日期錨點、端點聲稱逐條對得返原文嘅版本，唔係漂浮數。「驗完冇事」係合法結論（Q146 同型）；Q4 候選「消化輪再對合法零補丁＋記對證日期，但下輪同一份唔准再以相同理由重派，除非新證據」交 parent 判；未驗 106 仍 RED，三份維持未驗（2026-09-21 ~14:48）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
