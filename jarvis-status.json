@@ -1,34 +1,36 @@
 {
-  "generated_at_hkt": "2026-09-22 01:45 HKT",
-  "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
+  "generated_at_hkt": "2026-09-22 02:00 HKT",
+  "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每 15 分鐘發佈）；Cloud Hands 誠實暫停（沿用上次觀察）；Message Bus 影子模式零分歧，inbox-poll GitHub 404 同一 episode 處理中；daemon 未能親驗（SSH 被擋）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
     "SOURCE_STALE": true,
-    "updated_at_hkt": "2026-09-21 15:08 HKT",
+    "updated_at_hkt": "2026-09-22 01:55 HKT",
     "位置": "Hetzner 2.29.11.95，sam-hetzner-daemon.service",
     "最新觀察": "2026-09-20 03:58:18Z",
     "本輪結果": "2026-09-21 12:20 HKT 主線未能親驗：去 Hetzner 嘅 SSH 仍被 egress proxy 擋，daemon 今日未驗證；唔估健康狀態",
-    "狀態": "未能驗證（最後觀察 2026-09-20 03:58Z，逾 27 小時前；SSH 仍被擋，今日未親驗）",
-    "驗證": "阿占 2026-09-20 12:02 HKT 經公開 raw fresh-read 實測通過"
+    "狀態": "未能親驗（SSH 被擋；最後實測 2026-09-19 Gen33 deploy，當時健康）",
+    "驗證": "阿占 2026-09-20 12:02 HKT 經公開 raw fresh-read 實測通過",
+    "主線覆核": "2026-09-22 01:55 HKT：SSH 仍被 egress proxy 擋，今日未親驗；最後實測為 Gen33 deploy（2026-09-19），當時 service active、healthy idle（NO_WORK_DREAMED）。"
   },
   "cloud_hands": {
     "live_status": "paused",
-    "updated_at_hkt": "2026-09-21 12:20 HKT",
+    "updated_at_hkt": "2026-09-22 01:55 HKT",
     "下一步": "只讀診斷 memory controller，搵唔使重啟嘅修法；修好後重跑 A–F 正式驗收",
     "仍然work": "cpu 控制、pids 控制",
     "根因": "runner service 自身 cgroup 係 domain threaded（全系統唯一）；memory 係 domain controller，寫唔落 subtree_control（root 都 EIO）；cpu／pids 得因為支援 threaded 模式",
     "狀態": "A–F 正式驗收 0/6；memory controller 唔支援，暫停（唔扮健康）",
-    "本輪觀察": "2026-09-21 11:31 HKT：GitHub Actions 仍未修好，無變化；Cloud Hands 暫停繼續"
+    "本輪觀察": "2026-09-21 11:31 HKT：GitHub Actions 仍未修好，無變化；Cloud Hands 暫停繼續",
+    "主線覆核": "2026-09-22 01:55 HKT：主線今晚無新實測，沿用 2026-09-21 12:20 觀察（A–F 0/6，memory controller 卡 threaded，誠實暫停）。L2B（Computer Hands Windows 手眼）00:52 HKT 已 ACCEPTED 屬另一條線，唔混入。"
   },
   "message_bus": {
-    "updated_at_hkt": "2026-09-21 12:20 HKT",
+    "updated_at_hkt": "2026-09-22 01:55 HKT",
     "下一步": "Phase B 等 Founder 批",
     "狀態": "Phase A 影子模式，每 15 分鐘檢查，正常（queued=0, divergences=0）",
-    "本輪觀察": "2026-09-21 12:14 HKT：影子檢查 exit 0，零分歧，v2 queued=0；inbox-poll 摘要持續 null（input 空，非檢查失敗）；Phase B 未批"
+    "本輪觀察": "2026-09-22 01:55 HKT：影子檢查 exit 0，零分歧，v2 queued=0；inbox-poll 連續 5 輪 GitHub 404（帳戶可見性翻轉，同一 episode，用戶已於 00:49 收到通知，依規唔重複告警）；Phase B 未批。"
   },
   "gpt_hands": {},
   "gpt_eye": {
-    "updated_at_hkt": "2026-09-21 12:20 HKT",
+    "updated_at_hkt": "2026-09-22 01:55 HKT",
     "下一步": "v2 派任務手 → Brain Router",
     "傳輸鏈": "ChatGPT → GitHub raw（sai-jarvis-status）→ Hetzner heartbeat",
     "公開raw": "https://raw.githubusercontent.com/samhui6688-spec/sai-jarvis-status/main/jarvis-status.json",
@@ -49,6 +51,16 @@
       "id": "codex-handoff-poll",
       "title": "Codex 任務盒收件（每5分鐘）",
       "every": "5m"
+    },
+    {
+      "id": "founder-health-check",
+      "title": "P5 可靠性監察第一層（P6 接線）",
+      "every": "15m"
+    },
+    {
+      "id": "founder-health-meta",
+      "title": "P5 可靠性監察第二層——睇住第一層（P6 接線）",
+      "every": "30m"
     },
     {
       "id": "heartbeat",
@@ -74,6 +86,16 @@
       "id": "pipeline-dispatcher-3m",
       "title": "流水線派工（每3分鐘）",
       "every": "3m"
+    },
+    {
+      "id": "probe-github",
+      "title": "P5 GitHub 授權探測側車（P6）",
+      "every": "15m"
+    },
+    {
+      "id": "probe-inbox",
+      "title": "P5 遠端 inbox 探測側車（P6）",
+      "every": "10m"
     },
     {
       "id": "sai-hunter-l1-scan",
@@ -152,8 +174,10 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 0,
-    "最新": [],
+    "今日筆記數": 1,
+    "最新": [
+      "source-verification-52-55.md"
+    ],
     "最近落地": [
       "- 量化草稿消化：paper-risk-guard 捉到 R31 留低嘅 yaml 爛格式（全形冒號做 key，同上次 strategy-decay-watch 同一手勢，修完 parse 先過），nt8-playback-data／continuous-contract-roll 清走三格未填佔位——之後要用呢啲草稿嗰陣，唔會畀個爛 frontmatter 卡住 yaml 讀取；三份維持未驗（水位仍紅 102>100，繼續消化唔產新；ibkr-paper-exec／paper-preflight-checklist 按 Q157 唔重驗，R30 已驗過）",
       "- SAi架構消化：agent-sandbox-policy／executive-scheduler／hunt-safety-vetting 三份真・未消化草稿驗過——sandbox 政策引文（Daytona 2026-06-11 轉制／E2B／CubeSandbox）逐條對得返研究原文；executive-scheduler 捉到 1 個簡體字「无」修返「無」；vetting 技能自己嘅「已驗」聲稱三源證據鏈親驗全在場（唔係自稱）——之後抄呢啲草稿嗰陣，抄到嘅係引文有出處、字形乾淨、驗證狀態講得出處嘅版本；修前 3 份已 .bak-r46 備份（2026-09-21 ~18:45）",
