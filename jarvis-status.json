@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-22 02:15 HKT",
+  "generated_at_hkt": "2026-09-22 02:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每 15 分鐘發佈）；Cloud Hands 誠實暫停（沿用上次觀察）；Message Bus 影子模式零分歧，inbox-poll GitHub 404 同一 episode 處理中；daemon 未能親驗（SSH 被擋）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -51,6 +51,11 @@
       "id": "codex-handoff-poll",
       "title": "Codex 任務盒收件（每5分鐘）",
       "every": "5m"
+    },
+    {
+      "id": "coverage-watchdog",
+      "title": "工程覆蓋監察（Founder Promise Coverage）",
+      "every": "30m"
     },
     {
       "id": "founder-health-check",
@@ -174,16 +179,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 2,
+    "今日筆記數": 3,
     "最新": [
-      "source-hunt-occ-finra.md",
-      "source-verification-52-55.md"
+      "sai-arch-hunt-49.md",
+      "source-verification-52-55.md",
+      "source-hunt-occ-finra.md"
     ],
     "最近落地": [
-      "- 量化草稿消化：paper-risk-guard 捉到 R31 留低嘅 yaml 爛格式（全形冒號做 key，同上次 strategy-decay-watch 同一手勢，修完 parse 先過），nt8-playback-data／continuous-contract-roll 清走三格未填佔位——之後要用呢啲草稿嗰陣，唔會畀個爛 frontmatter 卡住 yaml 讀取；三份維持未驗（水位仍紅 102>100，繼續消化唔產新；ibkr-paper-exec／paper-preflight-checklist 按 Q157 唔重驗，R30 已驗過）",
       "- SAi架構消化：agent-sandbox-policy／executive-scheduler／hunt-safety-vetting 三份真・未消化草稿驗過——sandbox 政策引文（Daytona 2026-06-11 轉制／E2B／CubeSandbox）逐條對得返研究原文；executive-scheduler 捉到 1 個簡體字「无」修返「無」；vetting 技能自己嘅「已驗」聲稱三源證據鏈親驗全在場（唔係自稱）——之後抄呢啲草稿嗰陣，抄到嘅係引文有出處、字形乾淨、驗證狀態講得出處嘅版本；修前 3 份已 .bak-r46 備份（2026-09-21 ~18:45）",
       "- SAi架構消化：fleet-coordination／mcp-tool-policy／run-receipt 三份真・未消化草稿驗過——清走 9 個 frontmatter「未填」假值；run-receipt 捉到「收據五格」實得四格，加第五格 machine（多機先分得出邊部機嘅收據）；mcp-tool-policy 引用嘅 mcp-desc-scan.py 親手驗在場非懸空；簡體掃零混入（「能」兩岸同形誤報逐字剔除）——之後抄呢啲草稿，抄到嘅係假值清走、格數啱、引用對得返嘅版本；修前 3 份已 .bak-r47 備份；三份維持未驗（2026-09-21 ~20:30）",
-      "- 瀏覽器草稿消化：dom-snapshot-slimming／miniwob-exam-pattern 兩份全②主題最後未消化草稿驗過——捉到「browser-use issue #2715」係浮引文（hunt-17 全文零命中，剔號碼留概念）；miniwob 嗰份「見 worker-self-evolution.md」係裸檔名，補返全路徑；兩份加咗「對齊註記：R43 消化輪」防日後重驗（R40／R42 嗰種四輪盲區重驗唔再發生）；簡體掃零混入；兩份維持未驗——②瀏覽器主題 27 份草稿至此全部消化晒（2026-09-21 ~20:55）"
+      "- 瀏覽器草稿消化：dom-snapshot-slimming／miniwob-exam-pattern 兩份全②主題最後未消化草稿驗過——捉到「browser-use issue #2715」係浮引文（hunt-17 全文零命中，剔號碼留概念）；miniwob 嗰份「見 worker-self-evolution.md」係裸檔名，補返全路徑；兩份加咗「對齊註記：R43 消化輪」防日後重驗（R40／R42 嗰種四輪盲區重驗唔再發生）；簡體掃零混入；兩份維持未驗——②瀏覽器主題 27 份草稿至此全部消化晒（2026-09-21 ~20:55）",
+      "- SAi架構消化：compaction-goal-drift-check／durable-execution／reflexion-debrief 三份草稿補加「對齊註記」——上一輪（R42）已經驗過晒但冇留標記，下一輪會當新嘢重驗一次嘥時間；補返標記之後，以後選稿嗰陣認得出佢哋係「已消化、維持未驗」，唔再重複做；三份修前已 .bak-r49 備份（2026-09-22 ~02:50）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
