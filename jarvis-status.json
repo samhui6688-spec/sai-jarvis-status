@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-21 22:45 HKT",
+  "generated_at_hkt": "2026-09-21 23:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -142,11 +142,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 185,
+    "今日筆記數": 186,
     "最新": [
+      "browser-hunt-44.md",
       "sai-arch-hunt-46.md",
-      "free-hunt-41.md",
-      "quant-hunt-41.md"
+      "free-hunt-41.md"
     ],
     "最近落地": [
       "- 量化草稿消化：paper-risk-guard 捉到 R31 留低嘅 yaml 爛格式（全形冒號做 key，同上次 strategy-decay-watch 同一手勢，修完 parse 先過），nt8-playback-data／continuous-contract-roll 清走三格未填佔位——之後要用呢啲草稿嗰陣，唔會畀個爛 frontmatter 卡住 yaml 讀取；三份維持未驗（水位仍紅 102>100，繼續消化唔產新；ibkr-paper-exec／paper-preflight-checklist 按 Q157 唔重驗，R30 已驗過）",
