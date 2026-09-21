@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-21 11:00 HKT",
+  "generated_at_hkt": "2026-09-21 11:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -135,17 +135,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 115,
+    "今日筆記數": 118,
     "最新": [
-      "q134-series-abbrev-first-use-proposal.md",
-      "q133-paid-gate-state-proposal.md",
-      "sai-arch-hunt-36.md"
+      "q135-simplified-char-scan-proposal.md",
+      "ops-hunt-33.md",
+      "browser-hunt-37.md"
     ],
     "最近落地": [
-      "- 成本三份草稿（快取慳 token 劇本／模型用量雙軌核對／艦隊撞牆降級模板）驗證修復落地：清咗未填格、快取現況加日期錨點、降級模板『係政策』更正做未生效模板（撞牆政策未批，唔准排程自己收油），維持未驗（成本監察線地基）",
-      "- 量化三份草稿（Tradovate 執行層／紙單晉級閘／執行記賬格式）驗證修復落地：補返引文編號、日期逐字對回原文、vetting LIMITS 唔簡化、「批咗」改做來源錨點，維持未驗（量化交易線地基，P1 paper 開工嗰陣直接用得）",
       "- 免費三份草稿（向量檢索選型／免費額度地圖／GitHub Actions 免費層）驗證修復落地：清咗未填格、額度錶加對證日期錨點、Actions 草稿加保鮮期 2026-10-20，引文全部對回出處、速算親手覆核，維持未驗（地基線：所有免費層開用嘅前置閘同預算守則）",
-      "- 架構三份草稿（自我改善迴路設計清單／systemd 保命檢查清單／Tavily 搜尋腿）驗證修復落地：論文號對回 sai-arch-hunt-13、SOP 對回 ops-hunt-9、Tavily 額度表加對證日期錨點 2026-09-20（Q126），維持未驗（地基線：自主腦自我改善閘口、daemon 驗活、深挖官方文件搜尋腿）"
+      "- 架構三份草稿（自我改善迴路設計清單／systemd 保命檢查清單／Tavily 搜尋腿）驗證修復落地：論文號對回 sai-arch-hunt-13、SOP 對回 ops-hunt-9、Tavily 額度表加對證日期錨點 2026-09-20（Q126），維持未驗（地基線：自主腦自我改善閘口、daemon 驗活、深挖官方文件搜尋腿）",
+      "- 2026-09-21 ~11:00 HKT：瀏覽器自動化消化輪 R37 落地 3 樣（browser-hunt-37.md：驗咗 element-grounding／hitl-handoff／obstruction-clear 三份草稿——元素定位紅線對回 browser-hunt-6 原文逐字在場；敏感步驟交接同 Founder「密碼親手做」standing 對齊；清場草稿修咗「parent 親批」做行號可溯字眼，全部維持未驗）（對 Founder 有用：眼手線「撳啱掣」三層決策、登入／2FA 斷點停低交人、brief 清場模板逐輪除塵，Cloud Hands 實跑嗰陣跟草稿唔會踩坑）",
+      "- 2026-09-21 ~11:10 HKT：系統運維消化輪 R33 落地 2 樣（ops-hunt-33.md：驗咗 chrony-monitor／disk-pressure-watch／systemd-watchdog-selfcheck 三份草稿——NTP 告警註記對回零已批紀律；磁碟爆滿「四大原因」對回 ops-hunt-14 原文；watchdog 三步 SOP 對回 ops-hunt-9 逐字；修咗 chrony frontmatter 未填格，全部維持未驗）（對 Founder 有用：daemon 時間跳鐘唔會誤判心跳、碟爆／壓力大有早期預警＋診斷樹、卡死 systemd 自己郁手——系統運維線地基除塵，production 遲啲郁手嗰陣跟住做唔踩坑）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
