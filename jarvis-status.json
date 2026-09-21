@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-21 13:30 HKT",
+  "generated_at_hkt": "2026-09-21 13:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -137,11 +137,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 141,
+    "今日筆記數": 143,
     "最新": [
-      "free-hunt-38.md",
-      "q143-tmp-evidence-honesty-proposal.md",
-      "quant-hunt-37.md"
+      "sai-arch-hunt-39.md",
+      "q144-no-repeat-dispatch-proposal.md",
+      "free-hunt-38.md"
     ],
     "最近落地": [
       "- ops-hunt-40 消化輪修咗 3 份系統運維草稿（deploy-verify-checklist 清咗 frontmatter 假值格；systemd-unit-safe-change 對齊註記＋10:47 事故原文對回 ops-hunt-9，否定句「唔係批文」逐字核實非自稱已批；conn-exhaustion-watch Q107 兩層對回 AGENTS.md，本機 nf_conntrack_max＝262144 親手重驗）——之後換 code 部署／改 systemd 單元／查間歇 API 唔通嗰陣，抄到嘅係對得返原文、門限數字有實機對證嘅保命劇本（2026-09-21 ~13:00）",
