@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-21 18:30 HKT",
+  "generated_at_hkt": "2026-09-21 18:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -137,11 +137,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 167,
+    "今日筆記數": 168,
     "最新": [
+      "sai-arch-hunt-42.md",
       "q167-inventory-yaml-proposal.md",
-      "free-hunt-40.md",
-      "q165-interrupted-resume-proposal.md"
+      "free-hunt-40.md"
     ],
     "最近落地": [
       "- 瀏覽器草稿消化：form-fill／request-throttle／sandbox-defense 三份清走 frontmatter 未填佔位格，引用＋跨份一致性驗過，維持未驗（水位仍紅，繼續消化唔產新）",
