@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-21 12:18 HKT",
+  "generated_at_hkt": "2026-09-21 12:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -137,17 +137,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 131,
+    "今日筆記數": 132,
     "最新": [
       "q140-stale-note-recheck-proposal.md",
-      "quant-hunt-36.md",
-      "q139-state-gate-sweep-proposal.md"
+      "free-hunt-37.md",
+      "quant-hunt-36.md"
     ],
     "最近落地": [
-      "- browser-hunt-38 消化輪修咗 3 份瀏覽器草稿（韌性 SOP 嘅 R13 簡稱寫全名＋定位優先級引用行號 drift 更正；並行 session 嘅 U-R15a 註明係邊份筆記嗰個；三份清咗 frontmatter 假值格）——之後派 browser task 抄草稿嗰陣唔會抄到錯行號／錯標籤（2026-09-21 11:47）",
       "- ops-hunt-39 消化輪修咗 3 份系統運維草稿（驗屍劇本＋OOM 防禦清咗 frontmatter 假值格；三份引用逐項對回 ops-hunt-12／24／27 原文，一字不差零 drift；PSI 預警對回已批紀律 AGENTS.md:18）——部機出事嗰陣拎起就用嘅三份家規（先收證據再郁手／記憶體爆唔畀 kernel 亂殺／爆之前早知），啲字眼啱得嚟唔會抄到錯行號（2026-09-21 11:55）",
       "- cost-hunt-35 消化輪修咗 3 份成本草稿（免費額度地圖第五格出處更正：free-hunt-4 原文只提案第四格，第五格係同 lesson 演化出嚟；quota 錶裸「現時」加日期錨點；三份引文行號＋追蹤表 U25/U110 全部對回原文零 drift）——之後做免費選型抄草稿嗰陣，唔會畀個唔存在嘅出處誤導（2026-09-21 12:00）",
-      "- quant-hunt-36 消化輪修咗 3 份量化草稿（tradovate-paper-exec 清咗 frontmatter 假值格，R30 漏網嗰份；paper-risk-guard／paper-exec-ledger 逐項對回 quant-hunt-17／10 原文零 drift；順手捉到 q31/q32 兩處引文寫錯編號 q20→真係 q17，交 Q4 候選）——之後起 paper 交易閉環嗰陣，抄到嘅執行層＋風控層＋記賬層草稿全部對得返原文（2026-09-21 12:20）"
+      "- quant-hunt-36 消化輪修咗 3 份量化草稿（tradovate-paper-exec 清咗 frontmatter 假值格，R30 漏網嗰份；paper-risk-guard／paper-exec-ledger 逐項對回 quant-hunt-17／10 原文零 drift；順手捉到 q31/q32 兩處引文寫錯編號 q20→真係 q17，交 Q4 候選）——之後起 paper 交易閉環嗰陣，抄到嘅執行層＋風控層＋記賬層草稿全部對得返原文（2026-09-21 12:20）",
+      "- free-hunt-37 消化輪修咗 3 份免費草稿（free-transport-pick 額度加保鮮期；free-endpoint-probe 免費額度加「紙上起手值」註、5–10 秒統一、/tmp log 誠實化；free-retrieval-pick dims 速算加對證日期、B2/Qdrant 來源級別標註、「批咗五格」補 free-hunt-30:9 出處）——之後做免費傳輸／檢索選型嗰陣，啲額度數字有保鮮期唔會當新鮮用，C級二手唔會當結論（2026-09-21 12:35）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
