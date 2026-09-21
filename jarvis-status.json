@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-21 20:30 HKT",
+  "generated_at_hkt": "2026-09-21 20:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -142,11 +142,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 174,
+    "今日筆記數": 176,
     "最新": [
-      "sai-arch-hunt-44.md",
-      "cost-hunt-39.md",
-      "q170-digest-window-blindspot-proposal.md"
+      "q172-verified-threshold-proposal.md",
+      "sai-arch-hunt-45.md",
+      "sai-arch-hunt-44.md"
     ],
     "最近落地": [
       "- SAi架構消化：journal-hygiene／sai-cinema 兩份真・未消化草稿驗過零 drift（引用逐項對回原文＋實證行號）；sai-cinema 嗰單沉澱出「實戰跑通≠草稿已驗」三格分開判候選句交 parent 判",
