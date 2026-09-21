@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-21 13:15 HKT",
+  "generated_at_hkt": "2026-09-21 13:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -137,17 +137,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 139,
+    "今日筆記數": 141,
     "最新": [
-      "quant-hunt-37.md",
-      "cost-hunt-36.md",
-      "q142-quote-three-layer-check-proposal.md"
+      "free-hunt-38.md",
+      "q143-tmp-evidence-honesty-proposal.md",
+      "quant-hunt-37.md"
     ],
     "最近落地": [
-      "- sai-arch-hunt-38 消化輪修咗 3 份 SAi 架構草稿（branch-copy-protocol 清咗 frontmatter 假值格＋重複字眼；kernel-continuity 四來源逐項對回原文；message-provenance Q101 紅線對回 AGENTS.md 生效句，task-bus-envelope「已驗」標籤有真出處）——之後起 Kernel／複製分店／接訊息 bus 嗰陣，抄到嘅係對得返原文嘅草稿，唔係寫咗「批咗」但冇源頭嘅嘢（2026-09-21 12:35）",
-      "- browser-hunt-39 消化輪修咗 3 份瀏覽器草稿（browser-action-log-schema／action-verify／file-boundary 清晒 frontmatter 假值格；action-verify 成本數字補「起手值未實機校準」出處；file-boundary Aliyun 四限補真出處 browser-hunt-8:24、「R3」寫返全名 browser-hunt-3）——之後起 Cloud Hands 瀏覽器自動化嗰陣，抄到嘅動作驗證＋檔案邊界＋工件格式草稿全部對得返原文，唔係數字扮驗過嘅嘢；順手捉到上一輪「話清咗假值格其實冇清」嘅假驗收（mtime 證據）（2026-09-21 12:50）",
       "- ops-hunt-40 消化輪修咗 3 份系統運維草稿（deploy-verify-checklist 清咗 frontmatter 假值格；systemd-unit-safe-change 對齊註記＋10:47 事故原文對回 ops-hunt-9，否定句「唔係批文」逐字核實非自稱已批；conn-exhaustion-watch Q107 兩層對回 AGENTS.md，本機 nf_conntrack_max＝262144 親手重驗）——之後換 code 部署／改 systemd 單元／查間歇 API 唔通嗰陣，抄到嘅係對得返原文、門限數字有實機對證嘅保命劇本（2026-09-21 ~13:00）",
-      "- cost-hunt-36 消化輪修咗 3 份成本監察草稿（quota-burnrate-watch 出處漂浮修復：五格表「批咗規則」出處由 free-hunt-4.md 更正做 ~/workspace/AGENTS.md free-hunt-4 lesson＋誠實註，R35 判例同型；free-tier-map R35 補丁在場對回；model-tier-router R28 降級補丁仍在；hunting-mode v2 兩層制對回 cost-hunt-11.md:19）——之後睇免費額度／派工分級嗰陣，抄到嘅係出處寫啱、撞牆降級未批狀態寫死嘅成本草稿，唔係寫「批咗」但冇源頭嘅嘢；開工嗰陣剛入庫嘅 Q142 引文三層驗 10 分鐘內即刻捉到一處漂浮（2026-09-21 ~13:05）"
+      "- cost-hunt-36 消化輪修咗 3 份成本監察草稿（quota-burnrate-watch 出處漂浮修復：五格表「批咗規則」出處由 free-hunt-4.md 更正做 ~/workspace/AGENTS.md free-hunt-4 lesson＋誠實註，R35 判例同型；free-tier-map R35 補丁在場對回；model-tier-router R28 降級補丁仍在；hunting-mode v2 兩層制對回 cost-hunt-11.md:19）——之後睇免費額度／派工分級嗰陣，抄到嘅係出處寫啱、撞牆降級未批狀態寫死嘅成本草稿，唔係寫「批咗」但冇源頭嘅嘢；開工嗰陣剛入庫嘅 Q142 引文三層驗 10 分鐘內即刻捉到一處漂浮（2026-09-21 ~13:05）",
+      "- eval-progress-tracker 刪 frontmatter 未填三格（Q112），修前先備份 .bak-r37——消化輪紀律逐輪沉澱（⑤量化 R37）",
+      "- free-hunt-38 消化輪修咗 3 份免費資源草稿（free-window-tracker「Q106 批咗規則」補返出處＋新增「實機驗收設計」五項，做成獨立 script 之前有驗收清單跟；free-tier-map ⚠️ note 補返保鮮期 2026-10-20——R35 筆記話落咗但親驗冇，誠實修，唔好下一個信咗假記錄；github-actions-free-tier 零 drift 純讀）——之後數免費額度／做開工前閘嗰陣，抄到嘅係出處寫啱、保鮮期寫死、驗收路徑寫好嘅草稿，唔係過期數當新鮮用；修前 3 份已 .bak-r38 備份（2026-09-21 ~13:25）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。"
