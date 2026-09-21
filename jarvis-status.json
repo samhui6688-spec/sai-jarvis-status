@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-21 16:46 HKT",
+  "generated_at_hkt": "2026-09-21 17:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正式打通（阿占 fresh-read 實測通過）；Cloud Hands 誠實暫停（A–F 0/6，memory 卡 threaded）；Message Bus 影子模式正常；下一步：Cloud Hands 狀態已入 mirror → v2 派任務手 → Brain Router。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -137,11 +137,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 158,
+    "今日筆記數": 159,
     "最新": [
+      "q162-digest-select-keyword-proposal.md",
       "ops-hunt-42.md",
-      "browser-hunt-41.md",
-      "q157-reverify-once-proposal.md"
+      "browser-hunt-41.md"
     ],
     "最近落地": [
       "- cost-hunt-37 消化輪複核咗 3 份成本監察草稿（free-tier-quota-watch／tier-usage-verify／fallback-leak-watch），全部零 drift 零補丁：① 親手 diff bak-r35 淨 1 行「截至 2026-09-21」日期錨點，Q133 付費層閘字眼（只准 Founder 當前明確話「用 GPT」先轉付費）同一段在場；② 端點聲稱 /api/v1/credits、/api/v1/key、total_credits、usage、usage_daily 對回 cost-hunt-21.md:25,40–41 吻合，無出處漂浮；③ 全文無 retry／轉付費直走教導，Q119／Q133 對該草稿不適用，「已批」1 命中係否定句非冒充批准——之後抄 free-tier-quota-watch 做 quota 警戒嗰陣，抄到嘅係付費閘跟死日期錨點、端點聲稱逐條對得返原文嘅版本，唔係漂浮數。「驗完冇事」係合法結論（Q146 同型）；Q4 候選「消化輪再對合法零補丁＋記對證日期，但下輪同一份唔准再以相同理由重派，除非新證據」交 parent 判；未驗 106 仍 RED，三份維持未驗（2026-09-21 ~14:48）",
