@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-22 03:30 HKT",
+  "generated_at_hkt": "2026-09-22 03:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每 15 分鐘發佈）；Cloud Hands 誠實暫停（沿用上次觀察）；Message Bus 影子模式零分歧，inbox-poll GitHub 404 同一 episode 處理中；daemon 未能親驗（SSH 被擋）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -55,6 +55,11 @@
     {
       "id": "coverage-watchdog",
       "title": "工程覆蓋監察（Founder Promise Coverage）",
+      "every": "30m"
+    },
+    {
+      "id": "evo-report-30m",
+      "title": "進化戰情室（每30分鐘自動報告）",
       "every": "30m"
     },
     {
@@ -179,11 +184,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 5,
+    "今日筆記數": 6,
     "最新": [
+      "ops-hunt-47.md",
       "sai-arch-hunt-50.md",
-      "sai-arch-hunt-49-review-q195.md",
-      "sai-arch-hunt-49.md"
+      "sai-arch-hunt-49-review-q195.md"
     ],
     "最近落地": [
       "- SAi架構消化：fleet-coordination／mcp-tool-policy／run-receipt 三份真・未消化草稿驗過——清走 9 個 frontmatter「未填」假值；run-receipt 捉到「收據五格」實得四格，加第五格 machine（多機先分得出邊部機嘅收據）；mcp-tool-policy 引用嘅 mcp-desc-scan.py 親手驗在場非懸空；簡體掃零混入（「能」兩岸同形誤報逐字剔除）——之後抄呢啲草稿，抄到嘅係假值清走、格數啱、引用對得返嘅版本；修前 3 份已 .bak-r47 備份；三份維持未驗（2026-09-21 ~20:30）",
