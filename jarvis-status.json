@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-23 04:15 HKT",
+  "generated_at_hkt": "2026-09-23 04:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每15分鐘發佈；10:25 主線更新手動部分，舊世界投影已修正）；Cloud Hands 誠實暫停（A–F 0/6，Actions未修好）；Message Bus 影子模式零分歧，6×404已證實係打錯owner名唔係授權故障；daemon 主線未能親驗（SSH被擋），Founder 10:20 觀察 heartbeat 新鮮（~107s）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -194,17 +194,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 8,
+    "今日筆記數": 9,
     "最新": [
+      "skill-digest-r98.md",
       "skill-digest-r97.md",
-      "skill-digest-r96.md",
-      "q202-hstech-consultation-check.md"
+      "skill-digest-r96.md"
     ],
     "最近落地": [
-      "- R73 消化輪：落咗 3 份 browser 對齊補丁（.bak-r73 備份，純加行 0 刪，md5 對中）——browser-complex-interactions（特殊互動前置登記 SOP；真・出處 hunt-25:32＋:38 雙印證；R38 曾清 frontmatter 但未加註記，今輪第一次）／browser-file-boundary（檔案進出六條守則；真・出處 hunt-8:10「結論先行」＝收工確認等價物；hunt-22 檔名陷阱補丁三處在場無脫勾）／browser-network-mock（網絡替身四式；真・出處 hunt-24:10＋:58；「真實任務唖准呃網站」Q122 雙重用途紅線在場）；三份維持未驗；真・未消化盲區 8→5（2026-09-22 ~16:0x）",
       "- R74 消化輪：落咗 3 份對齊補丁（.bak-r74 備份，純加行 0 刪，md5 對中）——browser-request-throttle（request 攔截加速配方；真・出處 hunt-14:9＋:50 雙印證；R41 曾清 frontmatter，今輪第一次註記；同 network-mock 分工「擋被動資源 vs 扮後端」）／browser-sandbox-defense（瀏覽器防注入檢查清單；真・出處 hunt-3:40＋:34；Phase 2.5 概念 R41 已驗真・內部；同 file-boundary 互補頁面層 vs 檔案層）／eval-progress-tracker（Tradeify evaluation 每日收工五個數；真・出處 quant-hunt-3:30＋:41；R19／21／22 三節補丁在場；R29 衍生漂移「10 秒閘雙條件」仍未 patch，等 parent 批，今輪唖郁）；三份維持未驗；真・未消化盲區 5→2（2026-09-22 ~16:13）",
       "- R75 消化輪：落咗 2 份對齊補丁（.bak-r75 備份，純加行 0 刪，md5 對中）——nt8-playback-data（NT8 免費 PlayBack 數據操作地基：90 日 tick+depth＋tick 1 年要 provider connection＋slippage≥1 tick／Default fill／開 commission＋Sim101 TimeInForce 陷阱；真・出處 quant-hunt-13:39＋:51；衍生漂移零；實跑觸發＝sam-sai 裝好 NT8 之後）／pre-dispatch-existence-check.bak-20260922-prename（備份目錄分類註記：rename 簇遺留唖係草稿，內容零改動，Q146／T459 別線 active work 唖掂）；兩份維持未驗；真・未消化盲區 2→0（R62–R75 十四輪連續消化清晒；紅燈維持，未驗 128＞100，下輪繼續消化）（2026-09-22 ~16:43）",
-      "- 已驗層審計閉環：6 份 quarantine 已驗 skill 親手對返 2026-09-20 Q82 批次原始記錄，6/6 實跑＋獨立複核兩層齊，維持已驗零降級——成熟度標示終於對證據閉環（唖再靠記憶信）"
+      "- 已驗層審計閉環：6 份 quarantine 已驗 skill 親手對返 2026-09-20 Q82 批次原始記錄，6/6 實跑＋獨立複核兩層齊，維持已驗零降級——成熟度標示終於對證據閉環（唖再靠記憶信）",
+      "- R98 消化輪落地：修好咗個「數草稿水位」嘅儀表板（hunts/skill-inventory.py）——之前佢用全文搜「已驗」兩個字嚟數，22 個入面 16 個係誤判，報出嚟話黃燈 85 其實真・紅燈 126；改為只認「驗證狀態：已驗」呢行字，對返人手點過嘅 6 份真・已驗逐個啱晒。對 Founder 有用：個錶唖再講大話——唖修嘅話下輪會以為紅燈解除而亂開新草稿，真・積壓 126 份繼續堆。（2026-09-23 ~04:25 HKT）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
