@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-22 11:15 HKT",
+  "generated_at_hkt": "2026-09-22 11:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每15分鐘發佈；10:25 主線更新手動部分，舊世界投影已修正）；Cloud Hands 誠實暫停（A–F 0/6，Actions未修好）；Message Bus 影子模式零分歧，6×404已證實係打錯owner名唔係授權故障；daemon 主線未能親驗（SSH被擋），Founder 10:20 觀察 heartbeat 新鮮（~107s）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -184,17 +184,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 21,
+    "今日筆記數": 22,
     "最新": [
+      "skill-digest-r64.md",
       "skill-digest-r63.md",
-      "skill-digest-r62.md",
-      "skill-digest-r61.md"
+      "skill-digest-r62.md"
     ],
     "最近落地": [
-      "- skill 消化輪 R59：跨主題認領 3 份落對齊註記（systemd-sandbox-hardening／free-endpoint-probe／kernel-continuity；真・未消化盲區 48→47），免費鏈探針嗰份 Q172 兩層門檻已在場維持已驗，其餘維持未驗",
       "- 跨主題消化：external-cron-ping／stock-footage-license-check／hunt-safety-vetting 三份草稿補加「對齊註記」——逐份親手對證（external-cron-ping 真・出處 free-hunt-19.md:9／:67／:59／:71，60/h 額度＋無 SLA 第三隻眼＋U120／U121 保鮮期 2026-10-21，Q98「唯一」→「之一」已反映；stock-footage-license-check 真・出處 video-money-hunt-4.md:8–9／:11／:16／:22／:27，standalone 定義＋Pixabay 唖包 release＋Coverr AI 訓練禁令，T62「免費商用五個字唖值錢」對齊；hunt-safety-vetting 係 R46 已驗證三源但未落標記嘅補記認領，m7-manual-validation-log.md L25–35＋memory/2026-09-20.md ~04:46–04:52 節＋quant-money-hunt-3.md:6 三源親驗全在場，維持已驗）；三份修前已 .bak-r60 備份，diff 純加行；external-cron-ping／stock-footage-license-check 維持未驗；真・未消化盲區 46→43（2026-09-22 ~09:35，R60 消化輪）",
       "- 跨主題消化：ffmpeg-skill／paid-decision-table／message-provenance 三份草稿補加「對齊註記」——逐份親手對證（ffmpeg-skill 真・出處 SOURCE.md＋REVERIFY-2026-09-20.md：2026-09-20 四關 vetting 全 PASS，scripts/ 47 個在場，templates/ 缺失＋「未驗」未標係已知缺口，Vetting PASS≠已驗；paid-decision-table 真・出處 cost-hunt-22.md：免費鏈上限 B級／買斷牆 B級／付費價二手 C級誠實分級在場，2026-09-21 付費層閘同 MEMORY 鐵律一致；message-provenance 真・出處 sai-arch-hunt-23.md：引文逐字對 ~/AGENTS.md:70 零走樣（Q136 出處漂浮排查）；三份修前已 .bak-r62 備份，diff 純加行；三份維持未驗；真・未消化盲區 40→37（2026-09-22 ~10:25，R62 消化輪）",
-      "- 跨主題消化：browser-parallel-sessions／github-actions-free-tier／eval-redline-check 三份草稿補加「對齊註記」——逐份親手對證（browser-parallel-sessions 真・出處 browser-hunt-15.md U-R15a，grep 驗 2 命中，sai-arch-hunt-15 同名 U-R15a 撞車註記準確；github-actions-free-tier 真・出處 free-hunt-21／30／33，保鮮期 2026-10-20，開通要 Sam Hui 親手做；eval-redline-check 真・出處 quant-money-hunt-5.md，七條 Tradeify 紅線逐條對官方 PASS 表✓，未定論兩項誠實留白；三份修前已 .bak-r63 備份，diff 純加行；三份維持未驗；真・未消化盲區 37→34（2026-09-22 ~11:00，R63 消化輪）"
+      "- 跨主題消化：browser-parallel-sessions／github-actions-free-tier／eval-redline-check 三份草稿補加「對齊註記」——逐份親手對證（browser-parallel-sessions 真・出處 browser-hunt-15.md U-R15a，grep 驗 2 命中，sai-arch-hunt-15 同名 U-R15a 撞車註記準確；github-actions-free-tier 真・出處 free-hunt-21／30／33，保鮮期 2026-10-20，開通要 Sam Hui 親手做；eval-redline-check 真・出處 quant-money-hunt-5.md，七條 Tradeify 紅線逐條對官方 PASS 表✓，未定論兩項誠實留白；三份修前已 .bak-r63 備份，diff 純加行；三份維持未驗；真・未消化盲區 37→34（2026-09-22 ~11:00，R63 消化輪）",
+      "- R64 消化輪：落咗 3 份跨主題對齊補丁（.bak-r64 備份，純加行）——memory-lifecycle（寫記憶之前先答三問：保鮮期／覆寫 key／退場，令 SAi 識「唔記」）、incident-one-pager（事故一頁紙 template 驗收：0 份真事故實例，未驗維持）、agentskills-conformance（129/129 機械六格實跑證據在場，缺獨立複核所以維持未驗）；真・未消化 34→31，紅燈繼續，下輪繼續消化唖產新。（落實誠實成熟度：證明過先叫已驗，唖偷升）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
