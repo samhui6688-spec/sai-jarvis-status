@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-22 14:15 HKT",
+  "generated_at_hkt": "2026-09-22 14:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每15分鐘發佈；10:25 主線更新手動部分，舊世界投影已修正）；Cloud Hands 誠實暫停（A–F 0/6，Actions未修好）；Message Bus 影子模式零分歧，6×404已證實係打錯owner名唔係授權故障；daemon 主線未能親驗（SSH被擋），Founder 10:20 觀察 heartbeat 新鮮（~107s）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -184,11 +184,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 29,
+    "今日筆記數": 30,
     "最新": [
+      "skill-digest-r70.md",
       "skill-digest-r69.md",
-      "skill-digest-r68.md",
-      "skill-digest-r67.md"
+      "skill-digest-r68.md"
     ],
     "最近落地": [
       "- R64 消化輪：落咗 3 份跨主題對齊補丁（.bak-r64 備份，純加行）——memory-lifecycle（寫記憶之前先答三問：保鮮期／覆寫 key／退場，令 SAi 識「唔記」）、incident-one-pager（事故一頁紙 template 驗收：0 份真事故實例，未驗維持）、agentskills-conformance（129/129 機械六格實跑證據在場，缺獨立複核所以維持未驗）；真・未消化 34→31，紅燈繼續，下輪繼續消化唖產新。（落實誠實成熟度：證明過先叫已驗，唖偷升）",
