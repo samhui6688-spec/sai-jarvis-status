@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-23 06:45 HKT",
+  "generated_at_hkt": "2026-09-23 07:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每15分鐘發佈；10:25 主線更新手動部分，舊世界投影已修正）；Cloud Hands 誠實暫停（A–F 0/6，Actions未修好）；Message Bus 影子模式零分歧，6×404已證實係打錯owner名唔係授權故障；daemon 主線未能親驗（SSH被擋），Founder 10:20 觀察 heartbeat 新鮮（~107s）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -194,17 +194,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 13,
+    "今日筆記數": 15,
     "最新": [
-      "skill-digest-r102.md",
-      "skill-digest-r101.md",
-      "skill-digest-r100.md"
+      "skill-digest-r103.md",
+      "bak-r103-free-tier-quota-watch-SKILL.md",
+      "skill-digest-r102.md"
     ],
     "最近落地": [
-      "- R99 消化輪落地 3 份技能草稿對齊補丁（.bak-r99 備份，純加行）——free-transport-pick（Upstash 新舊制 500K／月→10,000／日演化註明＋自加換算標 REPORTED）／free-retrieval-pick（誠實分級保留無升格，五格表修正對返 AGENTS.md）／skill-inventory-watch（親手實跑 133／126／6 已驗名單對中 Q82，R98 修法 hold 住，唔偷升維持未驗）——三份全部未驗維持，純加行零改舊；紅燈繼續（126＞100），下輪繼續消化唖產新。（2026-09-23 ~04:52）",
       "- R100 消化輪落地：autonomous-work-loop-check＋log-layer 兩份草稿對齊註記完成（對源筆記逐項對中＋誠實保鮮期，維持未驗唖偷升）——未驗庫存清理第 20 輪，紅燈下持續清積壓唔堆新。（2026-09-23）",
       "- R101 消化輪落地：media-ingestion 機械修復——補 frontmatter（name＋description 含「幾時用」＋誠實未驗），機械六格重驗全過，mechanical_fail 2→1；未驗維持唖偷升。對 Founder 有用：個「Share → SAi」媒體感官入口草稿以後畀 tool router／索引讀到——唖修嘅話佢永遠格式唔合規、用唖到，影片線感官入口缺咗個合格草稿。（2026-09-23 ~05:50 HKT）",
-      "- 庫存儀表板第一次機械全綠：quarantine 機械檢查 mechanical_fail 1→0（skill-compiler-loop 補咗 SKILL.md 包裝、改名備份目錄移出庫存），水位未驗 126 紅燈照舊消化中"
+      "- 庫存儀表板第一次機械全綠：quarantine 機械檢查 mechanical_fail 1→0（skill-compiler-loop 補咗 SKILL.md 包裝、改名備份目錄移出庫存），水位未驗 126 紅燈照舊消化中",
+      "- R103 消化輪落地 2 樣：①重複審查結論沉澱（hunts/dedupe-verdicts.md）——親手開檔判 inventory 最高兩對名相似 pair 非重複（disk-pressure-watch 管磁碟 vs psi-pressure-watch 管記憶體壓力；cost-reconcile 成本對賬 vs reconnect-reconcile 斷線重連），結論留檔之後輪唖重驗；②free-tier-quota-watch 付費閘字眼保鮮確認——對照 MEMORY standing rule（2026-09-21 長久有效）字眼仍準，加保鮮確認註，維持未驗唖偷升。對 Founder 有用：水位錶唖再每輪嘈同一批假重複（慳輪次時間）；付費閘字眼有日期錨點＋確認，唖會因為舊字眼過期而誤開錢——紅燈 126 照舊消化中。（2026-09-23 ~06:50 HKT）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
