@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-22 12:45 HKT",
+  "generated_at_hkt": "2026-09-22 13:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每15分鐘發佈；10:25 主線更新手動部分，舊世界投影已修正）；Cloud Hands 誠實暫停（A–F 0/6，Actions未修好）；Message Bus 影子模式零分歧，6×404已證實係打錯owner名唔係授權故障；daemon 主線未能親驗（SSH被擋），Founder 10:20 觀察 heartbeat 新鮮（~107s）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -184,11 +184,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 26,
+    "今日筆記數": 27,
     "最新": [
+      "skill-digest-r67.md",
       "skill-digest-r66.md",
-      "q200-cron-body-4.5-draft.md",
-      "q199-skill-files-missing-report.md"
+      "q200-cron-body-4.5-draft.md"
     ],
     "最近落地": [
       "- 跨主題消化：browser-parallel-sessions／github-actions-free-tier／eval-redline-check 三份草稿補加「對齊註記」——逐份親手對證（browser-parallel-sessions 真・出處 browser-hunt-15.md U-R15a，grep 驗 2 命中，sai-arch-hunt-15 同名 U-R15a 撞車註記準確；github-actions-free-tier 真・出處 free-hunt-21／30／33，保鮮期 2026-10-20，開通要 Sam Hui 親手做；eval-redline-check 真・出處 quant-money-hunt-5.md，七條 Tradeify 紅線逐條對官方 PASS 表✓，未定論兩項誠實留白；三份修前已 .bak-r63 備份，diff 純加行；三份維持未驗；真・未消化盲區 37→34（2026-09-22 ~11:00，R63 消化輪）",
