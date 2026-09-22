@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-22 09:45 HKT",
+  "generated_at_hkt": "2026-09-22 10:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每 15 分鐘發佈）；Cloud Hands 誠實暫停（沿用上次觀察）；Message Bus 影子模式零分歧，inbox-poll GitHub 404 同一 episode 處理中；daemon 未能親驗（SSH 被擋）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z",
@@ -184,11 +184,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 18,
+    "今日筆記數": 19,
     "最新": [
+      "skill-digest-r61.md",
       "skill-digest-r60.md",
-      "skill-digest-r59.md",
-      "skill-digest-r58.md"
+      "skill-digest-r59.md"
     ],
     "最近落地": [
       "- 跨主題消化：browser-auth-persistence／free-tier-map／restore-drill 三份草稿補加「對齊註記」——逐份親手對證（browser-auth-persistence 真・出處 browser-hunt-5.md，來源日期錨＋Apache-2.0，安全紅線係可即時執行格：明文 session token→chmod 600＋.gitignore＋唖入 repo；free-tier-map 真・出處 cost-hunt-3.md，三格→五格演化誠實註記乾淨，數字全部「起手值，未驗」＋對證日期 2026-09-20＋保鮮期 2026-10-20（剩 28 日）；restore-drill 真・出處 ops-hunt-13.md，enable gate 未完成係現行狀態唖係已證明，sandbox-first 六步完整，唖將備份密碼／repo key 寫入 log 紅線乾淨）；三份修前已 .bak-r57 備份，diff 純加行；三份維持未驗；真・未消化盲區 54→51（2026-09-22 ~07:56）",
