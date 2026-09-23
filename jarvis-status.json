@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-24 05:15 HKT",
+  "generated_at_hkt": "2026-09-24 05:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每15分鐘發佈；10:25 主線更新手動部分，舊世界投影已修正）；Cloud Hands 誠實暫停（A–F 0/6，Actions未修好）；Message Bus 影子模式零分歧，6×404已證實係打錯owner名唔係授權故障；daemon 主線未能親驗（SSH被擋），Founder 10:20 觀察 heartbeat 新鮮（~107s）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -199,17 +199,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 10,
+    "今日筆記數": 11,
     "最新": [
+      "skill-digest-r147.md",
       "skill-digest-r146.md",
-      "skill-digest-r145.md",
-      "skill-digest-r144.md"
+      "skill-digest-r145.md"
     ],
     "最近落地": [
       "- quarantine 126（全未驗），紅燈維持（>100），成輪繼續消化唖產新草稿。",
-      "- dedupe #201–#205 全部非重複，累計 **205 對**（連續十八輪低分區頂全部係「同一生態系上下游互補」型；200→205 對全靠親手讀檔，機械分數只做排序）。",
-      "- 新假設：「機械分數低分區枯竭」——連續七輪（R139–R146）TF-IDF 頂部全部零合併，唖係未判到重複，係低分區根本冇真重複；記低唖做，等落地動作／parent 批先提。",
-      "- 分工地圖增量：OOM 家族三件套假設——psi-pressure-watch（爆之前告警）＋oom-defense（爆嗰刻有秩序）＋disk-pressure-watch（磁碟姐妹篇）。"
+      "- dedupe #206–#210 全部非重複互補，累計 **210 對**（連續十九輪低分區頂全部係「同一生態系上下游互補」型；205→210 對全靠親手讀檔，機械分數只做排序）。",
+      "- 新判例：「引用唖等於重複」——browser-task-router 第 6 步引用 browser-stealth-session 紅線 #1 係上下游對齊，唖係重複；判重複要識分引用／對齊／互補三種關係。",
+      "- 分工地圖增量：成本監察家族成第三個樞紐——cost-attribution（錢賬歸因）＋free-tier-quota-watch（配額賬）＋dispatch-budget／quota-burnrate-watch／fallback-leak-watch，同一個家庭兩本賬（沿 #196 判例）。"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
