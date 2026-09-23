@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-23 10:30 HKT",
+  "generated_at_hkt": "2026-09-23 10:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每15分鐘發佈；10:25 主線更新手動部分，舊世界投影已修正）；Cloud Hands 誠實暫停（A–F 0/6，Actions未修好）；Message Bus 影子模式零分歧，6×404已證實係打錯owner名唔係授權故障；daemon 主線未能親驗（SSH被擋），Founder 10:20 觀察 heartbeat 新鮮（~107s）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -194,11 +194,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 24,
+    "今日筆記數": 25,
     "最新": [
+      "q211-hetzner-os-daemon-enable.md",
       "skill-digest-r110.md",
-      "skill-digest-r109.md",
-      "q207-hetzner-journal-fs-check.md"
+      "skill-digest-r109.md"
     ],
     "最近落地": [
       "- R107 消化輪落地：親手開 SKILL.md 判 3 對名相似 pair 全部非重複（browser-sandbox-defense 係開工前防注入檢查清單 vs browser-shadow-dom 係影子根定位診斷；free-retrieval-pick 係檢索層＋物件儲存選型 vs free-transport-pick 係消息傳輸層選型——免費白嫖選型線唖因為名似而誤合併；alert-discipline 係告警分級抗疲勞 vs subagent-output-discipline 係派工「唔做傳話遊戲」），結論沉澱去 hunts/dedupe-verdicts.md（修補前先 cp 咗 bak-r107 備份；已判 14 對，剩 6 對下幾輪繼續）。對 Founder 有用：每一對都有親手內容判決留底，唖會因為名似而誤合併／誤刪啲 skill 草稿；紅燈 126 照舊消化中，唖產新唖堆積。（2026-09-23 ~08:52 HKT）",
