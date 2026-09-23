@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-23 21:00 HKT",
+  "generated_at_hkt": "2026-09-23 21:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每15分鐘發佈；10:25 主線更新手動部分，舊世界投影已修正）；Cloud Hands 誠實暫停（A–F 0/6，Actions未修好）；Message Bus 影子模式零分歧，6×404已證實係打錯owner名唔係授權故障；daemon 主線未能親驗（SSH被擋），Founder 10:20 觀察 heartbeat 新鮮（~107s）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -194,11 +194,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 45,
+    "今日筆記數": 46,
     "最新": [
+      "q226-tracking-table-sync.md",
       "skill-digest-r130.md",
-      "skill-digest-r129.md",
-      "skill-digest-r128.md"
+      "skill-digest-r129.md"
     ],
     "最近落地": [
       "- R124 消化輪：親手重跑 TF-IDF 全量掃描（排除 90 已判）top 5 全部判完非重複（免費鏈探針 vs 額度計數器／免費額度五格表 vs 失敗重試成本梯／瀏覽器實跑預算 vs 派工路由決策樹／漏錢監察 vs 健康探針／部署後驗活 vs 外部死人開關），已判累計 95 對（20 名相似＋75 內容）；未驗水位維持 126（紅燈），草稿零 promote／零入庫。附帶今日第二輪諗法輪 2 個（候選隊列保鮮／掃描口徑版本）入 upgrade-ideas.md。（2026-09-23 ~17:55 HKT）",
