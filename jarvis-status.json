@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-24 02:45 HKT",
+  "generated_at_hkt": "2026-09-24 03:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每15分鐘發佈；10:25 主線更新手動部分，舊世界投影已修正）；Cloud Hands 誠實暫停（A–F 0/6，Actions未修好）；Message Bus 影子模式零分歧，6×404已證實係打錯owner名唔係授權故障；daemon 主線未能親驗（SSH被擋），Founder 10:20 觀察 heartbeat 新鮮（~107s）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -199,17 +199,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 5,
+    "今日筆記數": 6,
     "最新": [
+      "skill-digest-r142.md",
       "skill-digest-r141.md",
-      "skill-digest-r140.md",
-      "skill-digest-r139.md"
+      "skill-digest-r140.md"
     ],
     "最近落地": [
-      "- 技能庫存消化輪 R137：親手開 10 份草稿逐對對內容，5 對全部判非重複（畀錢歸因 vs 免費開工閘／compaction 質量驗 vs context 預算／OOM 防禦 vs 重啟循環認輸／免費額度地圖 vs 省 token 配方／quota 錶 vs 庫存水位錶），去重判累計 160 對——skill 庫唔變重複垃圾場，邊個草稿用嚟答咩問題清清楚楚。（2026-09-24 ~00:30 HKT）",
-      "- 技能庫存消化輪 R138：親手開 9 份草稿逐對對內容，5 對全部判非重複（畀錢 call 歸因 vs 用量雙軌核對／漏錢漏報監察 vs 免費 quota 用量錶／長任務韌性 vs 派工前存在性檢查／單任務存活 vs 跨機並行協調／磁碟爆滿預警 vs journal 日誌證據衛生），去重判累計 165 對——捉到新分界 pattern「同一操作、相反紀律」（vacuum：救碟急救 vs 保證據唖准），係互補唖係矛盾，寫低邊界唖使合併。（2026-09-24 ~01:00 HKT）",
-      "- R139 消化輪（dedupe #166–#170，全部非重複零合併）：交接驗收 vs 長任務韌性設計、browser 檔案安全 vs 派工前檢查、免費額度閘 vs model 身份核對、iframe 入格 vs 快照減肥、複雜互動流程 vs 檔案安全；紅燈維持（未驗 126／>100），零新草稿。已判累計 170 對。",
-      "- skill-hunt R140 消化輪：dedupe 判決 #171–#175（降級政策 vs 調度器架構／頁面干擾 vs 注入防禦／等待機械 vs 決策預演／證據格式 vs 韌性行為／動作驗收 vs 錄影回放），全部非重複零合併，已判累計 175 對；quarantine 紅燈維持（未驗 126），唔產新草稿（消化輪消化水位，唔堆新嘢）。"
+      "- skill-hunt R140 消化輪：dedupe 判決 #171–#175（降級政策 vs 調度器架構／頁面干擾 vs 注入防禦／等待機械 vs 決策預演／證據格式 vs 韌性行為／動作驗收 vs 錄影回放），全部非重複零合併，已判累計 175 對；quarantine 紅燈維持（未驗 126），唔產新草稿（消化輪消化水位，唔堆新嘢）。",
+      "- 6 份「已驗」草稿入庫準備度複核全過（cantonese-lyric-gate／free-endpoint-probe／hunt-safety-vetting／schedule-idle-audit／task-bus-envelope／warehouse-intake），free-endpoint-probe 補登安全 vetting 節——6 份成待批落地清單，入庫就差 parent 一批（唖再為產而產，紅燈下唖產新草稿）。",
+      "- dedupe #181–#185 全部非重複，累計 185 對（13 輪連續零合併——低分區頂全部係上下游互補，唖係真重複）。",
+      "- parent 批量批准：上述 6 份逐份親手讀過，入庫 checklist 八格全過，全部正式入庫（`~/workspace/skills/` 24→30 份）——系統能力庫一次過加 6 個已驗證工具（歌詞協音閘／免費鏈探針／安全四關／排程空轉審計／任務訊息規約／本地入倉），全部低風險可逆。（2026-09-24 ~02:55 HKT）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
