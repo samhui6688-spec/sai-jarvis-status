@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-23 08:15 HKT",
+  "generated_at_hkt": "2026-09-23 08:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每15分鐘發佈；10:25 主線更新手動部分，舊世界投影已修正）；Cloud Hands 誠實暫停（A–F 0/6，Actions未修好）；Message Bus 影子模式零分歧，6×404已證實係打錯owner名唔係授權故障；daemon 主線未能親驗（SSH被擋），Founder 10:20 觀察 heartbeat 新鮮（~107s）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -201,10 +201,10 @@
       "skill-digest-r104.md"
     ],
     "最近落地": [
-      "- 庫存儀表板第一次機械全綠：quarantine 機械檢查 mechanical_fail 1→0（skill-compiler-loop 補咗 SKILL.md 包裝、改名備份目錄移出庫存），水位未驗 126 紅燈照舊消化中",
       "- R103 消化輪落地 2 樣：①重複審查結論沉澱（hunts/dedupe-verdicts.md）——親手開檔判 inventory 最高兩對名相似 pair 非重複（disk-pressure-watch 管磁碟 vs psi-pressure-watch 管記憶體壓力；cost-reconcile 成本對賬 vs reconnect-reconcile 斷線重連），結論留檔之後輪唖重驗；②free-tier-quota-watch 付費閘字眼保鮮確認——對照 MEMORY standing rule（2026-09-21 長久有效）字眼仍準，加保鮮確認註，維持未驗唖偷升。對 Founder 有用：水位錶唖再每輪嘈同一批假重複（慳輪次時間）；付費閘字眼有日期錨點＋確認，唖會因為舊字眼過期而誤開錢——紅燈 126 照舊消化中。（2026-09-23 ~06:50 HKT）",
       "- R104 消化輪落地：親手開 SKILL.md 判 3 對名相似 pair 全部非重複（browser-parallel-sessions 管多隻手資源管理 vs browser-stealth-session 過反偵測；browser-auth-persistence 登入狀態持久化 vs browser-resilience 長跑韌性；ibkr-paper-exec IBKR socket vs tradovate-paper-exec Tradovate REST——P1 paper 第一二條執行路互補），結論沉澱去 hunts/dedupe-verdicts.md，之後輪次唔再重驗；另修正待審清單由粗略描述寫成 15 對完整全表（舊記錄低估咗待審規模）。對 Founder 有用：唔會因為名似而誤判／誤合併啲 skill 草稿——每一對都有親手內容判決留底；紅燈 126 照舊消化中，唔產新唔堆積。（2026-09-23 ~07:20 HKT）",
-      "- R105 消化輪落地：親手開 SKILL.md 判 3 對名相似 pair 全部非重複（browser-action-log-schema 係執行後證據格式 vs browser-action-verify 係動作中即刻驗證；browser-action-verify 動作後驗證 vs browser-obstruction-clear 開工前清場；browser-api-seed 測試資料起法 vs browser-auth-persistence 登入狀態持久化），結論沉澱去 hunts/dedupe-verdicts.md（已判 8 對，剩 12 對下幾輪繼續）。對 Founder 有用：browser-action-* 家族唖再因為名似而誤合併——「開工前／執行中／執行後」三分法每次親手內容判決留底；紅燈 126 照舊消化中，唔產新唖堆積。（2026-09-23 ~07:47 HKT）"
+      "- R105 消化輪落地：親手開 SKILL.md 判 3 對名相似 pair 全部非重複（browser-action-log-schema 係執行後證據格式 vs browser-action-verify 係動作中即刻驗證；browser-action-verify 動作後驗證 vs browser-obstruction-clear 開工前清場；browser-api-seed 測試資料起法 vs browser-auth-persistence 登入狀態持久化），結論沉澱去 hunts/dedupe-verdicts.md（已判 8 對，剩 12 對下幾輪繼續）。對 Founder 有用：browser-action-* 家族唖再因為名似而誤合併——「開工前／執行中／執行後」三分法每次親手內容判決留底；紅燈 126 照舊消化中，唔產新唖堆積。（2026-09-23 ~07:47 HKT）",
+      "- R106 消化輪落地：親手開 SKILL.md 判 3 對名相似 pair 全部非重複（browser-file-boundary 係檔案下載／上傳安全邊界 vs browser-frame-entry 係 iframe 定位診斷；browser-action-log-schema 執行後證據格式 vs browser-obstruction-clear 開工前清場——R105「開工前／執行中／執行後」三分法第二次親手驗證成立；browser-auth-persistence 登入狀態持久化 vs browser-stealth-session 過反偵測會話），結論沉澱去 hunts/dedupe-verdicts.md（已判 11 對，剩 9 對下幾輪繼續）。對 Founder 有用：browser 家族再唖因為名似而誤合併——每對都有親手內容判決留底；紅燈 126 照舊消化中，唔產新唖堆積。（2026-09-23 ~08:20 HKT）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
