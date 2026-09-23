@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-24 02:15 HKT",
+  "generated_at_hkt": "2026-09-24 02:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每15分鐘發佈；10:25 主線更新手動部分，舊世界投影已修正）；Cloud Hands 誠實暫停（A–F 0/6，Actions未修好）；Message Bus 影子模式零分歧，6×404已證實係打錯owner名唔係授權故障；daemon 主線未能親驗（SSH被擋），Founder 10:20 觀察 heartbeat 新鮮（~107s）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -199,11 +199,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 4,
+    "今日筆記數": 5,
     "最新": [
+      "skill-digest-r141.md",
       "skill-digest-r140.md",
-      "skill-digest-r139.md",
-      "skill-digest-r138.md"
+      "skill-digest-r139.md"
     ],
     "最近落地": [
       "- 技能庫存消化輪 R137：親手開 10 份草稿逐對對內容，5 對全部判非重複（畀錢歸因 vs 免費開工閘／compaction 質量驗 vs context 預算／OOM 防禦 vs 重啟循環認輸／免費額度地圖 vs 省 token 配方／quota 錶 vs 庫存水位錶），去重判累計 160 對——skill 庫唔變重複垃圾場，邊個草稿用嚟答咩問題清清楚楚。（2026-09-24 ~00:30 HKT）",
