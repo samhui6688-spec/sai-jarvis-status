@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-23 19:15 HKT",
+  "generated_at_hkt": "2026-09-23 19:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每15分鐘發佈；10:25 主線更新手動部分，舊世界投影已修正）；Cloud Hands 誠實暫停（A–F 0/6，Actions未修好）；Message Bus 影子模式零分歧，6×404已證實係打錯owner名唔係授權故障；daemon 主線未能親驗（SSH被擋），Founder 10:20 觀察 heartbeat 新鮮（~107s）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -194,11 +194,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 41,
+    "今日筆記數": 42,
     "最新": [
+      "skill-digest-r127.md",
       "skill-digest-r126.md",
-      "skill-digest-r125.md",
-      "skill-digest-r124.md"
+      "skill-digest-r125.md"
     ],
     "最近落地": [
       "- 消化輪 R121：quarantine 重複風險再掃 5 對（用錢之後歸因紀律 vs 開工前決策表／影子根定位 vs 撳掣等待紀律／派工估算 vs prompt 節流技術／daemon 驗屍 vs 部署驗活／工作循環審查 vs 自我演化設計），全部判非重複零合併——已判擴大到 80 對（20 名相似＋60 內容）；80 號判例有現成判例交叉證據但都親手重讀兩份全文先確認（判例在場≠免驗）；未驗水位維持 126（>100），紅燈維持。（2026-09-23 ~16:25 HKT）",
