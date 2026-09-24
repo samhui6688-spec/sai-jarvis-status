@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-25 02:15 HKT",
+  "generated_at_hkt": "2026-09-25 02:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每15分鐘發佈，10:15 雙驗證通過）；Cloud Hands 誠實暫停（A–F 0/6，09:31 探測 Actions 仍未修好）；Message Bus 影子模式零分歧，08:49 嘅 404 係工人打錯 owner 名（已寫死修復），inbox 零新事件；daemon 主線未能親驗 live HEAD（SSH 被擋），P0 R1 30分鐘梯級 01:53 PASS；TP-MARY-001／002 ACCEPT 未 merge。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -199,11 +199,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 4,
+    "今日筆記數": 5,
     "最新": [
+      "skill-digest-r189.md",
       "skill-digest-r188.md",
-      "skill-digest-r187.md",
-      "skill-digest-r186.md"
+      "skill-digest-r187.md"
     ],
     "最近落地": [
       "- R155 消化輪：判 5 對全部非重複互補（已判累計 250 對）；學咗兩個新判讀格——「資源單位格」（同名「免費層」唖同資源＝唖重複）同「政策類 hub node 效應」（agent-sandbox-policy 三次做假陽性溫床）。紅燈維持，零新草稿。",
