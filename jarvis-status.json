@@ -1,40 +1,40 @@
 {
-  "generated_at_hkt": "2026-09-24 10:15 HKT",
-  "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每15分鐘發佈；10:25 主線更新手動部分，舊世界投影已修正）；Cloud Hands 誠實暫停（A–F 0/6，Actions未修好）；Message Bus 影子模式零分歧，6×404已證實係打錯owner名唔係授權故障；daemon 主線未能親驗（SSH被擋），Founder 10:20 觀察 heartbeat 新鮮（~107s）。",
+  "generated_at_hkt": "2026-09-24 10:30 HKT",
+  "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每15分鐘發佈，10:15 雙驗證通過）；Cloud Hands 誠實暫停（A–F 0/6，09:31 探測 Actions 仍未修好）；Message Bus 影子模式零分歧，08:49 嘅 404 係工人打錯 owner 名（已寫死修復），inbox 零新事件；daemon 主線未能親驗 live HEAD（SSH 被擋），P0 R1 30分鐘梯級 01:53 PASS；TP-MARY-001／002 ACCEPT 未 merge。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
     "SOURCE_STALE": true,
-    "updated_at_hkt": "2026-09-22 10:25 HKT",
+    "updated_at_hkt": "2026-09-24 10:20 HKT",
+    "主線覆核": "2026-09-24 10:20 HKT：daemon 線最新鮮嘅主線級證據係 P0 R1 PASS（01:53）；live daemon 當前 checkout 主線因 SSH 被擋未能獨立重驗，誠實標 UNVERIFIED_BY_MAINLINE",
     "位置": "Hetzner 2.29.11.95，sam-hetzner-daemon.service（Gen33，824a47aa）",
-    "最新觀察": "2026-09-22 約10:20 HKT：Founder 親讀 canonical 證據，private heartbeat 新鮮（約107秒）——標明來源係 Founder 觀察，主線待獨立親驗",
-    "本輪結果": "2026-09-22 10:25 HKT 主線仍未能親驗：去 Hetzner 嘅 SSH 仍被 egress proxy 擋；唔估健康狀態",
-    "狀態": "主線未能親驗（SSH 被擋）；Founder 觀察 heartbeat 新鮮（~107s，約10:20）；最後主線實測為 2026-09-19 Gen33 deploy（當時 service active、healthy idle）",
-    "驗證": "阿占 2026-09-20 12:02 HKT 經公開 raw fresh-read 實測通過",
-    "主線覆核": "2026-09-22 10:25 HKT：daemon 線最新鮮嘅證據係 Founder 10:20 嗰次 canonical 讀數（~107秒）；主線因 SSH 被擋未能獨立重驗，誠實標 UNVERIFIED_BY_MAINLINE"
+    "最新觀察": "P0 R1 30分鐘無人值守梯級 2026-09-24 01:53 HKT PASS（production SHA a7fe330e508723ccafadcae3e8ad17d777d54349，PID 211726；29/29 cycle 準時，WORK_COMPLETED×13、NO_WORK_DREAMED×16、FAIL_CLOSED×0、ERROR×0；13份非空研究產物；token 0、Founder intervention 0）。TP-MARY-001（PR #220）／002（PR #222）獨立審查 ACCEPT，未 merge／deploy。",
+    "本輪結果": "2026-09-24 10:20 HKT 主線仍未能親驗 live Hetzner HEAD：去 Hetzner 嘅 SSH 仍被 egress proxy 擋；唔估健康狀態",
+    "狀態": "主線未能親驗 live daemon（SSH 被擋）；最後主線實測為 2026-09-19 Gen33 deploy（當時 service active、healthy idle）；P0 R1 30分鐘梯級 2026-09-24 01:53 PASS（同批數據重判 G1–G7 全過）",
+    "驗證": "阿占 2026-09-20 12:02 HKT 經公開 raw fresh-read 實測通過"
   },
   "cloud_hands": {
     "live_status": "paused",
-    "updated_at_hkt": "2026-09-22 10:25 HKT",
-    "下一步": "修 GitHub Actions runner 問題（cgroup threaded＋run 15秒即 fail 兩類症狀要逐 run 取證）；修好後重跑 A–F；Plan B 係 Codex 部機；未經 Founder 明確批准唔 merge／deploy",
+    "updated_at_hkt": "2026-09-24 10:20 HKT",
+    "下一步": "修 GitHub Actions runner 問題（dispatch 嘅 run 幾秒內即 fail 兩類症狀要逐 run 取證）；修好後重跑 A–F；Plan B 係 Codex 部機；未經 Founder 明確批准唔 merge／deploy",
+    "主線覆核": "2026-09-24 10:20 HKT：沿用 09:31 觀察；L2B（Computer Hands Windows 手眼）00:52 HKT 已 ACCEPTED 屬另一條線，唔混入。",
     "仍然work": "cpu 控制、pids 控制",
-    "根因": "runner service 自身 cgroup 係 domain threaded（全系統唯一）；memory 係 domain controller，寫唔落 subtree_control；另最新 dispatch run 35675801902 喺 15 秒內 completed/failure（2026-09-22 ~09:26 HKT 探測）",
-    "狀態": "A–F 正式驗收 0/6；誠實暫停（唔扮健康）",
-    "本輪觀察": "2026-09-22 ~09:26 HKT：dispatch 成功回 204，但最新 run 35675801902 喺 15 秒內 completed/failure；Actions 仍未修好",
-    "主線覆核": "2026-09-22 10:25 HKT：沿用 09:26 觀察；L2B（Computer Hands Windows 手眼）00:52 HKT 已 ACCEPTED 屬另一條線，唔混入。"
+    "本輪觀察": "2026-09-24 09:31 HKT：actions-recovery-watch 探測——dispatch 成功，但最新 run 喺幾秒內 completed/failure；Actions 仍未修好，無變化",
+    "根因": "runner service 自身 cgroup 係 domain threaded（全系統唯一）；memory 係 domain controller，寫唔落 subtree_control；另 dispatch 嘅 run 喺幾秒內 completed/failure（持續中）",
+    "狀態": "A–F 正式驗收 0/6；誠實暫停（唔扮健康）"
   },
   "message_bus": {
-    "updated_at_hkt": "2026-09-22 10:25 HKT",
-    "下一步": "修 inbox-poll 空 result_summary（上游寫入缺陷）；owner 單一常數化＋pre-flight identifier 校驗（forensics §5）；Phase B 等 Founder 批",
-    "狀態": "Phase A 影子模式，每 15 分鐘檢查，零分歧（v2 queued=0）",
-    "本輪觀察": "2026-09-22 10:25 HKT：影子檢查 exit 0，零分歧，v2 queued=0。6×404 已正式封存為 IDENTIFIER_TYPO（2026-09-22 ~04:02 HKT 鑑證：6/6 都係 owner 打錯 sam-hui-6688，啱嘅係 samhui6688-spec；coordinator control test 啱 owner→200）；舊 AUTH_BLOCKED 誤判已撤銷。09:44 有 worker 嗰輪報 repo endpoint 404，主代理 09:54 親手三次重跑（private repo／public repo／issues/41）全部 200——判嗰輪誤判，RUNTIME_STATE=OPERATIONAL。inbox-poll result_summary 仍空，係摘要寫入缺陷，唔係授權問題。"
+    "updated_at_hkt": "2026-09-24 10:20 HKT",
+    "下一步": "Phase B 等 Founder 批",
+    "本輪觀察": "2026-09-24 08:49 HKT：inbox-poll 工人自己打錯 owner（sam-hui6688-spec）導致 404，唔係 GitHub／授權故障；主線 08:51 親手用正確 owner（samhui6688-spec）驗證 repo 200、inbox 零新事件；已將正確 owner 寫死入排程 body（08:51＋09:58 兩次修）。09:04／09:19／09:34／09:49 四輪全部成功、inbox 零新事件。result_summary 持續 null：工人交唔出 final message，backup log（inbox-poll-summaries.log）已升為正式交差收據，影子檢查讀佢做 fallback，零分歧維持。",
+    "狀態": "Phase A 影子模式，每 15 分鐘檢查，零分歧（v2 queued=0）"
   },
   "gpt_hands": {},
   "gpt_eye": {
-    "updated_at_hkt": "2026-09-22 10:25 HKT",
+    "updated_at_hkt": "2026-09-24 10:20 HKT",
     "下一步": "v2 派任務手 → Brain Router",
     "傳輸鏈": "ChatGPT → GitHub raw（sai-jarvis-status）→ Hetzner heartbeat",
     "公開raw": "https://raw.githubusercontent.com/samhui6688-spec/sai-jarvis-status/main/jarvis-status.json",
-    "狀態": "隻眼正式打通（2026-09-20 12:02 HKT 阿占實測 fresh-read 通過）"
+    "狀態": "隻眼正式打通（2026-09-20 12:02 HKT 阿占實測 fresh-read 通過）；快照每 15 分鐘發佈正常（2026-09-24 10:15 HKT publish exit 0，public repo＋gist 雙驗證通過）"
   },
   "排程": [
     {
@@ -199,17 +199,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 20,
+    "今日筆記數": 21,
     "最新": [
+      "skill-digest-r157.md",
       "skill-digest-r156.md",
-      "skill-digest-r155.md",
-      "skill-digest-r154.md"
+      "skill-digest-r155.md"
     ],
     "最近落地": [
-      "- skill-digest R153：消化輪判 5 對全部非重複互補（格式閘／配置監察／派工動作／水位儀表板／重啟循環／爆費防守／免費額度／成本對賬／教訓沉澱），已判累計 240 對，零合併；補齊機器可讀 judged 集（R152 condensed 格式落後 5 對）；紅燈維持（未驗 126），水位未降唖產新草稿。",
       "- skill-digest R154：消化輪判 5 對全部非重複互補（系統降級規約 vs 交易熔斷器、沙盒安全閘 vs 自我改善清單、省用量 vs 核模型身份、收工對賬 vs 開工額度牆、漏錢監察 vs 失敗決策），已判累計 245 對，零合併；機器集對齊無落後；紅燈維持（未驗 126），水位未降唖產新草稿。",
       "- R155 消化輪：判 5 對全部非重複互補（已判累計 250 對）；學咗兩個新判讀格——「資源單位格」（同名「免費層」唖同資源＝唖重複）同「政策類 hub node 效應」（agent-sandbox-policy 三次做假陽性溫床）。紅燈維持，零新草稿。",
-      "- skill-hunt R156 消化輪：TF-IDF top 5 去重全判非重複互補（已判累計 255 對），零新草稿，紅燈維持（未驗 126）。"
+      "- skill-hunt R156 消化輪：TF-IDF top 5 去重全判非重複互補（已判累計 255 對），零新草稿，紅燈維持（未驗 126）。",
+      "- R157 消化輪：TF-IDF top 5 去重全判非重複互補（已判累計 260 對），畫出沙盒家族三層＋交易風控生命週期三段分工地圖，零新草稿，紅燈維持（126 未驗）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
