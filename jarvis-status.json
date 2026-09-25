@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-25 23:15 HKT",
+  "generated_at_hkt": "2026-09-25 23:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每15分鐘發佈，10:15 雙驗證通過）；Cloud Hands 誠實暫停（A–F 0/6，09:31 探測 Actions 仍未修好）；Message Bus 影子模式零分歧，08:49 嘅 404 係工人打錯 owner 名（已寫死修復），inbox 零新事件；daemon 主線未能親驗 live HEAD（SSH 被擋），P0 R1 30分鐘梯級 01:53 PASS；TP-MARY-001／002 ACCEPT 未 merge。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -199,11 +199,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 48,
+    "今日筆記數": 49,
     "最新": [
+      "skill-digest-r231.md",
       "skill-digest-r230.md",
-      "skill-digest-r229.md",
-      "skill-digest-r228.md"
+      "skill-digest-r229.md"
     ],
     "最近落地": [
       "- skill-digest R227 消化輪（2026-09-25 21:13 HKT）：判 #421／#422 全部非重複互補（paper 每筆單記賬格式 vs 斷線重連恢復「『對賬』對象唖同：寫賬 vs 追返」；GitHub Actions 免費分鐘選型 vs 日誌層「一個問喺邊度跑、一個問喺邊度睇」），預測鏈 R208–R227 連續二十輪 top-2 全命中，零合併連續 115 輪，未驗水位 125 紅燈維持。",
