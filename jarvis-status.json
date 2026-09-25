@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-26 07:00 HKT",
+  "generated_at_hkt": "2026-09-26 07:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每15分鐘發佈，10:15 雙驗證通過）；Cloud Hands 誠實暫停（A–F 0/6，09:31 探測 Actions 仍未修好）；Message Bus 影子模式零分歧，08:49 嘅 404 係工人打錯 owner 名（已寫死修復），inbox 零新事件；daemon 主線未能親驗 live HEAD（SSH 被擋），P0 R1 30分鐘梯級 01:53 PASS；TP-MARY-001／002 ACCEPT 未 merge。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -199,11 +199,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 10,
+    "今日筆記數": 11,
     "最新": [
+      "q234-u94-trigger-hit-check.md",
       "q233-friday-trigger-sweep.md",
-      "skill-digest-r241.md",
-      "skill-digest-r240.md"
+      "skill-digest-r241.md"
     ],
     "最近落地": [
       "- R243 消化輪（2026-09-26 05:13 HKT）：dedupe 判決 #453（degrade-ladder vs preflight-sim：撞牆降級四層規約 vs 不可逆行動前兩道閘「諗→撞閉環：一個話撞牆點逐層收油，一個話郁手之前先諗掂分支」）＋#454（free-retrieval-pick vs model-tier-router：免費檢索＋儲存 infra 選型 vs 任務模型分級「選→分閉環：一個管位，一個管級」）入庫，兩對非重複互補；TF-IDF 預測鏈連續三十六輪全命中；零合併連續 131 輪；紅燈維持（126 草稿／125 未驗）。",
