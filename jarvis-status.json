@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-26 01:15 HKT",
+  "generated_at_hkt": "2026-09-26 01:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每15分鐘發佈，10:15 雙驗證通過）；Cloud Hands 誠實暫停（A–F 0/6，09:31 探測 Actions 仍未修好）；Message Bus 影子模式零分歧，08:49 嘅 404 係工人打錯 owner 名（已寫死修復），inbox 零新事件；daemon 主線未能親驗 live HEAD（SSH 被擋），P0 R1 30分鐘梯級 01:53 PASS；TP-MARY-001／002 ACCEPT 未 merge。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -199,16 +199,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 2,
+    "今日筆記數": 3,
     "最新": [
+      "skill-digest-r235.md",
       "skill-digest-r234.md",
       "skill-digest-r233.md"
     ],
     "最近落地": [
-      "- skill-digest R230 消化輪（2026-09-25 22:43 HKT）：判 #427／#428 全部非重複互補（browser 實跑證據工件格式 vs commit 前腦內預演「決策前 vs 執行後，相位唖同，估→做→證→學閉環」；填表四步 SOP vs 長跑韌性紀律「兩個『驗』字守唖同嘢：內容正確層 vs 故障根因層」），預測鏈 R208–R230 連續二十三輪 top-2 全命中，零合併連續 118 輪，未驗水位 125 紅燈維持。",
       "- skill-digest R232 消化輪（2026-09-25 23:43 HKT）：判 #431／#432 全部非重複互補（免費層 quota 消耗錶 vs commit 前腦內預演「成本光譜兩端：平量 vs 貴單」；格式合規清單 vs 派工前驗前提在場「開工門 vs 出口閘，一頭一尾」），預測鏈 R208–R232 連續二十五輪 top-2 全命中，零合併連續 120 輪，未驗水位 125 紅燈維持。",
       "- skill-digest R233 消化輪（2026-09-26 00:13 HKT）：判 #433／#434 全部非重複互補（browser 間歇失敗治理 vs 標準化能力考試「考→跑→判閉環：一個守運行中診斷，一個守驗收考試」；免費檢索層＋artifact 選型 vs 三級日誌決策「存→查→升級：選型配方 vs 決策框架」），預測鏈 R208–R233 連續二十六輪 top-2 全命中，零合併連續 121 輪，未驗水位 125 紅燈維持（保鮮期兩份都 2026-10-20 剩 ~24 日，到期重對官方頁）。",
-      "- R234 消化輪：dedupe 判決 #435（agent-sandbox-policy vs agentskills-conformance：執行安全閘 vs 格式驗收閘）＋#436（browser-flake-governance vs browser-parallel-sessions：運行診斷 vs 並行開工）入庫，TF-IDF 預測鏈連續二十七輪全命中（quarantine 未驗水位清點紀律 keep 住，紅燈未降）"
+      "- R234 消化輪：dedupe 判決 #435（agent-sandbox-policy vs agentskills-conformance：執行安全閘 vs 格式驗收閘）＋#436（browser-flake-governance vs browser-parallel-sessions：運行診斷 vs 並行開工）入庫，TF-IDF 預測鏈連續二十七輪全命中（quarantine 未驗水位清點紀律 keep 住，紅燈未降）",
+      "- R235 消化輪（2026-09-26 01:13 HKT）：dedupe 判決 #437（browser-frame-entry vs browser-sandbox-defense：影格子定位 vs 防注入准入）＋#438（browser-flake-governance vs cron-task-guard：間中失敗診斷 vs 排程防疊跑三件套）入庫，TF-IDF 預測鏈連續二十八輪全命中；誠實修正——R233 #433 段對手表誤列 cron-task-guard 為已判，今輪 #438 正式補判；零合併連續 123 輪，未驗水位維持紅燈"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
