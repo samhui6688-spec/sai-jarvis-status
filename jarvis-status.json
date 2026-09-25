@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-26 05:15 HKT",
+  "generated_at_hkt": "2026-09-26 05:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每15分鐘發佈，10:15 雙驗證通過）；Cloud Hands 誠實暫停（A–F 0/6，09:31 探測 Actions 仍未修好）；Message Bus 影子模式零分歧，08:49 嘅 404 係工人打錯 owner 名（已寫死修復），inbox 零新事件；daemon 主線未能親驗 live HEAD（SSH 被擋），P0 R1 30分鐘梯級 01:53 PASS；TP-MARY-001／002 ACCEPT 未 merge。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -206,10 +206,10 @@
       "skill-digest-r239.md"
     ],
     "最近落地": [
-      "- R239 消化輪：dedupe 判決 #445（browser-smart-wait vs executive-scheduler：四格動作前檢查 vs 「取代 N 條排程」設計規約「派→跑→等閉環」）＋#446（browser-blackbox vs browser-request-throttle：全程黑盒錄影 vs 請求攔截加速「設→錄→查閉環：request 層方向相反，錄低 vs 擋」）入庫，兩對非重複互補；預測鏈 R208–R239 三十二輪全中；零合併連續 127 輪，未驗水位維持紅燈（126 草稿／125 未驗）",
       "- R240 消化輪：dedupe #447 durable-execution vs free-window-tracker（任務存活 vs 額度開工閘）／#448 agentskills-conformance vs free-tier-quota-watch（格式閘 vs 額度監察），預測鏈 R208–R240 連續三十三輪命中，零合併 128 輪。",
       "- R241 消化輪：dedupe #449 github-actions-free-tier vs prompt-cache-playbook（免費 CI 執行層選型 vs 調用成本優化「選→慳閉環：一個話重活喺邊度跑，一個話調用點慳」）／#450 agentskills-conformance vs prompt-cache-playbook（沉澱出口格式閘 vs 調用成本優化「同家族唔同戰線」），預測鏈 R208–R241 連續三十四輪命中，零合併 129 輪，未驗水位維持紅燈（126 草稿／125 未驗）。",
-      "- R242 消化輪（2026-09-26 04:43 HKT）：dedupe 判決 #451（fleet-throttle vs free-tier-quota-watch：艦隊撞牆降級決策樹 vs 免費層每日 quota 錶「錶→樹閉環：一個話仲剩幾多糧，一個話撞牆邊條排程先停」）＋#452（browser-smart-wait vs run-receipt：動作前四格檢查 vs 排程收據「前→後證鏈：一個話郁手之前準備好未，一個話跑完留低收據分得出巡過冇事定根本冇巡」）入庫，兩對非重複互補；TF-IDF 預測鏈連續三十五輪全命中；零合併連續 130 輪；紅燈維持（126 草稿／125 未驗）。"
+      "- R242 消化輪（2026-09-26 04:43 HKT）：dedupe 判決 #451（fleet-throttle vs free-tier-quota-watch：艦隊撞牆降級決策樹 vs 免費層每日 quota 錶「錶→樹閉環：一個話仲剩幾多糧，一個話撞牆邊條排程先停」）＋#452（browser-smart-wait vs run-receipt：動作前四格檢查 vs 排程收據「前→後證鏈：一個話郁手之前準備好未，一個話跑完留低收據分得出巡過冇事定根本冇巡」）入庫，兩對非重複互補；TF-IDF 預測鏈連續三十五輪全命中；零合併連續 130 輪；紅燈維持（126 草稿／125 未驗）。",
+      "- R243 消化輪（2026-09-26 05:13 HKT）：dedupe 判決 #453（degrade-ladder vs preflight-sim：撞牆降級四層規約 vs 不可逆行動前兩道閘「諗→撞閉環：一個話撞牆點逐層收油，一個話郁手之前先諗掂分支」）＋#454（free-retrieval-pick vs model-tier-router：免費檢索＋儲存 infra 選型 vs 任務模型分級「選→分閉環：一個管位，一個管級」）入庫，兩對非重複互補；TF-IDF 預測鏈連續三十六輪全命中；零合併連續 131 輪；紅燈維持（126 草稿／125 未驗）。"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
