@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-26 03:15 HKT",
+  "generated_at_hkt": "2026-09-26 03:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每15分鐘發佈，10:15 雙驗證通過）；Cloud Hands 誠實暫停（A–F 0/6，09:31 探測 Actions 仍未修好）；Message Bus 影子模式零分歧，08:49 嘅 404 係工人打錯 owner 名（已寫死修復），inbox 零新事件；daemon 主線未能親驗 live HEAD（SSH 被擋），P0 R1 30分鐘梯級 01:53 PASS；TP-MARY-001／002 ACCEPT 未 merge。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -199,17 +199,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 6,
+    "今日筆記數": 7,
     "最新": [
+      "skill-digest-r239.md",
       "skill-digest-r238.md",
-      "skill-digest-r237.md",
-      "skill-digest-r236.md"
+      "skill-digest-r237.md"
     ],
     "最近落地": [
-      "- R235 消化輪（2026-09-26 01:13 HKT）：dedupe 判決 #437（browser-frame-entry vs browser-sandbox-defense：影格子定位 vs 防注入准入）＋#438（browser-flake-governance vs cron-task-guard：間中失敗診斷 vs 排程防疊跑三件套）入庫，TF-IDF 預測鏈連續二十八輪全命中；誠實修正——R233 #433 段對手表誤列 cron-task-guard 為已判，今輪 #438 正式補判；零合併連續 123 輪，未驗水位維持紅燈",
       "- R236 消化輪（2026-09-26 01:43 HKT）：dedupe 判決 #439（browser-flake-governance vs deadman-switch-monitor：間歇失敗診斷 vs 捉靜默死亡「排→跑→判閉環」）＋#440（browser-request-throttle vs browser-sandbox-defense：擋圖慳速 vs 防注入清單「開→戴→擋閉環」）入庫，TF-IDF 預測鏈連續二十九輪全命中；零合併連續 124 輪，未驗水位維持紅燈（128 草稿／125 未驗，開工前已讀 workspace 家規）",
       "- R237 消化輪（2026-09-26 02:13 HKT）：dedupe 判決 #441（dispatch-budget vs free-tier-map：派工前成本估算 vs 免費額度地圖「估→查→開工閉環：一個話今次燒幾多，一個話全域剩幾多——dispatch-budget 自己『兩本賬分開』嗰句正係分工契約」）＋#442（browser-form-fill vs skill-inventory-watch：填表四步 SOP vs 庫存水位儀表板「同家族唔同戰線：兩者都係開工前先過閘，一個係狩獵產出准入，一個係 browser 填表閘」）入庫，TF-IDF 預測鏈連續三十輪全命中；對手表嚴格 grep 計出 3／2／5／10（糾正寬鬆 regex 誤命中）；零合併連續 125 輪，未驗水位維持紅燈（126 草稿／125 未驗）",
-      "- R238 消化輪（2026-09-26 02:43 HKT）：dedupe 判決 #443（browser-request-throttle vs browser-smart-wait：擋圖慳速 vs 四格等待「開→設→等→郁閉環」）＋#444（fleet-coordination vs subagent-output-discipline：跨機派工路由 vs 產出交收「派→做→交閉環：出入口都係 pointer，coordinator 唖係傳話員」）入庫，TF-IDF 預測鏈連續三十一輪全命中；零合併連續 126 輪，未驗水位維持紅燈（126 草稿／125 未驗）"
+      "- R238 消化輪（2026-09-26 02:43 HKT）：dedupe 判決 #443（browser-request-throttle vs browser-smart-wait：擋圖慳速 vs 四格等待「開→設→等→郁閉環」）＋#444（fleet-coordination vs subagent-output-discipline：跨機派工路由 vs 產出交收「派→做→交閉環：出入口都係 pointer，coordinator 唖係傳話員」）入庫，TF-IDF 預測鏈連續三十一輪全命中；零合併連續 126 輪，未驗水位維持紅燈（126 草稿／125 未驗）",
+      "- R239 消化輪：dedupe 判決 #445（browser-smart-wait vs executive-scheduler：四格動作前檢查 vs 「取代 N 條排程」設計規約「派→跑→等閉環」）＋#446（browser-blackbox vs browser-request-throttle：全程黑盒錄影 vs 請求攔截加速「設→錄→查閉環：request 層方向相反，錄低 vs 擋」）入庫，兩對非重複互補；預測鏈 R208–R239 三十二輪全中；零合併連續 127 輪，未驗水位維持紅燈（126 草稿／125 未驗）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
