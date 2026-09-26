@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-26 09:45 HKT",
+  "generated_at_hkt": "2026-09-26 10:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每15分鐘發佈，10:15 雙驗證通過）；Cloud Hands 誠實暫停（A–F 0/6，09:31 探測 Actions 仍未修好）；Message Bus 影子模式零分歧，08:49 嘅 404 係工人打錯 owner 名（已寫死修復），inbox 零新事件；daemon 主線未能親驗 live HEAD（SSH 被擋），P0 R1 30分鐘梯級 01:53 PASS；TP-MARY-001／002 ACCEPT 未 merge。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -199,11 +199,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 17,
+    "今日筆記數": 18,
     "最新": [
+      "q236-evidence-collection-segmentation-proposal.md",
       "q235-timestamp-integrity-regression-spec.md",
-      "skill-digest-r251.md",
-      "skill-digest-r250.md"
+      "skill-digest-r251.md"
     ],
     "最近落地": [
       "- R248 消化輪：判兩對非重複互補（#463 外部死人開關 vs 執行收據「報到→收據閉環：一個話死咗未，一個話做咗乜」；#464 開倉前資格合規 vs 執行層硬停手「合規→停手閉環：一個話開唔開得倉，一個話蝕緊幾時硬停」）；預測鏈 41 輪連續命中，零合併 136 輪，紅燈維持（未驗 125）。",
