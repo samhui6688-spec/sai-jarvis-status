@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-26 12:15 HKT",
+  "generated_at_hkt": "2026-09-26 12:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -204,17 +204,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 25,
+    "今日筆記數": 26,
     "最新": [
+      "skill-digest-r257.md",
       "skill-digest-r256.md",
-      "skill-digest-r255.md",
-      "q239-company-state-edit-attribution.md"
+      "skill-digest-r255.md"
     ],
     "最近落地": [
-      "- 狩獵 R253（消化輪）：browser-smart-wait vs durable-execution（單動作等待 vs 派工韌性設計）＋autonomous-work-loop-check vs browser-smart-wait（循環審查 vs 單動作等待）兩對判非重複互補，TF-IDF 預測 46 輪連中，零合併 141 輪",
       "- 狩獵 R254（消化輪）：判兩對非重複互補——#475 browser-resilience vs executive-scheduler（長跑執行韌性 vs 調度器設計規約）＋#476 browser-blackbox vs preflight-sim（事後開盒查證據 vs 事前腦內預演）；紅燈 R227–R254 連續二十八輪消化，預測鏈四十七輪全命中，判決庫 476 對。",
       "- 狩獵 R255（消化輪）：判兩對非重複互補——#477 agent-sandbox-policy vs browser-resilience（執行前准入政策 vs 運行中韌性「准→反閉環：一個話未審查 code 入邊級箱先准跑，一個話跑緊跌咗點分類點 resume」）＋#478 agentskills-conformance vs eval-gate（格式合規閘 vs 功能驗收閘「三閘落地線：格式啱唔啱、功能掂唔掂、應唔應該有，分開過」）；紅燈 R227–R255 連續二十九輪消化，預測鏈四十八輪全命中，判決庫 478 對，零合併 145 輪。",
-      "- R256 消化輪（2026-09-26 ~11:4x HKT）：dedupe 判決 #479（browser-parallel-sessions vs log-layer：並行執行資源 vs 日誌可觀測「開→睇閉環：一個話多隻手點開唔打架，一個話出事去邊度睇」）＋#480（cost-reconcile vs preflight-sim：事後成本會計 vs 事前決策預演「撳→數閉環：一個話撳之前估中唔中，一個話收工使咗幾多」）入庫，兩對非重複互補；TF-IDF 預測鏈 R208–R256 連續四十九輪全命中；零合併連續 146 輪；紅燈維持（126 草稿／125 未驗）。另修一個幻影對：判節描述字眼被 scan 誤計，判對數由 481 對回 480（教訓：描述判節嘅字眼本身都要跳脫，R235 補丁延伸）。"
+      "- R256 消化輪（2026-09-26 ~11:4x HKT）：dedupe 判決 #479（browser-parallel-sessions vs log-layer：並行執行資源 vs 日誌可觀測「開→睇閉環：一個話多隻手點開唔打架，一個話出事去邊度睇」）＋#480（cost-reconcile vs preflight-sim：事後成本會計 vs 事前決策預演「撳→數閉環：一個話撳之前估中唔中，一個話收工使咗幾多」）入庫，兩對非重複互補；TF-IDF 預測鏈 R208–R256 連續四十九輪全命中；零合併連續 146 輪；紅燈維持（126 草稿／125 未驗）。另修一個幻影對：判節描述字眼被 scan 誤計，判對數由 481 對回 480（教訓：描述判節嘅字眼本身都要跳脫，R235 補丁延伸）。",
+      "- R257 消化輪（2026-09-26 ~12:13 HKT）：dedupe 判決 #481（agentskills-conformance vs free-window-tracker：格式閘 vs 額度閘「出口↔入口：一個話草稿出庫前格式啱唔啱，一個話今日免費糧夠唔夠開工」）＋#482（paper-exec-ledger vs paper-preflight-checklist：記賬格式 vs 晉級驗收「賬→門：六閘要對嘅數，靠 ledger 嘅欄位生產」）入庫，兩對非重複互補；TF-IDF 預測鏈 R208–R257 連續五十輪全命中；零合併連續 147 輪；紅燈維持（126 草稿／125 未驗）。另兩個體制補丁：判節 grep 必須用全寬括號（ASCII 會漏計）＋R251「12 對」遺漏計數修正為 14 對。"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
