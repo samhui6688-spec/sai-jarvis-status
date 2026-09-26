@@ -1,40 +1,40 @@
 {
-  "generated_at_hkt": "2026-09-26 10:15 HKT",
-  "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每15分鐘發佈，10:15 雙驗證通過）；Cloud Hands 誠實暫停（A–F 0/6，09:31 探測 Actions 仍未修好）；Message Bus 影子模式零分歧，08:49 嘅 404 係工人打錯 owner 名（已寫死修復），inbox 零新事件；daemon 主線未能親驗 live HEAD（SSH 被擋），P0 R1 30分鐘梯級 01:53 PASS；TP-MARY-001／002 ACCEPT 未 merge。",
+  "generated_at_hkt": "2026-09-26 10:30 HKT",
+  "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
     "SOURCE_STALE": true,
-    "updated_at_hkt": "2026-09-24 10:20 HKT",
-    "主線覆核": "2026-09-24 10:20 HKT：daemon 線最新鮮嘅主線級證據係 P0 R1 PASS（01:53）；live daemon 當前 checkout 主線因 SSH 被擋未能獨立重驗，誠實標 UNVERIFIED_BY_MAINLINE",
+    "updated_at_hkt": "2026-09-26 10:30 HKT",
+    "主線覆核": "2026-09-26 10:30 HKT：主線仍未能親驗 live Hetzner HEAD（SSH 被 egress proxy 擋）；誠實標 UNVERIFIED_BY_MAINLINE。最後主線實測：P0 R1 30分鐘無人值守梯級 2026-09-24 01:53 HKT PASS；MUSE FREEZE 期間（2026-09-24 20:41）親驗 daemon active、uptime 10日。DEAD-MAN 事故（2026-09-25 22:27:57→2026-09-26 01:48 HKT site_challenge 盲窗 ~3h20m）已正式寫入 COMPANY_STATE.yaml faults（world_version 160）。",
     "位置": "Hetzner 2.29.11.95，sam-hetzner-daemon.service（Gen33，824a47aa）",
     "最新觀察": "P0 R1 30分鐘無人值守梯級 2026-09-24 01:53 HKT PASS（production SHA a7fe330e508723ccafadcae3e8ad17d777d54349，PID 211726；29/29 cycle 準時，WORK_COMPLETED×13、NO_WORK_DREAMED×16、FAIL_CLOSED×0、ERROR×0；13份非空研究產物；token 0、Founder intervention 0）。TP-MARY-001（PR #220）／002（PR #222）獨立審查 ACCEPT，未 merge／deploy。",
     "本輪結果": "2026-09-24 10:20 HKT 主線仍未能親驗 live Hetzner HEAD：去 Hetzner 嘅 SSH 仍被 egress proxy 擋；唔估健康狀態",
-    "狀態": "主線未能親驗 live daemon（SSH 被擋）；最後主線實測為 2026-09-19 Gen33 deploy（當時 service active、healthy idle）；P0 R1 30分鐘梯級 2026-09-24 01:53 PASS（同批數據重判 G1–G7 全過）",
+    "狀態": "主線未能親驗 live daemon（SSH 被擋）；最後主線實測為 2026-09-19 Gen33 deploy（當時 service active、healthy idle）；P0 R1 30分鐘梯級 2026-09-24 01:53 PASS",
     "驗證": "阿占 2026-09-20 12:02 HKT 經公開 raw fresh-read 實測通過"
   },
   "cloud_hands": {
     "live_status": "paused",
-    "updated_at_hkt": "2026-09-24 10:20 HKT",
+    "updated_at_hkt": "2026-09-26 10:30 HKT",
     "下一步": "修 GitHub Actions runner 問題（dispatch 嘅 run 幾秒內即 fail 兩類症狀要逐 run 取證）；修好後重跑 A–F；Plan B 係 Codex 部機；未經 Founder 明確批准唔 merge／deploy",
-    "主線覆核": "2026-09-24 10:20 HKT：沿用 09:31 觀察；L2B（Computer Hands Windows 手眼）00:52 HKT 已 ACCEPTED 屬另一條線，唔混入。",
+    "主線覆核": "2026-09-26 10:30 HKT：主線未能親驗（gh-api 授權喺背景 turn 被擋）；最後主線實測 2026-09-26 09:30 HKT：run 36208478028 13秒即死零 runner、run 36204891185 12秒 failure，帳戶層故障未修好；Plan B（Codex 部機）維持。Windows Eye/Hands 語義已修正為 PAUSED/STAGED/未E2E（2026-09-26 ~09:5x HKT COMPANY_STATE 正式口徑）。",
     "仍然work": "cpu 控制、pids 控制",
     "本輪觀察": "2026-09-24 09:31 HKT：actions-recovery-watch 探測——dispatch 成功，但最新 run 喺幾秒內 completed/failure；Actions 仍未修好，無變化",
     "根因": "runner service 自身 cgroup 係 domain threaded（全系統唯一）；memory 係 domain controller，寫唔落 subtree_control；另 dispatch 嘅 run 喺幾秒內 completed/failure（持續中）",
-    "狀態": "A–F 正式驗收 0/6；誠實暫停（唔扮健康）"
+    "狀態": "A–F 正式驗收 0/6；誠實暫停（唔扮健康）；Windows Eye/Hands=PAUSED/STAGED/未E2E"
   },
   "message_bus": {
-    "updated_at_hkt": "2026-09-24 10:20 HKT",
+    "updated_at_hkt": "2026-09-26 10:30 HKT",
     "下一步": "Phase B 等 Founder 批",
-    "本輪觀察": "2026-09-24 08:49 HKT：inbox-poll 工人自己打錯 owner（sam-hui6688-spec）導致 404，唔係 GitHub／授權故障；主線 08:51 親手用正確 owner（samhui6688-spec）驗證 repo 200、inbox 零新事件；已將正確 owner 寫死入排程 body（08:51＋09:58 兩次修）。09:04／09:19／09:34／09:49 四輪全部成功、inbox 零新事件。result_summary 持續 null：工人交唔出 final message，backup log（inbox-poll-summaries.log）已升為正式交差收據，影子檢查讀佢做 fallback，零分歧維持。",
-    "狀態": "Phase A 影子模式，每 15 分鐘檢查，零分歧（v2 queued=0）"
+    "本輪觀察": "2026-09-26 10:30 HKT：shadow 檢查連續零分歧（09:41／09:56／10:12 三輪 CHECK_OK，queued=0 inbox=0 done=9 claims=0）；inbox-poll 用正確 owner（samhui6688-spec）穩定成功、inbox 零新事件。result_summary 持續 null：10:11 shadow-check 輪用咗新機械規則（最後動作必須係 final message）仍然 null——探針證實 runtime 會映射 final message，所以係工人間歇性唖發出；三條排程 body 已加機械規則，watchdog 用 COVERAGE_DEGRADED 誠實分類，唖扮 PASS。",
+    "狀態": "Phase A 影子模式，每 15 分鐘檢查，零分歧（v2 queued=0）；正式摘要間歇缺口（COVERAGE_DEGRADED），影子 log 做正式交差收據"
   },
   "gpt_hands": {},
   "gpt_eye": {
-    "updated_at_hkt": "2026-09-24 10:20 HKT",
+    "updated_at_hkt": "2026-09-26 10:30 HKT",
     "下一步": "v2 派任務手 → Brain Router",
     "傳輸鏈": "ChatGPT → GitHub raw（sai-jarvis-status）→ Hetzner heartbeat",
     "公開raw": "https://raw.githubusercontent.com/samhui6688-spec/sai-jarvis-status/main/jarvis-status.json",
-    "狀態": "隻眼正式打通（2026-09-20 12:02 HKT 阿占實測 fresh-read 通過）；快照每 15 分鐘發佈正常（2026-09-24 10:15 HKT publish exit 0，public repo＋gist 雙驗證通過）"
+    "狀態": "隻眼正式打通（2026-09-20 12:02 HKT 阿占實測 fresh-read 通過）；快照每 15 分鐘發佈正常（2026-09-26 10:15 HKT publish exit 0，public repo＋gist 雙驗證通過，generated_at=2026-09-26 10:15 HKT）"
   },
   "排程": [
     {
@@ -138,6 +138,11 @@
       "every": "30m"
     },
     {
+      "id": "summary-mapping-probe",
+      "title": "摘要映射探針（測試用，驗完即刪）",
+      "every": "1h"
+    },
+    {
       "id": "video-scout-patrol",
       "title": "影片偵察兵（逢二、五自動搵片）",
       "every": "?"
@@ -199,17 +204,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 19,
+    "今日筆記數": 20,
     "最新": [
+      "skill-digest-r253.md",
       "skill-digest-r252.md",
-      "q236-evidence-collection-segmentation-proposal.md",
-      "q235-timestamp-integrity-regression-spec.md"
+      "q236-evidence-collection-segmentation-proposal.md"
     ],
     "最近落地": [
-      "- R249 消化輪：判兩對非重複互補（#465 browser-smart-wait vs miniwob-exam-pattern 動作前四格就緒 vs agent 能力考試「等→考閉環：一個話郁手之前準備好未，一個話成隻 agent 識唔識做嘢」；#466 incident-one-pager vs paper-preflight-checklist 事故一頁紙 vs paper 晉級六閘「驗→學閉環：一個話呢道門啲閘識唔識郁，一個話門後衰完點補返個甩咗嘅 gate」）；預測鏈 42 輪連續命中，零合併 137 輪，紅燈維持（未驗 125）。",
       "- R250 消化輪：判兩對非重複互補（#467 fleet-coordination vs skill-inventory-watch 跨機派工路由 vs 庫存水位治理「准入→路由閉環：一個話開唔開得新 skill，一個話開咗之後派畀邊部機」；#468 free-tier-map vs stock-footage-license-check 免費額度地圖 vs 免費素材授權「免費兩條死線：一個話燒唔燒爆，一個話告唔告你」）；預測鏈 43 輪連續命中，零合併 138 輪，紅燈維持（未驗 125）。",
       "- R251 消化輪：判兩對非重複互補（#469 continuous-contract-roll vs paper-preflight-checklist 連續合約換月口徑 vs paper 晉級六閘「砌→晉閉環：一個話連續合約數據點砌先係同一樣嘢，一個話 paper 完咗晉唔晉得」；#470 agent-capability-card vs durable-execution 能力卡註冊格式 vs 長任務派工韌性「卡→韌閉環：一個話任務落邊度（揀邊個），一個話任務死唔死得（死咗點接）」）；預測鏈 44 輪連續命中，零合併 139 輪，紅燈維持（未驗 125）。",
-      "- R252 消化輪：判兩對非重複互補（#471 journal-hygiene vs systemd-watchdog-selfcheck 日誌衛生 vs daemon 自我保命「保命→證據閉環：一個話死嗰陣自動郁手，一個話郁完手證據仲喺唔喺」；#472 agent-sandbox-policy vs free-tier-quota-watch 未審查 code 沙盒政策 vs 免費層配額錶「安全→配額閉環：一個話入邊級箱，一個話燒咗幾多」）；預測鏈 45 輪連續命中，零合併 140 輪，紅燈維持（未驗 125）。"
+      "- R252 消化輪：判兩對非重複互補（#471 journal-hygiene vs systemd-watchdog-selfcheck 日誌衛生 vs daemon 自我保命「保命→證據閉環：一個話死嗰陣自動郁手，一個話郁完手證據仲喺唔喺」；#472 agent-sandbox-policy vs free-tier-quota-watch 未審查 code 沙盒政策 vs 免費層配額錶「安全→配額閉環：一個話入邊級箱，一個話燒咗幾多」）；預測鏈 45 輪連續命中，零合併 140 輪，紅燈維持（未驗 125）。",
+      "- 狩獵 R253（消化輪）：browser-smart-wait vs durable-execution（單動作等待 vs 派工韌性設計）＋autonomous-work-loop-check vs browser-smart-wait（循環審查 vs 單動作等待）兩對判非重複互補，TF-IDF 預測 46 輪連中，零合併 141 輪"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
