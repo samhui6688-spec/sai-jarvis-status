@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-27 06:30 HKT",
+  "generated_at_hkt": "2026-09-27 06:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -204,11 +204,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 14,
+    "今日筆記數": 15,
     "最新": [
+      "q255-u1-tracking-sync.md",
       "skill-digest-r291.md",
-      "skill-digest-r290.md",
-      "skill-digest-r289.md"
+      "skill-digest-r290.md"
     ],
     "最近落地": [
       "- 2026-09-27 R288 消化輪：judged_pairs 542→544（#543 影子根診斷vs瀏覽器任務路由：一個答「快照見到殼但冇內容、個掣撳唖到係咪影子根」（驗host.shadowRoot開定閂：open直接CSS穿，closed轉座標撳／可存取樹，唖好retry一百次），一個答「派工之前揀邊層工具」（L0search／L1open／L2實瀏覽器，輕層掂就唖開重型，48倍慢30倍貴）——一個係「用邊隻手」，一個係「入咗L2之後手伸唖到嗰陣點診斷」；#544 瀏覽器動作前等待vs策略運行熔斷：一個答「撳掣之前四格過唖過先郁手」（見唖見到／定唖定／撳唖撳得／有冇嘢擋，固定sleep判死），一個答「策略運行嗰陣幾時自動停手」（冷靜期／止蝕守衛／低效鎖／回撤$800熔斷，閾值按Tradeify50K規則倒推）——唖係同一個「停」，一個守瀏覽器動作一個守交易策略；兩對非重複互補；vetting四份PASS；四份維持未驗）。紅燈水位未驗128唖落；新預測鏈R281→R288連續八輪2/2命中，開局16/16；零合併連續192輪；R289預測已備（durable-executionvseval-gate、free-transport-pickvsprompt-cache-playbook）。本輪識破一個自己製造嘅幻影對（抄舊口徑註記嘅範例字串撞咗scan regex，修咗即對位）。對 Founder 有用：將來瀏覽器agent掣撳唖到唖好齋retry——「認殼→驗開定閂」三式係開工前教佢識得點撳，同「揀邊層工具」嗰棵樹係一對：一個話用邊隻手，一個話手入到去撳唖到點算；量化線策略將來自動運行嗰陣，「撳掣前等夠狀態先郁手」係眼手世界嘅紀律，「熔斷只停手唖自動改參數」係交易世界嘅紀律——兩條世界各有各嘅「唖好硬嚟」，唖好混埋一齊。",
