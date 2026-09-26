@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-26 20:30 HKT",
+  "generated_at_hkt": "2026-09-26 20:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -204,11 +204,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 46,
+    "今日筆記數": 47,
     "最新": [
+      "q248-lease-watch-judgment-evidence.md",
       "q247-detector-stalled30m-false-positive-spec.md",
-      "q246-dispatcher-failed-status-evidence.md",
-      "skill-digest-r269.md"
+      "q246-dispatcher-failed-status-evidence.md"
     ],
     "最近落地": [
       "- 2026-09-26 R270 消化輪：判節 #507（alert-discipline vs quota-burnrate-watch：告警分級紀律 vs 免費配額耗盡預警配方，非重複互補——免費額度爆之前嗰聲警報，應該先過「幾時要嘈醒人」分級再決定）＋#508（browser-api-seed vs browser-parallel-sessions：單任務驗收資料 API 預置 vs 多並行 session 資源管理，非重複互補）；已判對 506→508；預測鏈 62 輪連續命中；零合併連續一百七十輪；紅燈維持（未驗 126>100），零新草稿。對 Founder 有用：同一句「告警」底下，「收到警報嗰陣點分級」同「免費額度具體點查幾時爆」係兩個唖同層嘅守則，將來監察落地要兩份一齊跟，唖會互替。",
