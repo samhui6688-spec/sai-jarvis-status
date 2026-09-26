@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-26 16:15 HKT",
+  "generated_at_hkt": "2026-09-26 16:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -204,17 +204,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 37,
+    "今日筆記數": 38,
     "最新": [
+      "skill-digest-r265.md",
       "q243-delivery-contract-spec.md",
-      "skill-digest-r264.md",
-      "q242-collected-at-second-evidence.md"
+      "skill-digest-r264.md"
     ],
     "最近落地": [
-      "- R261 消化輪：判對入庫 #489（agentskills-conformance vs context-budget，質檢→執行閉環）／#490（fleet-coordination vs log-layer，派→查閉環），零合併連續 153 輪；紅燈維持（未驗 125＞100），唖產新草稿",
       "- R262 消化輪（2026-09-26 ~14:43 HKT）：dedupe 判決 #491（browser-task-router vs durable-execution：派工前選型 vs 派工前韌性「揀→保：一個話派 browser task 之前先答呢棵樹揀最輕層工具，一個話長任務派工前四條紀律逐條打勾死咗都接得返」）＋#492（durable-execution vs multi-agent-topology-pick：單任務韌性 vs 多腦協作拓撲「陣→命：一個話派 2 隻手或以上先揀拓撲，一個話長任務派工前四條紀律」）入庫，兩對非重複互補；TF-IDF 預測鏈 R208–R262 連續五十五輪全命中；零合併連續 154 輪；紅燈維持（126 草稿／125 未驗）。另收尾事件：另一條線 14:46 平行寫入 timestamp-claim-evidence-check 新草稿，scan 文檔集 126→127 梯度前移，R263 預測已按實掃更正。",
       "- R263 消化輪：判 #493（run-receipt vs timestamp-claim-evidence-check：收據生產 vs 判前誠實驗證）／#494（degrade-ladder vs risk-kill-switch：系統降級政策 vs 交易風控閘），非重複互補入庫；零合併連續一百五十六輪；紅燈維持（未驗 126>100），零新草稿。（對 Founder 有用：同一輪證明咗排程證據層同風控層各有分工，草稿唔重複唔合併，將來落地唖會裝錯）",
-      "- 2026-09-26 ~15:4x HKT｜weekly-skill-hunt R264（消化輪）：tfidf-scan 實掃 top-2 判節 #495（cost-attribution vs dispatch-budget：事前估算 vs 事後歸因）／#496（eval-progress-tracker vs free-window-tracker：考試進度 vs 額度准入）——兩對已判非重複互補；judged_pairs 494→496；預測鏈 R208–R264 連續五十七輪 2/2 命中；零合併連續一百五十八輪。"
+      "- 2026-09-26 ~15:4x HKT｜weekly-skill-hunt R264（消化輪）：tfidf-scan 實掃 top-2 判節 #495（cost-attribution vs dispatch-budget：事前估算 vs 事後歸因）／#496（eval-progress-tracker vs free-window-tracker：考試進度 vs 額度准入）——兩對已判非重複互補；judged_pairs 494→496；預測鏈 R208–R264 連續五十七輪 2/2 命中；零合併連續一百五十八輪。",
+      "- 2026-09-26 ~16:1x HKT｜weekly-skill-hunt R265（消化輪）：tfidf-scan 實掃 top-2 判節 #497（browser-action-verify vs eval-gate：執行中動作驗證 vs 落地前能力驗收）／#498（free-transport-pick vs github-actions-free-tier：免費傳輸選型 vs 免費 CI 執行層）——兩對已判非重複互補；judged_pairs 496→498；預測鏈 R208–R265 連續五十八輪 2/2 命中；零合併連續一百六十輪。對 Founder 有用：同樣係「驗」，但「撳掣嗰刻每步驗啱未」同「整套能力夠唖夠資格畢業」係兩個唖同戰線嘅紀律——將來 browser 流程實跑同 skill 落地驗收，兩個都要跟，唖會互相取代。"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
