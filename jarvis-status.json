@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-26 23:00 HKT",
+  "generated_at_hkt": "2026-09-26 23:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -204,11 +204,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 53,
+    "今日筆記數": 54,
     "最新": [
+      "q251-dispatcher-zombie-third-round-evidence.md",
       "skill-digest-r278.md",
-      "q250-dispatcher-coalesce-second-evidence.md",
-      "skill-digest-r277.md"
+      "q250-dispatcher-coalesce-second-evidence.md"
     ],
     "最近落地": [
       "- R275 消化輪：judged_pairs 516→518（#517 複核攤表vs例行收據、#518 付費決策vs免費腿配方，兩對非重複互補；vetting 全 PASS；四份維持未驗）。紅燈水位未驗 127 維持，連續四十九輪純消化；R276 預測已備（flake治理vs收據、context預算vs調度）。",
