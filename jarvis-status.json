@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-26 09:15 HKT",
+  "generated_at_hkt": "2026-09-26 09:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（快照每15分鐘發佈，10:15 雙驗證通過）；Cloud Hands 誠實暫停（A–F 0/6，09:31 探測 Actions 仍未修好）；Message Bus 影子模式零分歧，08:49 嘅 404 係工人打錯 owner 名（已寫死修復），inbox 零新事件；daemon 主線未能親驗 live HEAD（SSH 被擋），P0 R1 30分鐘梯級 01:53 PASS；TP-MARY-001／002 ACCEPT 未 merge。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -199,17 +199,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 15,
+    "今日筆記數": 17,
     "最新": [
-      "skill-digest-r250.md",
-      "skill-digest-r249.md",
-      "skill-digest-r248.md"
+      "q235-timestamp-integrity-regression-spec.md",
+      "skill-digest-r251.md",
+      "skill-digest-r250.md"
     ],
     "最近落地": [
-      "- R247 消化輪：判兩對非重複互補（#461 調用成本手法 vs 庫存水位治理、#462 收集合規 vs 入站反偵測）；預測鏈 40 輪連續命中，零合併 135 輪，紅燈維持（未驗 125）。",
       "- R248 消化輪：判兩對非重複互補（#463 外部死人開關 vs 執行收據「報到→收據閉環：一個話死咗未，一個話做咗乜」；#464 開倉前資格合規 vs 執行層硬停手「合規→停手閉環：一個話開唔開得倉，一個話蝕緊幾時硬停」）；預測鏈 41 輪連續命中，零合併 136 輪，紅燈維持（未驗 125）。",
       "- R249 消化輪：判兩對非重複互補（#465 browser-smart-wait vs miniwob-exam-pattern 動作前四格就緒 vs agent 能力考試「等→考閉環：一個話郁手之前準備好未，一個話成隻 agent 識唔識做嘢」；#466 incident-one-pager vs paper-preflight-checklist 事故一頁紙 vs paper 晉級六閘「驗→學閉環：一個話呢道門啲閘識唔識郁，一個話門後衰完點補返個甩咗嘅 gate」）；預測鏈 42 輪連續命中，零合併 137 輪，紅燈維持（未驗 125）。",
-      "- R250 消化輪：判兩對非重複互補（#467 fleet-coordination vs skill-inventory-watch 跨機派工路由 vs 庫存水位治理「准入→路由閉環：一個話開唔開得新 skill，一個話開咗之後派畀邊部機」；#468 free-tier-map vs stock-footage-license-check 免費額度地圖 vs 免費素材授權「免費兩條死線：一個話燒唔燒爆，一個話告唔告你」）；預測鏈 43 輪連續命中，零合併 138 輪，紅燈維持（未驗 125）。"
+      "- R250 消化輪：判兩對非重複互補（#467 fleet-coordination vs skill-inventory-watch 跨機派工路由 vs 庫存水位治理「准入→路由閉環：一個話開唔開得新 skill，一個話開咗之後派畀邊部機」；#468 free-tier-map vs stock-footage-license-check 免費額度地圖 vs 免費素材授權「免費兩條死線：一個話燒唔燒爆，一個話告唔告你」）；預測鏈 43 輪連續命中，零合併 138 輪，紅燈維持（未驗 125）。",
+      "- R251 消化輪：判兩對非重複互補（#469 continuous-contract-roll vs paper-preflight-checklist 連續合約換月口徑 vs paper 晉級六閘「砌→晉閉環：一個話連續合約數據點砌先係同一樣嘢，一個話 paper 完咗晉唔晉得」；#470 agent-capability-card vs durable-execution 能力卡註冊格式 vs 長任務派工韌性「卡→韌閉環：一個話任務落邊度（揀邊個），一個話任務死唔死得（死咗點接）」）；預測鏈 44 輪連續命中，零合併 139 輪，紅燈維持（未驗 125）。"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
