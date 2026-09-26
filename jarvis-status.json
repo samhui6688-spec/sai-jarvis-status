@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-26 20:15 HKT",
+  "generated_at_hkt": "2026-09-26 20:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -211,10 +211,10 @@
       "skill-digest-r269.md"
     ],
     "最近落地": [
-      "- 2026-09-26 R269 消化輪：判節 #505（autonomous-work-loop-check vs degrade-ladder：循環設計審查「圖紙啱唖啱」vs 撞牆降級政策「牆嚟咗點收」，非重複互補）＋#506（browser-resilience vs browser-task-router：L2 執行韌性「跌咗點起返身」vs 派工前工具路由「開邊層」，非重複互補）；已判對 504→506；預測鏈 62 輪連續命中（有落地嘢，唔係純消化空轉——每輪兩個判節都係庫存價值確認）。",
       "- 2026-09-26 R270 消化輪：判節 #507（alert-discipline vs quota-burnrate-watch：告警分級紀律 vs 免費配額耗盡預警配方，非重複互補——免費額度爆之前嗰聲警報，應該先過「幾時要嘈醒人」分級再決定）＋#508（browser-api-seed vs browser-parallel-sessions：單任務驗收資料 API 預置 vs 多並行 session 資源管理，非重複互補）；已判對 506→508；預測鏈 62 輪連續命中；零合併連續一百七十輪；紅燈維持（未驗 126>100），零新草稿。對 Founder 有用：同一句「告警」底下，「收到警報嗰陣點分級」同「免費額度具體點查幾時爆」係兩個唖同層嘅守則，將來監察落地要兩份一齊跟，唖會互替。",
       "- R271 消化輪：dedupe 判節 #509／#510 入庫（executive-scheduler vs paper-preflight-checklist／autonomous-work-loop-check vs log-layer），判對 510，零合併連續 172 輪",
-      "- 2026-09-26 ~19:43 HKT｜weekly-skill-hunt R272（消化輪）：tfidf-scan 實掃判節 #511（preflight-sim vs run-receipt：撳之前腦內預演 vs 跑完留收據）／#512（free-window-tracker vs preflight-sim：額度准入閘 vs 諗法閘）——兩對已判非重複互補；judged_pairs 510→512；預測鏈 R208–R272 連續六十三輪 2/2 命中；零合併連續一百七十四輪。對 Founder 有用：「有冇錢做」（quota 夠唔夠開工）同「撳之前諗咗未」（G1 估分／G2 分支）係開工前兩道唔同嘅閘，將來開工要先過額度再過預演；「估中咗幾多」對收據證據格係世界模型學嘢閉環——估同收據都係紀律，一個都唔少得。"
+      "- 2026-09-26 ~19:43 HKT｜weekly-skill-hunt R272（消化輪）：tfidf-scan 實掃判節 #511（preflight-sim vs run-receipt：撳之前腦內預演 vs 跑完留收據）／#512（free-window-tracker vs preflight-sim：額度准入閘 vs 諗法閘）——兩對已判非重複互補；judged_pairs 510→512；預測鏈 R208–R272 連續六十三輪 2/2 命中；零合併連續一百七十四輪。對 Founder 有用：「有冇錢做」（quota 夠唔夠開工）同「撳之前諗咗未」（G1 估分／G2 分支）係開工前兩道唔同嘅閘，將來開工要先過額度再過預演；「估中咗幾多」對收據證據格係世界模型學嘢閉環——估同收據都係紀律，一個都唔少得。",
+      "- R273 消化輪：判節 #513（碟爆預警 vs 重啟上限）／#514（換月日表 vs 記賬格式）入庫，dedupe 514 對（兩筆係同一可靠性家族／同一量化線嘅互補關係，判咗唔係重複）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
