@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-26 10:45 HKT",
+  "generated_at_hkt": "2026-09-26 11:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -204,17 +204,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 21,
+    "今日筆記數": 23,
     "最新": [
-      "q238-hands-health-semantics-spec.md",
-      "skill-digest-r253.md",
-      "skill-digest-r252.md"
+      "q239-company-state-edit-attribution.md",
+      "skill-digest-r254.md",
+      "q238-hands-health-semantics-spec.md"
     ],
     "最近落地": [
-      "- R250 消化輪：判兩對非重複互補（#467 fleet-coordination vs skill-inventory-watch 跨機派工路由 vs 庫存水位治理「准入→路由閉環：一個話開唔開得新 skill，一個話開咗之後派畀邊部機」；#468 free-tier-map vs stock-footage-license-check 免費額度地圖 vs 免費素材授權「免費兩條死線：一個話燒唔燒爆，一個話告唔告你」）；預測鏈 43 輪連續命中，零合併 138 輪，紅燈維持（未驗 125）。",
       "- R251 消化輪：判兩對非重複互補（#469 continuous-contract-roll vs paper-preflight-checklist 連續合約換月口徑 vs paper 晉級六閘「砌→晉閉環：一個話連續合約數據點砌先係同一樣嘢，一個話 paper 完咗晉唔晉得」；#470 agent-capability-card vs durable-execution 能力卡註冊格式 vs 長任務派工韌性「卡→韌閉環：一個話任務落邊度（揀邊個），一個話任務死唔死得（死咗點接）」）；預測鏈 44 輪連續命中，零合併 139 輪，紅燈維持（未驗 125）。",
       "- R252 消化輪：判兩對非重複互補（#471 journal-hygiene vs systemd-watchdog-selfcheck 日誌衛生 vs daemon 自我保命「保命→證據閉環：一個話死嗰陣自動郁手，一個話郁完手證據仲喺唔喺」；#472 agent-sandbox-policy vs free-tier-quota-watch 未審查 code 沙盒政策 vs 免費層配額錶「安全→配額閉環：一個話入邊級箱，一個話燒咗幾多」）；預測鏈 45 輪連續命中，零合併 140 輪，紅燈維持（未驗 125）。",
-      "- 狩獵 R253（消化輪）：browser-smart-wait vs durable-execution（單動作等待 vs 派工韌性設計）＋autonomous-work-loop-check vs browser-smart-wait（循環審查 vs 單動作等待）兩對判非重複互補，TF-IDF 預測 46 輪連中，零合併 141 輪"
+      "- 狩獵 R253（消化輪）：browser-smart-wait vs durable-execution（單動作等待 vs 派工韌性設計）＋autonomous-work-loop-check vs browser-smart-wait（循環審查 vs 單動作等待）兩對判非重複互補，TF-IDF 預測 46 輪連中，零合併 141 輪",
+      "- 狩獵 R254（消化輪）：判兩對非重複互補——#475 browser-resilience vs executive-scheduler（長跑執行韌性 vs 調度器設計規約）＋#476 browser-blackbox vs preflight-sim（事後開盒查證據 vs 事前腦內預演）；紅燈 R227–R254 連續二十八輪消化，預測鏈四十七輪全命中，判決庫 476 對。"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
