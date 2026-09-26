@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-26 21:45 HKT",
+  "generated_at_hkt": "2026-09-26 22:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -204,17 +204,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 48,
+    "今日筆記數": 49,
     "最新": [
+      "skill-digest-r276.md",
       "skill-digest-r275.md",
-      "q248-lease-watch-judgment-evidence.md",
-      "q247-detector-stalled30m-false-positive-spec.md"
+      "q248-lease-watch-judgment-evidence.md"
     ],
     "最近落地": [
-      "- 2026-09-26 ~19:43 HKT｜weekly-skill-hunt R272（消化輪）：tfidf-scan 實掃判節 #511（preflight-sim vs run-receipt：撳之前腦內預演 vs 跑完留收據）／#512（free-window-tracker vs preflight-sim：額度准入閘 vs 諗法閘）——兩對已判非重複互補；judged_pairs 510→512；預測鏈 R208–R272 連續六十三輪 2/2 命中；零合併連續一百七十四輪。對 Founder 有用：「有冇錢做」（quota 夠唔夠開工）同「撳之前諗咗未」（G1 估分／G2 分支）係開工前兩道唔同嘅閘，將來開工要先過額度再過預演；「估中咗幾多」對收據證據格係世界模型學嘢閉環——估同收據都係紀律，一個都唔少得。",
       "- R273 消化輪：判節 #513（碟爆預警 vs 重啟上限）／#514（換月日表 vs 記賬格式）入庫，dedupe 514 對（兩筆係同一可靠性家族／同一量化線嘅互補關係，判咗唔係重複）",
       "- 2026-09-26 R274 消化輪：判節 #515（judgment-slot-evidence-table vs timestamp-claim-evidence-check：判死複核嗰陣「攤開逐格睇真係發生咗咩」vs「宣稱嘅時間講唔講得通」——先對錶驗誠實，過咗先攤 20 格判三揀一）／#516（expiry-watch vs memory-lifecycle：外面憑證會唔會斷 vs 自己記低嘅嘢會唔會過期扮有效）入庫，已判對 514→516；零合併連續一百七十八輪；預測鏈 R208–R273 連續六十四輪 2/2 中斷——機械原因：新草稿 Q248 今日 ~20:30 入場改咗排名，唔係預測邏輯錯。對 Founder 有用：將來再判「某條排程係咪死咗」，有兩道工序——先驗收集個宣稱時間誠唔誠實，再逐格攤開原始 slot 睇真係發生咗咩；呢兩份唔係同一樣嘢，將來複核要兩步都做，唔好只靠報告轉述判生死。",
-      "- R275 消化輪：judged_pairs 516→518（#517 複核攤表vs例行收據、#518 付費決策vs免費腿配方，兩對非重複互補；vetting 全 PASS；四份維持未驗）。紅燈水位未驗 127 維持，連續四十九輪純消化；R276 預測已備（flake治理vs收據、context預算vs調度）。"
+      "- R275 消化輪：judged_pairs 516→518（#517 複核攤表vs例行收據、#518 付費決策vs免費腿配方，兩對非重複互補；vetting 全 PASS；四份維持未驗）。紅燈水位未驗 127 維持，連續四十九輪純消化；R276 預測已備（flake治理vs收據、context預算vs調度）。",
+      "- R276 消化輪：judged_pairs 518→520（#519 跨 run 失敗治理vs逐次收據、#520 注意力預算vs調度架構，兩對非重複互補；vetting 四份 PASS；四份維持未驗）。紅燈水位未驗 130 唖落。"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
