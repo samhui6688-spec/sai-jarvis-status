@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-26 19:00 HKT",
+  "generated_at_hkt": "2026-09-26 19:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -204,11 +204,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 44,
+    "今日筆記數": 45,
     "最新": [
+      "q246-dispatcher-failed-status-evidence.md",
       "skill-digest-r269.md",
-      "q245-dispatcher-stuck-third-evidence.md",
-      "q244-dispatcher-time-baseline-second-evidence.md"
+      "q245-dispatcher-stuck-third-evidence.md"
     ],
     "最近落地": [
       "- 2026-09-26 ~17:1x HKT｜weekly-skill-hunt R267（消化輪）：tfidf-scan 實掃 top-2 判節 #501（browser-obstruction-clear vs compaction-goal-drift-check：頁面開工清場 vs 交接後驗三格）／#502（free-tier-quota-watch vs model-tier-router：免費配額錶 vs 派工三級制）——兩對已判非重複互補；judged_pairs 500→502；預測鏈 R208–R267 連續六十輪 2/2 命中；零合併連續一百六十三輪。對 Founder 有用：「開工前清走擋住眼嘅嘢」同「摘要之後驗接棒嗰個仲記唖記得目標」係開工準備同交接驗收兩端唖同嘅紀律；「免費 quota 望錶」同「每個任務先分級用咩腦」係儀表同政策兩層唖同嘅慳錢手段——唖會合併，唖會裝錯。",
