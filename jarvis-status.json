@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-26 23:47 HKT",
+  "generated_at_hkt": "2026-09-27 00:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -204,12 +204,8 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 55,
-    "最新": [
-      "skill-digest-r279.md",
-      "q251-dispatcher-zombie-third-round-evidence.md",
-      "skill-digest-r278.md"
-    ],
+    "今日筆記數": 0,
+    "最新": [],
     "最近落地": [
       "- R276 消化輪：judged_pairs 518→520（#519 跨 run 失敗治理vs逐次收據、#520 注意力預算vs調度架構，兩對非重複互補；vetting 四份 PASS；四份維持未驗）。紅燈水位未驗 130 唖落。",
       "- R277 消化輪：judged_pairs 520→522（#521 免費資源五格地圖vs免費KV選型：開用前填表「記」vs 細狀態放邊「揀」，選完型要入地圖登記——選型紙上評估唖等於登記在案；#522 記憶寫入三問閘vs失敗教訓沉澱：寫之前「識記唖識唖記」vs 失敗後「衰咗點學」，教訓落記憶嗰陣都要過三問；兩對非重複互補；vetting 四份 PASS；四份維持未驗）。紅燈水位未驗 130 唖落；預測鏈 R274–R277 連續四輪 2/2；R278 預測已備。",
