@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-26 17:45 HKT",
+  "generated_at_hkt": "2026-09-26 18:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -204,17 +204,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 40,
+    "今日筆記數": 42,
     "最新": [
-      "skill-digest-r267.md",
-      "skill-digest-r266.md",
-      "skill-digest-r265.md"
+      "q244-dispatcher-time-baseline-second-evidence.md",
+      "skill-digest-r268.md",
+      "skill-digest-r267.md"
     ],
     "最近落地": [
-      "- 2026-09-26 ~15:4x HKT｜weekly-skill-hunt R264（消化輪）：tfidf-scan 實掃 top-2 判節 #495（cost-attribution vs dispatch-budget：事前估算 vs 事後歸因）／#496（eval-progress-tracker vs free-window-tracker：考試進度 vs 額度准入）——兩對已判非重複互補；judged_pairs 494→496；預測鏈 R208–R264 連續五十七輪 2/2 命中；零合併連續一百五十八輪。",
       "- 2026-09-26 ~16:1x HKT｜weekly-skill-hunt R265（消化輪）：tfidf-scan 實掃 top-2 判節 #497（browser-action-verify vs eval-gate：執行中動作驗證 vs 落地前能力驗收）／#498（free-transport-pick vs github-actions-free-tier：免費傳輸選型 vs 免費 CI 執行層）——兩對已判非重複互補；judged_pairs 496→498；預測鏈 R208–R265 連續五十八輪 2/2 命中；零合併連續一百六十輪。對 Founder 有用：同樣係「驗」，但「撳掣嗰刻每步驗啱未」同「整套能力夠唖夠資格畢業」係兩個唖同戰線嘅紀律——將來 browser 流程實跑同 skill 落地驗收，兩個都要跟，唖會互相取代。",
       "- 2026-09-26 ~16:5x HKT｜weekly-skill-hunt R266（消化輪）：tfidf-scan 實掃 top-2 判節 #499（browser-blackbox vs browser-complex-interactions：事後證據錄影 vs 執行中特殊互動力學）／#500（autonomous-work-loop-check vs systemd-restart-loop-guard：循環設計審查 vs 進程重啟認輸）——兩對已判非重複互補；judged_pairs 498→500；預測鏈 R208–R266 連續五十九輪 2/2 命中；零合併連續一百六十一輪。對 Founder 有用：腦嘅循環（work-generator／Dream 設計審查）同機器嘅進程循環（systemd daemon 重啟認輸）係兩層唖同嘅「唖停點守」——兩邊嘅守則都留齊，唖會混為一談。",
-      "- 2026-09-26 ~17:1x HKT｜weekly-skill-hunt R267（消化輪）：tfidf-scan 實掃 top-2 判節 #501（browser-obstruction-clear vs compaction-goal-drift-check：頁面開工清場 vs 交接後驗三格）／#502（free-tier-quota-watch vs model-tier-router：免費配額錶 vs 派工三級制）——兩對已判非重複互補；judged_pairs 500→502；預測鏈 R208–R267 連續六十輪 2/2 命中；零合併連續一百六十三輪。對 Founder 有用：「開工前清走擋住眼嘅嘢」同「摘要之後驗接棒嗰個仲記唖記得目標」係開工準備同交接驗收兩端唖同嘅紀律；「免費 quota 望錶」同「每個任務先分級用咩腦」係儀表同政策兩層唖同嘅慳錢手段——唖會合併，唖會裝錯。"
+      "- 2026-09-26 ~17:1x HKT｜weekly-skill-hunt R267（消化輪）：tfidf-scan 實掃 top-2 判節 #501（browser-obstruction-clear vs compaction-goal-drift-check：頁面開工清場 vs 交接後驗三格）／#502（free-tier-quota-watch vs model-tier-router：免費配額錶 vs 派工三級制）——兩對已判非重複互補；judged_pairs 500→502；預測鏈 R208–R267 連續六十輪 2/2 命中；零合併連續一百六十三輪。對 Founder 有用：「開工前清走擋住眼嘅嘢」同「摘要之後驗接棒嗰個仲記唖記得目標」係開工準備同交接驗收兩端唖同嘅紀律；「免費 quota 望錶」同「每個任務先分級用咩腦」係儀表同政策兩層唖同嘅慳錢手段——唖會合併，唖會裝錯。",
+      "- 2026-09-26 ~17:5x HKT｜weekly-skill-hunt R268（消化輪）：tfidf-scan 實掃 top-2 判節 #503（systemd-sandbox-hardening vs systemd-unit-safe-change：unit 內容防彈衣 vs 改 unit 變更保命 SOP）／#504（executive-scheduler vs free-tier-quota-watch：調度架構收斂設計 vs 免費配額錶）——兩對已判非重複互補；judged_pairs 502→504；預測鏈 R208–R268 連續六十一輪 2/2 命中；零合併連續一百六十五輪。對 Founder 有用：「加固設定點寫先安全」同「寫入 production 嗰刻點做先唖整斷 runner」係內容同過程兩層唖同嘅守則；「N 條排程點收斂做一個調度器」同「今日免費額度燒到幾多 %」係架構同資源錶兩條唖同嘅線——唖會合併，唖會裝錯。"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
