@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-27 23:00 HKT",
+  "generated_at_hkt": "2026-09-27 23:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 60,
+    "今日筆記數": 61,
     "最新": [
+      "q273-1221-timeout-anomaly-clarify.md",
       "skill-digest-r324.md",
-      "q272-l1scan-aborted-family-fix-spec.md",
-      "skill-digest-r323.md"
+      "q272-l1scan-aborted-family-fix-spec.md"
     ],
     "最近落地": [
       "- 消化輪 R321：tfidf 判節 #609（自主工作循環審查紀律 vs 免費額度開工前閘）＋#610（browser 測試資料預置 vs browser 清場順序）——兩對皆非重複、唔硬湊互補，四份草稿維持未驗唔偷升；零合併連續二百四十七輪。判法穩定，微觀察一則寫入 digest。庫存：未驗 128 仍紅燈，繼續消化唔產新草稿。",
