@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-27 10:00 HKT",
+  "generated_at_hkt": "2026-09-27 10:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -204,11 +204,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 25,
+    "今日筆記數": 27,
     "最新": [
-      "skill-digest-r299.md",
-      "q259-0916-dispatcher-no-run-evidence.md",
-      "skill-digest-r298.md"
+      "skill-digest-r300.md",
+      "q260-0946-dispatcher-no-run-second-evidence.md",
+      "skill-digest-r299.md"
     ],
     "最近落地": [
       "- R296 消化輪：判節 #559（前門 vs 預演：邊個入嚟認人（入口設計：adapter／配對准入／陌生人預設只讀）vs 撳之前估一轉（決策模擬：G1快速估分／G2分支預演／對現實寫learning card），認人 vs 估事，入口世界 vs 行動世界）／#560（配置告警 vs 逐層收油：部機仲係唖係批准嗰個樣（四格SHA256唯讀比對，郁咗即告警）vs 撞牆點有層次收油（計數→狀態機→健康三問→兩層停；做嘢嗰個唖准自己決定收油），靜態檢測 vs 動態反應；drift話「有嘢唖同咗」嗰陣ladders話「點保命」），兩對皆非重複互補，零合併 200 輪（紅燈消化，未產新草稿；R297 預測已備：agentskills-conformance vs reflexion-debrief、free-alerting-stack vs log-layer）",
