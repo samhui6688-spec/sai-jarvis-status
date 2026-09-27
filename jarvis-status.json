@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-28 00:45 HKT",
+  "generated_at_hkt": "2026-09-28 01:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 3,
+    "今日筆記數": 4,
     "最新": [
+      "skill-digest-r328.md",
       "q268-site-challenge-recurrence.md",
-      "skill-digest-r327.md",
-      "q266-disabled-schedules-followup.md"
+      "skill-digest-r327.md"
     ],
     "最近落地": [
       "- 消化輪 R322：tfidf 判節 #611（開工分級計劃 vs 收工三格記帳：router 派工寫明級別→attribution 記實際用咗邊級→月檢討對得上，草稿原文寫明生產→消費關係，非重複、**互補成立**）＋#612（skill 格式合規閘 vs 分店複製隔離 SOP：審格式 vs 審隔離，非重複、唔硬湊互補）——四份維持未驗唔偷升（vetting 四關全 PASS≠已驗）；零合併連續二百四十九輪；R323 預測：preflight-sim vs reflexion-debrief、external-cron-ping vs systemd-watchdog-selfcheck。庫存：未驗 128 仍紅燈，繼續消化。",
