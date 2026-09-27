@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-27 21:45 HKT",
+  "generated_at_hkt": "2026-09-27 22:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 54,
+    "今日筆記數": 55,
     "最新": [
+      "skill-digest-r322.md",
       "skill-digest-r321.md",
-      "q269-nvidia-smi-evidence.md",
-      "skill-digest-r320.md"
+      "q269-nvidia-smi-evidence.md"
     ],
     "最近落地": [
-      "- 2026-09-27 R317 狩獵消化輪：判節 #601（browser 等待策略 vs 記憶生命周期三問——撞「等／閘」詞係假陽性，非重複，唔硬湊互補）／#602（檔案進出邊界 vs 表單填寫四步——撞「browser 任務／守則」體裁詞係假陽性，非重複，唔硬湊互補；file-boundary 自己劃界「純填表任務唔用」）落地，零合併連續 240 輪（紅燈消化，未產新草稿，判節 #601/#602 寫入 dedupe-verdicts.md，判法誤判計數修一次 237/238→239/240）",
       "- 2026-09-27 R319 狩獵消化輪：判節 #605（browser 檔案進出六條守則 vs commit 前腦內預演——撞「郁手之前停低」體裁詞係假陽性，非重複，唔硬湊互補；兩份草稿自己互相劃界：file-boundary「純讀／純填表任務唔用」＋preflight「唔好將模擬當沙盒用」）／#606（skill 格式合規清單 vs 填表四步——撞「逐格剔」體裁詞係假陽性，非重複，唔硬湊互補；meta 治理 vs browser 執行，唔共享輸入／證據）落地，零合併連續 243 輪（紅燈消化，未產新草稿；四份維持未驗唔偷升；分工句判據已累積 251 實證）",
       "- 2026-09-27 R320 狩獵消化輪：判節 #607（死人開關存活報到 vs 免費額度耗盡預警——撞「監察／報警／閾值」係假陽性，非重複，唔硬湊互補：一個守時間（有冇心跳），一個守資源（仲剩幾多 %））／#608（browser 並行 session 資源管理 vs 收工成本對賬——撞「資源」詞係假陽性，非重複，唔硬湊互補：機器資源 vs 錢／token 資源；cost-reconcile 已驗 2026-09-21 維持已驗）落地，零合併連續 245 輪（紅燈消化，未產新草稿；四份 vetting 四關全 PASS，vetting PASS≠已驗；分工句判據已累積 253 實證；證據見 ~/workspace/hunts/2026-09-27/skill-digest-r320.md）；R321 預測：autonomous-work-loop-check vs free-window-tracker、browser-api-seed vs browser-obstruction-clear",
-      "- 消化輪 R321：tfidf 判節 #609（自主工作循環審查紀律 vs 免費額度開工前閘）＋#610（browser 測試資料預置 vs browser 清場順序）——兩對皆非重複、唔硬湊互補，四份草稿維持未驗唔偷升；零合併連續二百四十七輪。判法穩定，微觀察一則寫入 digest。庫存：未驗 128 仍紅燈，繼續消化唔產新草稿。"
+      "- 消化輪 R321：tfidf 判節 #609（自主工作循環審查紀律 vs 免費額度開工前閘）＋#610（browser 測試資料預置 vs browser 清場順序）——兩對皆非重複、唔硬湊互補，四份草稿維持未驗唔偷升；零合併連續二百四十七輪。判法穩定，微觀察一則寫入 digest。庫存：未驗 128 仍紅燈，繼續消化唔產新草稿。",
+      "- 消化輪 R322：tfidf 判節 #611（開工分級計劃 vs 收工三格記帳：router 派工寫明級別→attribution 記實際用咗邊級→月檢討對得上，草稿原文寫明生產→消費關係，非重複、**互補成立**）＋#612（skill 格式合規閘 vs 分店複製隔離 SOP：審格式 vs 審隔離，非重複、唔硬湊互補）——四份維持未驗唔偷升（vetting 四關全 PASS≠已驗）；零合併連續二百四十九輪；R323 預測：preflight-sim vs reflexion-debrief、external-cron-ping vs systemd-watchdog-selfcheck。庫存：未驗 128 仍紅燈，繼續消化。"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
