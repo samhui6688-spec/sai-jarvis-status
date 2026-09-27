@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-27 19:00 HKT",
+  "generated_at_hkt": "2026-09-27 19:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -179,17 +179,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 47,
+    "今日筆記數": 48,
     "最新": [
+      "skill-digest-r317.md",
       "skill-digest-r316.md",
-      "skill-digest-r315.md",
-      "q265-l1-main-loop-disabled-attribution.md"
+      "skill-digest-r315.md"
     ],
     "最近落地": [
-      "- 落地判節 #593／#594（fleet-coordination vs run-receipt／autonomous-work-loop-check vs browser-action-verify，非重複判節；未驗維持，跨機派工→收據前後兩步確定係唖同嘅兩份草稿）",
       "- 落地判節 #595／#596（autonomous-work-loop-check vs strategy-circuit-breaker：審圖紙嗰陣「對唔過就唔開」vs 運行中熔斷截停手——撞「停」字係假陽性，非重複；browser-action-verify vs browser-run-budget：動作後雙訊號驗證 vs 開工前 timeout＋記憶體預算——同一個 browser 任務前後兩步，真・互補；未驗維持）",
       "- 落地判節 #597／#598（cron-disable-attribution vs external-cron-ping：排程被關歸屬查因 vs 外部死人開關存活監察——撞「cron」詞係假陽性，非重複＋真・互補（ping 報警係歸屬調查「被發現」事件嘅合法觸發器）；cron-disable-attribution vs judgment-slot-evidence-table：歸屬查因 vs 判死複核證據——撞「事後查」係假陽性，非重複，唖硬湊互補；新草稿 cron-disable-attribution 入場改排名，預測鏈中斷（沿 R275 判例）；三份維持未驗）",
-      "- 2026-09-27 R316 狩獵消化輪：判節 #599（排程被關歸屬查因 vs 例行任務收據——非重複互補：「邊個熄咗」vs「嗰次做咗啲乜」，收據係歸屬調查嘅證據上游）／#600（防注入檢查清單 vs 排程收據——非重複唖硬湊互補）落地，零合併連續 238 輪（紅燈消化，未產新草稿，狩獵庫存水位健康度逐步被消化）"
+      "- 2026-09-27 R316 狩獵消化輪：判節 #599（排程被關歸屬查因 vs 例行任務收據——非重複互補：「邊個熄咗」vs「嗰次做咗啲乜」，收據係歸屬調查嘅證據上游）／#600（防注入檢查清單 vs 排程收據——非重複唖硬湊互補）落地，零合併連續 238 輪（紅燈消化，未產新草稿，狩獵庫存水位健康度逐步被消化）",
+      "- 2026-09-27 R317 狩獵消化輪：判節 #601（browser 等待策略 vs 記憶生命周期三問——撞「等／閘」詞係假陽性，非重複，唔硬湊互補）／#602（檔案進出邊界 vs 表單填寫四步——撞「browser 任務／守則」體裁詞係假陽性，非重複，唔硬湊互補；file-boundary 自己劃界「純填表任務唔用」）落地，零合併連續 240 輪（紅燈消化，未產新草稿，判節 #601/#602 寫入 dedupe-verdicts.md，判法誤判計數修一次 237/238→239/240）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
