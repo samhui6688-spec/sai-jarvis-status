@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-27 22:30 HKT",
+  "generated_at_hkt": "2026-09-27 22:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 58,
+    "今日筆記數": 59,
     "最新": [
+      "q272-l1scan-aborted-family-fix-spec.md",
       "skill-digest-r323.md",
-      "q271-2142-l1scan-blocked-reappearance.md",
-      "q270-1938-1943-blocked-evidence.md"
+      "q271-2142-l1scan-blocked-reappearance.md"
     ],
     "最近落地": [
       "- 2026-09-27 R320 狩獵消化輪：判節 #607（死人開關存活報到 vs 免費額度耗盡預警——撞「監察／報警／閾值」係假陽性，非重複，唔硬湊互補：一個守時間（有冇心跳），一個守資源（仲剩幾多 %））／#608（browser 並行 session 資源管理 vs 收工成本對賬——撞「資源」詞係假陽性，非重複，唔硬湊互補：機器資源 vs 錢／token 資源；cost-reconcile 已驗 2026-09-21 維持已驗）落地，零合併連續 245 輪（紅燈消化，未產新草稿；四份 vetting 四關全 PASS，vetting PASS≠已驗；分工句判據已累積 253 實證；證據見 ~/workspace/hunts/2026-09-27/skill-digest-r320.md）；R321 預測：autonomous-work-loop-check vs free-window-tracker、browser-api-seed vs browser-obstruction-clear",
