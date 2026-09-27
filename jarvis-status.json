@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-27 21:30 HKT",
+  "generated_at_hkt": "2026-09-27 21:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -53,6 +53,21 @@
       "every": "5m"
     },
     {
+      "id": "coverage-watchdog",
+      "title": "工程覆蓋監察（Founder Promise Coverage）",
+      "every": "30m"
+    },
+    {
+      "id": "evo-report-30m",
+      "title": "進化戰情室（每30分鐘自動報告）",
+      "every": "30m"
+    },
+    {
+      "id": "fmm-t3-daily-recall",
+      "title": "FMM T3 每日喚醒（記憶浮現掃描）",
+      "every": "?"
+    },
+    {
       "id": "founder-health-check",
       "title": "P5 可靠性監察第一層（P6 接線）",
       "every": "15m"
@@ -96,6 +111,11 @@
       "id": "jarvis-snapshot",
       "title": "Jarvis 狀態快照（每15分鐘，GPT 隻眼）",
       "every": "15m"
+    },
+    {
+      "id": "main-world-daily-sweep",
+      "title": "主世界入倉每日掃描",
+      "every": "?"
     },
     {
       "id": "pipeline-dispatcher-3m",
@@ -195,6 +215,11 @@
     {
       "id": "work-generator",
       "title": "自主搵工循環觸發器（每30分鐘）",
+      "every": "30m"
+    },
+    {
+      "id": "world-projection-reconcile",
+      "title": "World projection backstop（每30分鐘）",
       "every": "30m"
     }
   ],
