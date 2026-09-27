@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-27 08:15 HKT",
+  "generated_at_hkt": "2026-09-27 08:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -204,17 +204,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 20,
+    "今日筆記數": 21,
     "最新": [
+      "skill-digest-r296.md",
       "q258-q203-note-refresh.md",
-      "q257-hunter-l1scan-blocked-evidence.md",
-      "q256-dispatcher-failed-second-evidence.md"
+      "q257-hunter-l1scan-blocked-evidence.md"
     ],
     "最近落地": [
-      "- 2026-09-27 R290 消化輪：judged_pairs 546→548（#547 免費CI選型vs重試成本梯：「定時重活搬去邊個免費雲端執行層跑」（GitHub Actions 2,000分鐘／月＋OS倍率，開通要Founder親手做）vs「免費模型鏈失敗嗰陣唖准無限retry燒時間」（失敗先分類＋硬上限3次＋escalation寫cost-log）——選基建vs失敗成本決策，唖係同一個「免費」；#548 撞牆降級設計vs紙單晉級閘：「系統撞牆點有層次收油」（四層＋做嘢嗰個唖准自己決定收油，設計用）vs「策略紙單六閘全過先晉級」（實操十四步＋任何策略改動由頭行過，晉級要Founder批）——運行時韌性vs交付前閘；兩對非重複互補；vetting四份PASS；四份維持未驗）。紅燈水位未驗128唖落；新預測鏈R281→R290連續十輪2/2命中，開局20/20；零合併連續194輪；R291預測已備（free-tier-quota-watchvspredispatch、browser-frame-entryvsbrowser-obstruction-clear）。對 Founder 有用：將來想將啲定時重活搬離本地VM，Actions免費額度（私人庫2,000分鐘／月）係真有嘅出口，但開通同設budget停卡要你親手做——唖好以為「免費」就等於「零手續」；而免費模型鏈失敗嗰陣，「轉供應商／升一格付費直走」係要分類＋計數之後先做嘅決定，唖係_retry到得為止_——慳時間同慳錢係同一本賬；撞牆嗰陣邊個有權收油寫死喺政策層（排程唖准自己決定），同紙單晉級嗰道「六閘全過先晉級」係兩個唖同嘅閘——一個守「跌咗點唖死」，一個守「掂唖掂先准上」，唖好混埋一齊。",
       "- 2026-09-27 R291 消化輪：judged_pairs 548→550（#549 免費額度錶vs派工前驗檔案：一個答「免費request額度仲燒得掂唖掂」（開工前望錶：綠照開工／黃收油／紅停免費轉付費或等reset，本地讀log零request，只報唖郁手），一個答「派工前嘅前提係咪真係在場」（親手ls／find／grep驗前提＋產出檔名唖撞，AGENTS.md Q30／Q146 reinforce）——監察額度vs派工紀律，兩個唖同世界；#550 瀏覽器開工清場vs卡位查殼：一個答「任務開工嗰刻點清場」（navigate之後第一步清cookie banner／彈窗），一個答「搵唖到元素嗰陣點診斷」（查iframe殼入格，唖好無限retry主頁）——R32對齊註記嗰句「查格子係診斷層、清場係開頭層」今日升格做正式判節；兩對非重複互補；vetting四份PASS；四份維持未驗）。紅燈水位未驗127唖落；新預測鏈R281→R291連續十一輪2/2命中，開局22/22；零合併連續195輪；R292預測已備（eval-gatevsshprompt-cache-playbook、browser-smart-waitvsdispatch-budget）。對 Founder 有用：免費粗活開工前「望錶」同派工前「驗檔在場」係兩道唖同嘅門——額度夠唖代表前提檔案真係喺度，兩樣都要過；瀏覽器任務開工清完場，之後搵唖到嘢第一步唖係再清，係查有冇影格子殼——順序寫死喺brief，唖洗靠agent自己估。",
       "- R294 判節 #555（browser-file-boundary vs fleet-coordination：向外防毒 vs 向內防撞，非重複互補）／#556（external-cron-ping vs log-layer：死咗點知報喪 vs 死之前發生過咩查因，非重複互補），零合併 197 輪（對 Founder 有用：紅燈 130 未驗消化輪，獵手線冇再堆新草稿，知識庫保持去重）",
-      "- R295 消化輪：判節 #557（黑盒錄影 vs 防注入清單）／#558（工件格式 vs 間歇失敗治理），兩對皆非重複互補，零合併 199 輪（紅燈消化，未產新草稿）"
+      "- R295 消化輪：判節 #557（黑盒錄影 vs 防注入清單）／#558（工件格式 vs 間歇失敗治理），兩對皆非重複互補，零合併 199 輪（紅燈消化，未產新草稿）",
+      "- R296 消化輪：判節 #559（前門 vs 預演：邊個入嚟認人（入口設計：adapter／配對准入／陌生人預設只讀）vs 撳之前估一轉（決策模擬：G1快速估分／G2分支預演／對現實寫learning card），認人 vs 估事，入口世界 vs 行動世界）／#560（配置告警 vs 逐層收油：部機仲係唖係批准嗰個樣（四格SHA256唯讀比對，郁咗即告警）vs 撞牆點有層次收油（計數→狀態機→健康三問→兩層停；做嘢嗰個唖准自己決定收油），靜態檢測 vs 動態反應；drift話「有嘢唖同咗」嗰陣ladders話「點保命」），兩對皆非重複互補，零合併 200 輪（紅燈消化，未產新草稿；R297 預測已備：agentskills-conformance vs reflexion-debrief、free-alerting-stack vs log-layer）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
