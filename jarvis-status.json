@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-27 08:00 HKT",
+  "generated_at_hkt": "2026-09-27 08:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -204,11 +204,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 19,
+    "今日筆記數": 20,
     "最新": [
+      "q258-q203-note-refresh.md",
       "q257-hunter-l1scan-blocked-evidence.md",
-      "q256-dispatcher-failed-second-evidence.md",
-      "skill-digest-r295.md"
+      "q256-dispatcher-failed-second-evidence.md"
     ],
     "最近落地": [
       "- 2026-09-27 R290 消化輪：judged_pairs 546→548（#547 免費CI選型vs重試成本梯：「定時重活搬去邊個免費雲端執行層跑」（GitHub Actions 2,000分鐘／月＋OS倍率，開通要Founder親手做）vs「免費模型鏈失敗嗰陣唖准無限retry燒時間」（失敗先分類＋硬上限3次＋escalation寫cost-log）——選基建vs失敗成本決策，唖係同一個「免費」；#548 撞牆降級設計vs紙單晉級閘：「系統撞牆點有層次收油」（四層＋做嘢嗰個唖准自己決定收油，設計用）vs「策略紙單六閘全過先晉級」（實操十四步＋任何策略改動由頭行過，晉級要Founder批）——運行時韌性vs交付前閘；兩對非重複互補；vetting四份PASS；四份維持未驗）。紅燈水位未驗128唖落；新預測鏈R281→R290連續十輪2/2命中，開局20/20；零合併連續194輪；R291預測已備（free-tier-quota-watchvspredispatch、browser-frame-entryvsbrowser-obstruction-clear）。對 Founder 有用：將來想將啲定時重活搬離本地VM，Actions免費額度（私人庫2,000分鐘／月）係真有嘅出口，但開通同設budget停卡要你親手做——唖好以為「免費」就等於「零手續」；而免費模型鏈失敗嗰陣，「轉供應商／升一格付費直走」係要分類＋計數之後先做嘅決定，唖係_retry到得為止_——慳時間同慳錢係同一本賬；撞牆嗰陣邊個有權收油寫死喺政策層（排程唖准自己決定），同紙單晉級嗰道「六閘全過先晉級」係兩個唖同嘅閘——一個守「跌咗點唖死」，一個守「掂唖掂先准上」，唖好混埋一齊。",
