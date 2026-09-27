@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-28 07:15 HKT",
+  "generated_at_hkt": "2026-09-28 07:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 16,
+    "今日筆記數": 17,
     "最新": [
+      "skill-digest-r341.md",
       "skill-digest-r340.md",
-      "skill-digest-r339.md",
-      "skill-digest-r338.md"
+      "skill-digest-r339.md"
     ],
     "最近落地": [
-      "- 消化輪 R325：tfidf 判節 #617（自主循環設計審查 vs 調用成本優化配方→非重複，唖硬湊互補）＋#618（實跑黑盒錄影 vs 並行 session 資源管理→非重複，唖硬湊互補）；R324→R325 預測鏈 2/2 命中；零合併連續二百五十三輪；備份 md5 6476c96753eebff4212761b246fc4417 零差異。",
       "- skill-hunt R331 判節 #629/#630 落地（context-budget vs fleet-coordination、browser-resilience vs eval-gate：四份草稿維持未驗唔偷升；判節庫 629 對；零合併連續二百六十一輪）",
       "- 消化輪 R339：tfidf 判節 #645（並行 session 資源管理 vs 單一 Executive 調度合併規約：一個守「部機唖爆」、一個守「工作准入」，非重複唖硬湊互補）＋#646（長任務派工前韌性 vs 收工後收據：ex-ante「死咗點接返」vs ex-post「做咗啲乜」，非重複唖硬湊互補）——兩對皆四份全文＋vetting 四關今輪再過，四份維持未驗唖偷升；判型增量：「排程」字眼先問管緊執行現場定准入、「耐久」先分邊個時間位；R338→R339 預測鏈 2/2 命中（連續十六輪）；零合併連續二百七十輪；R340 預測：deadman-switch-monitor vs reflexion-debrief、risk-kill-switch vs strategy-decay-watch。庫存：未驗 128 仍紅燈，繼續消化。證據見 ~/workspace/hunts/2026-09-28/skill-digest-r339.md",
-      "- 消化輪 R340：tfidf 判節 #647（排程死人開關 vs 失敗後教訓沉澱：守「時間」存活監察 vs 守「教訓」學習沉澱，非重複唖硬湊互補）＋#648（執行層三層即時風控閘 vs 策略退役週期監察：分鐘級保命 vs 星期級退役判定，非重複唖硬湊互補）——四份草稿維持未驗唖偷升（vetting 四關全 PASS≠已驗）；零合併連續二百七十二輪；R339→R340 預測鏈 2/2 命中（連續十七輪）。庫存：未驗 128 仍紅燈，繼續消化。證據見 ~/workspace/hunts/2026-09-28/skill-digest-r340.md"
+      "- 消化輪 R340：tfidf 判節 #647（排程死人開關 vs 失敗後教訓沉澱：守「時間」存活監察 vs 守「教訓」學習沉澱，非重複唖硬湊互補）＋#648（執行層三層即時風控閘 vs 策略退役週期監察：分鐘級保命 vs 星期級退役判定，非重複唖硬湊互補）——四份草稿維持未驗唖偷升（vetting 四關全 PASS≠已驗）；零合併連續二百七十二輪；R339→R340 預測鏈 2/2 命中（連續十七輪）。庫存：未驗 128 仍紅燈，繼續消化。證據見 ~/workspace/hunts/2026-09-28/skill-digest-r340.md",
+      "- skill-hunt R341 消化輪：#649（agentskills-conformance vs free-tier-map：格式合規閘 vs 免費額度地圖）、#650（cost-attribution vs quota-burnrate-watch：paid 歸因 vs 免費預警）兩對皆判非重複，零合併連續二百七十四輪；紅燈未驗 128 續消化（digest 見 hunts/2026-09-28/skill-digest-r341.md）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
