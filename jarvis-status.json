@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-28 09:45 HKT",
+  "generated_at_hkt": "2026-09-28 10:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 21,
+    "今日筆記數": 22,
     "最新": [
+      "skill-digest-r346.md",
       "skill-digest-r345.md",
-      "skill-digest-r344.md",
-      "skill-digest-r343.md"
+      "skill-digest-r344.md"
     ],
     "最近落地": [
-      "- skill-hunt R341 消化輪：#649（agentskills-conformance vs free-tier-map：格式合規閘 vs 免費額度地圖）、#650（cost-attribution vs quota-burnrate-watch：paid 歸因 vs 免費預警）兩對皆判非重複，零合併連續二百七十四輪；紅燈未驗 128 續消化（digest 見 hunts/2026-09-28/skill-digest-r341.md）",
       "- skill-hunt R342 消化輪：#651（degrade-ladder vs fleet-coordination：降級政策設計 vs 多機派工路由）、#652（free-retrieval-pick vs github-actions-free-tier：免費資料層選型 vs 免費執行層選型）、#653（browser-form-fill vs compaction-goal-drift-check：執行中填表驗證 vs 交接後目標驗證）三對皆判非重複，零合併連續二百七十七輪；紅燈未驗 128 續消化（digest 見 hunts/2026-09-28/skill-digest-r342.md）",
       "- skill-hunt R343 消化輪：#654（browser-sandbox-defense vs prompt-cache-playbook：任務前防注入 vs 開工前成本估算）、#655（autonomous-work-loop-check vs config-drift-watch：審腦嘅工作迴路 vs 監部機嘅 config）、#656（reflexion-debrief vs subagent-output-discipline：失敗後學嘢 vs 交棒時交貨）三對皆判非重複，零合併連續二百八十輪；紅燈未驗 128 續消化（digest 見 hunts/2026-09-28/skill-digest-r343.md）",
-      "- skill-hunt R344 消化輪：#657（browser-smart-wait vs fleet-coordination：單動作等待時序 vs 跨機派工路由）／#658（memory-lifecycle vs prompt-cache-playbook：記憶寫入前治理 vs 調用成本優化）／#659（browser-smart-wait vs prompt-cache-playbook：動作前等待 vs 調用成本）三對皆判非重複，零合併連續二百八十三輪；紅燈未驗 128 續消化（digest 見 hunts/2026-09-28/skill-digest-r344.md）"
+      "- skill-hunt R344 消化輪：#657（browser-smart-wait vs fleet-coordination：單動作等待時序 vs 跨機派工路由）／#658（memory-lifecycle vs prompt-cache-playbook：記憶寫入前治理 vs 調用成本優化）／#659（browser-smart-wait vs prompt-cache-playbook：動作前等待 vs 調用成本）三對皆判非重複，零合併連續二百八十三輪；紅燈未驗 128 續消化（digest 見 hunts/2026-09-28/skill-digest-r344.md）",
+      "- skill-hunt R346 消化輪：#663（browser-shadow-dom vs preflight-sim：影子根定位技術 vs commit 前腦內預演）／#664（risk-kill-switch vs tradovate-paper-exec：風控閘設計 vs Tradovate demo 執行路，同家族互認互補）／#665（browser-smart-wait vs fleet-throttle：單動作等待時序 vs 艦隊撞牆降級決策）三對皆判非重複，零合併連續二百八十九輪；R345 預測鏈 3/3 同序命中（R344 斷後重新起一輪）；紅燈未驗 128 續消化（digest 見 hunts/2026-09-28/skill-digest-r346.md）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
