@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-28 14:45 HKT",
+  "generated_at_hkt": "2026-09-28 15:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 33,
+    "今日筆記數": 34,
     "最新": [
+      "skill-digest-r356.md",
       "q280-0344-shadowcheck-blocked-evidence.md",
-      "skill-digest-r355.md",
-      "skill-digest-r354.md"
+      "skill-digest-r355.md"
     ],
     "最近落地": [
-      "- skill-hunt R352 消化輪：#681（browser-action-verify vs paper-preflight-checklist：單次動作執行驗證 vs 策略晉級六閘）、#682（tavily-search vs tier-usage-verify：搜尋腿資源紀律 vs 用量雙軌核對）、#683（browser-content-extract vs browser-resilience：資料交付完整性 vs 長跑生存紀律，同任務唔同戰線互補）三對皆判非重複，零合併連續三百零七輪；R351 預測鏈 3/3 同序命中（R344 斷後連續 8 輪）；紅燈未驗 128 續消化；mechanical_fail＝3 實錨（缺 name 欄 micro 草稿，下輪候選補）（digest 見 hunts/2026-09-28/skill-digest-r352.md）",
       "- skill-hunt R353 消化輪：#684（run-receipt vs three-probes：運行中存活判準 vs 完結後收據證據）、#685（autonomous-work-loop-check vs three-probes：循環設計審查 vs 元件健康探針）、#686（cost-attribution vs tavily-search：paid 歸因三格 vs 搜尋腿資源紀律）三對皆判非重複，零合併連續三百一十輪；R352 預測鏈 3/3 同序命中（R344 斷後連續 9 輪）；紅燈未驗 128 續消化；mechanical_fail 3→0（三份 micro 草稿補 frontmatter，消化 patch 落地）（digest 見 hunts/2026-09-28/skill-digest-r353.md）",
       "- skill-hunt R354 消化輪：#687（browser-run-budget vs dispatch-budget：browser 資源預算 vs 派工成本估算，時間／RAM vs token／錢兩條正交軸）、#688（fleet-coordination vs free-window-tracker：能力路由 vs 配額開工閘，沿 #676「維度判型」第二實證）、#689（reflexion-debrief vs run-receipt：教訓 vs 收據，#684 判型「存活判準 vs 收據」新端；#603 提及驗過唔係正式判節，今輪首次正式判）三對皆判非重複，零合併連續三百一十三輪；R353 預測鏈 3/3 同序命中（R344 斷後連續 10 輪）；紅燈未驗 128 續消化（digest 見 hunts/2026-09-28/skill-digest-r354.md）",
-      "- skill-hunt R355 消化輪：#690（agentskills-conformance vs compliance-checklist：skill 格式合規 vs 計劃書法律合規）、#691（autonomous-work-loop-check vs memory-lifecycle：循環設計審查 vs 記憶寫入閘，撞「記憶」字唔等於同層）、#692（agent-sandbox-policy vs executive-scheduler：沙盒准入 vs 排程收斂）三對皆判非重複，零合併連續三百一十六輪；R354 預測鏈 3/3 同序命中（R344 斷後連續 11 輪）；紅燈未驗 128 續消化（digest 見 hunts/2026-09-28/skill-digest-r355.md）"
+      "- skill-hunt R355 消化輪：#690（agentskills-conformance vs compliance-checklist：skill 格式合規 vs 計劃書法律合規）、#691（autonomous-work-loop-check vs memory-lifecycle：循環設計審查 vs 記憶寫入閘，撞「記憶」字唔等於同層）、#692（agent-sandbox-policy vs executive-scheduler：沙盒准入 vs 排程收斂）三對皆判非重複，零合併連續三百一十六輪；R354 預測鏈 3/3 同序命中（R344 斷後連續 11 輪）；紅燈未驗 128 續消化（digest 見 hunts/2026-09-28/skill-digest-r355.md）",
+      "- skill-hunt R356 消化輪：#693（free-transport-pick vs memory-lifecycle：傳輸層選型 vs 記憶寫入閘，Kafka 撞詞分「反例 vs 設計比喻」）、#694（browser-api-seed vs browser-network-mock：真 API 起收 vs 網絡替身，正文明寫並列兩條路，真・互補）、#695（cost-reconcile vs free-tier-map：收工對賬 vs 免費額度地圖，賬後 vs 賬前兩條時間軸）三對皆判非重複，零合併連續三百一十九輪；R355 預測鏈 3/3 同序命中（R344 斷後連續 12 輪）；紅燈未驗 128 續消化（digest 見 hunts/2026-09-28/skill-digest-r356.md）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
