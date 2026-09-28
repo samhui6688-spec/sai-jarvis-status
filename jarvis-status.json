@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-28 10:45 HKT",
+  "generated_at_hkt": "2026-09-28 11:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 23,
+    "今日筆記數": 24,
     "最新": [
+      "skill-digest-r348.md",
       "skill-digest-r347.md",
-      "skill-digest-r346.md",
-      "skill-digest-r345.md"
+      "skill-digest-r346.md"
     ],
     "最近落地": [
       "- skill-hunt R343 消化輪：#654（browser-sandbox-defense vs prompt-cache-playbook：任務前防注入 vs 開工前成本估算）、#655（autonomous-work-loop-check vs config-drift-watch：審腦嘅工作迴路 vs 監部機嘅 config）、#656（reflexion-debrief vs subagent-output-discipline：失敗後學嘢 vs 交棒時交貨）三對皆判非重複，零合併連續二百八十輪；紅燈未驗 128 續消化（digest 見 hunts/2026-09-28/skill-digest-r343.md）",
