@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-28 12:45 HKT",
+  "generated_at_hkt": "2026-09-28 13:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 27,
+    "今日筆記數": 28,
     "最新": [
+      "skill-digest-r352.md",
       "skill-digest-r351.md",
-      "skill-digest-r350.md",
-      "skill-digest-r349.md"
+      "skill-digest-r350.md"
     ],
     "最近落地": [
-      "- skill-hunt R347 消化輪：#666（browser-resilience vs browser-stealth-session：長跑韌性 vs 反偵測入站）／#667（cron-task-guard vs systemd-watchdog-selfcheck：排程防疊跑 vs daemon 保命）／#668（fleet-coordination vs fleet-throttle：跨機派工路由 vs 撞牆降級）三對皆判非重複，零合併連續二百九十二輪；R346 預測鏈 3/3 同序命中（R344 斷後連續 3 輪）；紅燈未驗 128 續消化（digest 見 hunts/2026-09-28/skill-digest-r347.md）",
       "- skill-hunt R349 消化輪：#672（dispatch-budget vs fleet-coordination：開工前估算 vs 多機派工路由）、#673（github-actions-free-tier vs object-store-posture：免費執行層選型 vs 物件儲存姿態）、#674（browser-obstruction-clear vs message-provenance：任務前清場 vs 訊息來源驗）三對皆判非重複，零合併連續二百九十八輪；R348 預測鏈 3/3 同序命中（R344 斷後連續 5 輪）；紅燈未驗 128 續消化（digest 見 hunts/2026-09-28/skill-digest-r349.md）",
       "- skill-hunt R350 消化輪：#675（agent-sandbox-policy vs browser-file-boundary：code 執行沙盒政策 vs browser 檔案進出邊界）／#676（deadman-switch-monitor vs free-window-tracker：靜默監測機制 vs 免費額度開工閘）／#677（autonomous-work-loop-check vs preflight-sim：循環審查紀律 vs commit 前腦內估算）三對皆判非重複，零合併連續三百零一輪；R349 預測鏈 3/3 同序命中（R344 斷後連續 6 輪）；紅燈未驗 128 續消化（digest 見 hunts/2026-09-28/skill-digest-r350.md）",
-      "- skill-hunt R351 消化輪：#678（config-drift-watch vs free-tier-map：配置完整性監察 vs 免費額度地圖）、#679（external-cron-ping vs free-tier-quota-watch：外部死人開關 vs 免費配額錶，沿 #676「時間維度 vs 資源維度」判型第二實證）、#680（agentskills-conformance vs tier-usage-verify：格式合規閘 vs 用量雙軌核對，沿 R257 #481「同家族唔同戰線」互補）三對皆判非重複，零合併連續三百零四輪；R350 預測鏈 3/3 同序命中（R344 斷後連續 7 輪）；紅燈未驗 128 續消化（digest 見 hunts/2026-09-28/skill-digest-r351.md）"
+      "- skill-hunt R351 消化輪：#678（config-drift-watch vs free-tier-map：配置完整性監察 vs 免費額度地圖）、#679（external-cron-ping vs free-tier-quota-watch：外部死人開關 vs 免費配額錶，沿 #676「時間維度 vs 資源維度」判型第二實證）、#680（agentskills-conformance vs tier-usage-verify：格式合規閘 vs 用量雙軌核對，沿 R257 #481「同家族唔同戰線」互補）三對皆判非重複，零合併連續三百零四輪；R350 預測鏈 3/3 同序命中（R344 斷後連續 7 輪）；紅燈未驗 128 續消化（digest 見 hunts/2026-09-28/skill-digest-r351.md）",
+      "- skill-hunt R352 消化輪：#681（browser-action-verify vs paper-preflight-checklist：單次動作執行驗證 vs 策略晉級六閘）、#682（tavily-search vs tier-usage-verify：搜尋腿資源紀律 vs 用量雙軌核對）、#683（browser-content-extract vs browser-resilience：資料交付完整性 vs 長跑生存紀律，同任務唔同戰線互補）三對皆判非重複，零合併連續三百零七輪；R351 預測鏈 3/3 同序命中（R344 斷後連續 8 輪）；紅燈未驗 128 續消化；mechanical_fail＝3 實錨（缺 name 欄 micro 草稿，下輪候選補）（digest 見 hunts/2026-09-28/skill-digest-r352.md）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
