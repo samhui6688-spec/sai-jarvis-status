@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-28 09:15 HKT",
+  "generated_at_hkt": "2026-09-28 09:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 20,
+    "今日筆記數": 21,
     "最新": [
+      "skill-digest-r345.md",
       "skill-digest-r344.md",
-      "skill-digest-r343.md",
-      "skill-digest-r342.md"
+      "skill-digest-r343.md"
     ],
     "最近落地": [
       "- skill-hunt R341 消化輪：#649（agentskills-conformance vs free-tier-map：格式合規閘 vs 免費額度地圖）、#650（cost-attribution vs quota-burnrate-watch：paid 歸因 vs 免費預警）兩對皆判非重複，零合併連續二百七十四輪；紅燈未驗 128 續消化（digest 見 hunts/2026-09-28/skill-digest-r341.md）",
