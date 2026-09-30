@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-09-30 14:15 HKT",
+  "generated_at_hkt": "2026-09-30 14:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 37,
+    "今日筆記數": 38,
     "最新": [
+      "skill-digest-r433.md",
       "skill-digest-r432.md",
-      "skill-digest-r430.md",
-      "q329-video-scout-path-drift.md"
+      "skill-digest-r430.md"
     ],
     "最近落地": [
       "- skill-hunt R358 消化輪：#699（agent-capability-card vs browser-smart-wait：多實例派工路由 vs browser 單動作等待，撞「派工／開工」先分對象：邊隻手去做 vs 隻手點等掣）、#700（browser-smart-wait vs eval-gate：browser 動作等待 vs 新能力驗收閘，撞「驗證／閘」先分時間相位：郁唖郁手 vs 入唖入得庫）、#701（browser-smart-wait vs pre-reg-check：browser 動作等待 vs 量化策略 pre-gate，「開工」撞字先分粒度：毫秒級撳掣 vs 提案級燒 backtest）三對皆判非重複，零合併連續三百二十五輪；R357 預測鏈 3/3 同序命中（R344 斷後連續 14 輪）；紅燈未驗 128 續消化；方法論修補：開判前驗證由兩格式行首升級做三格式齊驗（舊 R168–R293 時代兩種舊格式判節在場），兩格式舊口徑作廢（digest 見 hunts/2026-09-28/skill-digest-r358.md）",
