@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-01 11:00 HKT",
+  "generated_at_hkt": "2026-10-01 11:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 30,
+    "今日筆記數": 31,
     "最新": [
+      "skill-digest-r475.md",
       "skill-digest-r474.md",
-      "skill-digest-r473.md",
-      "skill-digest-r472.md"
+      "skill-digest-r473.md"
     ],
     "最近落地": [
-      "- skill-hunt R363 消化輪：#714（browser-run-budget vs context-budget：撞「預算」假陽性——瀏覽器物理資源秒＋MB vs agent 認知資源 tokens 注意力，「物理 vs 認知」家族）、#715（autonomous-work-loop-check vs browser-file-boundary：循環設計審查 meta 層 vs 檔案操作執行安全層，審張圖則 vs 搬貨嘅安全繩）、#716（browser-content-extract vs browser-task-router：執行中收斂 vs 派工前路由，沿 #712／#708 三相位家族）三對皆判非重複，零合併連續三百四十輪；R362 預測鏈 3/3 同序命中（R345 斷後連續 19 輪）；紅燈未驗 128 續消化（digest 見 hunts/2026-09-28/skill-digest-r363.md）",
       "- skill-hunt R364 消化輪：#717（agentskills-conformance vs three-probes：格式質檢 vs 健康三問，撞「檢查／清單」先問查緊乜——草稿出口閘 vs 運行中判準）、#718（free-tier-quota-watch vs tavily-search：內部 quota 錶 vs 外部搜尋腿，撞「免費額度」先問邊個嘅額度，沿 #713「內 vs 外」家族）、#719（self-improve-loop-design vs skill-inventory-watch：演化設計 vs 庫存治理，撞「改善／迴路」先問改善乜）三對皆判非重複，零合併連續三百四十三輪；R363 預測鏈 3/3 同序命中（R345 斷後連續 20 輪）；紅燈未驗 128 續消化（digest 見 hunts/2026-09-28/skill-digest-r364.md）",
       "- R455 消化輪：判節 #815（memory-lifecycle vs paper-preflight-checklist 非重複，零合併 435 輪）＋修好 bridge-stale-classify 機械 fail（水位 mechanical_fail 歸零；未驗 129 仍 RED，之後輪繼續消化）",
-      "- R456 消化輪：判節 #816（external-cron-ping vs preflight-sim：外部死人開關 vs 決策前內部預演，撞「防錯／安全」題材先問向外定向內＋邊個相位，零合併 436 輪）；R455 書記檔漏寫已按 daily log 補返"
+      "- R456 消化輪：判節 #816（external-cron-ping vs preflight-sim：外部死人開關 vs 決策前內部預演，撞「防錯／安全」題材先問向外定向內＋邊個相位，零合併 436 輪）；R455 書記檔漏寫已按 daily log 補返",
+      "- skill-hunt R475 消化輪：#835（run-receipt vs unattended-acceptance：每次 run 後例行收據 vs 72h 無人值守驗收閘——撞「排程監察」先分微觀定宏觀，唔係重複；兩份維持未驗唖偷升，vetting 四關全 PASS≠已驗）非重複，零合併連續 447 輪；R474 機械預測 1/1 命中（預測鏈連續第十六輪）；R476 預測 log-layer vs prompt-cache-playbook；紅燈未驗 129 續消化。digest 見 ~/workspace/hunts/2026-10-01/skill-digest-r475.md"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
