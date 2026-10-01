@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-01 23:45 HKT",
+  "generated_at_hkt": "2026-10-02 00:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,12 +224,8 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 53,
-    "最新": [
-      "skill-digest-r499.md",
-      "skill-digest-r498.md",
-      "skill-digest-r497.md"
-    ],
+    "今日筆記數": 0,
+    "最新": [],
     "最近落地": [
       "- R455 消化輪：判節 #815（memory-lifecycle vs paper-preflight-checklist 非重複，零合併 435 輪）＋修好 bridge-stale-classify 機械 fail（水位 mechanical_fail 歸零；未驗 129 仍 RED，之後輪繼續消化）",
       "- R456 消化輪：判節 #816（external-cron-ping vs preflight-sim：外部死人開關 vs 決策前內部預演，撞「防錯／安全」題材先問向外定向內＋邊個相位，零合併 436 輪）；R455 書記檔漏寫已按 daily log 補返",
