@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-03 07:15 HKT",
+  "generated_at_hkt": "2026-10-03 07:32 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 16,
+    "今日筆記數": 17,
     "最新": [
+      "skill-digest-r563.md",
       "skill-digest-r562.md",
-      "skill-digest-r561.md",
-      "skill-digest-r560.md"
+      "skill-digest-r561.md"
     ],
     "最近落地": [
-      "- skill-hunt R558 消化輪：判節 #918（deadman-switch-monitor vs durable-execution 非重複，唔硬湊互補：撞「死／等／restart」先問邊個喺度死緊——排程缺席（預期 ping 冇到，外面判佢死，答要唔要報警）vs 任務中斷（自己斷咗，入面靠 checkpoint 接住，答續唔續得返）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百二十六輪；R557 機械預測 1/1 命中（預測鏈 R505 基點後第五十三輪）；R559 預測 branch-copy-protocol vs plan-doc-writer；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r558.md",
       "- skill-hunt R559 消化輪：判節 #919（branch-copy-protocol vs plan-doc-writer 非重複，唔硬湊互補：撞「文件／複製」先問寫緊邊種文件——系統複製 SOP（實例點隔離，十格清單）vs 商業計劃書段落（口語點變書面，冇講寫待補唔估）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百二十七輪；R558 機械預測 1/1 命中（預測鏈 R505 基點後第五十四輪）；R560 預測 browser-action-verify vs model-tier-router；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r559.md",
       "- skill-hunt R560 消化輪：判節 #920（browser-action-verify vs model-tier-router 非重複，唔硬湊互補：撞「任務／成本」先問驗緊邊樣——頁面動作真偽（撳完雙訊號，答做咗未）vs 模型路由平貴（派工前分級 T1/T2/T3，答要用幾貴個腦）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百二十八輪；R559 機械預測 1/1 命中（預測鏈 R505 基點後第五十五輪）；R561 預測 continuous-contract-roll vs model-tier-router；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r560.md",
-      "- skill-hunt R561 消化輪：判節 #921（continuous-contract-roll vs model-tier-router 非重複，唔硬湊互補：撞「對賬／成本」先問對緊邊本賬——換月日表數據賬（邊日用邊個月合約，價格序列）vs 模型分級錢賬（邊份工用邊級腦，LLM 任務）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百二十九輪；R560 機械預測 1/1 命中（預測鏈 R505 基點後第五十六輪）；R562 預測 fleet-coordination vs prompt-cache-playbook；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r561.md"
+      "- skill-hunt R561 消化輪：判節 #921（continuous-contract-roll vs model-tier-router 非重複，唔硬湊互補：撞「對賬／成本」先問對緊邊本賬——換月日表數據賬（邊日用邊個月合約，價格序列）vs 模型分級錢賬（邊份工用邊級腦，LLM 任務）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百二十九輪；R560 機械預測 1/1 命中（預測鏈 R505 基點後第五十六輪）；R562 預測 fleet-coordination vs prompt-cache-playbook；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r561.md",
+      "- skill-hunt R563 消化輪：判節 #923（multi-agent-topology-pick vs prompt-cache-playbook 非重複，唔硬湊互補：撞「派工／模型／成本」先問派緊邊樣——多腦拓撲結構（幾隻手點配合，sequential／supervisor／debate）vs 單次調用 token 經濟（prompt 點排先中 cache，hit 數回本）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百三十一輪；R562 機械預測 1/1 命中（預測鏈 R505 基點後第五十七輪）；R564 預測 cron-task-guard vs degrade-ladder；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r563.md"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
