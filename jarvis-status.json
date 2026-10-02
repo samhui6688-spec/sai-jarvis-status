@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-02 08:45 HKT",
+  "generated_at_hkt": "2026-10-02 09:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 35,
+    "今日筆記數": 36,
     "最新": [
+      "skill-digest-r518.md",
       "skill-digest-r517.md",
-      "skill-digest-r516.md",
-      "skill-digest-r515.md"
+      "skill-digest-r516.md"
     ],
     "最近落地": [
-      "- R456 消化輪：判節 #816（external-cron-ping vs preflight-sim：外部死人開關 vs 決策前內部預演，撞「防錯／安全」題材先問向外定向內＋邊個相位，零合併 436 輪）；R455 書記檔漏寫已按 daily log 補返",
       "- skill-hunt R475 消化輪：#835（run-receipt vs unattended-acceptance：每次 run 後例行收據 vs 72h 無人值守驗收閘——撞「排程監察」先分微觀定宏觀，唔係重複；兩份維持未驗唖偷升，vetting 四關全 PASS≠已驗）非重複，零合併連續 447 輪；R474 機械預測 1/1 命中（預測鏈連續第十六輪）；R476 預測 log-layer vs prompt-cache-playbook；紅燈未驗 129 續消化。digest 見 ~/workspace/hunts/2026-10-01/skill-digest-r475.md",
       "- skill-hunt R495 消化輪：判節 #855（cron-task-guard vs oom-defense 非重複：撞「daemon 守護」體裁先問守邊個維度——時間（run 疊跑／hang）vs 記憶體（cgroup 用量／kernel 亂殺）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續 466 輪；R494 機械預測 1/1 命中（預測鏈連續第三十六輪）；判節文初版防線引用憑記憶出錯已即時修正（教訓：防線引用寫入前親手 grep）；R496 預測 channel-front-door vs durable-execution；紅燈未驗 129 續消化。digest 見 ~/workspace/hunts/2026-10-01/skill-digest-r495.md",
-      "- skill-hunt R501 消化輪：判節 #861（autonomous-work-loop-check vs fleet-coordination 非重複：撞「自主／派工」詞先問自主喺邊一層——loop-level 循環審查 vs fleet-level 車隊路由；兩份維持未驗唖偷升，vetting 四關全 PASS≠已驗）零合併連續 471 輪；R500 機械預測 1/1 命中（預測鏈 R459 新基點後連續第四十三輪）；R502 預測 autonomous-work-loop-check vs reflexion-debrief；紅燈未驗 129 續消化。digest 見 ~/workspace/hunts/2026-10-02/skill-digest-r501.md"
+      "- skill-hunt R501 消化輪：判節 #861（autonomous-work-loop-check vs fleet-coordination 非重複：撞「自主／派工」詞先問自主喺邊一層——loop-level 循環審查 vs fleet-level 車隊路由；兩份維持未驗唖偷升，vetting 四關全 PASS≠已驗）零合併連續 471 輪；R500 機械預測 1/1 命中（預測鏈 R459 新基點後連續第四十三輪）；R502 預測 autonomous-work-loop-check vs reflexion-debrief；紅燈未驗 129 續消化。digest 見 ~/workspace/hunts/2026-10-02/skill-digest-r501.md",
+      "- skill-hunt R518 消化輪：判節 #878（browser-obstruction-clear vs executive-scheduler 非重複：撞「任務前置／排程」字先問邊種前置——單一 browser task 落地後第一步清場（開工環境層，郁手層）vs N 條排程收斂成一個 executive（系統架構層，邊個批晒工作准入、tick 幾時開 AI）；兩份維持未驗唖偷升，vetting 四關全 PASS≠已驗）零合併連續 486 輪；R517 機械預測 1/1 命中（預測鏈 R505 重建基點後連續第十五輪）；R519 預測 free-tier-quota-watch vs memory-lifecycle（同分後備 dispatch-budget vs executive-scheduler）；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-02/skill-digest-r518.md"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
