@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-02 23:45 HKT",
+  "generated_at_hkt": "2026-10-03 00:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,12 +224,8 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 63,
-    "最新": [
-      "skill-digest-r547.md",
-      "skill-digest-r546.md",
-      "skill-digest-r545.md"
-    ],
+    "今日筆記數": 0,
+    "最新": [],
     "最近落地": [
       "- skill-hunt R543 消化輪：判節 #903（fleet-coordination vs reflexion-debrief 非重複：撞「任務／下次」先問邊種——派工前跨機路由（對能力卡揀邊部機做，開工前）vs 失敗後教訓沉澱（一句下次點做先啱，收工後）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百一十一輪；R542 機械預測 1/1 命中（預測鏈 R505 基點後第四十輪）；R544 預測 eval-gate vs preflight-sim；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-02/skill-digest-r543.md",
       "- skill-hunt R545 消化輪：判節 #905（browser-flake-governance vs eval-gate 非重複互補：撞「gate」先分時序——落地前驗能力正確性（斷言回歸）vs 運行後驗任務穩定性（成功率＋隔離）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百一十三輪；R544 機械預測 1/1 命中（預測鏈 R505 基點後第四十一輪）；R546 預測 preflight-sim vs subagent-output-discipline；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-02/skill-digest-r545.md",
