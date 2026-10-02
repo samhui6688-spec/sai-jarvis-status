@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-03 02:15 HKT",
+  "generated_at_hkt": "2026-10-03 02:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 6,
+    "今日筆記數": 7,
     "最新": [
+      "skill-digest-r553.md",
       "skill-digest-r552.md",
-      "skill-digest-r551.md",
-      "skill-digest-r550.md"
+      "skill-digest-r551.md"
     ],
     "最近落地": [
-      "- skill-hunt R547 消化輪：判節 #907（free-window-tracker vs pre-dispatch-existence-check 非重複，唔硬湊互補：撞「開工前 check」先問邊種——免費額度存量（數今日 :free 鏈用量，唔夠唔開工）vs 檔案現實（親手驗前提在場／產出唔撞，撞咗唔重派）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百一十五輪；R546 機械預測 1/1 命中（預測鏈 R505 基點後第四十三輪）；R548 預測 executive-scheduler vs reconnect-reconcile；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-02/skill-digest-r547.md",
       "- skill-hunt R549 消化輪：判節 #909（browser-action-verify vs browser-frame-entry 非重複（互補）：撞「睇唔到／撳完」先分時相——搵唔到元素動作前入格定位 vs 撳完動作後雙訊號驗證；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百一十七輪；R548 機械預測 1/1 命中（預測鏈 R505 基點後第四十四輪）；R550 預測 browser-api-seed vs browser-flake-governance；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r549.md",
       "- skill-hunt R550 消化輪：判節 #910（browser-api-seed vs browser-flake-governance 非重複，唔硬湊互補：撞「browser／失敗／retry」先問治理單位——單次驗收資料生命周期（API 起／delete 收）vs 多次重複任務健康度（intra／inter-run 訊號＋隔離三條數）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百一十八輪；R549 機械預測 1/1 命中（預測鏈 R505 基點後第四十五輪）；R551 預測 eval-progress-tracker vs skill-inventory-watch；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r550.md",
-      "- skill-hunt R552 消化輪：判節 #912（fallback-leak-watch vs free-retrieval-pick 非重複，唔硬湊互補：撞「free／免費」先問邊刻出事——調用嗰刻路由漏落付費（served≠intended，運行中對賬）vs 建置嗰刻免費層裝唔裝得落／會唔會閒置被刪（dims／idle，Gate 選型）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百二十輪；R551 機械預測 1/1 命中（預測鏈 R505 基點後第四十七輪）；R553 預測 channel-front-door vs executive-scheduler；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r552.md"
+      "- skill-hunt R552 消化輪：判節 #912（fallback-leak-watch vs free-retrieval-pick 非重複，唔硬湊互補：撞「free／免費」先問邊刻出事——調用嗰刻路由漏落付費（served≠intended，運行中對賬）vs 建置嗰刻免費層裝唔裝得落／會唔會閒置被刪（dims／idle，Gate 選型）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百二十輪；R551 機械預測 1/1 命中（預測鏈 R505 基點後第四十七輪）；R553 預測 channel-front-door vs executive-scheduler；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r552.md",
+      "- skill-hunt R553 消化輪：判節 #913（channel-front-door vs executive-scheduler 非重複，唔硬湊互補：撞「入口／批准／執行」先問邊道門——入站信任門（邊個嚟講嘢、配對咗未、陌生人只讀）vs 內部調度門（已准入嘅工點排、tick 幾時醒）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百二十一輪；R552 機械預測 1/1 命中（預測鏈 R505 基點後第四十八輪）；R554 預測 browser-blackbox vs browser-stealth-session；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r553.md"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
