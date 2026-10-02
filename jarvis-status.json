@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-03 05:16 HKT",
+  "generated_at_hkt": "2026-10-03 05:31 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 12,
+    "今日筆記數": 13,
     "最新": [
+      "skill-digest-r559.md",
       "skill-digest-r558.md",
-      "skill-digest-r557.md",
-      "skill-digest-r556.md"
+      "skill-digest-r557.md"
     ],
     "最近落地": [
-      "- skill-hunt R555 消化輪：判節 #915（browser-file-boundary vs detector-rule-contradiction-followup 非重複，唔硬湊互補：撞「驗」先問驗緊邊樣——檔案進出安全（隔離／magic bytes／剝 EXIF，執行中）vs 判法一致性（抄規則／代入實例，漏判後）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百二十三輪；R554 機械預測 1/1 命中（預測鏈 R505 基點後第五十輪）；R556 預測 browser-obstruction-clear vs cost-reconcile；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r555.md",
       "- skill-hunt R556 消化輪：判節 #916（browser-obstruction-clear vs cost-reconcile 非重複，唔硬湊互補：撞「開工 check」先問邊個世界——頁面遮擋清場（navigate 後清 cookie／彈窗，答撳唔撳得到）vs 成本偏差對賬（收工後估算 vs 實測，答下次估幾多）；A 維持未驗、B 維持已驗唔偷改，vetting 四關全 PASS≠改狀態）零合併連續五百二十四輪；R555 機械預測 1/1 命中（預測鏈 R505 基點後第五十一輪）；R557 預測 browser-flake-governance vs context-budget；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r556.md",
       "- skill-hunt R557 消化輪：判節 #917（browser-flake-governance vs context-budget 非重複，唔硬湊互補：撞「預算／重試」先問管邊個資源——外部任務可靠性（成功率歷史＋隔離三條數）vs 內部記憶容量（context 三格＋compaction 三欄）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百二十五輪；R556 機械預測 1/1 命中（預測鏈 R505 基點後第五十二輪）；R558 預測 deadman-switch-monitor vs durable-execution；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r557.md",
-      "- skill-hunt R558 消化輪：判節 #918（deadman-switch-monitor vs durable-execution 非重複，唔硬湊互補：撞「死／等／restart」先問邊個喺度死緊——排程缺席（預期 ping 冇到，外面判佢死，答要唔要報警）vs 任務中斷（自己斷咗，入面靠 checkpoint 接住，答續唔續得返）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百二十六輪；R557 機械預測 1/1 命中（預測鏈 R505 基點後第五十三輪）；R559 預測 branch-copy-protocol vs plan-doc-writer；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r558.md"
+      "- skill-hunt R558 消化輪：判節 #918（deadman-switch-monitor vs durable-execution 非重複，唔硬湊互補：撞「死／等／restart」先問邊個喺度死緊——排程缺席（預期 ping 冇到，外面判佢死，答要唔要報警）vs 任務中斷（自己斷咗，入面靠 checkpoint 接住，答續唔續得返）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百二十六輪；R557 機械預測 1/1 命中（預測鏈 R505 基點後第五十三輪）；R559 預測 branch-copy-protocol vs plan-doc-writer；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r558.md",
+      "- skill-hunt R559 消化輪：判節 #919（branch-copy-protocol vs plan-doc-writer 非重複，唔硬湊互補：撞「文件／複製」先問寫緊邊種文件——系統複製 SOP（實例點隔離，十格清單）vs 商業計劃書段落（口語點變書面，冇講寫待補唔估）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百二十七輪；R558 機械預測 1/1 命中（預測鏈 R505 基點後第五十四輪）；R560 預測 browser-action-verify vs model-tier-router；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r559.md"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
