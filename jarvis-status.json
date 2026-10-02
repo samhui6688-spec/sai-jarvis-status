@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-03 01:16 HKT",
+  "generated_at_hkt": "2026-10-03 01:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 4,
+    "今日筆記數": 5,
     "最新": [
+      "skill-digest-r551.md",
       "skill-digest-r550.md",
-      "q307-deferred-prewake-check-spec.md",
-      "skill-digest-r549.md"
+      "q307-deferred-prewake-check-spec.md"
     ],
     "最近落地": [
       "- skill-hunt R546 消化輪：判節 #906（preflight-sim vs subagent-output-discipline 非重複，唔硬湊互補：撞「派工／brief」先分做之前估後果——不可逆 commit 前 G1/G2 分支預演＋最壞收科 vs 做完之後點交貨——寫檔＋只返路徑防傳話失真；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百一十四輪；R545 機械預測 1/1 命中（預測鏈 R505 基點後第四十二輪）；R547 預測 free-window-tracker vs pre-dispatch-existence-check；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-02/skill-digest-r546.md",
