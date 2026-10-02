@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-03 04:45 HKT",
+  "generated_at_hkt": "2026-10-03 05:01 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 11,
+    "今日筆記數": 12,
     "最新": [
+      "skill-digest-r558.md",
       "skill-digest-r557.md",
-      "skill-digest-r556.md",
-      "skill-digest-r555.md"
+      "skill-digest-r556.md"
     ],
     "最近落地": [
       "- skill-hunt R554 消化輪：判節 #914（browser-blackbox vs browser-stealth-session 非重複，唔硬湊互補：撞「browser／Playwright」先問相位——入門前反偵測開門（Patchright 三層，連站都入唔到）vs 入門後黑盒錄影（trace 時間軸，跌咗開盒查因）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百二十二輪；R553 機械預測 1/1 命中（預測鏈 R505 基點後第四十九輪）；R555 預測 browser-file-boundary vs detector-rule-contradiction-followup；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r554.md",
