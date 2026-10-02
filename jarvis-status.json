@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-02 14:45 HKT",
+  "generated_at_hkt": "2026-10-02 15:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 45,
+    "今日筆記數": 46,
     "最新": [
+      "skill-digest-r530.md",
       "skill-digest-r529.md",
-      "skill-digest-r528.md",
-      "skill-digest-r527.md"
+      "skill-digest-r528.md"
     ],
     "最近落地": [
       "- skill-hunt R495 消化輪：判節 #855（cron-task-guard vs oom-defense 非重複：撞「daemon 守護」體裁先問守邊個維度——時間（run 疊跑／hang）vs 記憶體（cgroup 用量／kernel 亂殺）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續 466 輪；R494 機械預測 1/1 命中（預測鏈連續第三十六輪）；判節文初版防線引用憑記憶出錯已即時修正（教訓：防線引用寫入前親手 grep）；R496 預測 channel-front-door vs durable-execution；紅燈未驗 129 續消化。digest 見 ~/workspace/hunts/2026-10-01/skill-digest-r495.md",
