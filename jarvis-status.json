@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-02 16:45 HKT",
+  "generated_at_hkt": "2026-10-02 17:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 49,
+    "今日筆記數": 50,
     "最新": [
+      "skill-digest-r534.md",
       "skill-digest-r533.md",
-      "skill-digest-r532.md",
-      "skill-digest-r531.md"
+      "skill-digest-r532.md"
     ],
     "最近落地": [
-      "- skill-hunt R519 消化輪：判節 #879（free-tier-quota-watch vs memory-lifecycle 非重複：撞「watch／保鮮期」字係假陽性——免費 request 資源存量（幾點燒乾，開工前望錶）vs 長期記憶知識有效性（valid_until，幾時唖好再信）；兩份維持未驗唖偷升，vetting 四關全 PASS≠已驗）零合併連續 487 輪；R518 機械預測 1/1 命中（預測鏈 R505 重建基點後連續第十六輪）；R520 預測 dispatch-budget vs executive-scheduler；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-02/skill-digest-r519.md",
       "- skill-hunt R531 消化輪：判節 #891（continuous-contract-roll vs cost-reconcile 非重複：撞「對賬」先問對邊種賬——期貨換月數據口徑賬（開工前 parity check）vs 任務成本賬（收工後估算對實測）；A 維持未驗、B 維持已驗唔偷改，vetting 四關全 PASS≠改狀態）零合併連續 499 輪；R530 機械預測 1/1 命中（預測鏈 R505 基點後第 27 輪）；R532 預測 browser-smart-wait vs psi-pressure-watch；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-02/skill-digest-r531.md",
       "- skill-hunt R532 消化輪：判節 #892（browser-smart-wait vs psi-pressure-watch 非重複：撞「等／poll」先問等緊邊個世界——網頁元素就緒（快照四格，動作前幾秒）vs kernel 記憶體壓力（PSI some/full，爆之前幾分鐘）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百輪；R531 機械預測 1/1 命中（預測鏈 R505 基點後第二十九輪）；R533 預測 context-budget vs kernel-continuity；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-02/skill-digest-r532.md",
-      "- skill-hunt R533 消化輪：判節 #893（context-budget vs kernel-continuity 非重複互補：撞「記憶／compaction」先問邊層——工作層注意力預算（呢輪裝幾多、爆咗丟咩）vs 永久層真相入賬（三層寫入、來源追溯、supersede、審批）；A compaction 摘要係 B L2 候選輸入，寫得出介面唔合併；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百零一輪；R532 機械預測 1/1 命中（預測鏈 R505 基點後第三十輪）；R534 預測 browser-run-budget vs durable-execution；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-02/skill-digest-r533.md"
+      "- skill-hunt R533 消化輪：判節 #893（context-budget vs kernel-continuity 非重複互補：撞「記憶／compaction」先問邊層——工作層注意力預算（呢輪裝幾多、爆咗丟咩）vs 永久層真相入賬（三層寫入、來源追溯、supersede、審批）；A compaction 摘要係 B L2 候選輸入，寫得出介面唔合併；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百零一輪；R532 機械預測 1/1 命中（預測鏈 R505 基點後第三十輪）；R534 預測 browser-run-budget vs durable-execution；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-02/skill-digest-r533.md",
+      "- skill-hunt R534 消化輪：判節 #894（browser-run-budget vs durable-execution 非重複互補：撞「任務預算／長跑」先問邊種——執行資源天花板（秒＋MB，step 入面唔好 hang 爆）vs 中斷連續性合約（checkpoint＋幂等，step 之間斷咗接得返）；A 總上限停點靠 B checkpoint 變瞓住等續跑；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百零二輪；R533 機械預測 1/1 命中（預測鏈 R505 基點後第三十一輪）；R535 預測 browser-sandbox-defense vs incident-one-pager；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-02/skill-digest-r534.md"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
