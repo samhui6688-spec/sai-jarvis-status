@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-03 12:30 HKT",
+  "generated_at_hkt": "2026-10-03 12:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 27,
+    "今日筆記數": 28,
     "最新": [
+      "skill-digest-r574.md",
       "skill-digest-r573.md",
-      "skill-digest-r572.md",
-      "skill-digest-r571.md"
+      "skill-digest-r572.md"
     ],
     "最近落地": [
-      "- skill-hunt R570 消化輪：判節 #930（browser-flake-governance vs browser-run-budget 非重複，唔硬湊互補：撞「browser／重試／timeout」先問守緊邊一刻——多次失敗之後分類隔離（intra/inter-run 訊號＋隔離三條數＋Suite verdict，答使唔使隔離）vs 單次開工之前定資源盒（timeout 分層＋500MB＋N×200MB，答等幾耐食幾多）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百三十八輪；R569 機械預測 1/1 命中（預測鏈 R505 基點後第六十五輪）；R571 預測 agentskills-conformance vs durable-execution；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r570.md（對 Founder 有用：眼手線分清「間中失敗點治理」同「開工前等幾耐」兩回事——前者唔治理會用重試掩蓋真唔穩、後者唔定盒會 hang 死堵後面或爆記憶體，唔會攞預算當治理、亦唔會攞隔離當限時）",
       "- skill-hunt R571 消化輪：判節 #931（agentskills-conformance vs durable-execution 非重複，唔硬湊互補：撞「checklist／閘」先問驗緊邊樣——文件格式啱唔啱標準（name／description／行數／validate，答草稿出唔出得 quarantine）vs 長任務死咗接唔接得返（checkpoint／幂等鍵／休眠／補償，答派出去嘅工斷咗點算）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百三十九輪；R570 機械預測 1/1 命中（預測鏈 R505 基點後第六十五輪）；R572 預測 free-window-tracker vs model-tier-router；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r571.md（對 Founder 有用：分清「技能文件寫得啱唔啱格式」同「長工做落去斷咗識唔識接返」兩回事——前者唔過第日跨平台要重寫，後者唔過斷一次就由頭嚟過兼可能重做副作用，唔會攞格式清單當存活紀律、亦唔會攞 checkpoint 當格式合規）",
       "- skill-hunt R572 消化輪：判節 #932（free-window-tracker vs model-tier-router 非重複，唔硬湊互補：撞「免費／開工前／成本」先問數緊邊本賬——免費鏈剩餘次數賬（今日 :free 用咗幾多次、剩餘夠唔夠開呢輪，usage.log＋ceiling）vs 任務用腦貴平賬（呢份工用 T1／T2／T3 邊級，cost-log＋月檢討）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百四十輪；R571 機械預測 1/1 命中（預測鏈 R505 基點後第六十六輪）；R573 預測 browser-api-seed vs browser-form-fill；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r572.md（對 Founder 有用：分清「今日免費額仲剩幾多」同「呢份工應該用幾貴個腦」兩回事——前者唔數會撞牆先知爆額，後者唔分會粗活燒貴模型，唔會攞有免費次數當應該用免費腦、亦唔會攞分咗級當知今日仲開唔開得）",
-      "- skill-hunt R573 消化輪：判節 #933（browser-api-seed vs browser-form-fill 非重複，唔硬湊互補：撞「browser／資料／驗證」先問守緊邊一段——後端資料生死（API 起／刪 fixture，驗收環境乾唔乾淨）vs 前端表單填停（掃格／逐格 Tab／八項驗／敏感停，張表填得啱唔啱）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百四十一輪；R572 機械預測 1/1 命中（預測鏈 R505 基點後第六十七輪）；R574 預測 cost-reconcile vs paper-preflight-checklist；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r573.md（對 Founder 有用：眼手線分清「資料點嚟點走」同「表點填點停」兩回事——前者唔清會撿隔夜資料扮綠，後者唔停會自動填密碼／自動提交出事，唔會攞起好資料當識填表、亦唔會攞填得準當環境乾淨）"
+      "- skill-hunt R573 消化輪：判節 #933（browser-api-seed vs browser-form-fill 非重複，唔硬湊互補：撞「browser／資料／驗證」先問守緊邊一段——後端資料生死（API 起／刪 fixture，驗收環境乾唔乾淨）vs 前端表單填停（掃格／逐格 Tab／八項驗／敏感停，張表填得啱唔啱）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百四十一輪；R572 機械預測 1/1 命中（預測鏈 R505 基點後第六十七輪）；R574 預測 cost-reconcile vs paper-preflight-checklist；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r573.md（對 Founder 有用：眼手線分清「資料點嚟點走」同「表點填點停」兩回事——前者唔清會撿隔夜資料扮綠，後者唔停會自動填密碼／自動提交出事，唔會攞起好資料當識填表、亦唔會攞填得準當環境乾淨）",
+      "- skill-hunt R574 消化輪：判節 #934（cost-reconcile vs paper-preflight-checklist 非重複：對工時成本賬 vs 對策略證據賬，兩本賬唔好撈亂；cost-reconcile 維持已驗、paper 維持未驗）零合併連續五百三十四輪；R575 預測 free-tier-quota-watch vs unattended-acceptance；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r574.md（對 Founder 有用：分清「下次估工時點估準」同「策略夠唔夠硬先准晉級」兩回事）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
