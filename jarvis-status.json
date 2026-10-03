@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-04 07:15 HKT",
+  "generated_at_hkt": "2026-10-04 07:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 16,
+    "今日筆記數": 17,
     "最新": [
+      "skill-digest-r611.md",
       "skill-digest-r610.md",
-      "skill-digest-r609.md",
-      "skill-digest-r608.md"
+      "skill-digest-r609.md"
     ],
     "最近落地": [
-      "- skill-hunt R607 消化輪：判節 #967（prompt-cache-playbook vs tavily-search 非重複，唔硬湊互補：撞「免費／成本／額度」先問燒緊邊邊嘅額——自己調模型嘅 token（caching＋輸出紀律，答同樣輸出點燒少啲）vs 人哋搜尋 API 嘅 credit（basic／advanced 分級＋Research 閘，答深挖嗰陣點唔爆月額）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百七十三輪；R606 機械預測 1/1 命中（預測鏈 R505 基點後第一百輪）；R608 預測 agent-capability-card vs subagent-output-discipline；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r607.md（對 Founder 有用：分清「叫 AI 做嘢嗰陣點令每句說話平啲」同「去外面搵證據嗰陣點唔燒爆免費搜尋額」兩筆數——前者唔慳會 cache 排錯越用越貴、輸出廢話燒錢，後者唔閘會巡邏直掛爆額、亂撳貴搜尋一次燒走成個月，唔會攞講嘢平當搵到證據、亦唔會攞搵到證據當講嘢平）",
       "- skill-hunt R608 消化輪：判節 #968（agent-capability-card vs subagent-output-discipline 非重複，唔硬湊互補：撞「派工／agent」先問派工邊一刻——揀邊個做（能力卡註冊表，答邊個識做幾多單）vs 做完點交（寫檔＋只返引用，答交返嚟失唔失真）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百七十四輪；R607 機械預測 1/1 命中（預測鏈 R505 基點後第一百零一輪）；R609 預測 autonomous-work-loop-check vs context-budget；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r608.md（對 Founder 有用：分清「開多間分店嗰陣點知邊間識做、唔好靠腦記揀錯人」同「叫幫手做完嘢點交返嚟、唔好口頭轉述講到走樣」兩回事——前者唔登記會揀錯人塞爆，後者唔寫死會傳話遊戲失真又燒錢，唔會攞揀啱人當交得清、亦唔會攞交得清當識揀人）",
       "- skill-hunt R609 消化輪：判節 #969（autonomous-work-loop-check vs context-budget 非重複，唔硬湊互補：撞「長跑／循環／context」先問管緊邊層——循環設計開唔開得（終止／接線／評分／查重／反思五條，答自轉得安唔安全）vs 每輪窗內記幾多（預算上限／cut 順序／永遠唔入＋compaction 三欄，答記性爛唔爛燒唔燒爆）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百七十五輪；R608 機械預測 1/1 命中（預測鏈 R505 基點後第一百零二輪）；R610 預測 agentskills-conformance vs channel-front-door；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r609.md（對 Founder 有用：分清「個 AI 自己搵工個循環開唔開得、會唔會死循環重複做」同「每輪做嘢記幾多先唔會記性爛又燒爆」兩回事——前者唔審會死燒重複，後者唔管會摘要丟決定下輪踩返，唔會攞循環設計啱當每輪唔爆窗、亦唔會攞每輪慳當循環識停）",
-      "- skill-hunt R610 消化輪：判節 #970（agentskills-conformance vs channel-front-door 非重複，唔硬湊互補：撞「閘／checklist」先問閘緊邊樣——躺喺磁碟嘅文件格式合唔合規（name／description／行數，答出唔出得閘）vs 活嘅訊息入口畀唔畀陌生人指揮（adapter／配對／預設只讀，答上唔上得線）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百七十六輪；R609 機械預測 1/1 命中（預測鏈 R505 基點後第一百零三輪）；R611 預測 degrade-ladder vs free-retrieval-pick；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r610.md（對 Founder 有用：分清「技能說明書寫得合唔合規格、第日換工具讀唔讀得明」同「WhatsApp 嗰啲入口畀唔畀陌生人入嚟叫 SAi 做嘢」兩道閘——前者唔過第日跨平台要重寫，後者唔過任何人 message 就等於可以指揮系統，唔會攞文件靚當入口安全、亦唔會攞入口守得住當文件合規）"
+      "- skill-hunt R610 消化輪：判節 #970（agentskills-conformance vs channel-front-door 非重複，唔硬湊互補：撞「閘／checklist」先問閘緊邊樣——躺喺磁碟嘅文件格式合唔合規（name／description／行數，答出唔出得閘）vs 活嘅訊息入口畀唔畀陌生人指揮（adapter／配對／預設只讀，答上唔上得線）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百七十六輪；R609 機械預測 1/1 命中（預測鏈 R505 基點後第一百零三輪）；R611 預測 degrade-ladder vs free-retrieval-pick；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r610.md（對 Founder 有用：分清「技能說明書寫得合唔合規格、第日換工具讀唔讀得明」同「WhatsApp 嗰啲入口畀唔畀陌生人入嚟叫 SAi 做嘢」兩道閘——前者唔過第日跨平台要重寫，後者唔過任何人 message 就等於可以指揮系統，唔會攞文件靚當入口安全、亦唔會攞入口守得住當文件合規）",
+      "- skill-hunt R611 消化輪：判節 #971（degrade-ladder vs free-retrieval-pick 非重複，唔硬湊互補：撞「層／免費／政策」先問嗰層係邊層——撞牆後逐層收油嗰層（計數→狀態機→健康三問→兩層停＋收油權喺政策層，答撞牆邊個停）vs 架構入面檢索嗰層（dims 速算＋同廠＋閒置一票，答開用前揀邊間）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百七十七輪；R610 機械預測 1/1 命中（預測鏈 R505 基點後第一百零四輪）；R612 預測 browser-api-seed vs browser-smart-wait；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r611.md（對 Founder 有用：分清「系統撞牆嗰陣邊個有權逐層停、唔好做嘢嗰個自己收油」同「未開新儲存之前點揀免費嗰間先唔會瞓著畀人刪晒」兩回事——前者唔劃清會出事嗰陣亂停或者冇人敢停，後者唔揀清會開錯帳戶、揀着會消失嗰間做主力，唔會攞識停當揀得啱、亦唔會攞揀得平當出事識停）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
