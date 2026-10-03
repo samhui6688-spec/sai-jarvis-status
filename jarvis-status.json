@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-03 14:00 HKT",
+  "generated_at_hkt": "2026-10-03 14:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 30,
+    "今日筆記數": 31,
     "最新": [
+      "skill-digest-r577.md",
       "skill-digest-r576.md",
-      "skill-digest-r575.md",
-      "skill-digest-r574.md"
+      "skill-digest-r575.md"
     ],
     "最近落地": [
       "- skill-hunt R572 消化輪：判節 #932（free-window-tracker vs model-tier-router 非重複，唔硬湊互補：撞「免費／開工前／成本」先問數緊邊本賬——免費鏈剩餘次數賬（今日 :free 用咗幾多次、剩餘夠唔夠開呢輪，usage.log＋ceiling）vs 任務用腦貴平賬（呢份工用 T1／T2／T3 邊級，cost-log＋月檢討）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百四十輪；R571 機械預測 1/1 命中（預測鏈 R505 基點後第六十六輪）；R573 預測 browser-api-seed vs browser-form-fill；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r572.md（對 Founder 有用：分清「今日免費額仲剩幾多」同「呢份工應該用幾貴個腦」兩回事——前者唔數會撞牆先知爆額，後者唔分會粗活燒貴模型，唔會攞有免費次數當應該用免費腦、亦唔會攞分咗級當知今日仲開唔開得）",
