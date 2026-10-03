@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-04 05:45 HKT",
+  "generated_at_hkt": "2026-10-04 06:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 13,
+    "今日筆記數": 14,
     "最新": [
+      "skill-digest-r608.md",
       "skill-digest-r607.md",
-      "skill-digest-r606.md",
-      "skill-digest-r605.md"
+      "skill-digest-r606.md"
     ],
     "最近落地": [
-      "- skill-hunt R604 消化輪：判節 #964（agentskills-conformance vs message-provenance 非重複，唔硬湊互補：撞「驗證／入閘」先問驗緊邊樣——躺喺磁碟嘅文件格式合唔合規（name／description／行數，答出唔出得閘）vs 飛行中嘅訊息係咪真・新・冇冒充（簽名／時間戳／身份對齊，答收唔收）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百七十輪；R603 機械預測 1/1 命中（預測鏈 R505 基點後第九十七輪）；R605 預測 browser-flake-governance vs paper-preflight-checklist；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r604.md（對 Founder 有用：分清「技能說明書寫得合唔合規格、第日換工具讀唔讀得明」同「外來訊息係咪真係嗰個人寄、會唔會俾人冒充 Founder 入系統」兩道閘——前者唔過第日跨平台要重寫，後者唔驗會俾偽造指令入閘，唔會攞文件靚當訊息真、亦唔會攞驗真封信當文件合規）",
       "- skill-hunt R605 消化輪：判節 #965（browser-flake-governance vs paper-preflight-checklist 非重複，唔硬湊互補：撞「閘／隔離／唔過」先問判緊邊樣——重複跑任務健唔健康（成功率統計＋隔離三條數，答繼唔繼續跑）vs 一個策略夠唔夠證據升一級（六閘證據＋閾值快照，答晉唔晉級）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百七十一輪；R604 機械預測 1/1 命中（預測鏈 R505 基點後第九十八輪）；R606 預測 risk-kill-switch vs unattended-acceptance；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r605.md（對 Founder 有用：分清「瀏覽器任務間中失敗係任務唔穩定網站爛，唔好加重試扮綠」同「交易策略紙單跑完夠唔夠證據升一級，唔好俾模擬假成交扮到真質素」兩道閘——前者唔分會隔離埋真 bug 或者俾網站問題拖死，後者唔數齊六格會假綠燈上真錢，唔會攞任務穩當策略有 edge、亦唔會攞策略過閘當任務可靠）",
       "- skill-hunt R606 消化輪：判節 #966（risk-kill-switch vs unattended-acceptance 非重複，唔硬湊互補：撞「閘／鎖／停」先問鎖緊邊樣——交易逐單逐日蝕錢鎖新單（三層閘＋死亡線緩衝，答蝕緊有冇獨立手停）vs 成個系統無人 72h 鎖唔鎖得住（開閘 checklist＋機械 PASS/FAIL＋叫醒矩陣，答夠唔夠格自己跑）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百七十二輪；R605 機械預測 1/1 命中（預測鏈 R505 基點後第九十九輪）；R607 預測 prompt-cache-playbook vs tavily-search；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r606.md（對 Founder 有用：分清「交易蝕錢嗰陣有冇一隻唔聽策略嘅手即刻鎖新單、唔好蝕穿考試死亡線」同「成個 SAi 自己跑 72 小時之前有冇對齊晒、跑完點機械判、出事點叫醒你」兩道閘——前者唔響會逐單蝕穿，後者唔對齊會無人嗰陣靜靜死或者亂重啟抹證據，唔會攞風控好當系統穩、亦唔會攞系統穩當交易安全）",
-      "- skill-hunt R607 消化輪：判節 #967（prompt-cache-playbook vs tavily-search 非重複，唔硬湊互補：撞「免費／成本／額度」先問燒緊邊邊嘅額——自己調模型嘅 token（caching＋輸出紀律，答同樣輸出點燒少啲）vs 人哋搜尋 API 嘅 credit（basic／advanced 分級＋Research 閘，答深挖嗰陣點唔爆月額）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百七十三輪；R606 機械預測 1/1 命中（預測鏈 R505 基點後第一百輪）；R608 預測 agent-capability-card vs subagent-output-discipline；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r607.md（對 Founder 有用：分清「叫 AI 做嘢嗰陣點令每句說話平啲」同「去外面搵證據嗰陣點唔燒爆免費搜尋額」兩筆數——前者唔慳會 cache 排錯越用越貴、輸出廢話燒錢，後者唔閘會巡邏直掛爆額、亂撳貴搜尋一次燒走成個月，唔會攞講嘢平當搵到證據、亦唔會攞搵到證據當講嘢平）"
+      "- skill-hunt R607 消化輪：判節 #967（prompt-cache-playbook vs tavily-search 非重複，唔硬湊互補：撞「免費／成本／額度」先問燒緊邊邊嘅額——自己調模型嘅 token（caching＋輸出紀律，答同樣輸出點燒少啲）vs 人哋搜尋 API 嘅 credit（basic／advanced 分級＋Research 閘，答深挖嗰陣點唔爆月額）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百七十三輪；R606 機械預測 1/1 命中（預測鏈 R505 基點後第一百輪）；R608 預測 agent-capability-card vs subagent-output-discipline；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r607.md（對 Founder 有用：分清「叫 AI 做嘢嗰陣點令每句說話平啲」同「去外面搵證據嗰陣點唔燒爆免費搜尋額」兩筆數——前者唔慳會 cache 排錯越用越貴、輸出廢話燒錢，後者唔閘會巡邏直掛爆額、亂撳貴搜尋一次燒走成個月，唔會攞講嘢平當搵到證據、亦唔會攞搵到證據當講嘢平）",
+      "- skill-hunt R608 消化輪：判節 #968（agent-capability-card vs subagent-output-discipline 非重複，唔硬湊互補：撞「派工／agent」先問派工邊一刻——揀邊個做（能力卡註冊表，答邊個識做幾多單）vs 做完點交（寫檔＋只返引用，答交返嚟失唔失真）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百七十四輪；R607 機械預測 1/1 命中（預測鏈 R505 基點後第一百零一輪）；R609 預測 autonomous-work-loop-check vs context-budget；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r608.md（對 Founder 有用：分清「開多間分店嗰陣點知邊間識做、唔好靠腦記揀錯人」同「叫幫手做完嘢點交返嚟、唔好口頭轉述講到走樣」兩回事——前者唔登記會揀錯人塞爆，後者唔寫死會傳話遊戲失真又燒錢，唔會攞揀啱人當交得清、亦唔會攞交得清當識揀人）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
