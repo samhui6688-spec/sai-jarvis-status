@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-03 20:15 HKT",
+  "generated_at_hkt": "2026-10-03 20:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 43,
+    "今日筆記數": 44,
     "最新": [
+      "skill-digest-r589.md",
       "skill-digest-r588.md",
-      "skill-digest-r587.md",
-      "skill-digest-r585.md"
+      "skill-digest-r587.md"
     ],
     "最近落地": [
-      "- skill-hunt R585 消化輪：判節 #945（fleet-coordination vs three-probes 非重複，唔硬湊互補：撞「alive／heartbeat」先問用嚟做邊樣——派工前揀邊部機接（能力卡 status 一格，答邊個做）vs 巡邏中判元件死未（liveness 淨本地，答重啟定唔派工）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百五十二輪；R584 機械預測 1/1 命中（預測鏈 R505 基點後第七十九輪）；R586 預測 browser-task-router vs reflexion-debrief；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r585.md（對 Founder 有用：分清「邊部機識做咩、派畀邊個」同「部機死咗未、要唔要重啟」兩回事——前者唔分會派錯機撞檔重複跑，後者唔分三問會將外部抖一下誤判全系統死亂重啟，唔會攞卡上寫住 alive 當健康判得啱、亦唔會攞探針分得清當識揀機）",
       "- skill-hunt R586 消化輪：判節 #946（disk-pressure-watch vs psi-pressure-watch 非重複 KEEP_BOTH：碟容量 vs RAM 壓力互補唔合併，兩份維持未驗；對 Founder 有用：分清爆碟同爆記憶體兩種靜默死法，唔會攞一個監察當兩個都睇住）",
       "- skill-hunt R587 消化輪：判節 #947（browser-task-router vs reflexion-debrief 非重複，唔硬湊互補：撞「任務／派工／search」先問守緊邊一刻——開工前揀邊隻手（search/open/spawn_task 三層＋升級 classify，答用邊層開）vs 收工後記低衰咗乜（一句教訓＋下次 search，答下次點避）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百五十三輪；R585 預測順延一輪今輪補判命中（R586 改判 disk/psi 0.86 對）；R588 預測 executive-scheduler vs run-receipt；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r587.md（對 Founder 有用：分清「未開工點揀最平嗰隻手」同「衰咗點記低唔再衰」兩回事——前者唔揀會慢 48 倍燒貴 30 倍，後者唔記會同一個坑衰完又衰，唔會攞揀啱工具當學識教訓、亦唔會攞寫好教訓當識揀工具）",
-      "- skill-hunt R588 消化輪：判節 #948（executive-scheduler vs run-receipt 非重複，唔硬湊互補：撞「排程／run」先問守緊邊層——調度治理（五狀態／合約／九規則，答工點准入點停）vs 單次證據（五格收據，答嗰次做咗乜）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百五十四輪；R587 機械預測 1/1 命中（預測鏈 R505 基點後第八十一輪）；R589 預測 browser-resilience vs message-provenance；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r588.md（對 Founder 有用：分清「成個調度系統點設計先唔亂」同「一次 run 完咗留咩先查得返」兩回事——前者唔設計會 N 條排程各自話事、重複開工、權力膨脹，後者唔留收據會分唔清巡過冇事定根本冇巡，唔會攞合約欄當證據、亦唔會攞有收據當識調度）"
+      "- skill-hunt R588 消化輪：判節 #948（executive-scheduler vs run-receipt 非重複，唔硬湊互補：撞「排程／run」先問守緊邊層——調度治理（五狀態／合約／九規則，答工點准入點停）vs 單次證據（五格收據，答嗰次做咗乜）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百五十四輪；R587 機械預測 1/1 命中（預測鏈 R505 基點後第八十一輪）；R589 預測 browser-resilience vs message-provenance；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r588.md（對 Founder 有用：分清「成個調度系統點設計先唔亂」同「一次 run 完咗留咩先查得返」兩回事——前者唔設計會 N 條排程各自話事、重複開工、權力膨脹，後者唔留收據會分唔清巡過冇事定根本冇巡，唔會攞合約欄當證據、亦唔會攞有收據當識調度）",
+      "- skill-hunt R589 消化輪：判節 #949（browser-resilience vs message-provenance 非重複，唔硬湊互補：撞「失敗／證據」先問守緊邊道閘——任務跌咗點起返身（分類＋預算＋檢查點，答續唔續得返）vs 訊息入閘真唔真（簽名＋時間戳＋身份對齊，答收唔收得）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百五十五輪；R588 機械預測 1/1 命中（預測鏈 R505 基點後第八十二輪）；R590 預測 browser-file-boundary vs browser-run-budget；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r589.md（對 Founder 有用：分清「瀏覽任務跌咗點爬返起身」同「外面封信係咪真係嗰個人寄」兩回事——前者唔分會無限重試打爆人哋兼重播已做部分，後者唔驗會俾人自報 Founder 身份就入到系統，唔會攞識 resume 當驗到來源、亦唔會攞驗真封信當任務唔會死）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
