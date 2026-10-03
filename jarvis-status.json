@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-04 06:30 HKT",
+  "generated_at_hkt": "2026-10-04 06:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 15,
+    "今日筆記數": 16,
     "最新": [
+      "skill-digest-r610.md",
       "skill-digest-r609.md",
-      "skill-digest-r608.md",
-      "skill-digest-r607.md"
+      "skill-digest-r608.md"
     ],
     "最近落地": [
       "- skill-hunt R606 消化輪：判節 #966（risk-kill-switch vs unattended-acceptance 非重複，唔硬湊互補：撞「閘／鎖／停」先問鎖緊邊樣——交易逐單逐日蝕錢鎖新單（三層閘＋死亡線緩衝，答蝕緊有冇獨立手停）vs 成個系統無人 72h 鎖唔鎖得住（開閘 checklist＋機械 PASS/FAIL＋叫醒矩陣，答夠唔夠格自己跑）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百七十二輪；R605 機械預測 1/1 命中（預測鏈 R505 基點後第九十九輪）；R607 預測 prompt-cache-playbook vs tavily-search；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r606.md（對 Founder 有用：分清「交易蝕錢嗰陣有冇一隻唔聽策略嘅手即刻鎖新單、唔好蝕穿考試死亡線」同「成個 SAi 自己跑 72 小時之前有冇對齊晒、跑完點機械判、出事點叫醒你」兩道閘——前者唔響會逐單蝕穿，後者唔對齊會無人嗰陣靜靜死或者亂重啟抹證據，唔會攞風控好當系統穩、亦唔會攞系統穩當交易安全）",
