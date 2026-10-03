@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-04 04:45 HKT",
+  "generated_at_hkt": "2026-10-04 05:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 11,
+    "今日筆記數": 12,
     "最新": [
+      "skill-digest-r606.md",
       "skill-digest-r605.md",
-      "skill-digest-r604.md",
-      "skill-digest-r603.md"
+      "skill-digest-r604.md"
     ],
     "最近落地": [
-      "- skill-hunt R602 消化輪：判節 #962（free-tts vs stock-footage-license-check 非重複，唔硬湊互補：撞「免費／短片」先問免費緊邊樣——自己生一把聲（edge-tts 出 MP3，答旁白點嚟）vs 攞外來素材嚟用（圖庫授權逐格，答准唔准出街）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百六十八輪；R601 機械預測 1/1 命中（預測鏈 R505 基點後第九十五輪）；R603 預測 browser-file-boundary vs degrade-ladder；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r602.md（對 Founder 有用：分清「條片把聲點生」同「啲素材准唔准出街」兩回事——前者唔做要畀錢買配音或者冇聲，後者唔核會 standalone 直出／踩 Coverr AI 禁令俾人追究，唔會攞出到聲當素材合法、亦唔會攞素材合法當有聲用）",
       "- skill-hunt R603 消化輪：判節 #963（browser-file-boundary vs degrade-ladder 非重複，唔硬湊互補：撞「邊界／停」先問守緊邊個世界——單檔進出信唔信得過（隔離＋約定名＋magic bytes＋剝 metadata，答檔安唔安全）vs 成組服務撞牆點收得有層次（計數→狀態機→三問→兩層停，答幾時收邊個收）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百六十九輪；R602 機械預測 1/1 命中（預測鏈 R505 基點後第九十五輪）；R604 預測 agentskills-conformance vs message-provenance；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r603.md（對 Founder 有用：眼手線分清「下載個檔係咪毒、相片定位會唔會出街」同運維線「部機撞牆點有層次收油」兩回事——前者唔守會俾惡意檔名寫出沙盒，後者唔設計會撞牆齊爆或重啟風暴，唔會攞檔案乾淨當系統唔會死、亦唔會攞識降級當下載冇毒）",
       "- skill-hunt R604 消化輪：判節 #964（agentskills-conformance vs message-provenance 非重複，唔硬湊互補：撞「驗證／入閘」先問驗緊邊樣——躺喺磁碟嘅文件格式合唔合規（name／description／行數，答出唔出得閘）vs 飛行中嘅訊息係咪真・新・冇冒充（簽名／時間戳／身份對齊，答收唔收）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百七十輪；R603 機械預測 1/1 命中（預測鏈 R505 基點後第九十七輪）；R605 預測 browser-flake-governance vs paper-preflight-checklist；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r604.md（對 Founder 有用：分清「技能說明書寫得合唔合規格、第日換工具讀唔讀得明」同「外來訊息係咪真係嗰個人寄、會唔會俾人冒充 Founder 入系統」兩道閘——前者唔過第日跨平台要重寫，後者唔驗會俾偽造指令入閘，唔會攞文件靚當訊息真、亦唔會攞驗真封信當文件合規）",
-      "- skill-hunt R605 消化輪：判節 #965（browser-flake-governance vs paper-preflight-checklist 非重複，唔硬湊互補：撞「閘／隔離／唔過」先問判緊邊樣——重複跑任務健唔健康（成功率統計＋隔離三條數，答繼唔繼續跑）vs 一個策略夠唔夠證據升一級（六閘證據＋閾值快照，答晉唔晉級）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百七十一輪；R604 機械預測 1/1 命中（預測鏈 R505 基點後第九十八輪）；R606 預測 risk-kill-switch vs unattended-acceptance；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r605.md（對 Founder 有用：分清「瀏覽器任務間中失敗係任務唔穩定網站爛，唔好加重試扮綠」同「交易策略紙單跑完夠唔夠證據升一級，唔好俾模擬假成交扮到真質素」兩道閘——前者唔分會隔離埋真 bug 或者俾網站問題拖死，後者唔數齊六格會假綠燈上真錢，唔會攞任務穩當策略有 edge、亦唔會攞策略過閘當任務可靠）"
+      "- skill-hunt R605 消化輪：判節 #965（browser-flake-governance vs paper-preflight-checklist 非重複，唔硬湊互補：撞「閘／隔離／唔過」先問判緊邊樣——重複跑任務健唔健康（成功率統計＋隔離三條數，答繼唔繼續跑）vs 一個策略夠唔夠證據升一級（六閘證據＋閾值快照，答晉唔晉級）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百七十一輪；R604 機械預測 1/1 命中（預測鏈 R505 基點後第九十八輪）；R606 預測 risk-kill-switch vs unattended-acceptance；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r605.md（對 Founder 有用：分清「瀏覽器任務間中失敗係任務唔穩定網站爛，唔好加重試扮綠」同「交易策略紙單跑完夠唔夠證據升一級，唔好俾模擬假成交扮到真質素」兩道閘——前者唔分會隔離埋真 bug 或者俾網站問題拖死，後者唔數齊六格會假綠燈上真錢，唔會攞任務穩當策略有 edge、亦唔會攞策略過閘當任務可靠）",
+      "- skill-hunt R606 消化輪：判節 #966（risk-kill-switch vs unattended-acceptance 非重複，唔硬湊互補：撞「閘／鎖／停」先問鎖緊邊樣——交易逐單逐日蝕錢鎖新單（三層閘＋死亡線緩衝，答蝕緊有冇獨立手停）vs 成個系統無人 72h 鎖唔鎖得住（開閘 checklist＋機械 PASS/FAIL＋叫醒矩陣，答夠唔夠格自己跑）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百七十二輪；R605 機械預測 1/1 命中（預測鏈 R505 基點後第九十九輪）；R607 預測 prompt-cache-playbook vs tavily-search；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r606.md（對 Founder 有用：分清「交易蝕錢嗰陣有冇一隻唔聽策略嘅手即刻鎖新單、唔好蝕穿考試死亡線」同「成個 SAi 自己跑 72 小時之前有冇對齊晒、跑完點機械判、出事點叫醒你」兩道閘——前者唔響會逐單蝕穿，後者唔對齊會無人嗰陣靜靜死或者亂重啟抹證據，唔會攞風控好當系統穩、亦唔會攞系統穩當交易安全）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
