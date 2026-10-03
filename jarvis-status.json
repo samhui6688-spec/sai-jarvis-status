@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-03 13:15 HKT",
+  "generated_at_hkt": "2026-10-03 13:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 28,
+    "今日筆記數": 29,
     "最新": [
+      "skill-digest-r575.md",
       "skill-digest-r574.md",
-      "skill-digest-r573.md",
-      "skill-digest-r572.md"
+      "skill-digest-r573.md"
     ],
     "最近落地": [
       "- skill-hunt R571 消化輪：判節 #931（agentskills-conformance vs durable-execution 非重複，唔硬湊互補：撞「checklist／閘」先問驗緊邊樣——文件格式啱唔啱標準（name／description／行數／validate，答草稿出唔出得 quarantine）vs 長任務死咗接唔接得返（checkpoint／幂等鍵／休眠／補償，答派出去嘅工斷咗點算）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百三十九輪；R570 機械預測 1/1 命中（預測鏈 R505 基點後第六十五輪）；R572 預測 free-window-tracker vs model-tier-router；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r571.md（對 Founder 有用：分清「技能文件寫得啱唔啱格式」同「長工做落去斷咗識唔識接返」兩回事——前者唔過第日跨平台要重寫，後者唔過斷一次就由頭嚟過兼可能重做副作用，唔會攞格式清單當存活紀律、亦唔會攞 checkpoint 當格式合規）",
