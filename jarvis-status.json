@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-03 09:15 HKT",
+  "generated_at_hkt": "2026-10-03 09:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 20,
+    "今日筆記數": 21,
     "最新": [
+      "skill-digest-r567.md",
       "skill-digest-r566.md",
-      "skill-digest-r565.md",
-      "skill-digest-r564.md"
+      "skill-digest-r565.md"
     ],
     "最近落地": [
-      "- skill-hunt R563 消化輪：判節 #923（multi-agent-topology-pick vs prompt-cache-playbook 非重複，唔硬湊互補：撞「派工／模型／成本」先問派緊邊樣——多腦拓撲結構（幾隻手點配合，sequential／supervisor／debate）vs 單次調用 token 經濟（prompt 點排先中 cache，hit 數回本）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百三十一輪；R562 機械預測 1/1 命中（預測鏈 R505 基點後第五十七輪）；R564 預測 cron-task-guard vs degrade-ladder；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r563.md",
       "- skill-hunt R564 消化輪：判節 #924（cron-task-guard vs degrade-ladder 非重複，唔硬湊互補：撞「排程／停／重試」先問停緊邊一層——單次 run 邊界（flock 防疊跑、timeout 防 hang、RuntimeMaxSec 上限）vs 撞牆政策（計數／狀態機／健康三問、邊個有權收油）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百三十二輪；R563 機械預測 1/1 命中（預測鏈 R505 基點後第五十九輪）；R565 預測 paper-preflight-checklist vs self-improve-loop-design；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r564.md",
       "- R565 消化判節 #925：分清紙單晉級六閘（交易證據）同自我改善九格（演化設計）唔同世界，紅燈水位下繼續清倉唔堆新草稿（對 Founder 有用：量化晉級同 SAi 進化兩條線唔會撈亂）",
-      "- skill-hunt R566 消化輪：判節 #926（browser-request-throttle vs browser-resilience 非重複，唔硬湊互補：撞「browser／開工前」先問守緊邊一刻——載入前擋被動資源慳速（context.route abort 圖／字體／媒體，答快唔快）vs 失敗後分類＋預算＋檢查點起返身（答跌咗點算、進度點保）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百三十四輪；R565 機械預測 1/1 命中（預測鏈 R505 基點後第六十輪）；R567 預測 preflight-sim vs strategy-circuit-breaker；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r566.md（對 Founder 有用：眼手線分清「載得快」同「跌得返」兩回事，唔會用加速配方當韌性、亦唔會用重試掩蓋慢載）"
+      "- skill-hunt R566 消化輪：判節 #926（browser-request-throttle vs browser-resilience 非重複，唔硬湊互補：撞「browser／開工前」先問守緊邊一刻——載入前擋被動資源慳速（context.route abort 圖／字體／媒體，答快唔快）vs 失敗後分類＋預算＋檢查點起返身（答跌咗點算、進度點保）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百三十四輪；R565 機械預測 1/1 命中（預測鏈 R505 基點後第六十輪）；R567 預測 preflight-sim vs strategy-circuit-breaker；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r566.md（對 Founder 有用：眼手線分清「載得快」同「跌得返」兩回事，唔會用加速配方當韌性、亦唔會用重試掩蓋慢載）",
+      "- skill-hunt R567 消化輪：判節 #927（preflight-sim vs strategy-circuit-breaker 非重複，唔硬湊互補：撞「閘／停手」先問閘緊邊刻——commit 前意圖預演（G1/G2 腦內分支，答撳唔撳）vs 運行中行為熔斷（四閘實測閾值，答停唔停）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百三十五輪；R566 機械預測 1/1 命中（預測鏈 R505 基點後第六十二輪）；R568 預測 degrade-ladder vs free-tier-map；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r567.md（對 Founder 有用：SAi 決策閘同量化剎車分清，部署發訊嗰種「撳錯返唔到轉頭」唔會攞運行熔斷嚟頂，策略實跑嗰陣亦唔會攞腦內預演當自動停手機制——平時就係呢啲混淆先出大事）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
