@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-03 16:00 HKT",
+  "generated_at_hkt": "2026-10-03 16:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 36,
+    "今日筆記數": 37,
     "最新": [
+      "skill-digest-r581.md",
       "skill-digest-r580.md",
-      "skill-digest-r579.md",
-      "q776-q774-third-case-recovery-check.md"
+      "skill-digest-r579.md"
     ],
     "最近落地": [
-      "- skill-hunt R577 消化輪：判節 #937（paper-exec-ledger vs strategy-circuit-breaker 非重複，上下游互補唔合併：撞「熔斷靠賬」先分生產定消費——每筆 paper 單記賬格式生產逐筆證據（答數點嚟）vs 運行中四熔斷器消費證據落停手決定（答幾時停）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百四十四輪；R576 機械預測 1/1 命中（預測鏈 R505 基點後第七十一輪）；R578 預測 pre-reg-check vs skill-inventory-watch；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r577.md（對 Founder 有用：量化線分清「賬點記」同「幾時停手」——冇逐筆賬熔斷冇數可依，賬記啱都唔會自己識停，唔會攞記賬格式當風控、亦唔會攞閾值當證據）",
       "- skill-hunt R578 消化輪：判節 #938（pre-reg-check vs skill-inventory-watch 非重複，唔硬湊互補：撞「閘／check／開工前」先問閘緊邊個世界入場——單一策略提案早殺（A1..C7 十六格答值唔值得開第一跑 backtest）vs 技能庫存水位（四格＋三燈答開唔開新草稿／做唔做消化輪）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百四十五輪；R577 機械預測 1/1 命中（預測鏈 R505 基點後第七十二輪）；R579 預測 compliance-checklist vs three-probes；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r578.md（對 Founder 有用：分清「一個策略值唔值得跑」同「成個技能倉庫滿唔滿」兩回事——前者唔閘會燒 backtest 算力喺死提案度，後者唔望會越堆越多未驗草稿再分唔清邊份真係用得，唔會攞殺咗個壞策略當倉庫瘦咗身、亦唔會攞水位紅燈當策略自動唔使判）",
       "- skill-hunt R579 消化輪：判節 #939（compliance-checklist vs three-probes 非重複，唔硬湊互補：撞「檢查」先問查緊邊個世界——商業文件對外合唔合法（四點逐段剔，答出唔出得街）vs 運行元件死唔死（startup／liveness／readiness 三問，答重唔重啟派唔派工）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百四十六輪；R578 機械預測 1/1 命中（預測鏈 R505 基點後第七十三輪）；R580 預測 agent-sandbox-policy vs compliance-checklist；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r579.md（對 Founder 有用：分清「計劃書出街前法律檢查」同「系統元件健康探針」兩回事——前者唔剔會踩廣告／私隱／牌照紅線，後者唔分三問會將外部抖動誤判全系統死，唔會攞文件清單當探針、亦唔會攞探針模板當合規審查）",
-      "- skill-hunt R580 消化輪：判節 #940（agent-sandbox-policy vs compliance-checklist 非重複，唔硬湊互補：撞「政策／紅線」先問守緊邊個世界——未審查 code 入邊級沙盒（跑唔跑得、爆破半徑幾大）vs 醫療計劃書出唔出得街（廣告／私隱／牌照／數字四點）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百四十七輪；R579 機械預測 1/1 命中（預測鏈 R505 基點後第七十四輪）；R581 預測 fallback-leak-watch vs log-layer；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r580.md（對 Founder 有用：分清「外來 code 點隔離先好跑」同「計劃書點剔先好出街」兩道閘——前者唔閘會直跑爆機洩密，後者唔剔會踩法律紅線，唔會攞沙盒政策當合規審查、亦唔會攞文件清單當執行安全）"
+      "- skill-hunt R580 消化輪：判節 #940（agent-sandbox-policy vs compliance-checklist 非重複，唔硬湊互補：撞「政策／紅線」先問守緊邊個世界——未審查 code 入邊級沙盒（跑唔跑得、爆破半徑幾大）vs 醫療計劃書出唔出得街（廣告／私隱／牌照／數字四點）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百四十七輪；R579 機械預測 1/1 命中（預測鏈 R505 基點後第七十四輪）；R581 預測 fallback-leak-watch vs log-layer；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r580.md（對 Founder 有用：分清「外來 code 點隔離先好跑」同「計劃書點剔先好出街」兩道閘——前者唔閘會直跑爆機洩密，後者唔剔會踩法律紅線，唔會攞沙盒政策當合規審查、亦唔會攞文件清單當執行安全）",
+      "- skill-hunt R581 消化輪：判節 #941（fallback-leak-watch vs log-layer 非重複，唔硬湊互補：撞「監察／watch／記錄」先問監緊邊種靜默損失——LLM 以為免費實際收費（intended／served／cost 三格，答有冇漏錢）vs 系統出事冇記錄翻查（三級日誌 L0→L1→L2，答去邊度睇返）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百四十八輪；R580 機械預測 1/1 命中（預測鏈 R505 基點後第七十五輪）；R582 預測 agent-capability-card vs fleet-throttle；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-03/skill-digest-r581.md（對 Founder 有用：分清「邊次 AI 調用靜靜收咗錢」同「部機出事有冇 log 查得返」兩回事——前者唔捉會 24/7 免費地基日日漏錢都唔知，後者唔分級會未出事先裝重型系統或者出事冇記錄，唔會攞捉到漏錢當有齊 log、亦唔會攞有 log 當冇漏錢）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
