@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-04 08:45 HKT",
+  "generated_at_hkt": "2026-10-04 09:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 19,
+    "今日筆記數": 20,
     "最新": [
+      "skill-digest-r614.md",
       "skill-digest-r613.md",
-      "skill-digest-r612.md",
-      "skill-digest-r611.md"
+      "skill-digest-r612.md"
     ],
     "最近落地": [
-      "- skill-hunt R610 消化輪：判節 #970（agentskills-conformance vs channel-front-door 非重複，唔硬湊互補：撞「閘／checklist」先問閘緊邊樣——躺喺磁碟嘅文件格式合唔合規（name／description／行數，答出唔出得閘）vs 活嘅訊息入口畀唔畀陌生人指揮（adapter／配對／預設只讀，答上唔上得線）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百七十六輪；R609 機械預測 1/1 命中（預測鏈 R505 基點後第一百零三輪）；R611 預測 degrade-ladder vs free-retrieval-pick；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r610.md（對 Founder 有用：分清「技能說明書寫得合唔合規格、第日換工具讀唔讀得明」同「WhatsApp 嗰啲入口畀唔畀陌生人入嚟叫 SAi 做嘢」兩道閘——前者唔過第日跨平台要重寫，後者唔過任何人 message 就等於可以指揮系統，唔會攞文件靚當入口安全、亦唔會攞入口守得住當文件合規）",
       "- skill-hunt R611 消化輪：判節 #971（degrade-ladder vs free-retrieval-pick 非重複，唔硬湊互補：撞「層／免費／政策」先問嗰層係邊層——撞牆後逐層收油嗰層（計數→狀態機→健康三問→兩層停＋收油權喺政策層，答撞牆邊個停）vs 架構入面檢索嗰層（dims 速算＋同廠＋閒置一票，答開用前揀邊間）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百七十七輪；R610 機械預測 1/1 命中（預測鏈 R505 基點後第一百零四輪）；R612 預測 browser-api-seed vs browser-smart-wait；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r611.md（對 Founder 有用：分清「系統撞牆嗰陣邊個有權逐層停、唔好做嘢嗰個自己收油」同「未開新儲存之前點揀免費嗰間先唔會瞓著畀人刪晒」兩回事——前者唔劃清會出事嗰陣亂停或者冇人敢停，後者唔揀清會開錯帳戶、揀着會消失嗰間做主力，唔會攞識停當揀得啱、亦唔會攞揀得平當出事識停）",
       "- skill-hunt R612 消化輪：判節 #972（browser-api-seed vs browser-smart-wait 非重複，唔硬湊互補：撞「browser」先問管邊一刻——開場散場啲資料（API 起＋delete 清，答驗緊新定舊嘢）vs 每下動作之前點等（四格＋等變唔等秒，答未準備好有冇郁手）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百七十八輪；R611 機械預測 1/1 命中（預測鏈 R505 基點後第一百零五輪）；R613 預測 degrade-ladder vs paper-risk-guard；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r612.md（對 Founder 有用：分清「驗收之前點快手起好資料、用完點清走唔好驗到舊嘢」同「撳每個掣之前點等到佢真係㩒得、唔好未載完就亂撳」兩回事——前者唔清會假綠，後者唔等會撳錯位，唔會攞資料齊當識操作、亦唔會攞識等當驗緊新嘢）",
-      "- skill-hunt R613 消化輪：判節 #973（degrade-ladder vs paper-risk-guard 非重複，唔硬湊互補：撞「閘／停」先問停緊邊樣——成個系統撞牆逐層收油（計數→狀態機→健康三問→兩層停＋收油權喺政策層，答邊個有權停到邊層）vs paper 戶口開機前逐條交易閘餵假成交證明識郁（$限額＋INERT＋規格表，答未證明好有冇開機）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百七十九輪；R612 機械預測 1/1 命中（預測鏈 R505 基點後第一百零六輪）；R614 預測 deploy-verify-checklist vs systemd-watchdog-selfcheck；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r613.md（對 Founder 有用：分清「部機出事嗰陣邊個有權逐層停手、唔好做嘢嗰個自己話停就停」同「模擬交易開機之前點證明啲蝕錢閘真係識郁、唔好寫咗當有」兩回事——前者唔劃清會亂停或者冇人敢停燒到底，後者唔證明會開機先知風控係裝飾蝕穿先停到，唔會攞設計有熔斷當交易閘有數據、亦唔會攞開工打晒勾當撞牆識降級）"
+      "- skill-hunt R613 消化輪：判節 #973（degrade-ladder vs paper-risk-guard 非重複，唔硬湊互補：撞「閘／停」先問停緊邊樣——成個系統撞牆逐層收油（計數→狀態機→健康三問→兩層停＋收油權喺政策層，答邊個有權停到邊層）vs paper 戶口開機前逐條交易閘餵假成交證明識郁（$限額＋INERT＋規格表，答未證明好有冇開機）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百七十九輪；R612 機械預測 1/1 命中（預測鏈 R505 基點後第一百零六輪）；R614 預測 deploy-verify-checklist vs systemd-watchdog-selfcheck；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r613.md（對 Founder 有用：分清「部機出事嗰陣邊個有權逐層停手、唔好做嘢嗰個自己話停就停」同「模擬交易開機之前點證明啲蝕錢閘真係識郁、唔好寫咗當有」兩回事——前者唔劃清會亂停或者冇人敢停燒到底，後者唔證明會開機先知風控係裝飾蝕穿先停到，唔會攞設計有熔斷當交易閘有數據、亦唔會攞開工打晒勾當撞牆識降級）",
+      "- skill-hunt R614 消化輪：判節 #974（deploy-verify-checklist vs systemd-watchdog-selfcheck 非重複，唔硬湊互補：撞「daemon／心跳」先問驗緊邊一刻——部署後嗰 10 分鐘（SHA 對位＋心跳新鮮度＋冇新 error，答換完係咪真活）vs 平時長駐嗰陣（Type=notify＋WatchdogSec＋sd_notify，答卡死有冇人郁手）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百八十輪；R613 機械預測 1/1 命中（預測鏈 R505 基點後第一百零七輪）；R615 預測 memory-lifecycle vs run-receipt；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r614.md（對 Founder 有用：分清「換完新程式之後嗰 10 分鐘點親手驗佢真係做緊嘢、唔好綠燈扮活」同「平時點寫到個守護程序卡死無聲都自動畀人郁手兼留證據」兩回事——前者唔驗會錯版本照跑、新錯誤冇人知，後者唔配會半夜卡死變殭屍、死咗冇證據查，唔會攞有看門狗當今次換啱嘢、亦唔會攞驗完嗰陣當之後死咗有人理）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
