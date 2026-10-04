@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-05 02:16 HKT",
+  "generated_at_hkt": "2026-10-05 02:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 5,
+    "今日筆記數": 6,
     "最新": [
+      "skill-digest-r649.md",
       "skill-digest-r648.md",
-      "skill-digest-r647.md",
-      "skill-digest-r646.md"
+      "skill-digest-r647.md"
     ],
     "最近落地": [
-      "- skill-hunt R645 消化輪：判節 #1005（degrade-ladder vs prompt-cache-playbook 非重複，唔硬湊互補：撞「層／收油」先問煞緊邊一格——成個系統壞咗嗰陣點有層次停落嚟（計數→狀態機→健康三問→兩層停，答死親點收、邊個有權停）vs 單下調用冇壞嗰陣點叫先平（靜態行先／回本線／輸出紀律，答每下燒幾多）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百一十一輪；R644 機械預測 1/1 命中（預測鏈 R505 基點後第一百三十九輪）；R646 預測 browser-action-verify vs message-provenance；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r645.md（對 Founder 有用：分清「個系統半夜死親點有層次收、唔好死極都打落去或者亂殺重要嘢」同「每次叫 AI 做嘢點擺先燒少啲 token、唔好行行全價」兩回事——前者唔分會故障嗰陣冇人知邊個有權停、死得更慘，後者唔分會冇壞嗰陣日日燒冤枉錢，唔會攞識停當叫得平、亦唔會攞叫得平當壞咗識停）",
       "- skill-hunt R646 消化輪：判節 #1006（browser-action-verify vs message-provenance 非重複，唔硬湊互補：撞「驗」先問驗緊邊個世界——自己隻手撳完頁面有冇真係變（雙訊號＋失敗分類，答做咗未）vs 外面封信入閘寄信人係咪真身（簽名＋時間戳＋身份對齊，答邊個寄）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百一十二輪；R645 機械預測 1/1 命中（預測鏈 R505 基點後第一百四十輪）；R647 預測 browser-parallel-sessions vs browser-sandbox-defense；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r646.md（對 Founder 有用：分清「隻手撳完點知真係撳啱」同「封信係咪真係嗰個人寄」兩道驗證——前者唔做會以為做咗其實冇郁、成條任務靜默走錯，後者唔做會任何人自報 founder 都入到系統落假指令，唔會攞撳得啱當信得到、亦唔會攞信得到當撳得啱）",
       "- skill-hunt R647 消化輪：判節 #1007（browser-parallel-sessions vs browser-sandbox-defense 非重複，唔硬湊互補：撞「browser」先問管緊隻手定管緊內容——開幾隻手唔爆機（session 隔離＋資源上限＋收工清理，答開幾多隻）vs 網頁內容信唔信得過（資料唔係指令＋分級＋守出口，答會唔會俾藏指令騎劫）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百一十三輪；R646 機械預測 1/1 命中（預測鏈 R505 基點後第一百四十一輪）；R648 預測 continuous-contract-roll vs log-layer；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r647.md（對 Founder 有用：分清「多隻手同時做嘢點開先唔打架唔爆機」同「公開網站啲字信唔信得過、會唔會藏指令騎劫隻手」兩回事——前者唔做會硬開到部機冇晒記憶成批死，後者唔做會網頁一句假指令就偷走資料，唔會攞開得穩當內容可信、亦唔會攞內容可信當資源夠）",
-      "- skill-hunt R648 消化輪：判節 #1008（continuous-contract-roll vs log-layer 非重複，唔硬湊互補：撞「定／層」先問定緊邊樣——交易啲價點砌出嚟（換月日表＋調整方法，答條數對唔對得上）vs 部機啲紀錄去邊度睇（內建→容器→跨機三級，答出事去邊翻）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百一十四輪；R647 機械預測 1/1 命中（預測鏈 R505 基點後第一百四十二輪）；R649 預測 skill-inventory-watch vs three-probes；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r648.md（對 Founder 有用：分清「策略啲價點砌先唔會回測同模擬對唔上數」同「部機出事去邊度翻紀錄先唔會冇證據」兩回事——前者唔做會兩邊各換各月、蝕咗都唔知係策略衰定數據衰，後者唔做會未出事就裝一堆或者出事冇紀錄，唔會攞識睇紀錄當啲數啱、亦唔會攞啲數啱當出事有證據）"
+      "- skill-hunt R648 消化輪：判節 #1008（continuous-contract-roll vs log-layer 非重複，唔硬湊互補：撞「定／層」先問定緊邊樣——交易啲價點砌出嚟（換月日表＋調整方法，答條數對唔對得上）vs 部機啲紀錄去邊度睇（內建→容器→跨機三級，答出事去邊翻）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百一十四輪；R647 機械預測 1/1 命中（預測鏈 R505 基點後第一百四十二輪）；R649 預測 skill-inventory-watch vs three-probes；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r648.md（對 Founder 有用：分清「策略啲價點砌先唔會回測同模擬對唔上數」同「部機出事去邊度翻紀錄先唔會冇證據」兩回事——前者唔做會兩邊各換各月、蝕咗都唔知係策略衰定數據衰，後者唔做會未出事就裝一堆或者出事冇紀錄，唔會攞識睇紀錄當啲數啱、亦唔會攞啲數啱當出事有證據）",
+      "- skill-hunt R649 消化輪：判節 #1009（skill-inventory-watch vs three-probes 非重複，唔硬湊互補：撞「watch／健康」先問睇緊邊個倉——成倉草稿積咗幾多、邊盞水位燈（四格＋紅燈消化，答要唔要停產）vs 單個元件開完未／郁唔郁／接唔接到工（三問分開，答死未同應唔應該重啟）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百一十五輪；R648 機械預測 1/1 命中（預測鏈 R505 基點後第一百四十三輪）；R650 預測 config-drift-watch vs systemd-unit-safe-change；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r649.md（對 Founder 有用：分清「成倉技能草稿積咗幾多、邊盞燈要停產轉消化」同「單個元件係未開完、真死定活但接唔到工」兩種健康——前者唔睇會積到 131 仲產新變垃圾場，後者問錯會 GitHub 抖一下就判全系統死亂重啟，唔會攞倉存量啱當元件識判生死、亦唔會攞元件識判當草稿唔使數）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
