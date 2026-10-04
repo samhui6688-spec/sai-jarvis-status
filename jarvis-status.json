@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-04 11:15 HKT",
+  "generated_at_hkt": "2026-10-04 11:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 27,
+    "今日筆記數": 28,
     "最新": [
+      "skill-digest-r619.md",
       "q839-1044-saihunterradar-recovery-check.md",
-      "skill-digest-r618.md",
-      "q838-1014-saihunterradar-blocked-evidence.md"
+      "skill-digest-r618.md"
     ],
     "最近落地": [
-      "- skill-hunt R615 消化輪：判節 #975（memory-lifecycle vs run-receipt 非重複，唔硬湊互補：撞「記錄／證據」先問記緊邊種命——長期知識嘅保鮮期（valid_until＋compaction key＋tombstone，答舊結論幾時唔准再扮有效）vs 單次運行嘅收據（run_id＋outcome＋evidence 路徑，答嗰次有冇真做過）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百八十一輪；R614 機械預測 1/1 命中（預測鏈 R505 基點後第一百零八輪）；R616 預測 agent-sandbox-policy vs skill-inventory-watch；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r615.md（對 Founder 有用：分清「啲記憶記幾耐、邊個蓋舊值、過期點退場，唔好等舊結論扮有效拖慢 recovery」同「嗰次排程有冇真跑過、做咗啲乜、衰咗要寫低，唔好靜音成功等於冇痕」兩回事——前者唔劃清會 journal 只增不減越讀越慢、舊政策扮新，後者唔留會半夜出事分唔清邊個排程冇巡，唔會攞記得點退場當嗰次有跑過、亦唔會攞嗰次有收據當舊知識唔會過期）",
       "- skill-hunt R616 消化輪：判節 #976（agent-sandbox-policy vs skill-inventory-watch 非重複，唔硬湊互補：撞「政策／閘」先問守緊邊個世界——未審查 code 入邊級箱（microVM 三級＋零 secrets＋用完即毀，答跑唔跑得）vs 技能倉積幾多要停產（四格水位燈，答開唔開新草稿）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百八十二輪；R615 機械預測 1/1 命中（預測鏈 R505 基點後第一百零九輪）；R617 預測 browser-element-grounding vs log-layer；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r616.md（對 Founder 有用：分清「外來 code 跑之前點隔離先唔會爆機洩密」同「狩獵個倉積到過百份未驗點知要停產消化」兩道閘——前者唔閘會本地直跑出事，後者唔望會越堆越亂分唔清邊份用得，唔會攞識揀箱當倉庫唔爆、亦唔會攞水位綠當 code 安全）",
       "- skill-hunt R617 消化輪：判節 #977（browser-element-grounding vs log-layer 非重複，唔硬湊互補：撞「層」先問撳前定位定事後查 log——撳之前定位三層（語義→標號→像素，答用邊種方法搵啱掣）vs 出事後日誌三級（內建→容器即時→跨機聚合，答去邊度翻返發生過咩）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百八十三輪；R616 機械預測 1/1 命中（預測鏈 R505 基點後第一百一十輪）；R618 預測 autonomous-work-loop-check vs browser-action-log-schema；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r617.md（對 Founder 有用：分清「個機械人撳掣之前點用最平最穩方法搵啱個掣」同「部機出事之後去邊度翻返發生過咩」兩回事——前者唔分會撳錯兼燒貴 token，後者唔分會未出事先裝一堆兼出事冇證據，唔會攞撳得啱當有 log 查、亦唔會攞有 log 當撳得啱）",
-      "- skill-hunt R618 消化輪：判節 #978（autonomous-work-loop-check vs browser-action-log-schema 非重複，唔硬湊互補：撞「agent／證據」先問管緊邊一刻——循環開工之前合唔合格（終止／接線／評分／查重／反思五條，答開唔開得）vs 瀏覽跑嗰陣留低咩檔（events／actions＋每步四件套即寫，答衰咗查唔查得返）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百八十四輪；R617 機械預測 1/1 命中（預測鏈 R505 基點後第一百一十一輪）；R619 預測 config-drift-watch vs oom-defense；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r618.md（對 Founder 有用：分清「AI 自己搵工個循環開唔開得、會唔會死循環重複燒錢」同「瀏覽器真做嘢嗰陣點留證據、衰咗點回放查」兩回事——前者唔審會自轉失控，後者唔留會出事冇痕兼洩敏感頁，唔會攞審得啱當嗰次有檔查、亦唔會攞有檔查當循環識停）"
+      "- skill-hunt R618 消化輪：判節 #978（autonomous-work-loop-check vs browser-action-log-schema 非重複，唔硬湊互補：撞「agent／證據」先問管緊邊一刻——循環開工之前合唔合格（終止／接線／評分／查重／反思五條，答開唔開得）vs 瀏覽跑嗰陣留低咩檔（events／actions＋每步四件套即寫，答衰咗查唔查得返）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百八十四輪；R617 機械預測 1/1 命中（預測鏈 R505 基點後第一百一十一輪）；R619 預測 config-drift-watch vs oom-defense；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r618.md（對 Founder 有用：分清「AI 自己搵工個循環開唔開得、會唔會死循環重複燒錢」同「瀏覽器真做嘢嗰陣點留證據、衰咗點回放查」兩回事——前者唔審會自轉失控，後者唔留會出事冇痕兼洩敏感頁，唔會攞審得啱當嗰次有檔查、亦唔會攞有檔查當循環識停）",
+      "- skill-hunt R619 消化輪：判節 #979（config-drift-watch vs oom-defense 非重複，唔硬湊互補：撞「systemd／daemon」先問管緊邊一格——配置係咪批准嗰個樣（manifest hash 對賬，答有冇俾人郁過）vs 記憶體爆嗰陣點死（軟限限速／硬限只殺自己／backstop 按 swap 揀，答邊個俾殺）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百八十五輪；R618 機械預測 1/1 命中（預測鏈 R505 基點後第一百一十二輪）；R620 預測 executive-scheduler vs paid-decision-table；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r619.md（對 Founder 有用：分清「部機啲設定有冇俾人靜靜改過、仲係唔係批准嗰個樣」同「部機記憶體爆嗰陣邊個俾慢、邊個俾殺、唔好亂殺錯人」兩回事——前者唔對賬會改到走樣冇人知，後者唔設限會半夜爆記憶體亂殺重要嘢，唔會攞設定啱當爆嗰陣安全、亦唔會攞限得好當冇人改過設定）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
