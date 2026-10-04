@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-04 22:00 HKT",
+  "generated_at_hkt": "2026-10-04 22:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 50,
+    "今日筆記數": 51,
     "最新": [
+      "skill-digest-r641.md",
       "skill-digest-r640.md",
-      "skill-digest-r639.md",
-      "skill-digest-r638.md"
+      "skill-digest-r639.md"
     ],
     "最近落地": [
       "- skill-hunt R637 消化輪：判節 #997（browser-element-grounding vs model-tier-router 非重複，唔硬湊互補：撞「層」先問分緊邊層——撳之前定位三層（語義→標號→像素，答用邊種方法搵啱個掣）vs 開工前腦分級三級（T1 免費→T2 平價→T3 貴，答份工用邊個腦做）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百零三輪；R636 機械預測 1/1 命中（預測鏈 R505 基點後第一百三十輪）；R638 預測 browser-api-seed vs run-receipt；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r637.md（對 Founder 有用：分清「隻眼點搵啱個掣」同「個腦點揀平貴」兩回事——前者唔分會用錯層撳錯兼燒貴截圖錢，後者唔分會粗活都出貴腦跑少幾輪或者把關用平腦漏審，唔會攞撳得啱當成本啱、亦唔會攞分級啱當撳得啱）",
