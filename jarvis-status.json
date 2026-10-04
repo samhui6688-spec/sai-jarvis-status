@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-04 11:30 HKT",
+  "generated_at_hkt": "2026-10-04 11:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 28,
+    "今日筆記數": 29,
     "最新": [
+      "q842-0944-jarvissnapshot-recovery-check.md",
       "skill-digest-r619.md",
-      "q839-1044-saihunterradar-recovery-check.md",
-      "skill-digest-r618.md"
+      "q839-1044-saihunterradar-recovery-check.md"
     ],
     "最近落地": [
       "- skill-hunt R616 消化輪：判節 #976（agent-sandbox-policy vs skill-inventory-watch 非重複，唔硬湊互補：撞「政策／閘」先問守緊邊個世界——未審查 code 入邊級箱（microVM 三級＋零 secrets＋用完即毀，答跑唔跑得）vs 技能倉積幾多要停產（四格水位燈，答開唔開新草稿）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百八十二輪；R615 機械預測 1/1 命中（預測鏈 R505 基點後第一百零九輪）；R617 預測 browser-element-grounding vs log-layer；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r616.md（對 Founder 有用：分清「外來 code 跑之前點隔離先唔會爆機洩密」同「狩獵個倉積到過百份未驗點知要停產消化」兩道閘——前者唔閘會本地直跑出事，後者唔望會越堆越亂分唔清邊份用得，唔會攞識揀箱當倉庫唔爆、亦唔會攞水位綠當 code 安全）",
