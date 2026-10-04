@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-04 13:15 HKT",
+  "generated_at_hkt": "2026-10-04 13:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 32,
+    "今日筆記數": 33,
     "最新": [
+      "skill-digest-r623.md",
       "skill-digest-r622.md",
-      "skill-digest-r621.md",
-      "skill-digest-r620.md"
+      "skill-digest-r621.md"
     ],
     "最近落地": [
       "- skill-hunt R619 消化輪：判節 #979（config-drift-watch vs oom-defense 非重複，唔硬湊互補：撞「systemd／daemon」先問管緊邊一格——配置係咪批准嗰個樣（manifest hash 對賬，答有冇俾人郁過）vs 記憶體爆嗰陣點死（軟限限速／硬限只殺自己／backstop 按 swap 揀，答邊個俾殺）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百八十五輪；R618 機械預測 1/1 命中（預測鏈 R505 基點後第一百一十二輪）；R620 預測 executive-scheduler vs paid-decision-table；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r619.md（對 Founder 有用：分清「部機啲設定有冇俾人靜靜改過、仲係唔係批准嗰個樣」同「部機記憶體爆嗰陣邊個俾慢、邊個俾殺、唔好亂殺錯人」兩回事——前者唔對賬會改到走樣冇人知，後者唔設限會半夜爆記憶體亂殺重要嘢，唔會攞設定啱當爆嗰陣安全、亦唔會攞限得好當冇人改過設定）",
       "- skill-hunt R620 消化輪：判節 #980（executive-scheduler vs paid-decision-table 非重複，唔硬湊互補：撞「排程／成本」先問管緊邊個世界——成個調度世界點組織（五狀態＋tick 兩層＋Durable Contract＋九條硬規則，答 N 條工點合成一個腦排隊）vs 一次調用俾唔俾錢（US$10 買斷牆＋安全審查唔降級＋五唔准，答今次開唔開錢包開邊格）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百八十六輪；R619 機械預測 1/1 命中（預測鏈 R505 基點後第一百一十三輪）；R621 預測 free-transport-pick vs tavily-search；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r620.md（對 Founder 有用：分清「成個 SAi 點排隊唔撞車唔燒無謂 token」同「每次叫 AI 做嘢俾唔俾錢俾邊層先唔會慳錯」兩回事——前者唔劃清會 N 條排程各自話事重複做嘢燒錢，後者唔劃清會撞免費牆死撳或者冇限額俾人拖死成條免費鏈，唔會攞排得好當識俾錢、亦唔會攞識俾錢當識排成個世界）",
       "- skill-hunt R621 消化輪：判節 #981（free-transport-pick vs tavily-search 非重複，唔硬湊互補：撞「免費／1,000」先問揀緊邊層——內部訊息點走（push／pull＋consumer 語義＋GitHub-as-bus 紅線，答點認領點重試）vs 外部搜尋點燒（basic／advanced＋Research 禁自動，答深挖幾深幾貴）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百八十七輪；R620 機械預測 1/1 命中（預測鏈 R505 基點後第一百一十四輪）；R622 預測 fleet-coordination vs free-tier-quota-watch；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r621.md（對 Founder 有用：分清「SAi 內部啲工點樣互相傳訊息、要即推定要自己領」同「向出面搜資料嗰陣點慳住每個月嗰 1,000 次免費額、唔好一次過燒晒」兩回事——前者揀錯會訊息冇人認領或者扮升級，後者用錯會未到月中已經冇額深挖，唔會攞內部傳得啱當出面搜得慳、亦唔會攞出面搜得慳當內部識傳嘢）",
-      "- skill-hunt R622 消化輪：判節 #982（fleet-coordination vs free-tier-quota-watch 非重複，唔硬湊互補：撞「派工」先問揀機定望額度——跨機派工對住能力卡揀邊部機做（can／cannot＋alive 先派、獨立空間唔撞檔）vs 免費層每日請求燒到邊先開大量粗活（黃收油、紅停免費等 reset）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百八十八輪；R621 機械預測 1/1 命中（預測鏈 R505 基點後第一百一十五輪）；R623 預測 daemon-triage-runbook vs oom-defense；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r622.md（對 Founder 有用：分清「份工交畀邊部機做先唔會撞檔」同「今日免費請求仲剩幾多先好開大量粗活」兩回事——前者揀錯會兩隊寫同一檔或者死機重派做兩次，後者唔望錶會撞 429 全部免費工一齊死，唔會攞揀啱機當額度夠、亦唔會攞額度綠當唔會撞檔）"
+      "- skill-hunt R622 消化輪：判節 #982（fleet-coordination vs free-tier-quota-watch 非重複，唔硬湊互補：撞「派工」先問揀機定望額度——跨機派工對住能力卡揀邊部機做（can／cannot＋alive 先派、獨立空間唔撞檔）vs 免費層每日請求燒到邊先開大量粗活（黃收油、紅停免費等 reset）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百八十八輪；R621 機械預測 1/1 命中（預測鏈 R505 基點後第一百一十五輪）；R623 預測 daemon-triage-runbook vs oom-defense；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r622.md（對 Founder 有用：分清「份工交畀邊部機做先唔會撞檔」同「今日免費請求仲剩幾多先好開大量粗活」兩回事——前者揀錯會兩隊寫同一檔或者死機重派做兩次，後者唔望錶會撞 429 全部免費工一齊死，唔會攞揀啱機當額度夠、亦唔會攞額度綠當唔會撞檔）- skill-hunt R623 消化輪：判節 #983（daemon-triage-runbook vs oom-defense 非重複互補：撞「daemon 死咗」先問查緊邊層——通用驗屍次序（頭 5 分鐘隻讀收證據束、exit code 配 message，答死因係邊類）vs 記憶體專科（軟限限速／硬限只殺自己／backstop 按 swap 揀＋prove-it，答爆 RAM 嗰陣邊個死）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百八十九輪；R622 機械預測 1/1 命中（預測鏈 R505 基點後第一百一十六輪）；R624 預測 agentskills-conformance vs detector-rule-contradiction-followup；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r623.md（對 Founder 有用：分清「部機半夜死咗頭 5 分鐘點查先唔會抹走證據」同「記憶體爆嗰陣點設限先唔會亂殺錯重要嘢」兩回事——前者唔守會手快重啟永遠唔知死因，後者唔設會爆 RAM 嗰陣 kernel 亂殺，唔會攞識查死因當爆嗰陣安全、亦唔會攞限得好當死咗識查）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
