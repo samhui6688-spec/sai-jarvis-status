@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-04 16:00 HKT",
+  "generated_at_hkt": "2026-10-04 16:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 38,
+    "今日筆記數": 39,
     "最新": [
+      "skill-digest-r629.md",
       "skill-digest-r628.md",
-      "skill-digest-r627.md",
-      "skill-digest-r626.md"
+      "skill-digest-r627.md"
     ],
     "最近落地": [
       "- skill-hunt R625 消化輪：判節 #985（autonomous-work-loop-check vs fleet-throttle 非重複，唔硬湊互補：撞「停／降級」先問煞緊邊一格——自生工作循環出世之前逐條對嘅五條紀律（終止先行／接線必驗／評分入決策／入隊前查重／反思成樹，答開唔開得）vs 已運行艦隊撞錢牆嗰刻嘅分流模板（撞牆模式三檔×邊條優先照行、邊條凍結等牆拆，政策未批只准上浮唔准自己收油）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續五百九十一輪；R624 機械預測 1/1 命中（預測鏈 R505 基點後第一百一十八輪）；R626 預測 browser-complex-interactions vs browser-stealth-session；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-04/skill-digest-r625.md（對 Founder 有用：分清「AI 自己搵工嗰個循環開唔開得、會唔會自己死循環重複做」同「成隊排程撞錢牆嗰陣邊條要收油、邊條唔准停」兩回事——前者唔審會自轉失控重複燒，後者唔分會撞牆一齊死或者停錯睇住荷包嗰條，唔會攞循環設計啱當荷包夠、亦唔會攞識收油當個循環識停）",
