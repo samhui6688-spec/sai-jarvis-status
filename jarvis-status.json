@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-05 15:00 HKT",
+  "generated_at_hkt": "2026-10-05 15:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 25,
+    "今日筆記數": 26,
     "最新": [
+      "skill-digest-r666.md",
       "skill-digest-r665.md",
-      "skill-digest-r664.md",
-      "q904-1343-actionsrecovery-recovery-check-2.md"
+      "skill-digest-r664.md"
     ],
     "最近落地": [
       "- skill-hunt R662 消化輪：判節 #1022（context-budget vs degrade-ladder 非重複，唔硬湊互補：撞「預算／停」先問管緊邊種資源——長跑注意力點分先唔 rot（三格＋三欄，答記咩）vs 撞牆點逐層收油邊個有權停（四層＋收油權紅線，答死咗點收）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百二十八輪；R661 機械預測 1/1 命中（預測鏈 R505 基點後第一百五十六輪）；R663 預測 agentskills-conformance vs miniwob-exam-pattern；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r662.md（對 Founder 有用：分清「長跑記咩先唔會記到爛、交接唔丟決定」同「撞牆點有層次停、邊個有權㩒停」兩回事——前者唔管會越跑越唔記得做緊咩，後者唔設計會死極都打落去或者亂停重要嘢，唔會攞記得精簡當壞咗識停、亦唔會攞識停當記得啱）",
