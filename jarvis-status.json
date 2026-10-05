@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-06 06:30 HKT",
+  "generated_at_hkt": "2026-10-06 06:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 36,
+    "今日筆記數": 37,
     "最新": [
+      "q344-lock-first-violation-evidence-21.md",
       "q343-lock-first-violation-evidence-24.md",
-      "skill-digest-r696.md",
-      "q342-lock-first-violation-evidence-23.md"
+      "skill-digest-r696.md"
     ],
     "最近落地": [
       "- skill-hunt R693 消化輪：判節 #1053（browser-smart-wait vs quota-burnrate-watch 非重複，唔硬湊互補：撞「等／爆之前」先問等緊邊樣——網頁元素狀態變先郁手（四格＋poll 跟 timeout 分層，答而家撳唔撳得）vs 免費額耗盡時間先收油（burn-rate 加權＋reset 倒數＋三級閾值，答幾時爆）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百五十九輪；R692 機械預測 1/1 命中（預測鏈 R505 基點後第一百八十六輪）；R694 預測 paper-risk-guard vs skill-inventory-watch；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-06/skill-digest-r693.md（對 Founder 有用：分清「隻手撳之前要等個掣定咗先郁」同「免費額爆之前要計到幾時爆」——前者唔等會未載好就撳錯成條任務靜默行錯路，後者唔計會爆咗先知無謂損失，唔會攞識等元素當識預測額度、亦唔會攞識計 burn-rate 當隻手識等狀態）",
