@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-05 23:30 HKT",
+  "generated_at_hkt": "2026-10-05 23:47 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 45,
+    "今日筆記數": 46,
     "最新": [
+      "skill-digest-r682.md",
       "skill-digest-r681.md",
-      "skill-digest-r680.md",
-      "skill-digest-r679.md"
+      "skill-digest-r680.md"
     ],
     "最近落地": [
-      "- skill-hunt R678 消化輪：判節 #1038（browser-smart-wait vs external-cron-ping 非重複，唔硬湊互補：撞「等／ping／睇住」先問等緊邊段時間——撳落去之前嗰幾秒個掣定未（四格＋poll＋逾時係證據，答而家撳唔撳得）vs 部機死咗之後嗰幾分鐘有冇人知（外部每 5–15 分鐘 ping＋miss 兩次先報警，答全死嗰陣邊個報喪）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百四十四輪；R679 預測 browser-smart-wait vs skill-inventory-watch；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r678.md（對 Founder 有用：分清「隻手撳落去之前等嗰幾秒」同「部機死咗之後等嗰幾分鐘」——前者唔等會未載好就撳錯靜默走錯路，後者唔做會成套監察一齊死冇人知，唔會攞等得好當死咗有人報、亦唔會攞有人報喪當隻手識等個掣）",
       "- skill-hunt R679 消化輪：判節 #1039（browser-smart-wait vs skill-inventory-watch 非重複，唔硬湊互補：撞「開工前先睇清」先問睇緊邊個倉——手郁之前睇頁面倉（四格＋等狀態變，答而家撳唔撳得）vs 人開工前睇技能倉（四格計數＋水位燈，答呢輪開新定消化）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百四十五輪；R678 機械預測 1/1 命中（預測鏈 R505 基點後第一百七十三輪）；R680 預測 free-alerting-stack vs quota-burnrate-watch；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r679.md（對 Founder 有用：分清「隻手撳落去之前等嗰幾秒」同「成倉技能積到邊先要停開新嘢」——前者唔等會撳錯走錯路，後者唔睇會草稿越堆越多變沉沒成本，唔會攞等得好當倉有人管、亦唔會攞倉計得清當隻手識等個掣）",
       "- skill-hunt R680 消化輪：判節 #1040（free-alerting-stack vs quota-burnrate-watch 非重複，唔硬湊互補：撞「免費／爆之前響」先問響緊邊樣——系統死咗點出聲通知人（三件套＋手機推送，答死咗邊個知）vs 免費額燒到邊格幾時爆（burn-rate＋三級閾值，答額仲剩幾多）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百四十六輪；R679 機械預測 1/1 命中（預測鏈 R505 基點後第一百七十四輪）；R681 預測 compaction-goal-drift-check vs journal-hygiene；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r680.md（對 Founder 有用：分清「部機死咗邊個即刻響你手機」同「免費額燒到邊格幾時會爆」兩回事——前者唔做會排程靜默死成晚冇人知，後者唔做會免費額半夜燒乾斷水先知，唔會攞死咗識響當額唔會爆、亦唔會攞錶綠當死咗有人知）",
-      "- skill-hunt R681 消化輪：判節 #1041（compaction-goal-drift-check vs journal-hygiene 非重複，唔硬湊互補：撞「之後先驗」先問驗緊邊層——接棒之後個腦有冇走樣（三格目標／下一步／搵事實，答記唔記得為乜做）vs 出事之後隻碟有冇缺證據（Suppressed／Storage／Retention，答紀錄仲喺唔喺）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百四十七輪；R680 機械預測 1/1 命中（預測鏈 R505 基點後第一百七十五輪）；R682 預測 browser-polite-scrape vs free-tier-map；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r681.md（對 Founder 有用：分清「交接完嗰個仲記唔記得為乜做」同「部機出事嗰陣啲紀錄仲翻唔翻得返」——前者唔驗會成份工靜靜走樣交錯差，後者唔理會最需要證據嗰刻俾限流食晒、reboot 失憶，唔會攞記得目標當出事有紀錄、亦唔會攞紀錄齊當接棒冇走樣）"
+      "- skill-hunt R681 消化輪：判節 #1041（compaction-goal-drift-check vs journal-hygiene 非重複，唔硬湊互補：撞「之後先驗」先問驗緊邊層——接棒之後個腦有冇走樣（三格目標／下一步／搵事實，答記唔記得為乜做）vs 出事之後隻碟有冇缺證據（Suppressed／Storage／Retention，答紀錄仲喺唔喺）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百四十七輪；R680 機械預測 1/1 命中（預測鏈 R505 基點後第一百七十五輪）；R682 預測 browser-polite-scrape vs free-tier-map；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r681.md（對 Founder 有用：分清「交接完嗰個仲記唔記得為乜做」同「部機出事嗰陣啲紀錄仲翻唔翻得返」——前者唔驗會成份工靜靜走樣交錯差，後者唔理會最需要證據嗰刻俾限流食晒、reboot 失憶，唔會攞記得目標當出事有紀錄、亦唔會攞紀錄齊當接棒冇走樣）",
+      "- skill-hunt R682 消化輪：判節 #1042（browser-polite-scrape vs free-tier-map 非重複，唔硬湊互補：撞「開工前先查」先問查緊邊面——向外查人哋個站畀唔畀嚟、行幾快先唔被 ban（robots／ToS／限速，答去唔去得、點行）vs 向內查自己個免費戶有幾多額、幾時 reset（五格地圖，答用唔用得起、燒到邊）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百四十八輪；R681 機械預測 1/1 命中（預測鏈 R505 基點後第一百七十六輪）；R683 預測 external-cron-ping vs object-store-posture；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r682.md（對 Founder 有用：分清「去人哋網站之前要查人哋規矩、唔好衝到被封 IP」同「開自己免費嘢之前要填額度地圖、唔好燒完先知」——前者唔查會俾人封連累成隊，後者唔填會半夜燒乾斷水先知，唔會攞守禮貌當知額度、亦唔會攞知額度當去人哋站唔犯規）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
