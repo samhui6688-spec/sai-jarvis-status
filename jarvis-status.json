@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-05 12:45 HKT",
+  "generated_at_hkt": "2026-10-05 13:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 18,
+    "今日筆記數": 19,
     "最新": [
+      "q897-1242-actionsrecovery-blocked-evidence.md",
       "skill-digest-r661.md",
-      "skill-digest-r660.md",
-      "skill-digest-r659.md"
+      "skill-digest-r660.md"
     ],
     "最近落地": [
-      "- skill-hunt R657 消化輪：判節 #1017（browser-action-verify vs fleet-coordination 非重複，唔硬湊互補：撞「驗」先問驗緊邊一刻——自己隻手撳完真係變咗未（雙訊號＋失敗分類，答做咗未）vs 成隊人派工之前揀啱機未（能力卡＋獨立空間＋信箱，答交畀邊部機）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百二十三輪；R656 機械預測 1/1 命中（預測鏈 R505 基點後第一百五十一輪）；R658 預測 browser-sandbox-defense vs cost-reconcile；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r657.md（對 Founder 有用：分清「隻手撳完點知真係撳啱」同「份工交畀邊部機先唔會撞檔」兩回事——前者唔做會以為做咗其實冇郁、成條任務靜默走錯，後者唔做會兩隊寫同一檔或者死機重派做兩次，唔會攞撳得啱當識分工、亦唔會攞分得好當撳得啱）",
       "- skill-hunt R658 消化輪：判節 #1018（browser-sandbox-defense vs cost-reconcile 非重複，唔硬湊互補：撞「唔好／檢查」先問防緊邊樣——入嚟嗰啲網頁內容會唔會變指令偷嘢（劃界／分級／守出口，答開工安唔安全）vs 出去嗰筆估算同實測差幾遠（記實測／分四類／校準倍數，答收工對唔對得返）；A 維持未驗、B 維持已驗唔偷降，vetting 四關全 PASS）零合併連續六百二十四輪；R657 機械預測 1/1 命中（預測鏈 R505 基點後第一百五十二輪）；R659 預測 browser-resilience vs memory-lifecycle；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r658.md（對 Founder 有用：分清「開工之前點防網頁啲字變成假指令偷嘢」同「收工之後點對返估算同實際使咗幾多」兩回事——前者唔做會俾網頁騎劫成個任務去洩漏，後者唔做會次次估錯燒多都唔知下次繼續錯，唔會攞防到注入當對得準數、亦唔會攞對得準數當防到注入）",
       "- skill-hunt R659 消化輪：判節 #1019（browser-resilience vs memory-lifecycle 非重複，唔硬湊互補：撞「長期／記錄」先問管緊邊種命——跑緊嗰份工跌咗點起返身、進度唔好唔見（失敗三格＋預算封頂＋檢查點先入庫，答跑唔跑得返）vs 寫低嗰條記錄留幾耐、過期點退場（valid_until＋邊個 key 蓋＋刪除／歸檔／留標記，答舊嘢會唔會扮有效）；兩份維持未驗唔偷升，vetting 四關全 PASS唔等於已驗）零合併連續六百二十五輪；R658 機械預測 1/1 命中（預測鏈 R505 基點後第一百五十三輪）；R660 預測 compaction-goal-drift-check vs run-receipt；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r659.md（對 Founder 有用：分清「一份長工跌咗點起返身、進度唔好唔見」同「一條記錄寫低留幾耐、過期點退場」兩回事——前者唔做會無限重試燒爆或者跌完由頭跑，後者唔做會記錄越積越慢、舊結論過期扮有效，唔會攞起得返當唔過期、亦唔會攞寫得啱當跑唔死）",
-      "- skill-hunt R660 消化輪：判節 #1020（compaction-goal-drift-check vs run-receipt 非重複，唔硬湊互補：撞「交接／驗」先問驗緊邊一刻——接棒嗰陣目標有冇漂（三格問答，答記唔記得為乜做）vs 跑完嗰陣有冇留收據（五格 JSONL，答嗰次做咗啲乜）；兩份維持未驗唔偷升，vetting 四關全 PASS唔等於已驗）零合併連續六百二十六輪；R659 機械預測 1/1 命中（預測鏈 R505 基點後第一百五十四輪）；R661 預測 autonomous-work-loop-check vs pre-reg-check；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r660.md（對 Founder 有用：分清「接棒嗰陣仲記唔記得為乜做」同「跑完嗰陣有冇留低嗰次做咗乜」兩回事——前者唔做會成份工靜靜走樣交錯差，後者唔做會半夜出事分唔清邊個排程真・巡過，唔會攞記得目標當有收據、亦唔會攞有收據當冇走樣）"
+      "- skill-hunt R660 消化輪：判節 #1020（compaction-goal-drift-check vs run-receipt 非重複，唔硬湊互補：撞「交接／驗」先問驗緊邊一刻——接棒嗰陣目標有冇漂（三格問答，答記唔記得為乜做）vs 跑完嗰陣有冇留收據（五格 JSONL，答嗰次做咗啲乜）；兩份維持未驗唔偷升，vetting 四關全 PASS唔等於已驗）零合併連續六百二十六輪；R659 機械預測 1/1 命中（預測鏈 R505 基點後第一百五十四輪）；R661 預測 autonomous-work-loop-check vs pre-reg-check；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r660.md（對 Founder 有用：分清「接棒嗰陣仲記唔記得為乜做」同「跑完嗰陣有冇留低嗰次做咗乜」兩回事——前者唔做會成份工靜靜走樣交錯差，後者唔做會半夜出事分唔清邊個排程真・巡過，唔會攞記得目標當有收據、亦唔會攞有收據當冇走樣）",
+      "- skill-hunt R661 消化輪：判節 #1021（A=自主工作循環出世前五條設計審查×B=單一策略提案 backtest 前三層十四格早殺），非重複唔硬湊互補，audit 增值判型，兩份維持未驗；水位紅燈（未驗 131）唔產新草稿，digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r661.md（對 Founder 有用：分清「循環本身開唔開得、會唔會自轉失控」同「提案值唔值燒第一個回測」兩道閘，唔會攞循環設計啱當提案有料）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
