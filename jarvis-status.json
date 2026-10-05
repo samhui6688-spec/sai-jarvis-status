@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-05 17:30 HKT",
+  "generated_at_hkt": "2026-10-05 17:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 32,
+    "今日筆記數": 33,
     "最新": [
+      "skill-digest-r671.md",
       "skill-digest-r670.md",
-      "skill-digest-r669.md",
-      "skill-digest-r668.md"
+      "skill-digest-r669.md"
     ],
     "最近落地": [
       "- skill-hunt R667 消化輪：判節 #1027（free-tier-quota-watch vs serverless-kv-pick 非重複，唔硬湊互補：撞「免費／上限」先問數緊邊本賬——請求額燒到邊格幾點燒乾（已用／佔比／投影＋三燈，答免費粗活開唔開得）vs 細狀態照形狀存去邊間 KV（讀多寫少／寫多 atomic／事件即出局三格，答共享狀態存邊度）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百三十三輪；R666 機械預測 1/1 命中（預測鏈 R505 基點後第一百六十輪）；R668 預測 memory-lifecycle vs three-probes；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r667.md（對 Founder 有用：分清「今日免費額燒到邊格唔好半夜斷水」同「跨機器細狀態存邊間 KV唔好自己養 Redis」兩回事——前者唔望會燒乾 429 先知，後者唔揀會多 N 份照顧或者事件塞爆，唔會攞錶綠當識揀儲存、亦唔會攞揀啱 KV 當額唔會燒乾）",
