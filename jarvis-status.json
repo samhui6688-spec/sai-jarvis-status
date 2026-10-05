@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-05 10:45 HKT",
+  "generated_at_hkt": "2026-10-05 11:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 13,
+    "今日筆記數": 14,
     "最新": [
+      "skill-digest-r657.md",
       "skill-digest-r656.md",
-      "skill-digest-r655.md",
-      "skill-digest-r654.md"
+      "skill-digest-r655.md"
     ],
     "最近落地": [
-      "- skill-hunt R653 消化輪：判節 #1013（paper-exec-ledger vs risk-kill-switch 非重複，唔硬湊互補：撞「paper／熔斷」先問邊一層——每筆單記唔記得清（訊號→填價→佣金→滑點→對賬，答發生咗咩）vs 蝕緊停唔停得切（三層閘＋死亡線緩衝＋冷卻，答仲准唔准落）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百一十九輪；R652 機械預測 1/1 命中（預測鏈 R505 基點後第一百四十七輪）；R654 預測 agent-sandbox-policy vs config-drift-watch；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r653.md（對 Founder 有用：分清「每筆模擬單有冇記清成本同滑點」同「蝕緊嗰陣有冇硬閘㩒停」——前者冇賬會以為賺緊其實俾佣金食晒，後者冇閘會記得好清咁一路蝕穿，唔會攞記得清當停得切、亦唔會攞停得切當計得清）",
       "- skill-hunt R654 消化輪：判節 #1014（agent-sandbox-policy vs config-drift-watch 非重複，唔硬湊互補：撞「安全 check」先問邊一刻——一段 code 行之前入唔入箱（未審查→microVM 級＋零 secrets＋用完即毀，答准唔准行喺邊行）vs 一批配置留低之後有冇走樣（批准清單 hash diff，答部機仲係唔係批准個樣）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百二十輪；R653 機械預測 1/1 命中（預測鏈 R505 基點後第一百四十八輪）；R655 預測 log-layer vs paper-preflight-checklist；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r654.md（對 Founder 有用：分清「嚟歷不明 code 行之前要入箱隔離」同「部機配置留低之後有冇俾人靜靜改咗」——前者唔入箱一行出事拖死成部機，後者唔巡改咗成晚冇人知，唔會攞入箱啱當配置冇走樣、亦唔會攞望到走樣當識隔離新 code）",
       "- skill-hunt R655 消化輪：判節 #1015（log-layer vs paper-preflight-checklist 非重複，唔硬湊互補：撞「log／check／閘」先問邊一科——出事去邊層翻證據（三級日誌決策，答之前發生過咩）vs 策略證據夠唔夠升一級（六閘全過，答准唔准晉級）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百二十一輪；R654 機械預測 1/1 命中（預測鏈 R505 基點後第一百四十九輪）；R656 預測 browser-content-extract vs durable-execution；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r655.md（對 Founder 有用：分清「出事之後去邊一層翻查證據」同「個模擬策略證據夠唔夠先准去考試／真錢嗰一級」兩回事——前者唔分層會未出事就裝一堆兼紀錄離機冇諗私隱，後者唔過六閘會風控未真響過、斷線未捱過就升上去蝕穿先知，唔會攞翻得到證據當證據過閘、亦唔會攞過晒閘當出事識翻查）",
-      "- skill-hunt R656 消化輪：判節 #1016（browser-content-extract vs durable-execution 非重複，唔硬湊互補：撞「任務／等待」先問等緊邊樣——等內容齊先走（分頁式＋item count 收斂，答抽齊未）vs 等外部先休眠（checkpoint＋等緊乜記錄，答斷咗接唔接得返）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百二十二輪；R655 機械預測 1/1 命中（預測鏈 R505 基點後第一百五十輪）；R657 預測 browser-action-verify vs fleet-coordination；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r656.md（對 Founder 有用：分清「一次過抽資料有冇抽齊晒頁」同「一份長工死咗識唔識接返」兩回事——前者唔認分頁式會抽完第一頁就走、後面幾百條冇人知；後者唔定 checkpoint 同等緊乜會死咗由頭跑、等外部變死任務，唔會攞抽得齊當接得返、亦唔會攞接得返當抽得齊）"
+      "- skill-hunt R656 消化輪：判節 #1016（browser-content-extract vs durable-execution 非重複，唔硬湊互補：撞「任務／等待」先問等緊邊樣——等內容齊先走（分頁式＋item count 收斂，答抽齊未）vs 等外部先休眠（checkpoint＋等緊乜記錄，答斷咗接唔接得返）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百二十二輪；R655 機械預測 1/1 命中（預測鏈 R505 基點後第一百五十輪）；R657 預測 browser-action-verify vs fleet-coordination；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r656.md（對 Founder 有用：分清「一次過抽資料有冇抽齊晒頁」同「一份長工死咗識唔識接返」兩回事——前者唔認分頁式會抽完第一頁就走、後面幾百條冇人知；後者唔定 checkpoint 同等緊乜會死咗由頭跑、等外部變死任務，唔會攞抽得齊當接得返、亦唔會攞接得返當抽得齊）",
+      "- skill-hunt R657 消化輪：判節 #1017（browser-action-verify vs fleet-coordination 非重複，唔硬湊互補：撞「驗」先問驗緊邊一刻——自己隻手撳完真係變咗未（雙訊號＋失敗分類，答做咗未）vs 成隊人派工之前揀啱機未（能力卡＋獨立空間＋信箱，答交畀邊部機）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百二十三輪；R656 機械預測 1/1 命中（預測鏈 R505 基點後第一百五十一輪）；R658 預測 browser-sandbox-defense vs cost-reconcile；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r657.md（對 Founder 有用：分清「隻手撳完點知真係撳啱」同「份工交畀邊部機先唔會撞檔」兩回事——前者唔做會以為做咗其實冇郁、成條任務靜默走錯，後者唔做會兩隊寫同一檔或者死機重派做兩次，唔會攞撳得啱當識分工、亦唔會攞分得好當撳得啱）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
