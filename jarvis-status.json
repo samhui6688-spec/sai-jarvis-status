@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-05 16:00 HKT",
+  "generated_at_hkt": "2026-10-05 16:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 27,
+    "今日筆記數": 30,
     "最新": [
-      "skill-digest-r667.md",
-      "skill-digest-r666.md",
-      "skill-digest-r665.md"
+      "skill-digest-r668.md",
+      "q914-morning-cluster-residual-recovery-check.md",
+      "q913-morning-blocked-cluster-recovery-check.md"
     ],
     "最近落地": [
       "- skill-hunt R664 消化輪：判節 #1024（browser-flake-governance vs browser-form-fill 非重複，唔硬湊互補：撞「失敗／驗證」先問管緊邊個時間尺度——跨好多次運行邊隻任務唔穩定要隔離定網站爛要修（兩訊號＋三條數，答成批任務健唔健康）vs 單次入面點填啱一張表（四步＋八項，答今次填得啱唔啱交唔交得）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百三十輪；R663 機械預測 1/1 命中（預測鏈 R505 基點後第一百五十八輪）；R665 預測 executive-scheduler vs memory-lifecycle；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r664.md（對 Founder 有用：分清「成批重複任務邊隻唔穩定要隔離、邊隻係真壞要修」同「今次張表點填先唔會填錯交錯」兩回事——前者唔分會齋加重試扮冇事、真問題遲啲先爆，後者唔跟會估住填、敏感嘢未批先填咗，唔會攞跑得穩當填得啱、亦唔會攞填得啱當成批任務健康）",
