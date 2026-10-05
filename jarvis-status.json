@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-06 04:00 HKT",
+  "generated_at_hkt": "2026-10-06 04:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 18,
+    "今日筆記數": 19,
     "最新": [
+      "q331-lock-first-violation-evidence-7.md",
       "q328-lock-first-violation-evidence-6.md",
-      "skill-digest-r691.md",
-      "q327-lock-first-violation-evidence-5.md"
+      "skill-digest-r691.md"
     ],
     "最近落地": [
       "- skill-hunt R688 消化輪：判節 #1048（external-cron-ping vs free-retrieval-pick 非重複，唔硬湊互補：撞「免費／外面」先問管緊邊樣——部機死咗之後嗰幾分鐘有冇外面人報喪（外部每 5–15 分鐘 ping＋miss 兩次，答死未）vs 免費檢索＋存檔層點揀先唔會俾閒置陰到（dims 速算＋同廠優先＋閒置一票否決，答揀邊個）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百五十四輪；R687 機械預測 1/1 命中（預測鏈 R505 基點後第一百八十二輪）；R689 預測 browser-action-log-schema vs browser-run-budget；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-06/skill-digest-r688.md（對 Founder 有用：分清「部機全死邊個喺外面即刻報喪」同「免費向量＋存檔點揀先唔會一週唔郁俾人刪晒」——前者唔做會成套監察一齊死成晚冇人知，後者唔做會揀錯層俾閒置刪或者多開帳戶多套密碼要照顧，唔會攞活著當揀啱層、亦唔會攞揀啱層當死咗有人知）",
