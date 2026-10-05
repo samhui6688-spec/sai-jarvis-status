@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-05 17:45 HKT",
+  "generated_at_hkt": "2026-10-05 18:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -231,10 +231,10 @@
       "skill-digest-r669.md"
     ],
     "最近落地": [
-      "- skill-hunt R667 消化輪：判節 #1027（free-tier-quota-watch vs serverless-kv-pick 非重複，唔硬湊互補：撞「免費／上限」先問數緊邊本賬——請求額燒到邊格幾點燒乾（已用／佔比／投影＋三燈，答免費粗活開唔開得）vs 細狀態照形狀存去邊間 KV（讀多寫少／寫多 atomic／事件即出局三格，答共享狀態存邊度）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百三十三輪；R666 機械預測 1/1 命中（預測鏈 R505 基點後第一百六十輪）；R668 預測 memory-lifecycle vs three-probes；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r667.md（對 Founder 有用：分清「今日免費額燒到邊格唔好半夜斷水」同「跨機器細狀態存邊間 KV唔好自己養 Redis」兩回事——前者唔望會燒乾 429 先知，後者唔揀會多 N 份照顧或者事件塞爆，唔會攞錶綠當識揀儲存、亦唔會攞揀啱 KV 當額唔會燒乾）",
       "- skill-hunt R668 消化輪：判節 #1028（memory-lifecycle vs three-probes 非重複，唔硬湊互補：撞「三問」先問問緊邊個主體——一條記錄留幾耐邊個 key 蓋過期點走（valid_until／key／tombstone，答單條記錄點管命）vs 一個元件開完未自己郁唔郁接唔接到工（startup／liveness 淨本地／readiness，答元件死未應唔應該重啟）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百三十四輪；R667 機械預測 1/1 命中（預測鏈 R505 基點後第一百六十一輪）；R669 預測 journal-hygiene vs oom-defense；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r668.md（對 Founder 有用：分清「一條記錄寫低留幾耐、過期點退場」同「一個元件開完未／真死定活但接唔到工」兩種三問——前者唔過閘會記錄越積越慢、舊結論扮有效，後者問錯會 GitHub 抖一下就判全系統死亂重啟，唔會攞識管記錄命當識判元件生死、亦唔會攞識判生死當記錄識退場）",
       "- skill-hunt R669 消化輪：判節 #1029（journal-hygiene vs oom-defense 非重複，唔硬湊互補：撞「daemon 出事」先問死緊邊條命——啲紀錄俾限流／reboot 食咗未（Suppressed＋儲存保留，答證據仲喺唔喺）vs 個 process 爆 RAM 邊個俾殺（MemoryHigh 軟限／MemoryMax 硬限＋backstop 睇 swap，答邊個死邊個唔准死）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百三十五輪；R668 機械預測 1/1 命中（預測鏈 R505 基點後第一百六十三輪）；R670 預測 agentskills-conformance vs browser-shadow-dom；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r669.md（對 Founder 有用：分清「部機出事嗰刻啲紀錄有冇俾食晒、開機仲翻唔翻得返」同「部機爆記憶體嗰陣邊個俾慢、邊個俾殺、邊個死都唔准死」兩回事——前者唔做會最需要證據嗰刻冇證據，後者唔做會半夜亂殺錯重要嘢，唔會攞留得住證據當爆嗰陣安全、亦唔會攞限得好當有證據查）",
-      "- skill-hunt R670 消化輪：判節 #1030（agentskills-conformance vs browser-shadow-dom 非重複，唔硬湊互補：撞「檢查／睇唔到」先問睇緊邊層——躺喺磁碟嗰份文件格式合唔合規（name／description／行數，答出唔出到閘、第日讀唔讀得明）vs 跑緊嗰個頁面入面個元素匿喺影子樹搵唔搵到（open／closed＋穿透路，答個掣撳唔撳到）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百三十六輪；R669 機械預測 1/1 命中（預測鏈 R505 基點後第一百六十四輪）；R671 預測 browser-resilience vs fleet-throttle；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r670.md（對 Founder 有用：分清「啲技能說明書寫得合唔合規格、第日換工具讀唔讀得明」同「個掣匿喺網頁影子樹入面點先撳得到」兩回事——前者唔剔會格式爛要重寫、出唔到閘，後者唔分開閂會齋 retry 到死都撳唔到，唔會攞文件靚當撳得到、亦唔會攞撳得到當文件出到閘）"
+      "- skill-hunt R670 消化輪：判節 #1030（agentskills-conformance vs browser-shadow-dom 非重複，唔硬湊互補：撞「檢查／睇唔到」先問睇緊邊層——躺喺磁碟嗰份文件格式合唔合規（name／description／行數，答出唔出到閘、第日讀唔讀得明）vs 跑緊嗰個頁面入面個元素匿喺影子樹搵唔搵到（open／closed＋穿透路，答個掣撳唔撳到）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百三十六輪；R669 機械預測 1/1 命中（預測鏈 R505 基點後第一百六十四輪）；R671 預測 browser-resilience vs fleet-throttle；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r670.md（對 Founder 有用：分清「啲技能說明書寫得合唔合規格、第日換工具讀唔讀得明」同「個掣匿喺網頁影子樹入面點先撳得到」兩回事——前者唔剔會格式爛要重寫、出唔到閘，後者唔分開閂會齋 retry 到死都撳唔到，唔會攞文件靚當撳得到、亦唔會攞撳得到當文件出到閘）",
+      "- skill-hunt R671 消化輪：判節 #1031（browser-resilience vs fleet-throttle 非重複，唔硬湊互補：撞「預算／停」先問管緊邊個尺度——一隻手跌咗試幾多次封頂（失敗三格＋預算雙上限＋檢查點先入庫，答跑唔跑得返）vs 成隊人撞牆邊個唔准再開工（fleet_mode 三格＋P0–P3，答邊條命線唔准餓死）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百三十七輪；R670 機械預測 1/1 命中（預測鏈 R505 基點後第一百六十五輪）；R672 預測 browser-polite-scrape vs browser-request-throttle；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r671.md（對 Founder 有用：分清「一隻手做長工跌咗點起返身、試幾多次要停」同「成隊人冇錢嗰陣邊個要瞓、邊個死都唔准停」兩回事——前者唔分會無限重試燒爆兼跌完由頭跑，後者唔分會撞牆嗰陣研究排程餓死命線、成隊齊齊斷水，唔會攞一隻手識續跑當成隊識讓路、亦唔會攞識分優先級當隻手跌咗識起身）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
