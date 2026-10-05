@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-06 06:00 HKT",
+  "generated_at_hkt": "2026-10-06 06:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 33,
+    "今日筆記數": 34,
     "最新": [
+      "q342-lock-first-violation-evidence-23.md",
       "q341-lock-first-violation-evidence-22.md",
-      "skill-digest-r695.md",
-      "q340-lock-first-violation-evidence-18.md"
+      "skill-digest-r695.md"
     ],
     "最近落地": [
       "- skill-hunt R692 消化輪：判節 #1052（bill-shock-checklist vs fallback-leak-watch 非重複，唔硬湊互補：撞「錢／免費／爆之前響」先問響緊邊層——成個帳戶燒到天花板邊個知（預算預測告警＋月限額，答月底會唔會先嚇親）vs 單次調用有冇靜靜換咗隻收費（諗住邊隻／實際邊隻／收咗幾多三格＋每日對賬，答嗰下有冇漏錢）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百五十八輪；R691 機械預測 1/1 命中（預測鏈 R505 基點後第一百八十五輪）；R693 預測 browser-smart-wait vs quota-burnrate-watch；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-06/skill-digest-r692.md（對 Founder 有用：分清「成個帳戶燒爆邊個知」同「每一 call 有冇靜靜收咗費」——前者唔開告警會月底先嚇親兼誤以為告警會自動停，後者唔記實際嗰隻會 log 寫免費賬單照扣、喺閾值下面流成個月，唔會攞開齊天花板告警當捉到漏錢、亦唔會攞記齊每 call 當擋到雲端帳單衝擊）",
