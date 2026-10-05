@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-06 04:30 HKT",
+  "generated_at_hkt": "2026-10-06 04:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 22,
+    "今日筆記數": 23,
     "最新": [
+      "q334-q329-video-scout-draft-landing-check.md",
       "q333-lock-first-violation-evidence-9.md",
-      "q332-lock-first-violation-evidence-8.md",
-      "skill-digest-r692.md"
+      "q332-lock-first-violation-evidence-8.md"
     ],
     "最近落地": [
       "- skill-hunt R689 消化輪：判節 #1049（browser-action-log-schema vs browser-run-budget 非重複，唔硬湊互補：撞「browser 實跑」先問管緊邊一刻——未開跑嗰兩分鐘等幾耐食幾多先唔會 hang 死（timeout 分層＋記憶體公式，答會唔會等到天光）vs 每步做完嗰刻留低邊疊檔先翻得返（目錄樹＋jsonl＋每步四件，答死咗有冇證據）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百五十五輪；R688 機械預測 1/1 命中（預測鏈 R505 基點後第一百八十三輪）；R690 預測 cost-attribution vs expiry-watch；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-06/skill-digest-r689.md（對 Founder 有用：分清「未開跑先封頂唔好 hang 死」同「跑完留檔先知隻手做過乜」——前者唔填會慢站無限等堵死成隊，後者唔跟會死咗冇證據兼敏感頁洩漏，唔會攞識停當有證據、亦唔會攞有證據當識停）",
