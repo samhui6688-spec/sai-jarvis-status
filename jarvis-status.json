@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-06 07:00 HKT",
+  "generated_at_hkt": "2026-10-06 07:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 40,
+    "今日筆記數": 42,
     "最新": [
-      "q346-lock-first-violation-evidence.md",
-      "skill-digest-r697.md",
-      "q345-lock-first-violation-evidence.md"
+      "q348-lock-first-violation-evidence.md",
+      "q347-lock-first-violation-evidence.md",
+      "q346-lock-first-violation-evidence.md"
     ],
     "最近落地": [
       "- skill-hunt R694 消化輪：判節 #1054（paper-risk-guard vs skill-inventory-watch 非重複，唔硬湊互補：撞「開工前 check」先問驗緊邊個世界——成套 paper 風控閘開機之前真唔真識郁（參數填死＋INERT 逐條餵證，答今日准唔准開機）vs 成倉技能草稿有幾多未驗、水位燈去到邊（四格＋紅黃綠，答下一輪開新定消化）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百六十輪；R693 機械預測 1/1 命中（預測鏈 R505 基點後第一百八十八輪）；R695 預測 browser-run-budget vs reflexion-debrief；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-06/skill-digest-r694.md（對 Founder 有用：分清「paper 開機前要證明風控閘真係識響、唔好寫咗當有」同「技能倉開輪前要數水位、唔好愈堆愈多冇人消化」——前者唔驗會閘變裝飾蝕穿先知，後者唔數會 131 份未驗積住變沉沒成本，唔會攞餵證風控當識管倉、亦唔會攞數水位當風控閘識響）",
