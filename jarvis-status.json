@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-05 18:15 HKT",
+  "generated_at_hkt": "2026-10-05 18:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 34,
+    "今日筆記數": 35,
     "最新": [
+      "q926-1813-shadowcheck-blocked-evidence.md",
       "skill-digest-r672.md",
-      "skill-digest-r671.md",
-      "skill-digest-r670.md"
+      "skill-digest-r671.md"
     ],
     "最近落地": [
       "- skill-hunt R669 消化輪：判節 #1029（journal-hygiene vs oom-defense 非重複，唔硬湊互補：撞「daemon 出事」先問死緊邊條命——啲紀錄俾限流／reboot 食咗未（Suppressed＋儲存保留，答證據仲喺唔喺）vs 個 process 爆 RAM 邊個俾殺（MemoryHigh 軟限／MemoryMax 硬限＋backstop 睇 swap，答邊個死邊個唔准死）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百三十五輪；R668 機械預測 1/1 命中（預測鏈 R505 基點後第一百六十三輪）；R670 預測 agentskills-conformance vs browser-shadow-dom；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r669.md（對 Founder 有用：分清「部機出事嗰刻啲紀錄有冇俾食晒、開機仲翻唔翻得返」同「部機爆記憶體嗰陣邊個俾慢、邊個俾殺、邊個死都唔准死」兩回事——前者唔做會最需要證據嗰刻冇證據，後者唔做會半夜亂殺錯重要嘢，唔會攞留得住證據當爆嗰陣安全、亦唔會攞限得好當有證據查）",
