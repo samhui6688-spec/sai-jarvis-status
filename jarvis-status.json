@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-05 20:30 HKT",
+  "generated_at_hkt": "2026-10-05 20:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 40,
+    "今日筆記數": 41,
     "最新": [
+      "skill-digest-r677.md",
       "skill-digest-r676.md",
-      "skill-digest-r675.md",
-      "skill-digest-r674.md"
+      "skill-digest-r675.md"
     ],
     "最近落地": [
       "- skill-hunt R673 消化輪：判節 #1033（browser-smart-wait vs log-layer 非重複，唔硬湊互補：撞「等／睇」先問睇緊邊段時間——郁手之前幾秒個元素定未（四格＋等狀態變唔等秒數，答而家撳唔撳得）vs 出事之後幾日幾個月去邊層翻歷史（journal→容器→跨機三級，答之前發生過咩）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百三十九輪；R672 機械預測 1/1 命中（預測鏈 R505 基點後第一百六十七輪）；R674 預測 browser-resilience vs dom-snapshot-slimming；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r673.md（對 Founder 有用：分清「隻手撳之前要等個掣定咗先郁、唔好估住撳」同「部機出事之後去邊一層翻返之前發生過咩」——前者唔等會撳錯做錯靜默行錯路，後者唔分層會出事冇證據或者未出事就裝一堆，唔會攞撳啱當出事有紀錄、亦唔會攞翻得到紀錄當下下識等狀態）",
