@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-06 07:30 HKT",
+  "generated_at_hkt": "2026-10-06 07:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 44,
+    "今日筆記數": 46,
     "最新": [
-      "skill-digest-r698.md",
-      "q349-lock-first-violation-evidence.md",
-      "q348-lock-first-violation-evidence.md"
+      "q351-lock-first-violation-evidence.md",
+      "q350-lock-first-violation-evidence.md",
+      "skill-digest-r698.md"
     ],
     "最近落地": [
       "- skill-hunt R695 消化輪：判節 #1055（browser-run-budget vs reflexion-debrief 非重複，唔硬湊互補：撞「實跑／任務」先問管緊開工前定收工後——未開波先定等幾耐食幾多（timeout 10s／30s／500MB 公式，答會唔會 hang 死）vs 衰完先記一句「下次點做先啱」（答下次會唔會重犯）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百六十一輪；R694 機械預測 1/1 命中（預測鏈 R505 基點後第一百八十八輪）；R696 預測 durable-execution vs systemd-watchdog-selfcheck；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-06/skill-digest-r695.md（對 Founder 有用：分清「未開波封頂唔好等到天光或爆 RAM」同「衰完記低唔好下次原樣再衰」——前者唔填會慢站堵死成隊、記憶爆，後者唔記會每次交同一筆學費，唔會攞填好預算當學到教訓、亦唔會攞寫好教訓當封到等候上限）",
