@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-05 19:45 HKT",
+  "generated_at_hkt": "2026-10-05 20:00 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 38,
+    "今日筆記數": 39,
     "最新": [
+      "skill-digest-r675.md",
       "skill-digest-r674.md",
-      "q931-1843-shadowcheck-recovery-check.md",
-      "skill-digest-r673.md"
+      "q931-1843-shadowcheck-recovery-check.md"
     ],
     "最近落地": [
-      "- skill-hunt R671 消化輪：判節 #1031（browser-resilience vs fleet-throttle 非重複，唔硬湊互補：撞「預算／停」先問管緊邊個尺度——一隻手跌咗試幾多次封頂（失敗三格＋預算雙上限＋檢查點先入庫，答跑唔跑得返）vs 成隊人撞牆邊個唔准再開工（fleet_mode 三格＋P0–P3，答邊條命線唔准餓死）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百三十七輪；R670 機械預測 1/1 命中（預測鏈 R505 基點後第一百六十五輪）；R672 預測 browser-polite-scrape vs browser-request-throttle；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r671.md（對 Founder 有用：分清「一隻手做長工跌咗點起返身、試幾多次要停」同「成隊人冇錢嗰陣邊個要瞓、邊個死都唔准停」兩回事——前者唔分會無限重試燒爆兼跌完由頭跑，後者唔分會撞牆嗰陣研究排程餓死命線、成隊齊齊斷水，唔會攞一隻手識續跑當成隊識讓路、亦唔會攞識分優先級當隻手跌咗識起身）",
       "- skill-hunt R672 消化輪：判節 #1032（browser-polite-scrape vs browser-request-throttle 非重複，唔硬湊互補：撞「browser 開工前置」先問前置緊邊樣——出門口查人哋規矩（robots／ToS／限速／配額卡，答掂唔掂得、幾快唔會被 ban）vs 入門口閂自己廢料（route 擋圖字體媒體，答載快唔快、爛版即還原）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百三十八輪；R671 機械預測 1/1 命中（預測鏈 R505 基點後第一百六十六輪）；R673 預測 browser-smart-wait vs log-layer；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r672.md（對 Founder 有用：分清「出門口去人哋網站要先查規矩、唔好衝到被封 IP 連累成隊」同「入門口做嘢要閂咗冇用嘅圖同片、唔好等廢料或者亂擋到睇錯版」兩回事——前者唔查會俾人封，後者唔分會齋等慢頁做錯嘢，唔會攞爬得慢當有禮貌、亦唔會攞載得快當有權掂）",
       "- skill-hunt R673 消化輪：判節 #1033（browser-smart-wait vs log-layer 非重複，唔硬湊互補：撞「等／睇」先問睇緊邊段時間——郁手之前幾秒個元素定未（四格＋等狀態變唔等秒數，答而家撳唔撳得）vs 出事之後幾日幾個月去邊層翻歷史（journal→容器→跨機三級，答之前發生過咩）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百三十九輪；R672 機械預測 1/1 命中（預測鏈 R505 基點後第一百六十七輪）；R674 預測 browser-resilience vs dom-snapshot-slimming；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r673.md（對 Founder 有用：分清「隻手撳之前要等個掣定咗先郁、唔好估住撳」同「部機出事之後去邊一層翻返之前發生過咩」——前者唔等會撳錯做錯靜默行錯路，後者唔分層會出事冇證據或者未出事就裝一堆，唔會攞撳啱當出事有紀錄、亦唔會攞翻得到紀錄當下下識等狀態）",
-      "- skill-hunt R674 消化輪：判節 #1034（browser-resilience vs dom-snapshot-slimming 非重複，唔硬湊互補：撞「browser／快照」先問管緊邊段——跑緊跌咗點反應（失敗三格＋預算封頂＋檢查點先入庫，答起唔起得返身）vs 睇之前點剪細（四刀只留撳得着＋a11y 優先＋diff／scope，答棵樹爆唔爆 token、漏唔漏掣）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百四十輪；R673 機械預測 1/1 命中（預測鏈 R505 基點後第一百六十八輪）；R675 預測 browser-flake-governance vs browser-stealth-session；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r674.md（對 Founder 有用：分清「隻手做長工跌咗點起返身、唔好無限試又唔好唔見進度」同「隻眼每步睇之前點剪細棵樹、唔好爆 token 又唔好漏掣」——前者唔分會跌一次就死或者狂試打爆人哋，後者唔剪會每步睇成棵大樹慢又貴、剪過龍又唔見個掣做錯嘢，唔會攞識起身當棵樹夠細、亦唔會攞棵樹細當跌咗識返嚟）"
+      "- skill-hunt R674 消化輪：判節 #1034（browser-resilience vs dom-snapshot-slimming 非重複，唔硬湊互補：撞「browser／快照」先問管緊邊段——跑緊跌咗點反應（失敗三格＋預算封頂＋檢查點先入庫，答起唔起得返身）vs 睇之前點剪細（四刀只留撳得着＋a11y 優先＋diff／scope，答棵樹爆唔爆 token、漏唔漏掣）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百四十輪；R673 機械預測 1/1 命中（預測鏈 R505 基點後第一百六十八輪）；R675 預測 browser-flake-governance vs browser-stealth-session；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r674.md（對 Founder 有用：分清「隻手做長工跌咗點起返身、唔好無限試又唔好唔見進度」同「隻眼每步睇之前點剪細棵樹、唔好爆 token 又唔好漏掣」——前者唔分會跌一次就死或者狂試打爆人哋，後者唔剪會每步睇成棵大樹慢又貴、剪過龍又唔見個掣做錯嘢，唔會攞識起身當棵樹夠細、亦唔會攞棵樹細當跌咗識返嚟）",
+      "- skill-hunt R675 消化輪：判節 #1035（browser-flake-governance vs browser-stealth-session 非重複，唔硬湊互補：撞「browser 失敗」先問失敗喺邊段——入唔入到門口（三層指紋＋Patchright，答開唔開到會話）vs 入咗去穩唔穩（兩訊號＋隔離三條數，答成批任務健唔健康）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百四十一輪；R674 機械預測 1/1 命中（預測鏈 R505 基點後第一百六十九輪）；R676 預測 agent-sandbox-policy vs risk-kill-switch；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-05/skill-digest-r675.md（對 Founder 有用：分清「入到去之後成批工穩唔穩、邊隻要隔離邊隻要修」同「未入到門口俾人擋死要補邊層」兩回事——前者唔分會齋加重試扮冇事、真問題遲啲先爆，後者唔分層會未開始已經死或者亂繞驗證踩紅線，唔會攞入到門口當成批工健康、亦唔會攞分得啱邊隻唔穩當入到有保護嘅站）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
