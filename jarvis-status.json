@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-06 08:15 HKT",
+  "generated_at_hkt": "2026-10-06 08:30 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,17 +224,17 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 47,
+    "今日筆記數": 48,
     "最新": [
+      "skill-digest-r700.md",
       "skill-digest-r699.md",
-      "q351-lock-first-violation-evidence.md",
-      "q350-lock-first-violation-evidence.md"
+      "q351-lock-first-violation-evidence.md"
     ],
     "最近落地": [
-      "- skill-hunt R696 消化輪：判節 #1056（durable-execution vs systemd-watchdog-selfcheck 非重複，唔硬湊互補：撞「死咗接返」先問死緊邊層——成份工隔幾次 restart 點由 checkpoint 接返唔重做（形狀＋幂等鍵＋blocked 休眠，答接唔接得返）vs 單一 daemon 卡死嗰幾十秒點俾 systemd 殺咗重起兼撈證據（Type=notify＋30s 心跳＋取證四步，答殺唔殺到）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百六十二輪；R695 機械預測 1/1 命中（預測鏈 R505 基點後第一百八十九輪）；R697 預測 agent-capability-card vs message-provenance；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-06/skill-digest-r696.md（對 Founder 有用：分清「成份工斷咗識接」同「個 daemon 卡死識俾人殺」——前者唔定形狀會一斷由頭燒兼副作用做兩次，後者唔寫心跳會卡死無聲到人手發現，唔會攞識接工當識保命、亦唔會攞識保命當工識續跑）",
       "- skill-hunt R697 消化輪：判節 #1057（agent-capability-card vs message-provenance 非重複，唔硬湊互補：撞「實例／訊息」先問問緊邊一條——邊個識做乜、一次做得幾多單（能力卡＋並發上限＋交接狀態字表，答派畀邊個）vs 封信係咪真係佢寄（簽名＋時間戳＋自報身份對齊驗過身份，答收唔收）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百六十三輪；R696 機械預測 1/1 命中（預測鏈 R505 基點後第一百九十輪）；R698 預測 browser-frame-entry vs browser-hitl-handoff；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-06/skill-digest-r697.md（對 Founder 有用：分清「開分店嗰日新夥計識做乜、派幾多先唔塞爆」同「入嚟封信係咪真係嗰個人寄、唔好自報 Founder 就當真」——前者冇卡會靠估派工撞名塞爆，後者冇驗會俾人冒名入假指令、舊信重播入第二次，唔會攞填好卡當防到冒名、亦唔會攞驗好簽名當知對方識做乜）",
       "- skill-hunt R698 消化輪：判節 #1058（browser-frame-entry vs browser-hitl-handoff 非重複，唔硬湊互補：撞「browser 睇唔到／唔好死頂」先分技術睇唔到定權限唔准掂——個掣匿喺影格子第二層文檔快照永遠睇唔到入面（入格先見到）vs 個掣喺眼前但去到登入／驗證碼／付款嗰步唔輪到隻手掂（停低交人、密碼唔經 AI）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百六十四輪；R697 機械預測 1/1 命中（預測鏈 R505 基點後第一百九十一輪）；R699 預測 fleet-coordination vs model-tier-router；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-06/skill-digest-r698.md（對 Founder 有用：分清「個掣匿喺第二格入面隻眼睇唔到」同「去到登入／畀錢嗰步要停低交人」——前者唔分會喺主頁無限重試白燒時間，後者唔分會硬闖密碼同真錢出事，唔會攞入到格當可以自己㩒敏感掣、亦唔會攞識停低交人當識入影格子）",
-      "- skill-hunt R699 消化輪：判節 #1059（fleet-coordination vs model-tier-router 非重複，唔硬湊互補：撞「派工之前揀」先問揀緊邊格——交畀邊部機（能力卡 can／cannot＋心跳＋獨立空間，答份工去邊）vs 用邊級腦（T1免費／T2平價／T3貴模型＋cost-log＋月尾人手檢討，答份工用咩級諗）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百六十五輪；R698 機械預測 1/1 命中（預測鏈 R505 基點後第一百九十二輪）；R700 預測 browser-sandbox-defense vs log-layer；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-06/skill-digest-r699.md（對 Founder 有用：分清「交畀邊部機」同「用邊級腦」——前者填錯會派去做唔到嗰部機、兩隊撞檔做兩次，後者填錯會粗活燒貴錢或者把關用平腦漏審，唔會攞揀啱機當識揀平腦、亦唔會攞揀啱腦當識揀機）"
+      "- skill-hunt R699 消化輪：判節 #1059（fleet-coordination vs model-tier-router 非重複，唔硬湊互補：撞「派工之前揀」先問揀緊邊格——交畀邊部機（能力卡 can／cannot＋心跳＋獨立空間，答份工去邊）vs 用邊級腦（T1免費／T2平價／T3貴模型＋cost-log＋月尾人手檢討，答份工用咩級諗）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百六十五輪；R698 機械預測 1/1 命中（預測鏈 R505 基點後第一百九十二輪）；R700 預測 browser-sandbox-defense vs log-layer；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-06/skill-digest-r699.md（對 Founder 有用：分清「交畀邊部機」同「用邊級腦」——前者填錯會派去做唔到嗰部機、兩隊撞檔做兩次，後者填錯會粗活燒貴錢或者把關用平腦漏審，唔會攞揀啱機當識揀平腦、亦唔會攞揀啱腦當識揀機）",
+      "- skill-hunt R700 消化輪：判節 #1060（browser-sandbox-defense vs log-layer 非重複，唔硬湊互補：撞「開工前檢查／睇」先問睇緊邊段時間兼邊個世界——開波前幾秒入嚟嘅網頁內容可唔可信（劃界／分級／守出口，答會唔會俾人騎劫）vs 出事後幾日去邊層翻歷史（journal→容器→跨機三級，答之前發生過咩）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百六十六輪；R699 機械預測 1/1 命中（預測鏈 R505 基點後第一百九十三輪）；R701 預測 bill-shock-checklist vs paid-decision-table；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-06/skill-digest-r700.md（對 Founder 有用：分清「開工之前防網頁藏指令偷資料搞亂任務」同「部機出事之後去邊一層翻返之前發生過咩」——前者唔做會俾假頁面騎劫洩漏，後者唔做會需要查嗰陣冇紀錄或者未出事就養咗套重型系統，唔會攞戴好手套當有證據、亦唔會攞有證據當唔會俾人騎劫）"
     ]
   },
   "注意": "快照每15分鐘更新；只含公開狀態，唔含密碼／私鑰／個人資料。",
