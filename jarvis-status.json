@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-06 09:00 HKT",
+  "generated_at_hkt": "2026-10-06 09:15 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 49,
+    "今日筆記數": 50,
     "最新": [
+      "q358-lock-first-violation-evidence-34.md",
       "skill-digest-r701.md",
-      "skill-digest-r700.md",
-      "skill-digest-r699.md"
+      "skill-digest-r700.md"
     ],
     "最近落地": [
       "- skill-hunt R698 消化輪：判節 #1058（browser-frame-entry vs browser-hitl-handoff 非重複，唔硬湊互補：撞「browser 睇唔到／唔好死頂」先分技術睇唔到定權限唔准掂——個掣匿喺影格子第二層文檔快照永遠睇唔到入面（入格先見到）vs 個掣喺眼前但去到登入／驗證碼／付款嗰步唔輪到隻手掂（停低交人、密碼唔經 AI）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百六十四輪；R697 機械預測 1/1 命中（預測鏈 R505 基點後第一百九十一輪）；R699 預測 fleet-coordination vs model-tier-router；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-06/skill-digest-r698.md（對 Founder 有用：分清「個掣匿喺第二格入面隻眼睇唔到」同「去到登入／畀錢嗰步要停低交人」——前者唔分會喺主頁無限重試白燒時間，後者唔分會硬闖密碼同真錢出事，唔會攞入到格當可以自己㩒敏感掣、亦唔會攞識停低交人當識入影格子）",
