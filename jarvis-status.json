@@ -1,5 +1,5 @@
 {
-  "generated_at_hkt": "2026-10-06 09:30 HKT",
+  "generated_at_hkt": "2026-10-06 09:45 HKT",
   "一句話總結": "SAi 24/7 行緊：GPT 隻眼正常（10:15 快照 exit 0，repo＋gist 雙驗證）；Cloud Hands 誠實暫停（A–F 0/6，09:30 兩 run 幾秒內 fail 未修好；Windows 手眼=PAUSED/STAGED/未E2E）；Message Bus 影子零分歧但正式摘要間歇 null（COVERAGE_DEGRADED）；daemon 主線未能親驗（SSH 擋），P0 R1 01:53 PASS，DEAD-MAN 事故已寫入公司狀態（world 160）。",
   "daemon": {
     "GitHub_mirror寫入": "2026-09-20 03:58:20Z（舊，已標 SOURCE_STALE）",
@@ -224,11 +224,11 @@
     }
   ],
   "狩獵": {
-    "今日筆記數": 52,
+    "今日筆記數": 53,
     "最新": [
-      "q359-lock-first-violation-evidence-35.md",
-      "skill-digest-r702.md",
-      "q358-lock-first-violation-evidence-34.md"
+      "q321-lesson-nomination-approval-followup.md",
+      "q360-lock-first-violation-evidence-36.md",
+      "q359-lock-first-violation-evidence-35.md"
     ],
     "最近落地": [
       "- skill-hunt R699 消化輪：判節 #1059（fleet-coordination vs model-tier-router 非重複，唔硬湊互補：撞「派工之前揀」先問揀緊邊格——交畀邊部機（能力卡 can／cannot＋心跳＋獨立空間，答份工去邊）vs 用邊級腦（T1免費／T2平價／T3貴模型＋cost-log＋月尾人手檢討，答份工用咩級諗）；兩份維持未驗唔偷升，vetting 四關全 PASS≠已驗）零合併連續六百六十五輪；R698 機械預測 1/1 命中（預測鏈 R505 基點後第一百九十二輪）；R700 預測 browser-sandbox-defense vs log-layer；紅燈未驗 131 續消化。digest 見 ~/workspace/hunts/2026-10-06/skill-digest-r699.md（對 Founder 有用：分清「交畀邊部機」同「用邊級腦」——前者填錯會派去做唔到嗰部機、兩隊撞檔做兩次，後者填錯會粗活燒貴錢或者把關用平腦漏審，唔會攞揀啱機當識揀平腦、亦唔會攞揀啱腦當識揀機）",
